@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2022-07-20T10:00:00.000Z</updated>
+<updated>2022-08-11T10:30:00.000Z</updated>
+<entry>
+            <title><![CDATA[We just published our Air Pollution Data Explorer]]></title>
+            <id>https://ourworldindata.org/launch-air-pollution-explorer</id>
+            <link rel="alternate" href="https://ourworldindata.org/launch-air-pollution-explorer"/>
+            <published>2022-08-11T10:30:00.000Z</published>
+            <updated>2022-08-11T11:15:01.000Z</updated>
+            <author><name>Hannah Ritchie</name></author>
+            <summary><![CDATA[Explore historical and recent emissions of air pollutants across the world.<br><br><a href="https://ourworldindata.org/launch-air-pollution-explorer" target="_blank"><img src="https://ourworldindata.org/app/uploads/2022/08/Air-Pollution-Data-Explorer-768x403.png"/></a>]]></summary>
+            </entry>
 <entry>
             <title><![CDATA[The world is awful. The world is much better. The world can be much better.]]></title>
             <id>https://ourworldindata.org/much-better-awful-can-be-better</id>
@@ -87,14 +96,5 @@
             <author><name>Max Roser</name></author>
             <summary><![CDATA[Research suggests that many children – especially in the world’s poorest countries – learn only very little in school.
 What can we do to improve this?<br><br><a href="https://ourworldindata.org/better-learning" target="_blank"><img src="https://ourworldindata.org/app/uploads/2021/11/Screen-Shot-2021-11-27-at-13.59.53-768x461.png"/></a>]]></summary>
-            </entry>
-<entry>
-            <title><![CDATA[After millennia of agricultural expansion, the world has passed ‘peak agricultural land’]]></title>
-            <id>https://ourworldindata.org/peak-agriculture-land</id>
-            <link rel="alternate" href="https://ourworldindata.org/peak-agriculture-land"/>
-            <published>2022-05-30T10:00:00.000Z</published>
-            <updated>2022-06-02T19:22:49.000Z</updated>
-            <author><name>Hannah Ritchie</name></author>
-            <summary><![CDATA[The world produces more food than ever, but the amount of land we use is now falling. This means we can feed more people while restoring wild habitat.<br><br><a href="https://ourworldindata.org/peak-agriculture-land" target="_blank"><img src="https://ourworldindata.org/app/uploads/2022/03/peak-land-thumbnail-768x301.png"/></a>]]></summary>
             </entry>
 </feed>
