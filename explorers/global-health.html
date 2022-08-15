@@ -1884,11 +1884,10 @@ const grapherConfigs =
   },
   {
     "id": 844,
-    "version": 9,
+    "version": 10,
     "slug": "share-of-population-with-improved-sanitation-faciltities",
-    "title": "Share of the population with access to improved sanitation facilities",
-    "sourceDesc": "WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply and Sanitation",
-    "note": "An 'improved sanitation facility' includes flush/pour flush (to piped sewer system, septic tank, pit latrine), ventilated improved pit latrine, pit latrine with slab, and composting toilet.",
+    "title": "Share of the population using at least basic sanitation services",
+    "note": "Data encompasses both people using 'basic' and 'safely managed' sanitation services. Basic sanitation facilities include the use of 'improved' facilities that are not shared with other households, which includes flush/pour flush to piped sewer systems, septic tanks or pit latrines, ventilated improved pit latrines, compositing toilets, and pit latrines with slabs. Safely managed sanitation services are defined as improved facilities not shared with other households and where excreta are safely disposed of in situ or transported and treated offsite.",
     "hideTitleAnnotation": true,
     "hasMapTab": true,
     "tab": "map",
@@ -1899,7 +1898,7 @@ const grapherConfigs =
       "max": 100
     },
     "map": {
-      "timeTolerance": 1,
+      "timeTolerance": 5,
       "colorScale": {
         "baseColorScheme": "YlGnBu",
         "binningStrategy": "manual",
@@ -1923,17 +1922,13 @@ const grapherConfigs =
     "dimensions": [
       {
         "property": "y",
-        "variableId": 3376,
-        "display": {
-          "unit": "% of population with access",
-          "isProjection": false,
-          "tolerance": 5,
-          "includeInTable": true
-        }
+        "variableId": 446698
       }
     ],
     "selectedEntityNames": [
-      "World"
+      "Lebanon",
+      "Malta",
+      "Turkey"
     ],
     "selectedEntityIds": [
       355
