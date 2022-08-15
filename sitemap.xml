@@ -6934,15 +6934,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-population-with-improved-sanitation-faciltities</loc>
-        <lastmod>2022-04-25</lastmod>
+        <lastmod>2022-08-15</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/womens-educational-attainment-vs-fertility</loc>
         <lastmod>2020-09-30</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/prevalence-of-childhood-stunting-vs-improved-sanitation-facilities</loc>
-        <lastmod>2018-03-15</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/hidden-hunger-index-vs-share-of-energy-intake-from-cereals-roots-and-tubers</loc>
@@ -8807,10 +8803,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/open-defecation-in-rural-areas-vs-urban-areas</loc>
         <lastmod>2022-04-13</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/open-defecation-vs-improved-sanitation</loc>
-        <lastmod>2022-06-30</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/prevalence-of-stunting-vs-improved-sanitation-facilities</loc>
@@ -11414,7 +11406,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/sdg-target-for-access-to-sanitation</loc>
-        <lastmod>2022-04-25</lastmod>
+        <lastmod>2022-08-15</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/sdg-target-on-improved-water-access</loc>
