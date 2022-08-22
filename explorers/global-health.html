@@ -5003,10 +5003,10 @@ const grapherConfigs =
   },
   {
     "id": 4540,
-    "version": 92,
+    "version": 93,
     "slug": "annual-working-hours-per-worker",
     "title": "Annual working hours per worker",
-    "subtitle": "Average working hours per worker over a full year. Before 1950 the data corresponds only to full-time production workers (non-agricultural activities). Starting 1950 estimates cover total hours worked in the economy as measured from primarily National Accounts data.",
+    "subtitle": "Average working hours per worker over an entire year. Before 1950 the data corresponds only to full-time production workers (non-agricultural activities). Starting in 1950 estimates cover total hours worked in the economy as measured primarily from National Accounts data.",
     "sourceDesc": "Huberman & Minns (2007) and PWT 9.1 (2019)",
     "note": "We plot the data from Huberman & Minns (2007) and extend coverage using an updated vintage of PWT, which uses the same underlying source. Comparisons between countries are limited due to differences in measurement.",
     "hideTitleAnnotation": true,
@@ -5021,6 +5021,7 @@ const grapherConfigs =
       "canChangeScaleType": true
     },
     "map": {
+      "time": "latest",
       "colorScale": {
         "baseColorScheme": "YlGnBu",
         "binningStrategy": "manual",
@@ -5031,7 +5032,8 @@ const grapherConfigs =
           2100,
           2400,
           2700,
-          3000
+          3000,
+          3300
         ]
       },
       "variableId": 143617
