@@ -5582,7 +5582,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/world-pop-by-political-regime</loc>
-        <lastmod>2022-07-04</lastmod>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/interpersonal-trust-in-europe</loc>
@@ -14781,8 +14781,8 @@
         <lastmod>2022-04-26</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/share-democracies-bmr</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/share-democracies-nondemocracies-bmr</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/political-regime</loc>
@@ -20501,8 +20501,8 @@
         <lastmod>2022-02-12</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/people-living-in-democracies</loc>
-        <lastmod>2022-07-26</lastmod>
+        <loc>https://ourworldindata.org/grapher/people-living-in-democracies-autocracies</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/covid-vaccination-one-dose-vs-covid-death-rate</loc>
@@ -20889,8 +20889,8 @@
         <lastmod>2022-05-11</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/share-democracies-row</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/share-democracies-autocracies-row</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/excess-deaths-daily-per-100k-economist</loc>
@@ -20917,12 +20917,12 @@
         <lastmod>2022-07-04</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/number-democracies-row</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/number-democracies-autocracies-row</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/number-democracies-bmr</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/number-democracies-nondemocracies-bmr</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/food-exports-ukraine-russia</loc>
@@ -21073,8 +21073,8 @@
         <lastmod>2022-07-04</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/people-living-in-democracies-bmr</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/people-living-in-democracies-nondemocracies-bmr</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-long-standing-democracies-bmr</loc>
@@ -21141,36 +21141,36 @@
         <lastmod>2022-05-26</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/people-living-in-democracies-amb-row</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/people-living-in-democracies-autocracies-amb-row</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/number-democracies-amb-row</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/number-democracies-autocracies-amb-row</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/share-democracies-amb-row</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/share-democracies-autocracies-amb-row</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-long-standing-democracies-womsuffr-bmr</loc>
         <lastmod>2022-07-04</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/number-democracies-womsuffr-bmr</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/number-democracies-nondemocracies-womsuffr-bmr</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/people-living-in-long-standing-democracies-womsuffr-bmr</loc>
         <lastmod>2022-07-04</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/people-living-in-democracies-womsuffr-bmr</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/people-living-in-democracies-nondemocracies-womsuffr-bmr</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/share-democracies-womsuffr-bmr</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/share-democracies-nondemocracies-womsuffr-bmr</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-long-standing-democracies-womsuffr-bmr</loc>
@@ -21193,16 +21193,16 @@
         <lastmod>2022-08-17</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/number-democracies-fh</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/number-democracies-nondemocracies-fh</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/share-democracies-fh</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/share-democracies-nondemocracies-fh</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/people-living-in-democracies-fh</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/people-living-in-democracies-nondemocracies-fh</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/dietary-choices-uk</loc>
@@ -21373,16 +21373,16 @@
         <lastmod>2022-07-04</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/people-living-in-democracies-lied</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/people-living-in-democracies-autocracies-lied</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/number-democracies-lied</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/number-democracies-autocracies-lied</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/share-democracies-lied</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/share-democracies-autocracies-lied</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-long-standing-electoral-democracies-lied</loc>
@@ -21485,16 +21485,16 @@
         <lastmod>2022-07-04</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/number-democracies-polity</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/number-democracies-nondemocracies-polity</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/share-democracies-polity</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/share-democracies-nondemocracies-polity</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/people-living-in-democracies-polity</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/people-living-in-democracies-nondemocracies-polity</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-long-standing-democracies-polity</loc>
@@ -21573,16 +21573,16 @@
         <lastmod>2022-07-04</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/number-democracies-bti</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/number-democracies-autocracies-bti</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/share-democracies-bti</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/share-democracies-autocracies-bti</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/people-living-in-democracies-bti</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/people-living-in-democracies-autocracies-bti</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/democratic-features-popw-bti</loc>
@@ -21613,20 +21613,20 @@
         <lastmod>2022-07-04</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/number-democracies-eiu</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/number-democracies-nondemocracies-eiu</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/people-living-in-democracies-eiu</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/people-living-in-democracies-nondemocracies-eiu</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/political-regime-eiu</loc>
         <lastmod>2022-07-04</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/share-democracies-eiu</loc>
-        <lastmod>2022-07-04</lastmod>
+        <loc>https://ourworldindata.org/grapher/share-democracies-nondemocracies-eiu</loc>
+        <lastmod>2022-08-23</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/popw-democracy-eiu</loc>
