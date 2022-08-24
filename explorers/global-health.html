@@ -5323,13 +5323,13 @@ const grapherConfigs =
   },
   {
     "id": 4547,
-    "version": 5,
+    "version": 6,
     "slug": "gini-index-wb",
     "title": "Income inequality",
     "subtitle": "Income inequality as measured by the Gini index, from 0 to 100 (with a higher index indicating higher inequality).",
     "note": "Depending on the country and year, the data relates to either income or consumption. Income/consumption is measured at the household level, and is assumed to be divided equally among all household members.",
     "hideTitleAnnotation": true,
-    "maxTime": 2017,
+    "maxTime": 2021,
     "hasMapTab": true,
     "tab": "map",
     "originUrl": "ourworldindata.org/income-inequality",
@@ -5368,7 +5368,7 @@ const grapherConfigs =
     "dimensions": [
       {
         "property": "y",
-        "variableId": 146031
+        "variableId": 472296
       }
     ],
     "selectedEntityNames": [
@@ -6795,11 +6795,10 @@ const grapherConfigs =
   },
   {
     "id": 5111,
-    "version": 16,
+    "version": 18,
     "slug": "share-of-population-in-extreme-poverty",
     "title": "Share of population in extreme poverty",
     "subtitle": "The share of individuals living below the International Poverty Line of 1.90 international-$ per day.",
-    "sourceDesc": "World Bank PovcalNet",
     "note": "Figures relate to household income or consumption per person, measured in international-$ (in 2011 PPP prices) to account for price differences across countries and inflation over time.",
     "entityType": "country or region",
     "entityTypePlural": "countries/regions",
@@ -6843,7 +6842,11 @@ const grapherConfigs =
     "dimensions": [
       {
         "property": "y",
-        "variableId": 472273
+        "variableId": 472273,
+        "display": {
+          "tolerance": 5,
+          "includeInTable": true
+        }
       }
     ],
     "selectedEntityNames": [
