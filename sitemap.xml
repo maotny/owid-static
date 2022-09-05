@@ -4418,7 +4418,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/palm-oil</loc>
-        <lastmod>2021-06-24</lastmod>
+        <lastmod>2022-09-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/world-lost-one-third-forests</loc>
@@ -4435,6 +4435,10 @@
     <url>
         <loc>https://ourworldindata.org/exporting-deforestation</loc>
         <lastmod>2022-04-27</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/untitled-reusable-block-252</loc>
+        <lastmod>2022-09-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/data-scientist</loc>
@@ -4570,7 +4574,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/carbon-price</loc>
-        <lastmod>2022-02-24</lastmod>
+        <lastmod>2022-09-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/battery-price-decline</loc>
@@ -5455,10 +5459,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/1st-d</loc>
         <lastmod>2022-04-25</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/declining-global-poverty-share-1820-2015</loc>
-        <lastmod>2022-08-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/median-age</loc>
@@ -7810,7 +7810,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/child-mortality-rate-including-un-projections-through-2100</loc>
-        <lastmod>2022-05-05</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/total-alcohol-consumption-per-capita-litres-of-pure-alcohol</loc>
@@ -8258,7 +8258,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/fertility-rate-vs-share-of-women-between-25-and-29-years-old-with-no-education</loc>
-        <lastmod>2022-08-31</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/gender-gap-in-pre-primary-education</loc>
@@ -8950,7 +8950,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/daily-meat-consumption-per-person</loc>
-        <lastmod>2022-08-24</lastmod>
+        <lastmod>2022-09-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/antibiotic-use-in-livestock-vs-gdp-per-capita</loc>
@@ -9630,7 +9630,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/crude-death-rate-the-share-of-the-population-that-dies-per-year</loc>
-        <lastmod>2020-10-01</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/poverty-headcount-ratio-at-190-by-exports-share-in-gdp</loc>
@@ -9702,7 +9702,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/womens-educational-attainment-vs-fertility-regression-line</loc>
-        <lastmod>2022-08-31</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/incidence-of-malaria</loc>
@@ -9786,7 +9786,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-one-year-olds</loc>
-        <lastmod>2020-10-01</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-injured-from-disasters</loc>
@@ -11666,7 +11666,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/future-life-expectancy-projections</loc>
-        <lastmod>2022-05-05</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/womens-economic-opportunity-2012-index</loc>
@@ -13026,7 +13026,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/historic-and-un-pop-projections-by-age</loc>
-        <lastmod>2021-04-12</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/participation-time-by-activity-per-day</loc>
@@ -13146,7 +13146,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/projected-population-under-age-5</loc>
-        <lastmod>2020-10-01</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/total-number-of-fatal-shark-attacks</loc>
@@ -13690,7 +13690,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/womens-life-expectancy-at-birth</loc>
-        <lastmod>2022-04-26</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/exports-from-western-europe-to-other-regions</loc>
@@ -13774,7 +13774,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/under-5-population</loc>
-        <lastmod>2020-10-01</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/humanitarian-food-aid-received</loc>
@@ -14262,7 +14262,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/population-growth-rate-vs-median-age</loc>
-        <lastmod>2020-10-01</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/sex-ratio-at-birth</loc>
@@ -14290,11 +14290,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/size-of-young-working-elderly-populations</loc>
-        <lastmod>2020-10-01</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/population-by-broad-age-group</loc>
-        <lastmod>2022-03-21</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/trachoma-prevalence-age-standardized-ihme</loc>
@@ -14302,7 +14302,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/population-growth-rate-with-and-without-migration</loc>
-        <lastmod>2022-06-01</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/median-age-vs-births-per-woman</loc>
@@ -14314,11 +14314,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/population-by-age-group-to-2100</loc>
-        <lastmod>2019-03-29</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/age-dependency-ratio-projected-to-2100</loc>
-        <lastmod>2021-08-09</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/population-past-future</loc>
@@ -14342,11 +14342,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/sex-ratio-by-age</loc>
-        <lastmod>2019-05-28</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/sex-ratio-at-five-years-old</loc>
-        <lastmod>2022-04-26</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/sex-ratio-at-birth-vs-five-years-old</loc>
@@ -14402,7 +14402,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/life-expectancy-un-pop-division-projection</loc>
-        <lastmod>2020-10-01</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/survival-to-age-65-of-cohort</loc>
@@ -14482,7 +14482,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/fertility-rate-world-bank-vs-un-population-division</loc>
-        <lastmod>2022-08-31</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/perception-of-corruption-by-institution</loc>
@@ -14494,7 +14494,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/child-mortality-by-source</loc>
-        <lastmod>2022-07-05</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/child-deaths-by-source</loc>
@@ -14674,7 +14674,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/un-igme-vs-un-desa</loc>
-        <lastmod>2022-08-02</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/revenue-from-corporate-income-taxes-gdp</loc>
@@ -14702,7 +14702,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/population-under-five-years-old</loc>
-        <lastmod>2022-04-26</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-democracies-nondemocracies-bmr</loc>
@@ -14758,7 +14758,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/children-per-woman-un-compared-with-usa</loc>
-        <lastmod>2022-04-26</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-disagree-vaccines-are-safe-wellcome-trust</loc>
@@ -14946,7 +14946,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/child-mortality-rate-vs-gdp-per-capita</loc>
-        <lastmod>2022-03-17</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/child-mortality-rate-from-rotavirus</loc>
@@ -16362,7 +16362,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/palm-oil-production</loc>
-        <lastmod>2022-08-24</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/rapeseed-production</loc>
@@ -18330,15 +18330,15 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/oil-yield-by-crop</loc>
-        <lastmod>2020-11-25</lastmod>
+        <lastmod>2022-09-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/area-per-tonne-oil</loc>
-        <lastmod>2020-11-25</lastmod>
+        <lastmod>2022-09-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/area-land-needed-to-global-oil</loc>
-        <lastmod>2021-06-24</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/change-in-production-yield-and-land-palm</loc>
@@ -18346,7 +18346,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/palm-oil-imports</loc>
-        <lastmod>2022-08-24</lastmod>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/average-effective-retirement-men</loc>
@@ -20173,10 +20173,6 @@
         <lastmod>2022-08-25</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/share-living-in-extreme-poverty-basic-needs-estimate</loc>
-        <lastmod>2022-07-24</lastmod>
-    </url>
-    <url>
         <loc>https://ourworldindata.org/grapher/women-who-experienced-violence-by-an-intimate-partner</loc>
         <lastmod>2022-07-29</lastmod>
     </url>
@@ -20390,7 +20386,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/chile-covid-19-mortality-rate-by-vaccination-status</loc>
-        <lastmod>2022-08-24</lastmod>
+        <lastmod>2022-09-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/england-covid-19-mortality-rate-by-vaccination-status</loc>
@@ -21058,7 +21054,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/dietary-choices-of-british-adults</loc>
-        <lastmod>2022-05-16</lastmod>
+        <lastmod>2022-09-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/excess-deaths-cumulative-economist-who</loc>
@@ -21130,7 +21126,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/dietary-choices-uk</loc>
-        <lastmod>2022-05-16</lastmod>
+        <lastmod>2022-09-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/people-living-in-free-countries-fh</loc>
@@ -21759,5 +21755,33 @@
     <url>
         <loc>https://ourworldindata.org/grapher/level-of-income-top-10-vs-bottom-10</loc>
         <lastmod>2022-08-31</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/share-of-population-living-in-extreme-poverty</loc>
+        <lastmod>2022-09-02</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/share-in-poverty-relative-to-different-poverty-thresholds-historical</loc>
+        <lastmod>2022-09-02</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/distribution-of-population-between-different-poverty-thresholds-historical</loc>
+        <lastmod>2022-09-02</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/share-of-population-living-in-extreme-poverty-historical</loc>
+        <lastmod>2022-09-02</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/share-of-population-living-in-extreme-poverty-cost-of-basic-needs</loc>
+        <lastmod>2022-09-02</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/share-in-extreme-poverty-cost-of-basic-needs-vs-below-190-a-day</loc>
+        <lastmod>2022-09-02</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/share-of-population-living-in-extreme-poverty-lines-cbn</loc>
+        <lastmod>2022-09-02</lastmod>
     </url>
 </urlset>

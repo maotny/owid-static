@@ -1540,3 +1540,6 @@
 /grapher/132 /grapher/total-population-living-in-extreme-poverty-by-world-region 302!
 /grapher/share-in-extreme-poverty-by-world-region /grapher/total-population-living-in-extreme-poverty-by-world-region 302!
 /grapher/size-poverty-gap-world /grapher/size-poverty-gap-countries 302!
+/grapher/declining-global-poverty-share-1820-2015 /grapher/share-in-extreme-poverty-cost-of-basic-needs-vs-below-190-a-day 302!
+/grapher/share-living-in-extreme-poverty-basic-needs-estimate /grapher/share-of-population-living-in-extreme-poverty-cost-of-basic-needs 302!
+/grapher/share-of-population-living-in-extreme-poverty-lines-cbs /grapher/share-of-population-living-in-extreme-poverty-lines-cbn 302!
