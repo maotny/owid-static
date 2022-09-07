@@ -2862,7 +2862,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/fertilizers</loc>
-        <lastmod>2022-03-03</lastmod>
+        <lastmod>2022-09-07</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/maternal-mortality</loc>
@@ -7569,14 +7569,6 @@
         <lastmod>2022-08-24</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/phosphate-fertilizer-production</loc>
-        <lastmod>2022-04-27</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/phosphate-fertilizer-consumption</loc>
-        <lastmod>2022-04-27</lastmod>
-    </url>
-    <url>
         <loc>https://ourworldindata.org/grapher/global-demand-for-education-global-population-younger-than-15-until-2100-by-education-scenario-by-the-wittgenstein-centre</loc>
         <lastmod>2022-03-04</lastmod>
     </url>
@@ -7707,10 +7699,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/fertilizer-application-rates-over-the-long-run</loc>
         <lastmod>2018-03-15</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/total-fertilizer-production-by-nutrient-tonnes</loc>
-        <lastmod>2019-07-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/pesticide-use-tonnes</loc>
