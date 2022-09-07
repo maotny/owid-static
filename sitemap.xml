@@ -4122,15 +4122,15 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/emissions-by-sector</loc>
-        <lastmod>2020-10-07</lastmod>
+        <lastmod>2022-09-07</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/greenhouse-gas-emissions</loc>
-        <lastmod>2022-02-06</lastmod>
+        <lastmod>2022-09-07</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/atmospheric-concentrations</loc>
-        <lastmod>2022-04-01</lastmod>
+        <lastmod>2022-09-07</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/emissions-drivers</loc>
@@ -7539,10 +7539,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-total-expenditure-spent-on-food-vs-food-expenditure-per-person</loc>
         <lastmod>2018-03-15</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/nitrogen-fertilizer-production</loc>
-        <lastmod>2022-04-25</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/global-demand-for-education-world-population-and-projected-growth-to-2100-by-age-group</loc>
