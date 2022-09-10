@@ -164,7 +164,7 @@ const grapherConfigs =
   },
   {
     "id": 225,
-    "version": 23,
+    "version": 27,
     "slug": "gdp-per-capita-worldbank",
     "title": "GDP per capita",
     "subtitle": "Measured in constant international-$.",
@@ -181,7 +181,7 @@ const grapherConfigs =
       "canChangeScaleType": true
     },
     "map": {
-      "timeTolerance": 1,
+      "timeTolerance": 5,
       "colorScale": {
         "baseColorScheme": "YlGnBu",
         "colorSchemeInvert": false,
@@ -193,10 +193,9 @@ const grapherConfigs =
           5000,
           10000,
           20000,
-          30000,
-          40000,
           50000,
-          70000
+          100000,
+          200000
         ],
         "customNumericColorsActive": false,
         "legendDescription": "GDP per capita, PPP (in constant 2011 int-$)"
@@ -3603,7 +3602,7 @@ const grapherConfigs =
   },
   {
     "id": 3030,
-    "version": 10,
+    "version": 12,
     "slug": "gdp-per-capita-in-us-dollar-world-bank",
     "title": "GDP per capita in US$",
     "subtitle": "Measured in constant US-$.",
@@ -3619,20 +3618,22 @@ const grapherConfigs =
       "max": 0
     },
     "map": {
+      "timeTolerance": 5,
       "colorScale": {
         "baseColorScheme": "YlGnBu",
         "binningStrategy": "manual",
         "customNumericValues": [
+          500,
           1000,
+          2000,
           5000,
           10000,
           20000,
-          30000,
-          40000,
           50000,
-          70000
+          100000
         ],
         "customNumericColors": [
+          null,
           null,
           null,
           null,
