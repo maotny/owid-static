@@ -19318,7 +19318,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-living-with-less-than-1-int--per-day</loc>
-        <lastmod>2022-09-09</lastmod>
+        <lastmod>2022-09-12</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-living-with-less-than-320-int--per-day</loc>
@@ -21638,15 +21638,15 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/biological-weapons-convention</loc>
-        <lastmod>2022-09-06</lastmod>
+        <lastmod>2022-09-12</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/chemical-weapons-convention</loc>
-        <lastmod>2022-09-06</lastmod>
+        <lastmod>2022-09-12</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/current-position-biological-weapons</loc>
-        <lastmod>2022-09-06</lastmod>
+        <loc>https://ourworldindata.org/grapher/biological-weapons</loc>
+        <lastmod>2022-09-12</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/past-position-biological-weapons</loc>
@@ -21657,8 +21657,8 @@
         <lastmod>2022-09-06</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/current-position-chemical-weapons</loc>
-        <lastmod>2022-09-06</lastmod>
+        <loc>https://ourworldindata.org/grapher/chemical-weapons</loc>
+        <lastmod>2022-09-12</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/current-biological-weapons-proliferation</loc>
