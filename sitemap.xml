@@ -21670,35 +21670,35 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/biological-weapons</loc>
-        <lastmod>2022-09-12</lastmod>
+        <lastmod>2022-09-15</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/historical-position-biological-weapons</loc>
-        <lastmod>2022-09-14</lastmod>
+        <loc>https://ourworldindata.org/grapher/historical-biological-weapons</loc>
+        <lastmod>2022-09-15</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/historical-position-chemical-weapons</loc>
-        <lastmod>2022-09-14</lastmod>
+        <loc>https://ourworldindata.org/grapher/historical-chemical-weapons</loc>
+        <lastmod>2022-09-15</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/chemical-weapons</loc>
-        <lastmod>2022-09-14</lastmod>
+        <lastmod>2022-09-15</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/biological-weapons-proliferation</loc>
-        <lastmod>2022-09-14</lastmod>
+        <lastmod>2022-09-15</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/historical-biological-weapons-proliferation</loc>
-        <lastmod>2022-09-14</lastmod>
+        <lastmod>2022-09-15</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/chemical-weapons-proliferation</loc>
-        <lastmod>2022-09-14</lastmod>
+        <lastmod>2022-09-15</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/historical-chemical-weapons-proliferation</loc>
-        <lastmod>2022-09-14</lastmod>
+        <lastmod>2022-09-15</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/multidimensional-poverty-index-mpi</loc>
@@ -21759,6 +21759,10 @@
     <url>
         <loc>https://ourworldindata.org/grapher/poverty-share-of-population-living-on-less-than-40-a-day</loc>
         <lastmod>2022-09-12</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/food-emissions-production-supply-chain</loc>
+        <lastmod>2022-09-15</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/explorers/air-pollution</loc>

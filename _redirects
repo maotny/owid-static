@@ -1546,7 +1546,11 @@
 /grapher/current-position-biological-weapons /grapher/biological-weapons 302!
 /grapher/current-biological-weapons-proliferation /grapher/biological-weapons-proliferation 302!
 /grapher/current-chemical-weapons-proliferation /grapher/chemical-weapons-proliferation 302!
-/grapher/past-position-biological-weapons /grapher/historical-position-biological-weapons 302!
-/grapher/past-position-chemical-weapons /grapher/historical-position-chemical-weapons 302!
+/grapher/past-position-biological-weapons /grapher/historical-biological-weapons 302!
+/grapher/past-position-chemical-weapons /grapher/historical-chemical-weapons 302!
 /grapher/past-chemical-weapons-proliferation /grapher/historical-chemical-weapons-proliferation 302!
 /grapher/past-biological-weapons-proliferation /grapher/historical-biological-weapons-proliferation 302!
+/grapher/historical-position-biological-weapons /grapher/historical-biological-weapons 302!
+/grapher/historical-position-chemical-weapons /grapher/historical-chemical-weapons 302!
+/grapher/historical-activity-biological-weapons /grapher/historical-biological-weapons 302!
+/grapher/historical-activity-chemical-weapons /grapher/historical-chemical-weapons 302!
