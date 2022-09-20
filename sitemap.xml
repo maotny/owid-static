@@ -21742,7 +21742,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-population-in-multidimensional-poverty-urban-vs-rural-hot</loc>
-        <lastmod>2022-09-08</lastmod>
+        <lastmod>2022-09-20</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/ocean-waste-by-item</loc>
@@ -21819,6 +21819,10 @@
     <url>
         <loc>https://ourworldindata.org/grapher/income-share-distribution</loc>
         <lastmod>2022-09-19</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/share-of-population-in-multidimensional-poverty-urban-vs-rural-cme</loc>
+        <lastmod>2022-09-20</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/explorers/air-pollution</loc>
