@@ -13422,11 +13422,11 @@ const grapherConfigs =
   {
     "type": "Marimekko",
     "id": 5865,
-    "version": 19,
+    "version": 21,
     "slug": "distribution-participatory-democracy-popw-vdem",
     "title": "Distribution of participatory democracy weighted by population",
     "subtitle": "Based on the expert assessments and index by V-Dem. It combines information on voting rights, the freedom and fairness of elections, freedoms of association and expression, as well as the extent to which citizens can engage in regional and local government, civil society organizations, and direct democracy. It ranges from 0 to 1 (most democratic).",
-    "sourceDesc": "OWID based on V-Dem (v12), Gapminder (v6), HYDE (v3.2), UN (2022)",
+    "sourceDesc": "OWID based on V-Dem (v12); Gapminder (v6); HYDE (v3.2); UN (2022)",
     "minTime": -10000,
     "stackMode": "relative",
     "hideRelativeToggle": false,
@@ -13447,7 +13447,11 @@ const grapherConfigs =
       },
       {
         "property": "x",
-        "variableId": 72
+        "variableId": 525711,
+        "display": {
+          "name": "Population",
+          "includeInTable": true
+        }
       },
       {
         "property": "color",
@@ -13473,12 +13477,12 @@ const grapherConfigs =
   {
     "type": "Marimekko",
     "id": 5866,
-    "version": 20,
+    "version": 23,
     "slug": "distribution-deliberative-democracy-popw-vdem",
     "title": "Distribution of deliberative democracy weighted by population",
     "subtitle": "Based on the expert assessments and index by V-Dem. It combines information on voting rights, the freedom and fairness of elections, freedoms of association and expression, as well as the extent to which citizens and leaders discuss different views and seek the public good. It ranges from 0 to 1 (most democratic).",
-    "sourceDesc": "OWID based on V-Dem (v12), Gapminder (v6), HYDE (v3.2), UN (2019)",
-    "minTime": "latest",
+    "sourceDesc": "OWID based on V-Dem (v12); Gapminder (v6); HYDE (v3.2); UN (2022)",
+    "minTime": -10000,
     "stackMode": "relative",
     "hideRelativeToggle": false,
     "variantName": "V-Dem",
@@ -13498,7 +13502,11 @@ const grapherConfigs =
       },
       {
         "property": "x",
-        "variableId": 72
+        "variableId": 525711,
+        "display": {
+          "name": "Population",
+          "includeInTable": true
+        }
       },
       {
         "property": "color",
@@ -13649,7 +13657,7 @@ const grapherConfigs =
   {
     "type": "Marimekko",
     "id": 5871,
-    "version": 26,
+    "version": 27,
     "slug": "distribution-democracy-popw-polity",
     "title": "Distribution of democracy weighted by population",
     "subtitle": "Based on the assessments and index by Polity 5 (2021). It captures the extent to which open, multi-party, and competitive elections choose a chief executive who faces comprehensive institutional constraints, and political participation is competitive. It here ranges from 0 to 20 (fully democratic).",
@@ -13676,7 +13684,11 @@ const grapherConfigs =
       },
       {
         "property": "x",
-        "variableId": 525711
+        "variableId": 525711,
+        "display": {
+          "name": "Population",
+          "includeInTable": true
+        }
       },
       {
         "property": "color",
