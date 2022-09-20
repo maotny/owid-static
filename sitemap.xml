@@ -14742,19 +14742,19 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/child-mortality-gdp-per-capita</loc>
-        <lastmod>2022-04-12</lastmod>
+        <lastmod>2022-09-20</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/expected-years-of-schooling-vs-gdp-per-capita</loc>
-        <lastmod>2022-06-29</lastmod>
+        <lastmod>2022-09-20</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/literacy-rate-vs-gdp-per-capita</loc>
-        <lastmod>2022-06-29</lastmod>
+        <lastmod>2022-09-20</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/average-years-of-schooling-vs-gdp-per-capita</loc>
-        <lastmod>2022-06-29</lastmod>
+        <lastmod>2022-09-20</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/average-schooling-vs-expected-schooling</loc>
@@ -21826,6 +21826,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/income-shares-by-quintile-pip</loc>
+        <lastmod>2022-09-20</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/income-share-of-the-top-10-pip</loc>
         <lastmod>2022-09-20</lastmod>
     </url>
     <url>
