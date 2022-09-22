@@ -19342,7 +19342,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty</loc>
-        <lastmod>2022-09-12</lastmod>
+        <lastmod>2022-09-22</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-living-with-less-than-1-int--per-day</loc>
@@ -19510,7 +19510,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/daily-mean-income</loc>
-        <lastmod>2022-09-09</lastmod>
+        <lastmod>2022-09-22</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/legally-recognized-rights-to-land</loc>
@@ -19675,10 +19675,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/total-greenhouse-gas-emissions-per-capita</loc>
         <lastmod>2022-08-12</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/daily-mean-income-slope</loc>
-        <lastmod>2022-09-20</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/income-of-large-scale-food-producers</loc>
@@ -20383,10 +20379,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/emission-factors-food-transport</loc>
         <lastmod>2022-01-03</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/poverty-share-living-on-less-than-190-int-per-day-slope</loc>
-        <lastmod>2022-09-20</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/lead-paint-over-90ppm</loc>
