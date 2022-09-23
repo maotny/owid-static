@@ -4492,7 +4492,7 @@ const grapherConfigs =
   },
   {
     "id": 3798,
-    "version": 12,
+    "version": 13,
     "slug": "infant-mortality-rate",
     "title": "Infant mortality rate",
     "subtitle": "The share of newborns who die before reaching one year of age.",
@@ -4511,13 +4511,14 @@ const grapherConfigs =
     "map": {
       "time": "latest",
       "colorScale": {
+        "baseColorScheme": "OrRd",
         "binningStrategy": "manual",
         "customNumericValues": [
-          1000,
-          2500,
-          5000,
-          10000,
-          25000
+          1,
+          2.5,
+          5,
+          10,
+          25
         ],
         "customNumericColors": [
           null
@@ -4530,7 +4531,9 @@ const grapherConfigs =
         "property": "y",
         "variableId": 418385,
         "display": {
-          "unit": "deaths per 100,000 people",
+          "unit": "%",
+          "shortUnit": "%",
+          "conversionFactor": 0.001,
           "includeInTable": true
         }
       }
