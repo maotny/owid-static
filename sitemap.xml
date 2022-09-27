@@ -2754,7 +2754,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/food-supply</loc>
-        <lastmod>2022-04-29</lastmod>
+        <lastmod>2022-09-27</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/literacy</loc>
@@ -2858,11 +2858,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/crop-yields</loc>
-        <lastmod>2021-12-16</lastmod>
+        <lastmod>2022-09-27</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/fertilizers</loc>
-        <lastmod>2022-09-07</lastmod>
+        <lastmod>2022-09-27</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/maternal-mortality</loc>
@@ -2926,7 +2926,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions</loc>
-        <lastmod>2022-04-11</lastmod>
+        <lastmod>2022-09-27</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/coverage</loc>
@@ -3194,7 +3194,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/diet-compositions</loc>
-        <lastmod>2022-04-29</lastmod>
+        <lastmod>2022-09-27</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/agricultural-land-by-global-diets</loc>
@@ -3202,7 +3202,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/meat-production</loc>
-        <lastmod>2022-03-03</lastmod>
+        <lastmod>2022-09-27</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/female-labor-supply</loc>
@@ -3894,7 +3894,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/pesticides</loc>
-        <lastmod>2022-04-15</lastmod>
+        <lastmod>2022-09-27</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/we-won-the-lovie-award</loc>
@@ -4054,7 +4054,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/agricultural-production</loc>
-        <lastmod>2020-04-30</lastmod>
+        <lastmod>2022-09-27</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/carbon-footprint-food-methane</loc>
@@ -13970,7 +13970,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-internet-users-by-country</loc>
-        <lastmod>2022-09-26</lastmod>
+        <lastmod>2022-09-27</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/coal-output-uk-tonnes</loc>
@@ -21825,6 +21825,10 @@
         <lastmod>2022-09-20</lastmod>
     </url>
     <url>
+        <loc>https://ourworldindata.org/grapher/human-papillomavirus-vaccine-immunization-schedule</loc>
+        <lastmod>2022-09-27</lastmod>
+    </url>
+    <url>
         <loc>https://ourworldindata.org/grapher/number-of-child-deaths-unwpp</loc>
         <lastmod>2022-09-23</lastmod>
     </url>
@@ -21849,6 +21853,38 @@
         <lastmod>2022-09-26</lastmod>
     </url>
     <url>
+        <loc>https://ourworldindata.org/grapher/hepatitis-b-vaccine-immunization-schedule</loc>
+        <lastmod>2022-09-27</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/hepatitis-b-birth-dose-vaccine-immunization-schedule</loc>
+        <lastmod>2022-09-27</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/haemophilus-influenzae-b-vaccine-immunization-schedule</loc>
+        <lastmod>2022-09-27</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/mcv2-vaccine-immunization-schedule</loc>
+        <lastmod>2022-09-27</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/mumps-vaccine-immunization-schedule</loc>
+        <lastmod>2022-09-27</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/pneumococcal-conjugate-vaccine-immunization-schedule</loc>
+        <lastmod>2022-09-27</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/rotavirus-vaccine-immunization-schedule</loc>
+        <lastmod>2022-09-27</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/rubella-vaccine-immunization-schedule</loc>
+        <lastmod>2022-09-27</lastmod>
+    </url>
+    <url>
         <loc>https://ourworldindata.org/grapher/global-carbon-tax-coverage</loc>
         <lastmod>2022-09-27</lastmod>
     </url>
@@ -21862,6 +21898,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-deaths</loc>
+        <lastmod>2022-09-27</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/total-disease-burden</loc>
         <lastmod>2022-09-27</lastmod>
     </url>
     <url>
