@@ -15394,7 +15394,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/rate-of-premature-deaths-due-to-alcohol</loc>
-        <lastmod>2022-09-06</lastmod>
+        <lastmod>2022-09-27</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/gross-national-income-per-capita</loc>
@@ -21926,6 +21926,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-due-to-unsafe-sanitation</loc>
+        <lastmod>2022-09-27</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/deaths-due-to-lack-of-access-to-hand-washing-facilities</loc>
         <lastmod>2022-09-27</lastmod>
     </url>
     <url>
