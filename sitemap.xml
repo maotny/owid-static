@@ -19246,7 +19246,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rates-no-handwashing</loc>
-        <lastmod>2022-08-30</lastmod>
+        <lastmod>2022-09-27</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-without-improved-sanitation</loc>
@@ -21922,6 +21922,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-due-to-unsafe-water-sources</loc>
+        <lastmod>2022-09-27</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/deaths-due-to-unsafe-sanitation</loc>
         <lastmod>2022-09-27</lastmod>
     </url>
     <url>
