@@ -2681,7 +2681,7 @@ const grapherConfigs =
   },
   {
     "id": 1828,
-    "version": 17,
+    "version": 18,
     "slug": "hiv-death-rates",
     "title": "Death rate from HIV/AIDS",
     "subtitle": "The number of deaths from HIV/AIDS per 100,000 people.",
@@ -2693,19 +2693,23 @@ const grapherConfigs =
     "originUrl": "https://ourworldindata.org/hiv-aids",
     "isPublished": true,
     "map": {
+      "time": 2019,
       "colorScale": {
         "baseColorScheme": "YlOrRd",
         "binningStrategy": "manual",
         "customNumericMinValue": 0,
         "customNumericValues": [
+          1,
+          5,
           10,
-          25,
           50,
           100,
-          200,
-          250
+          500,
+          1000,
+          5000
         ],
         "customNumericColors": [
+          null,
           null,
           null
         ],
@@ -2718,7 +2722,7 @@ const grapherConfigs =
         "property": "y",
         "variableId": 418709,
         "display": {
-          "unit": "per 100,000 people",
+          "unit": "deaths per 100,000 people",
           "includeInTable": true
         }
       }
@@ -2740,7 +2744,7 @@ const grapherConfigs =
   },
   {
     "id": 1831,
-    "version": 21,
+    "version": 22,
     "slug": "tuberculosis-death-rates",
     "title": "Death rate from tuberculosis",
     "subtitle": "The number of deaths from tuberculosis per 100,000 people.",
@@ -2782,7 +2786,7 @@ const grapherConfigs =
         "property": "y",
         "variableId": 418695,
         "display": {
-          "unit": "deaths per 100,000 individuals",
+          "unit": "deaths per 100,000 people",
           "includeInTable": true
         }
       }
