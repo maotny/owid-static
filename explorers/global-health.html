@@ -5245,7 +5245,7 @@ const grapherConfigs =
   },
   {
     "id": 4545,
-    "version": 8,
+    "version": 9,
     "slug": "community-health-workers",
     "title": "Community health workers per 1,000 people",
     "note": "Community health workers include various types of community health aides, many with country-specific occupational titles such as community health officers, community health-education workers, family health workers, lady health visitors and health extension package workers.",
@@ -5265,12 +5265,17 @@ const grapherConfigs =
         "binningStrategy": "manual",
         "binningStrategyBinCount": 6,
         "customNumericValues": [
+          0.05,
           0.1,
           0.25,
           0.5,
-          0.75,
           1,
-          1.25
+          2.5,
+          5
+        ],
+        "customNumericColors": [
+          null,
+          null
         ]
       },
       "variableId": 446674
