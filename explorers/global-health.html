@@ -2562,7 +2562,7 @@ const grapherConfigs =
   },
   {
     "id": 1821,
-    "version": 8,
+    "version": 10,
     "slug": "incidence-of-malaria",
     "title": "Incidence of malaria",
     "subtitle": "Incidence of malaria is the number of new cases of malaria per 1,000 population at risk.",
@@ -2580,15 +2580,11 @@ const grapherConfigs =
           10,
           25,
           50,
-          75,
           100,
-          200,
-          300,
-          400,
+          250,
           500
         ],
         "customNumericColors": [
-          null,
           null,
           null,
           null
@@ -2599,7 +2595,11 @@ const grapherConfigs =
     "dimensions": [
       {
         "property": "y",
-        "variableId": 446678
+        "variableId": 446678,
+        "display": {
+          "unit": "new infections per 1,000 people at risk ",
+          "includeInTable": true
+        }
       }
     ],
     "selectedEntityNames": [
@@ -3397,7 +3397,7 @@ const grapherConfigs =
   },
   {
     "id": 2926,
-    "version": 16,
+    "version": 18,
     "slug": "the-incidence-of-malaria-per-1000-population",
     "title": "Incidence of malaria",
     "subtitle": "Incidence refers to the number of new malaria infections per 1,000 people at risk.",
@@ -3418,11 +3418,11 @@ const grapherConfigs =
         "binningStrategy": "manual",
         "customNumericValues": [
           10,
+          25,
           50,
           100,
           250,
-          500,
-          1000
+          500
         ],
         "customNumericLabels": [
           "",
@@ -3436,8 +3436,8 @@ const grapherConfigs =
         "customNumericColors": [
           null,
           null,
-          "#fca55a",
           null,
+          "#fca55a",
           null,
           null
         ]
@@ -3449,7 +3449,7 @@ const grapherConfigs =
         "property": "y",
         "variableId": 418064,
         "display": {
-          "unit": "new infections",
+          "unit": "new infections per 1,000 people at risk ",
           "conversionFactor": 0.01,
           "numDecimalPlaces": 0,
           "includeInTable": true
