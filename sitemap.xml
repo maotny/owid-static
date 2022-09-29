@@ -5718,7 +5718,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/bribery-rates</loc>
-        <lastmod>2022-05-31</lastmod>
+        <lastmod>2022-09-29</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/bribe-payers-index</loc>
@@ -21958,6 +21958,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-from-falls</loc>
+        <lastmod>2022-09-29</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-falls</loc>
         <lastmod>2022-09-29</lastmod>
     </url>
     <url>
