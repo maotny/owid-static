@@ -5846,7 +5846,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/UN-population-projection-medium-variant</loc>
-        <lastmod>2022-09-26</lastmod>
+        <lastmod>2022-10-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-population-living-with-less-than-190-and-320-per-day</loc>
@@ -6523,10 +6523,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/the-long-term-energy-transition-in-europe</loc>
         <lastmod>2018-03-15</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/world-population-and-projected-growth-to-2100-total-population-and-under-age-5</loc>
-        <lastmod>2022-10-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/global-energy-consumption-source</loc>
@@ -7551,10 +7547,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-total-expenditure-spent-on-food-vs-food-expenditure-per-person</loc>
         <lastmod>2022-09-21</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/global-demand-for-education-world-population-and-projected-growth-to-2100-by-age-group</loc>
-        <lastmod>2022-09-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/global-demand-for-education-growth-to-2100-of-under-15-by-WittgensteinCentre</loc>
@@ -9267,10 +9259,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-from-hiv-by-age</loc>
         <lastmod>2022-08-23</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/world-population-and-projected-growth-to-2100-by-age-group-young-vs-working-age</loc>
-        <lastmod>2022-09-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/supercomputer-power-flops</loc>
@@ -12970,7 +12958,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/historic-and-un-pop-projections-by-age</loc>
-        <lastmod>2022-09-02</lastmod>
+        <lastmod>2022-10-02</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/participation-time-by-activity-per-day</loc>
