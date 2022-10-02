@@ -746,7 +746,6 @@
 /grapher/long-term-crop-yields-in-the-united-kingdom /grapher/cereal-yields-uk 302!
 /grapher/yields-change-vs-land-use-change /grapher/land-use-vs-yield-change-in-cereal-production 302!
 /grapher/human-height-over-the-long-run-europe /grapher/human-heights-over-the-long-run 302!
-/grapher/world-population-and-projected-growth-to-2100-by-age-group /grapher/world-population-and-projected-growth-to-2100-total-population-and-under-age-5 302!
 /grapher/child-mortality-by-gender /grapher/child-mortality-by-sex 302!
 /grapher/child-mortality-line-chart-by-gender /grapher/child-mortality-line-chart-by-sex 302!
 /grapher/daily-per-capita-caloric-supply-1961-2013 /grapher/daily-per-capita-caloric-supply 302!
@@ -914,7 +913,6 @@
 /grapher/womans-testimony-carries-the-same-evidentiary-weight-in-court-as-a-mans-1yes-0no /grapher/testimony-weight-gender 302!
 /grapher/percentage-of-students-achieving-minimum-proficiency-in-reading /grapher/share-of-students-at-end-of-lower-secondary-education-achieving-minimum-reading-proficiency-2010-2015 302!
 /grapher/share-of-students-in-early-primary-education-achieving-minimum-maths-proficiency-2010-2015 /grapher/share-of-students-in-early-primary-education-achieving-minimum-reading-proficiency-2010-2015 302!
-/grapher/world-population-and-projected-growth-to-2100-by-age-group-in-thousands-of-people /grapher/world-population-and-projected-growth-to-2100-total-population-and-under-age-5 302!
 /grapher/diarrheal-disease-death-rates-by-age-per-100000 /grapher/diarrheal-disease-death-rates-by-age 302!
 /grapher/annual-meat-consumption-per-person /grapher/meat-supply-per-person 302!
 /grapher/deaths-from-hivaids-by-age-group /grapher/deaths-from-hiv-by-age 302!
@@ -1569,3 +1567,6 @@
 /grapher/world-population-by-world-regions-post-1820 /grapher/world-population-by-region-with-projections 302!
 /grapher/historical-and-projected-population-by-region /grapher/world-population-by-region-with-projections 302!
 /grapher/global-demand-for-education-world-population-and-projected-growth-to-2100-by-age-group /grapher/historic-and-un-pop-projections-by-age 302!
+/grapher/world-population-and-projected-growth-to-2100-by-age-group-young-vs-working-age /grapher/historic-and-un-pop-projections-by-age 302!
+/grapher/world-population-and-projected-growth-to-2100-total-population-and-under-age-5 /grapher/historic-and-un-pop-projections-by-age 302!
+/grapher/historic-and-projected-population /grapher/UN-population-projection-medium-variant 302!
