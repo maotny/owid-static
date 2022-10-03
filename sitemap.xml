@@ -6850,7 +6850,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/incidence-of-hiv-the-share-of-new-infections-among-the-previously-uninfected-population-ages-15-49</loc>
-        <lastmod>2022-08-15</lastmod>
+        <lastmod>2022-10-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-new-hiv-infections-per-year</loc>
@@ -22026,6 +22026,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-fires-and-burns-who</loc>
+        <lastmod>2022-10-03</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-hivaids</loc>
         <lastmod>2022-10-03</lastmod>
     </url>
     <url>
