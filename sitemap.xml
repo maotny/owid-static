@@ -9078,7 +9078,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rates-from-disasters</loc>
-        <lastmod>2022-09-27</lastmod>
+        <lastmod>2022-10-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/marine-protected-areas</loc>
@@ -21987,6 +21987,14 @@
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-deaths-from-malaria-who</loc>
         <lastmod>2022-09-29</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-natural-disasters</loc>
+        <lastmod>2022-10-03</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/deaths-from-natural-disasters</loc>
+        <lastmod>2022-10-03</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/explorers/air-pollution</loc>
