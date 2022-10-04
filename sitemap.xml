@@ -22094,7 +22094,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/explorers/coronavirus-data-explorer</loc>
-        <lastmod>2022-09-28</lastmod>
+        <lastmod>2022-10-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/explorers/crop-yields</loc>
@@ -22315,6 +22315,10 @@
     <url>
         <loc>https://ourworldindata.org/explorers/population-and-demography</loc>
         <lastmod>2022-09-27</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/explorers/poverty-explorer-2011-vs-2017-ppp</loc>
+        <lastmod>2022-10-04</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/explorers/poverty-explorer</loc>
