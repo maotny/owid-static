@@ -13854,7 +13854,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/annual-share-of-co2-emissions</loc>
-        <lastmod>2022-04-26</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/onshore-wind-lcoe-vs-wind-consumption</loc>
@@ -22094,6 +22094,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-from-cardiovascular-disease</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/respiratory-disease-death-rate-gbd</loc>
         <lastmod>2022-10-05</lastmod>
     </url>
     <url>
