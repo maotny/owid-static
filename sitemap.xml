@@ -2778,7 +2778,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/child-mortality</loc>
-        <lastmod>2022-10-04</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/vaccination</loc>
@@ -3967,6 +3967,10 @@
     <url>
         <loc>https://ourworldindata.org/food-ghg-emissions</loc>
         <lastmod>2020-04-30</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/untitled-reusable-block-121</loc>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/social-networks-innovation-and-productivity</loc>
@@ -22138,6 +22142,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-from-drowning</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/number-of-deaths-gbd</loc>
         <lastmod>2022-10-05</lastmod>
     </url>
     <url>
