@@ -4286,7 +4286,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/transport</loc>
-        <lastmod>2021-11-10</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/help-us-improve-our-world-in-data</loc>
@@ -22178,6 +22178,14 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rates-from-conflict-and-terrorism-gbd</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-natural-disasters-gbd</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-poisoning</loc>
         <lastmod>2022-10-05</lastmod>
     </url>
     <url>
