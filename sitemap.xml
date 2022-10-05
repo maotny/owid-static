@@ -9106,7 +9106,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rates-from-disasters</loc>
-        <lastmod>2022-10-03</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/marine-protected-areas</loc>
@@ -10298,7 +10298,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rates-from-alcohol-use-disorders</loc>
-        <lastmod>2022-10-04</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/economic-complexity-rankings</loc>
@@ -22174,6 +22174,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-parkinsons-disease-gbd</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rates-from-conflict-and-terrorism-gbd</loc>
         <lastmod>2022-10-05</lastmod>
     </url>
     <url>
