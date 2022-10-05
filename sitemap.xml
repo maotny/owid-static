@@ -10734,7 +10734,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rates-from-drug-use-disorders</loc>
-        <lastmod>2022-10-04</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/drug-disorder-dalys-rate</loc>
@@ -15302,7 +15302,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/child-deaths-from-malaria-number</loc>
-        <lastmod>2022-09-06</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-new-hiv-child-infections-vs-number-of-infections-averted-due-to-pmtct</loc>
@@ -22210,6 +22210,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rates-from-alcohol-use-disorders-gbd</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rates-from-drug-use-disorders-gbd</loc>
         <lastmod>2022-10-05</lastmod>
     </url>
     <url>
