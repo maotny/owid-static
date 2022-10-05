@@ -9734,7 +9734,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/tuberculosis-death-rates</loc>
-        <lastmod>2022-09-27</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/tuberculosis-death-rates-by-age</loc>
@@ -22006,11 +22006,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-from-falls</loc>
-        <lastmod>2022-10-03</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-falls</loc>
-        <lastmod>2022-10-03</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-deaths-from-malaria-who</loc>
@@ -22186,6 +22186,30 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-poisoning</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-poisoning-gbd</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-falls-gbd</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/deaths-from-falls-gbd</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-falls-gbd-rate</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-tuberculosis-gbd</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rates-from-alcohol-use-disorders-gbd</loc>
         <lastmod>2022-10-05</lastmod>
     </url>
     <url>
