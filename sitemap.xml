@@ -4442,7 +4442,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/covid-google-mobility-trends</loc>
-        <lastmod>2022-09-29</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/untitled-reusable-block-240</loc>
@@ -5123,6 +5123,10 @@
     <url>
         <loc>https://ourworldindata.org/less-democratic</loc>
         <lastmod>2022-09-12</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/biological-and-chemical-weapons</loc>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/what-do-poor-people-think-about-poverty</loc>
@@ -8998,7 +9002,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-deaths-from-road-injuries</loc>
-        <lastmod>2022-08-23</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-agriculture-in-total-employment</loc>
@@ -9390,7 +9394,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/dementia-death-rates</loc>
-        <lastmod>2022-09-27</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/starting-yearly-teacher-salaries-in-public-primary-education</loc>
@@ -9438,7 +9442,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/fire-death-rates</loc>
-        <lastmod>2022-10-03</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/fire-death-rates-by-age</loc>
@@ -9474,7 +9478,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/suicide-death-rates</loc>
-        <lastmod>2022-10-04</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/suicide-death-rate-by-age</loc>
@@ -13118,7 +13122,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/infectious-disease-death-rates</loc>
-        <lastmod>2022-08-23</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/female-minus-male-life-expectancy-vs-non-communicable-disease-death-rates</loc>
@@ -13974,7 +13978,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-internet-users-by-country</loc>
-        <lastmod>2022-10-03</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/coal-output-uk-tonnes</loc>
@@ -18526,7 +18530,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/carbon-intensity-electricity</loc>
-        <lastmod>2022-08-05</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/electricity-fossil-renewables-nuclear-line</loc>
@@ -22030,15 +22034,15 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-from-fires-and-burns</loc>
-        <lastmod>2022-10-03</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-fires-and-burns-ihme</loc>
-        <lastmod>2022-10-03</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-from-fires-and-burns-who</loc>
-        <lastmod>2022-10-03</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-fires-and-burns-who</loc>
@@ -22098,6 +22102,42 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/respiratory-disease-death-rate-gbd</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/deaths-from-respiratory-disease</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/deaths-from-liver-disease</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/deaths-from-diabetes</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/deaths-from-alzheimers</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/deaths-from-parkinsons-disease</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-road-accidents</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-suicides</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-drowning</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/deaths-from-drowning</loc>
         <lastmod>2022-10-05</lastmod>
     </url>
     <url>
