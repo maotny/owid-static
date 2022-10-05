@@ -15878,7 +15878,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rates-unsafe-water</loc>
-        <lastmod>2022-09-06</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rates-unsafe-water-vs-gdp</loc>
@@ -22242,6 +22242,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-obesity-gbd</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rates-from-unsafe-water-sources-gbd</loc>
         <lastmod>2022-10-05</lastmod>
     </url>
     <url>
