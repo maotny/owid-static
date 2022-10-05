@@ -2809,6 +2809,10 @@
         <lastmod>2022-04-13</lastmod>
     </url>
     <url>
+        <loc>https://ourworldindata.org/imported-from-manual-input-5</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
         <loc>https://ourworldindata.org/primary-and-secondary-education</loc>
         <lastmod>2022-03-03</lastmod>
     </url>
@@ -2826,7 +2830,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/ethnographic-and-archaeological-evidence-on-violent-deaths</loc>
-        <lastmod>2022-02-08</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/military-spending</loc>
@@ -21654,43 +21658,43 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/biological-weapons-convention</loc>
-        <lastmod>2022-09-12</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/chemical-weapons-convention</loc>
-        <lastmod>2022-09-12</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/biological-weapons</loc>
-        <lastmod>2022-09-16</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/historical-biological-weapons</loc>
-        <lastmod>2022-09-16</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/historical-chemical-weapons</loc>
-        <lastmod>2022-09-16</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/chemical-weapons</loc>
-        <lastmod>2022-09-16</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/biological-weapons-proliferation</loc>
-        <lastmod>2022-09-16</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/historical-biological-weapons-proliferation</loc>
-        <lastmod>2022-09-15</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/chemical-weapons-proliferation</loc>
-        <lastmod>2022-09-16</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/historical-chemical-weapons-proliferation</loc>
-        <lastmod>2022-09-15</lastmod>
+        <lastmod>2022-10-05</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/infant-mortality-rates</loc>
@@ -22150,6 +22154,14 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/crude-death-rate-the-share-of-the-population-that-dies-each-year-gbd</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-meningitis-gbd</loc>
+        <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-liver-disease-gbd</loc>
         <lastmod>2022-10-05</lastmod>
     </url>
     <url>
