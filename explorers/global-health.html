@@ -1942,7 +1942,7 @@ const grapherConfigs =
   },
   {
     "id": 970,
-    "version": 13,
+    "version": 15,
     "slug": "children-sleeping-under-treated-bednet",
     "title": "Share of children sleeping under insecticide-treated nets",
     "subtitle": "The share of children under five years old who slept under an insecticide-treated bednet to prevent malaria infection the previous night.",
@@ -1956,17 +1956,22 @@ const grapherConfigs =
       "max": 0
     },
     "map": {
-      "timeTolerance": 7,
+      "timeTolerance": 5,
       "colorScale": {
         "baseColorScheme": "PuBu",
         "colorSchemeInvert": false,
         "binningStrategy": "manual",
         "customNumericMinValue": 0,
         "customNumericValues": [
+          10,
           20,
+          30,
           40,
+          50,
           60,
+          70,
           80,
+          90,
           100
         ],
         "customNumericLabels": [
@@ -1982,6 +1987,12 @@ const grapherConfigs =
           ""
         ],
         "customNumericColorsActive": false,
+        "customNumericColors": [
+          null,
+          null,
+          null,
+          null
+        ],
         "legendDescription": ""
       },
       "variableId": 446679
