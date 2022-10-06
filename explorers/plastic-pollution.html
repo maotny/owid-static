@@ -141,9 +141,10 @@ const grapherConfigs =
   },
   {
     "id": 4869,
-    "version": 3,
+    "version": 4,
     "slug": "share-of-global-plastic-waste-emitted-to-the-ocean",
     "title": "Share of global plastic waste emitted to the ocean",
+    "subtitle": "This is an annual estimate of plastic emissions. A country's total does not include waste that is exported overseas, and may be at higher risk of entering the ocean.",
     "hasMapTab": true,
     "tab": "map",
     "originUrl": "https://ourworldindata.org/plastic-pollution",
@@ -183,10 +184,10 @@ const grapherConfigs =
   },
   {
     "id": 4870,
-    "version": 5,
+    "version": 6,
     "slug": "share-of-global-mismanaged-plastic-waste",
     "title": "Share of global mismanaged plastic waste",
-    "subtitle": "Mismanaged plastic waste is defined as \"plastic that is either littered or inadequately disposed. Inadequately disposed waste is not formally managed and includes disposal in dumps or open, uncontrolled landfills, where it is not fully contained.\"",
+    "subtitle": "Mismanaged plastic waste is plastic that is either littered or [inadequately disposed](hover::general::inadequatelymanagedwaste). A country's total does not include waste that is exported overseas, where it may be mismanaged.",
     "hasMapTab": true,
     "tab": "map",
     "originUrl": "https://ourworldindata.org/plastic-pollution",
@@ -230,11 +231,13 @@ const grapherConfigs =
   {
     "type": "DiscreteBar",
     "id": 4871,
-    "version": 3,
+    "version": 4,
     "slug": "plastic-waste-emitted-to-the-ocean",
     "title": "Plastic waste emitted to the ocean",
+    "subtitle": "This is an annual estimate of plastic emissions. A country's total does not include waste that is exported overseas, and may be at higher risk of entering the ocean.",
     "hasMapTab": true,
     "tab": "map",
+    "originUrl": "ourworldindata.org/plastic-pollution",
     "isPublished": true,
     "baseColorScheme": "owid-distinct",
     "yAxis": {
@@ -283,11 +286,13 @@ const grapherConfigs =
   {
     "type": "DiscreteBar",
     "id": 4872,
-    "version": 4,
+    "version": 7,
     "slug": "per-capita-ocean-plastic-waste",
     "title": "Plastic waste emitted to the ocean per capita",
+    "subtitle": "This is an annual estimate of plastic emissions. A country's total does not include waste that is exported overseas, and may be at higher risk of entering the ocean.",
     "hasMapTab": true,
     "tab": "map",
+    "originUrl": "ourworldindata.org/plastic-pollution",
     "isPublished": true,
     "baseColorScheme": "owid-distinct",
     "yAxis": {
@@ -339,12 +344,13 @@ const grapherConfigs =
   {
     "type": "DiscreteBar",
     "id": 4873,
-    "version": 8,
+    "version": 10,
     "slug": "mismanaged-plastic-waste-per-capita",
     "title": "Mismanaged plastic waste per capita",
-    "subtitle": "Mismanaged plastic waste is defined as \"plastic that is either littered or inadequately disposed. Inadequately disposed waste is not formally managed and includes disposal in dumps or open, uncontrolled landfills, where it is not fully contained.\"",
+    "subtitle": "Mismanaged plastic waste is plastic that is either littered or [inadequately disposed](hover::general::inadequatelymanagedwaste).  A country's total does not include waste that is exported overseas, where it may be mismanaged.",
     "hasMapTab": true,
     "tab": "map",
+    "originUrl": "ourworldindata.org/plastic-pollution",
     "isPublished": true,
     "baseColorScheme": "owid-distinct",
     "yAxis": {
@@ -397,12 +403,13 @@ const grapherConfigs =
   {
     "type": "DiscreteBar",
     "id": 4880,
-    "version": 6,
+    "version": 8,
     "slug": "plastic-waste-mismanaged",
     "title": "Mismanaged plastic waste",
-    "subtitle": "Mismanaged plastic waste is defined as \"plastic that is either littered or inadequately disposed. Inadequately disposed waste is not formally managed and includes disposal in dumps or open, uncontrolled landfills, where it is not fully contained.\"",
+    "subtitle": "Mismanaged plastic waste is plastic that is either littered or [inadequately disposed](hover::general::inadequatelymanagedwaste).  A country's total does not include waste that is exported overseas, where it may be mismanaged.",
     "hasMapTab": true,
     "tab": "map",
+    "originUrl": "ourworldindata.org/plastic-pollution",
     "isPublished": true,
     "baseColorScheme": "owid-distinct",
     "yAxis": {
@@ -446,15 +453,26 @@ const grapherConfigs =
       "Ghana",
       "Argentina",
       "Sri Lanka"
-    ]
+    ],
+    "details": {
+      "general": {
+        "inadequatelymanagedwaste": {
+          "id": 4,
+          "term": "inadequatelymanagedwaste",
+          "title": "Inadequately disposed plastic waste",
+          "content": "Inadequately disposed plastic waste is not formally managed and includes disposal in dumps or open, uncontrolled landfills, where it is not fully contained.\n\nThis makes it at a much higher risk of leaking into the natural environment, rivers, or the ocean.",
+          "category": "general"
+        }
+      }
+    }
   },
   {
     "type": "DiscreteBar",
     "id": 4881,
-    "version": 5,
+    "version": 6,
     "slug": "probability-mismanaged-plastic-ocean",
     "title": "Probability of mismanaged plastic waste being emitted to ocean",
-    "subtitle": "Mismanaged plastic waste is defined as \"plastic that is either littered or inadequately disposed. Inadequately disposed waste is not formally managed and includes disposal in dumps or open, uncontrolled landfills, where it is not fully contained.\"",
+    "subtitle": "Mismanaged plastic waste is plastic that is either littered or [inadequately disposed](hover::general::inadequatelymanagedwaste). A country's total does not include waste that is exported overseas, and may be at higher risk of entering the ocean.",
     "hasMapTab": true,
     "originUrl": "https://ourworldindata.org/plastic-pollution",
     "isPublished": true,
