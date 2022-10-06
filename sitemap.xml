@@ -15418,7 +15418,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/rate-of-premature-deaths-due-to-alcohol</loc>
-        <lastmod>2022-09-27</lastmod>
+        <lastmod>2022-10-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/gross-national-income-per-capita</loc>
@@ -22242,7 +22242,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-obesity-gbd</loc>
-        <lastmod>2022-10-05</lastmod>
+        <lastmod>2022-10-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rates-from-unsafe-water-sources-gbd</loc>
@@ -22250,6 +22250,14 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-unsafe-sanitation-gbd</loc>
+        <lastmod>2022-10-06</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rates-from-no-access-to-handwashing-facilities</loc>
+        <lastmod>2022-10-06</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/rate-of-premature-deaths-due-to-alcohol-gbd</loc>
         <lastmod>2022-10-06</lastmod>
     </url>
     <url>
