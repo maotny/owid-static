@@ -13146,7 +13146,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/infectious-disease-death-rates</loc>
-        <lastmod>2022-10-05</lastmod>
+        <lastmod>2022-10-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/female-minus-male-life-expectancy-vs-non-communicable-disease-death-rates</loc>
@@ -22286,6 +22286,14 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rates-from-high-blood-pressure-gbd</loc>
+        <lastmod>2022-10-06</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rates-from-high-blood-sugar</loc>
+        <lastmod>2022-10-06</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rates-from-high-blood-sugar-gbd</loc>
         <lastmod>2022-10-06</lastmod>
     </url>
     <url>
