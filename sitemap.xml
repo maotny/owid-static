@@ -15146,7 +15146,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-from-preterm-birth-complications</loc>
-        <lastmod>2022-10-05</lastmod>
+        <lastmod>2022-10-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/jobs-and-personal-contacts-europe</loc>
@@ -22234,11 +22234,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-secondhand-smoke</loc>
-        <lastmod>2022-10-05</lastmod>
+        <lastmod>2022-10-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-secondhand-smoke-gbd</loc>
-        <lastmod>2022-10-05</lastmod>
+        <lastmod>2022-10-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-obesity-gbd</loc>
@@ -22247,6 +22247,10 @@
     <url>
         <loc>https://ourworldindata.org/grapher/death-rates-from-unsafe-water-sources-gbd</loc>
         <lastmod>2022-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-unsafe-sanitation-gbd</loc>
+        <lastmod>2022-10-06</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/explorers/air-pollution</loc>
