@@ -818,10 +818,7 @@
 /grapher/women-can-do-the-same-job-as-men-1yes-0no /grapher/are-non-pregnant-and-non-nursing-women-allowed-to-do-the-same-jobs-as-men 302!
 /grapher/can-non-pregnant-and-non-nursing-women-do-the-same-jobs-as-men /grapher/are-non-pregnant-and-non-nursing-women-allowed-to-do-the-same-jobs-as-men 302!
 /grapher/total-alcohol-consumption-per-capita-liters-of-pure-alcohol-projected-estimates-15-years-of-age /grapher/total-alcohol-consumption-per-capita-litres-of-pure-alcohol 302!
-/grapher/number-of-people-who-are-undernourished /grapher/global-population-defined-as-undernourished 302!
 /grapher/children-out-of-school-vs-hours-worked-by-children /grapher/working-children-out-of-school-ages-7-14-vs-hours-worked-by-children-ages-7-14 302!
-/grapher/number-of-people-who-are-undernourished-world /grapher/global-population-defined-as-undernourished 302!
-/grapher/number-of-people-undernourished-and-with-adquate-caloric-intake /grapher/number-of-people-defined-as-undernourished 302!
 /grapher/book-titles-per-capita /grapher/new-books-per-million 302!
 /grapher/children-in-employment-vs-weekly-hours-worked-by-children /grapher/children-in-employment-ages-7-14-vs-weekly-hours-worked-by-children-ages-7-14 302!
 /grapher/children-in-employment-vs-weekly-hours-worked-by-children-7-14 /grapher/children-in-employment-ages-7-14-vs-weekly-hours-worked-by-children-ages-7-14 302!
@@ -1594,3 +1591,7 @@
 /grapher/world-population-and-projected-growth-to-2100-total-population-and-under-age-5 /grapher/historic-and-un-pop-projections-by-age 302!
 /grapher/historic-and-projected-population /grapher/UN-population-projection-medium-variant 302!
 /grapher/age-standardized-death-rate-cardiovascular-disease /grapher/cardiovascular-disease-death-rates 302!
+/grapher/number-of-people-defined-as-undernourished /grapher/number-undernourished 302!
+/grapher/number-undernourished-2000-2017 /grapher/number-undernourished 302!
+/grapher/global-population-defined-as-undernourished /grapher/number-undernourished 302!
+/grapher/number-of-people-who-are-undernourished-world /grapher/number-undernourished 302!

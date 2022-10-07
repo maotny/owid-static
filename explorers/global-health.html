@@ -408,7 +408,7 @@ const grapherConfigs =
   },
   {
     "id": 311,
-    "version": 30,
+    "version": 31,
     "slug": "prevalence-of-undernourishment",
     "title": "Share of the population that is undernourished",
     "subtitle": "Share of individuals who have a habitual energy intake lower than their requirements.",
@@ -425,24 +425,26 @@ const grapherConfigs =
       "max": 0
     },
     "map": {
-      "time": 2020,
+      "timeTolerance": 5,
       "colorScale": {
-        "baseColorScheme": "YlOrRd",
-        "colorSchemeInvert": false,
+        "baseColorScheme": "BinaryMapPaletteA",
+        "colorSchemeInvert": true,
         "binningStrategy": "manual",
         "customNumericMinValue": 0,
         "customNumericValues": [
-          2.5,
           5,
           10,
+          15,
           20,
+          25,
           30,
+          35,
           40,
-          50,
-          60
+          45,
+          50
         ],
         "customNumericLabels": [
-          "<2.5%",
+          "",
           "",
           "",
           "",
@@ -451,9 +453,9 @@ const grapherConfigs =
           null,
           null
         ],
-        "customNumericColorsActive": true,
         "customNumericColors": [
           "#e4eaf6",
+          null,
           null,
           null,
           null,
@@ -4953,10 +4955,10 @@ const grapherConfigs =
   },
   {
     "id": 3984,
-    "version": 6,
+    "version": 14,
     "slug": "number-undernourished",
-    "title": "Number of people that are undernourished",
-    "subtitle": "Undernourishment is measured as having a caloric intake which is insufficient to meet the minimum energy requirements necessary for a given individual. Countries with undernourishment rates below 2.5% are not shown.",
+    "title": "Number of people who are undernourished",
+    "subtitle": "Undernourishment is measured as having a caloric intake that is insufficient to meet the minimum energy requirements necessary for a given individual.",
     "sourceDesc": "UN Food and Agriculture Organization (FAO)",
     "hideTitleAnnotation": true,
     "minTime": 2000,
@@ -4970,23 +4972,25 @@ const grapherConfigs =
     },
     "map": {
       "colorScale": {
-        "baseColorScheme": "YlGnBu",
+        "baseColorScheme": "BinaryMapPaletteA",
+        "colorSchemeInvert": true,
         "binningStrategy": "manual",
         "customNumericValues": [
           1000000,
+          2000000,
           5000000,
           10000000,
-          25000000,
+          20000000,
           50000000,
           100000000,
           200000000
         ],
-        "customNumericColorsActive": true,
-        "customCategoryColors": {
-          "<0.1": "#9c9995"
-        },
         "customCategoryLabels": {
-          "<0.1": "<0.1M"
+          "<0.1": "",
+          "No data": ""
+        },
+        "customHiddenCategories": {
+          "<0.1": true
         }
       },
       "variableId": 135216
