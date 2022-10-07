@@ -283,13 +283,11 @@
 /higher-education /tertiary-education 301!
 /military-long-run-perspective/ /military-long-run-spending-perspective/ 301!
 /the-past-and-future-of-global-change-max-slides-for-his-talk-at-the-un/ /max-un-slides/ 301!
-/military-long-run-perspective/ /military-long-run-spending-perspective/ 301!
 /entries/income-inequality /income-inequality 301!
 /common-faqs-on-plastics/ /common-faqs-on-plastics 301!
 /common-faqs-on-plastics /faqs-on-plastics 301!
 /selection-of-GH-indicators /selection-of-gh-indicators 301!
 /plastics /plastic-pollution 301!
-/faqs-on-plastics /faqs-on-plastics2 301!
 /faqs-on-plastics /faq-on-plastics 301!
 /tebbens-et-al-2011-estimation-of-the-number-of-paralytic-polio-cases /estimating-total-global-paralytic-polio-cases 301!
 /volatility-of-food-prices /food-prices#food-price-volatility 301!
@@ -362,7 +360,6 @@
 /about/why-are-we-working-on-our-world-in-data /motivation 301!
 /about/coverage /coverage 301!
 /about/media-coverage /coverage 301!
-/about/owid-grapher /owid-grapher 301!
 /media-coverage /coverage 301!
 /yields-and-land-use-in-agriculture /crop-yields 301!
 /water-use-sanitation /water-use-stress 301!
@@ -374,9 +371,7 @@
 /jobs/full-stack-developer /full-stack-developer 301!
 /global-rise-of-education /global-education 301!
 /meat-and-seafood-production-consumption /meat-production 301!
-/meat-and-seafood-production-consumption /meat-production 301!
 /grapher/life-expectancy-globally-since-1770 /grapher/life-expectancy?tab=chart&time=1770..2015&country=Africa+Asia+Europe+Latin%20America%20and%20the%20Caribbean+Northern%20America+OWID_WRL+Americas+Oceania 301!
-/migration /grapher/international-migrant-stock 302!
 /fertilizer-and-pesticides /fertilizer 301!
 /how-many-children-did-a-woman-give-birth-to-that-died-before-their-5th-birthday /parents-losing-their-child 301!
 /incomes-across-the-distribution /incomes-across-distribution 301!
@@ -393,7 +388,6 @@
 /senior-visualization-engineer /senior-data-visualisation-engineer 301!
 /worldpopulation-growth /world-population-growth 301!
 /grapher/ / 301!
-/grapher/population-of-women-in-the-reproductive-age-bracket-15-49 /uploads/2019/05/Population-momentum-1.png 301!
 /grapher/population-of-women-in-the-reproductive-age-bracket-15-49 /uploads/2019/05/Population-momentum-1.png 301!
 /data-viz-job /senior-data-visualisation-engineer 301!
 /data/war-peace/war-and-peace-before-1945/#global-war-deaths-between-1400-and-today-the-size-of-the-bubble-shows-the-percentage-of-world-population-killed-the-hague-centre-for-strategic-studiesref /uploads/2018/09/Bubble-and-lines-FINAL-03.png 301!
@@ -563,7 +557,6 @@
 /grapher/personal-remittances-received /explorers/migration?facet=none&Metric=Remittances+received+%28%25+of+GDP%29&Period=Total&Sub-metric=Total 301!
 /grapher/personal-remittances-paid /explorers/migration?facet=none&Metric=Remittances+received+%28%25+of+GDP%29&Period=Total&Sub-metric=Total 301!
 /migration-sources /migration-definition 301!
-/fossil-fuels-explorer-launch /explorers/natural-resources 301!
 /how-long-before-we-run-out-of-fossil-fuels /fossil-fuels 301!
 /educational-mobility-inequality /global-education#what-has-been-the-evolution-of-gender-inequalities-in-education 301!
 /covid-testing-us-uk-korea-italy /coronavirus-testing 301!
