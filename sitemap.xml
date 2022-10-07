@@ -3374,7 +3374,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/illicit-drug-use</loc>
-        <lastmod>2022-03-29</lastmod>
+        <lastmod>2022-10-07</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/economic-inequality-by-gender</loc>
@@ -7729,10 +7729,6 @@
         <lastmod>2022-10-05</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/number-of-people-defined-as-undernourished</loc>
-        <lastmod>2018-03-15</lastmod>
-    </url>
-    <url>
         <loc>https://ourworldindata.org/grapher/global-population-defined-as-undernourished</loc>
         <lastmod>2022-02-04</lastmod>
     </url>
@@ -9675,10 +9671,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/air-passengers-per-fatality</loc>
         <lastmod>2022-05-04</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/estimates-of-undernourished-people-in-the-world-fao-2010-vs-2012</loc>
-        <lastmod>2018-03-15</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-one-year-olds</loc>
