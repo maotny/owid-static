@@ -6906,7 +6906,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/female-labor-force-participation-OECD</loc>
-        <lastmod>2018-03-15</lastmod>
+        <lastmod>2022-10-07</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-children-newly-infected-with-hiv</loc>
@@ -21726,7 +21726,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/carbon-tax-instruments</loc>
-        <lastmod>2022-10-06</lastmod>
+        <lastmod>2022-10-07</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/carbon-emissions-trading-system</loc>
@@ -22178,6 +22178,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/incidence-of-meningitis</loc>
+        <lastmod>2022-10-07</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/deaths-from-diarrheal-diseases-who</loc>
         <lastmod>2022-10-07</lastmod>
     </url>
     <url>
