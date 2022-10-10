@@ -14958,7 +14958,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/tuberculosis-deaths</loc>
-        <lastmod>2022-08-23</lastmod>
+        <lastmod>2022-10-10</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/consumption-co2-per-capita-vs-gdppc</loc>
@@ -22286,6 +22286,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-malaria-ghe</loc>
+        <lastmod>2022-10-10</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/number-of-deaths-from-tuberculosis-ghe</loc>
         <lastmod>2022-10-10</lastmod>
     </url>
     <url>
