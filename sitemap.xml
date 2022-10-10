@@ -4178,7 +4178,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/marriages-and-divorces</loc>
-        <lastmod>2021-01-08</lastmod>
+        <lastmod>2022-10-10</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/same-sex-marriage-around-the-world</loc>
+        <lastmod>2022-10-10</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/new-co2-data-explorer</loc>
@@ -15170,7 +15174,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-from-pneumonia-in-people-aged-70-and-older-by-risk-factor</loc>
-        <lastmod>2022-09-06</lastmod>
+        <lastmod>2022-10-10</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/job-seeker-job-search-pew</loc>
@@ -15930,7 +15934,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/year-when-homosexuality-become-legal</loc>
-        <lastmod>2020-09-28</lastmod>
+        <lastmod>2022-10-10</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/freshwater-withdrawals-per-1000kcal</loc>
