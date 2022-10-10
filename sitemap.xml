@@ -15110,7 +15110,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/estimated-tuberculosis-incidence-rates</loc>
-        <lastmod>2022-08-05</lastmod>
+        <lastmod>2022-10-10</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-tuberculosis-cases</loc>
@@ -15182,7 +15182,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/pneumonia-death-rates-age-standardized</loc>
-        <lastmod>2022-09-06</lastmod>
+        <lastmod>2022-10-10</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/child-deaths-from-malaria</loc>
@@ -22250,6 +22250,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/incidence-of-hivaids</loc>
+        <lastmod>2022-10-10</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/incidence-of-tuberculosis</loc>
         <lastmod>2022-10-10</lastmod>
     </url>
     <url>
