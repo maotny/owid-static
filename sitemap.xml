@@ -4850,7 +4850,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/population-sources</loc>
-        <lastmod>2022-02-18</lastmod>
+        <lastmod>2022-10-10</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/food-explorers</loc>
@@ -22290,6 +22290,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-deaths-from-tuberculosis-ghe</loc>
+        <lastmod>2022-10-10</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-tuberculosis-ghe</loc>
         <lastmod>2022-10-10</lastmod>
     </url>
     <url>
