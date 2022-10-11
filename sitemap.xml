@@ -6185,10 +6185,6 @@
         <lastmod>2022-09-22</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/installed-renewable-energy-capacity</loc>
-        <lastmod>2018-03-15</lastmod>
-    </url>
-    <url>
         <loc>https://ourworldindata.org/grapher/installed-global-renewable-energy-capacity-by-technology</loc>
         <lastmod>2018-03-15</lastmod>
     </url>
@@ -6199,10 +6195,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/one-year-prevalence-of-undernourishment-vs-share-of-children-who-are-stunted</loc>
         <lastmod>2022-08-24</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/renewable-energy-investment</loc>
-        <lastmod>2022-03-09</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/extreme-poverty-vs-child-mortality</loc>
@@ -8467,14 +8459,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/co2-per-capita-vs-renewable-electricity</loc>
         <lastmod>2022-08-31</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/installed-marine-energy</loc>
-        <lastmod>2018-03-15</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/marine-energy-production</loc>
-        <lastmod>2018-03-15</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/world-population-with-and-without-fertilizer</loc>
@@ -13767,22 +13751,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/annual-share-of-co2-emissions</loc>
         <lastmod>2022-10-05</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/onshore-wind-lcoe-vs-wind-consumption</loc>
-        <lastmod>2022-07-29</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/onshore-wind-lcoe</loc>
-        <lastmod>2018-12-03</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/onshore-wind-project-costs</loc>
-        <lastmod>2018-12-03</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/onshore-wind-cost-breakdown</loc>
-        <lastmod>2022-08-24</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/who-vs-gbd-incidence-of-tetanus</loc>
