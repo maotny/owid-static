@@ -380,10 +380,10 @@
 /land-cover/ /land-use 301!
 /null / 301!
 /gdp-growth-over-the-very-long-run/#world-maps-of-gdp-per-capita-1-2008-max-roserref /grapher/world-gdp-over-the-last-two-millennia 301!
-/extreme-poverty-in-rich-countries-what-we-know-and-what-we-dont-know a:3:{s:8:"url_from";s:42:"https://ourworldindata.org/extreme-poverty";s:11:"url_notfrom";s:0:"";s:6:"server";s:26:"https://ourworldindata.org";} 301!
+/size-poverty-gap /extreme-poverty 301!
+/extreme-poverty-in-rich-countries-what-we-know-and-what-we-dont-know /extreme-poverty 301!
 /grapher/190 /grapher/the-price-for-lighting-per-million-lumen-hours-in-the-uk-in-british-pound?time=1301..2006 301!
 /grapher/colonialism-and-imperialism /democracy 301!
-/size-poverty-gap a:3:{s:8:"url_from";s:42:"https://ourworldindata.org/extreme-poverty";s:11:"url_notfrom";s:0:"";s:6:"server";s:26:"https://ourworldindata.org";} 301!
 /the-world-has-recently-become-less-democratic /less-democratic 301!
 /senior-visualization-engineer /senior-data-visualisation-engineer 301!
 /worldpopulation-growth /world-population-growth 301!
@@ -391,7 +391,7 @@
 /grapher/population-of-women-in-the-reproductive-age-bracket-15-49 /uploads/2019/05/Population-momentum-1.png 301!
 /data-viz-job /senior-data-visualisation-engineer 301!
 /data/war-peace/war-and-peace-before-1945/#global-war-deaths-between-1400-and-today-the-size-of-the-bubble-shows-the-percentage-of-world-population-killed-the-hague-centre-for-strategic-studiesref /uploads/2018/09/Bubble-and-lines-FINAL-03.png 301!
-/children-and-poverty-results-from-new-data a:3:{s:8:"url_from";s:16:"/extreme-poverty";s:11:"url_notfrom";s:0:"";s:6:"server";s:26:"https://ourworldindata.org";} 301!
+/children-and-poverty-results-from-new-data /extreme-poverty 301!
 /grapher/79 /grapher/population-breakdown-by-highest-level-of-education-achieved-for-those-aged-15-in 301!
 /grapher/31 /grapher/projections-of-the-rate-of-no-education-based-on-current-global-education-trends-1970-2050 301!
 /data/violence-rights/homicides /homicides 301!
