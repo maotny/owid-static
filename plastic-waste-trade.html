@@ -1,0 +1,347 @@
+<!doctype html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Ocean plastics: How much do rich countries contribute by shipping their waste overseas? - Our World in Data</title><meta name="description" content="Many countries ship plastic waste overseas. How much of the world’s waste is traded, and how big is its role in the pollution of our oceans?"/><link rel="canonical" href="https://ourworldindata.org/plastic-waste-trade"/><link rel="alternate" type="application/atom+xml" href="/atom.xml"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><meta property="fb:app_id" content="1149943818390250"/><meta property="og:url" content="https://ourworldindata.org/plastic-waste-trade"/><meta property="og:title" content="Ocean plastics: How much do rich countries contribute by shipping their waste overseas?"/><meta property="og:description" content="Many countries ship plastic waste overseas. How much of the world’s waste is traded, and how big is its role in the pollution of our oceans?"/><meta property="og:image" content="https://ourworldindata.org/uploads/2022/10/Plastic-waste-trade-featured-image-768x402.png"/><meta property="og:site_name" content="Our World in Data"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@OurWorldInData"/><meta name="twitter:creator" content="@OurWorldInData"/><meta name="twitter:title" content="Ocean plastics: How much do rich countries contribute by shipping their waste overseas?"/><meta name="twitter:description" content="Many countries ship plastic waste overseas. How much of the world’s waste is traded, and how big is its role in the pollution of our oceans?"/><meta name="twitter:image" content="https://ourworldindata.org/uploads/2022/10/Plastic-waste-trade-featured-image-768x402.png"/><link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Playfair+Display:400,600,700&amp;display=swap" rel="stylesheet"/><link rel="stylesheet" href="https://ourworldindata.org/assets/commons.css"/><link rel="stylesheet" href="https://ourworldindata.org/assets/owid.css"/></head><body class=""><header class="site-header"><div class="wrapper site-navigation-bar"><div class="site-logo"><a href="/">Our World<br/> in Data</a></div><nav class="site-navigation"><div class="topics-button-wrapper"><a href="/#entries" class="topics-button"><div class="label">Articles <br/><strong>by topic</strong></div><div class="icon"><svg width="12" height="6"><path d="M0,0 L12,0 L6,6 Z" fill="currentColor"></path></svg></div></a></div><div><div class="site-primary-navigation"><form class="HeaderSearch" action="/search" method="GET"><input type="search" name="q" placeholder="Search..."/><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" class="svg-inline--fa fa-magnifying-glass " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"></path></svg></div></form><ul class="site-primary-links"><li><a href="/blog" data-track-note="header-navigation">Latest</a></li><li><a href="/about" data-track-note="header-navigation">About</a></li><li><a href="/donate" data-track-note="header-navigation">Donate</a></li></ul></div><div class="site-secondary-navigation"><ul class="site-secondary-links"><li><a href="/charts" data-track-note="header-navigation">All charts</a></li><li><a href="https://sdg-tracker.org" data-track-note="header-navigation">Sustainable Development Goals Tracker</a></li></ul></div></div></nav><div class="header-logos-wrapper"><a href="https://www.oxfordmartin.ox.ac.uk/global-development" class="oxford-logo"><img src="https://ourworldindata.org/oms-logo.svg" alt="Oxford Martin School logo"/></a><a href="https://global-change-data-lab.org/" class="gcdl-logo"><img src="https://ourworldindata.org/gcdl-logo.svg" alt="Global Change Data Lab logo"/></a></div><div class="mobile-site-navigation"><button data-track-note="mobile-search-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" class="svg-inline--fa fa-magnifying-glass " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"></path></svg></button><button data-track-note="mobile-newsletter-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-open-text" class="svg-inline--fa fa-envelope-open-text " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M215.4 96H144 107.8 96v8.8V144v40.4 89L.2 202.5c1.6-18.1 10.9-34.9 25.7-45.8L48 140.3V96c0-26.5 21.5-48 48-48h76.6l49.9-36.9C232.2 3.9 243.9 0 256 0s23.8 3.9 33.5 11L339.4 48H416c26.5 0 48 21.5 48 48v44.3l22.1 16.4c14.8 10.9 24.1 27.7 25.7 45.8L416 273.4v-89V144 104.8 96H404.2 368 296.6 215.4zM0 448V242.1L217.6 403.3c11.1 8.2 24.6 12.7 38.4 12.7s27.3-4.4 38.4-12.7L512 242.1V448v0c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64v0zM176 160H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H176c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H176c-8.8 0-16-7.2-16-16s7.2-16 16-16z"></path></svg></button><button data-track-note="mobile-hamburger-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path></svg></button></div></div></header><div class="alert-banner"><div class="content"><div class="text"><strong>COVID-19 vaccinations, cases, excess mortality, and much more</strong></div><a href="/coronavirus#explore-the-global-situation" data-track-note="covid-banner-click">Explore our COVID-19 data</a></div></div><main><article class="page no-sidebar thin-banner"><div class="offset-header"><header class="article-header"><div class="article-titles"><h1 class="entry-title">Ocean plastics: How much do rich countries contribute by shipping their waste overseas?</h1></div></header></div><div class="content-wrapper"><div class="offset-content"><div class="content-and-footnotes"><div class="article-content"><section><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><div class="article-meta"><div class="excerpt">Many countries ship plastic waste overseas. How much of the world’s waste is traded, and how big is its role in the pollution of our oceans?</div><div class="authors-byline"><a href="/team">by Hannah Ritchie</a></div><div class="published-updated"><time>October 11, 2022</time></div></div><p>Most of the plastic that enters the oceans from land <a href="https://ourworldindata.org/ocean-plastics">comes from</a> rivers in Asia.<a id="ref-1" class="ref" href="#note-1"><sup>1</sup></a> More than 80% of it.<a id="ref-2" class="ref" href="#note-2"><sup>2</sup></a></p><p>Only a small amount comes from rivers across Europe and North America. Together, <a href="https://ourworldindata.org/grapher/share-of-global-plastic-waste-emitted-to-the-ocean?tab=chart&amp;country=Africa~Asia~Europe~South+America~North+America~Oceania">these regions contribute</a> just 5% of the global total. This would suggest that the world’s richest countries don’t contribute much to the problem of plastic pollution.</p><p>But, these numbers only look at the plastic that is emitted <em>domestically</em>. They don’t consider the fact that many countries export plastic waste overseas. If it was the case that the UK exported a lot of its plastic waste to countries where waste management systems are poor, and lots of plastic leaks into the environment, the UK would have a large indirect impact on ocean pollution.</p><p>Here I use global data to understand the scale of plastic waste trade. I look at who the biggest exporters and importers are, and where this waste ends up.</p><p>I estimate that a few percent – possibly up to 5% – of the world’s ocean plastics could come from rich countries exporting their waste overseas.</p></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><h3 id="how-much-of-the-world-s-plastic-waste-is-traded">How much of the world’s plastic waste is traded?<a class="deep-link" href="#how-much-of-the-world-s-plastic-waste-is-traded"></a></h3><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<p>Importing plastics can often bring economic benefits. Recycled plastics can be repurposed into other goods, and fed into manufacturing industries. This is often cheaper than buying or making virgin plastics from scratch.</p>
+
+
+
+<p>In 2020, around 5 million tonnes of plastic waste was traded globally.<a id="ref-3" class="ref" href="#note-3"><sup>3</sup></a> We might imagine that the pandemic forced a large reduction in plastic trade, but this doesn’t seem to be the case. In 2019, rates were only slightly higher, at around 6 million tonnes.</p>
+
+
+
+<p>Let’s put those 5 million tonnes into context.</p>
+
+
+
+<p>The world generates around 350 million <a href="https://ourworldindata.org/grapher/plastic-waste-by-sector">tonnes of plastic waste</a> per year. That means that around 2% of waste is traded.<a id="ref-4" class="ref" href="#note-4"><sup>4</sup></a></p>
+
+
+
+<p>The remaining 98% is handled domestically. It’s sent to a landfill, recycled, or incinerated in the country where the waste was generated. The idea that <em>most</em> of the world’s plastic waste is shipped overseas is incorrect. One reason why this figure is so low is that it’s mostly recycled waste that’s traded, and only 20% of the world’s plastic is recycled.<a id="ref-5" class="ref" href="#note-5"><sup>5</sup></a></p>
+
+
+
+<p>Over the last decade, we’ve seen a large decline in the amount of plastic waste traded. Rates have fallen by two-thirds since 2010.</p>
+</div>
+
+
+
+<div class="wp-block-column">
+
+<div class="wp-sticky-container"><figure data-explorer-src="https://ourworldindata.org/explorers/plastic-pollution?time=2007..latest&amp;facet=none&amp;country=~OWID_WRL&amp;Metric=Waste+trade&amp;Per+capita=false&amp;Share+of+world+total=false&amp;Sub-metric=Exports&amp;hideControls=true" style="width: 100%; height: 600px; border: 0px none;"><div class="loading-indicator"><span style="border-color:#333"></span></div></figure></div></div>
+</div><h3 id="what-was-the-impact-of-the-chinese-ban-on-plastic-trade">What was the impact of the Chinese ban on plastic trade?<a class="deep-link" href="#what-was-the-impact-of-the-chinese-ban-on-plastic-trade"></a></h3><div class="wp-block-columns is-style-side-by-side">
+<div class="wp-block-column">
+<p>Policies in China toward plastic trade have had a large impact on the global change shown in the previous chart.</p>
+
+
+
+<p>In 2016, China was importing more than half of the world’s traded plastic waste. By 2018, this had plummeted to less than 1%. We see this in the chart.</p>
+
+
+
+<p>The reason for this dramatic decline was the Chinese government banning the import of most types of plastic waste in 2017. This was part of a broader policy decision to stop the import of 24 different types of solid waste including paper, textiles, and plastics. These bans were implemented as a result of environmental and health concerns from contaminated waste streams.</p>
+
+
+
+<p>This ban had two major impacts.<a id="ref-6" class="ref" href="#note-6"><sup>6</sup></a> The first was that the total volume of plastic trade globally dropped significantly – we saw earlier that global trade has halved since 2017. The second was that other countries emerged to take China’s place as major importers. Most of them are also countries in Asia – Malaysia, Vietnam, Indonesia, the Philippines, and Turkey, <a href="https://ourworldindata.org/admin/explorers/preview/plastic-pollution?time=earliest..2018&amp;facet=none&amp;country=MYS~IDN~TUR~VNM&amp;Metric=Waste+trade&amp;Sub-metric=Imports&amp;Per+capita=false&amp;Share+of+world+total=false">started to import</a> much more plastic than in previous years.</p>
+</div>
+
+
+
+<div class="wp-block-column"></div>
+</div><div class="wp-block-columns is-style-side-by-side">
+<div class="wp-block-column">
+<figure data-explorer-src="https://ourworldindata.org/explorers/plastic-pollution?time=2007..latest&amp;facet=none&amp;country=~CHN&amp;Metric=Waste+trade&amp;Per+capita=false&amp;Share+of+world+total=false&amp;Sub-metric=Imports&amp;hideControls=true" style="width: 100%; height: 600px; border: 0px none;"><div class="loading-indicator"><span style="border-color:#333"></span></div></figure>
+</div>
+
+
+
+<div class="wp-block-column">
+<figure data-explorer-src="https://ourworldindata.org/explorers/plastic-pollution?time=2007..2018&amp;facet=none&amp;country=MYS~TUR~VNM~IDN&amp;Metric=Waste+trade&amp;Per+capita=false&amp;Share+of+world+total=false&amp;Sub-metric=Imports&amp;hideControls=true" style="width: 100%; height: 600px; border: 0px none;"><div class="loading-indicator"><span style="border-color:#333"></span></div></figure>
+</div>
+</div><h3 id="most-plastic-waste-is-traded-within-world-regions-rather-than-between-them">Most plastic waste is traded within world regions, rather than between them<a class="deep-link" href="#most-plastic-waste-is-traded-within-world-regions-rather-than-between-them"></a></h3><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<p>Where does plastic waste flow across the world?</p>
+
+
+
+<p>Europe is the region that exports the most plastic, but it’s also the region that imports the most.</p>
+
+
+
+<p>This is true more generally. Most plastic is traded <em>within</em> a given region. European countries export most plastic to other European countries. Asian countries export most to other Asian countries.</p>
+
+
+
+<p>In the visualization, we see the flow of plastic across the world.<a id="ref-7" class="ref" href="#note-7"><sup>7</sup></a> On the left we have the exporters of plastic waste; on the right, we see where that plastic ends up. The height of each bar is proportional to the amount of plastic that is traded.</p>
+
+
+
+<p>Europe is the biggest exporter of plastic. But, it’s also the biggest importer. Many countries across Europe trade with one another. At the national level, Germany is the biggest exporter <em>and</em> importer – it trades different plastics with its neighbors including the Netherlands, Poland, Austria, and Switzerland.<a id="ref-8" class="ref" href="#note-8"><sup>8</sup></a></p>
+
+
+
+<p>This is also true of Asia, where Japan is the biggest exporter to other countries in Asia.</p>
+
+
+
+
+</div>
+
+
+
+<div class="wp-block-column">
+
+<div class="wp-sticky-container"><figure class="wp-block-image size-full"><img loading="lazy" width="1843" height="1410" src="https://ourworldindata.org/uploads/2022/10/Plastic-waste-trade-sankey.png" alt="Plastic waste trade sankey" class="wp-image-53406" srcset="https://ourworldindata.org/uploads/2022/10/Plastic-waste-trade-sankey.png 1843w, https://ourworldindata.org/uploads/2022/10/Plastic-waste-trade-sankey-400x306.png 400w, https://ourworldindata.org/uploads/2022/10/Plastic-waste-trade-sankey-719x550.png 719w, https://ourworldindata.org/uploads/2022/10/Plastic-waste-trade-sankey-150x115.png 150w, https://ourworldindata.org/uploads/2022/10/Plastic-waste-trade-sankey-768x588.png 768w, https://ourworldindata.org/uploads/2022/10/Plastic-waste-trade-sankey-1536x1175.png 1536w" sizes="(max-width: 1843px) 100vw, 1843px" data-high-res-src="https://ourworldindata.org/uploads/2022/10/Plastic-waste-trade-sankey.png"></figure></div></div>
+</div><h3 id="do-rich-countries-export-most-of-their-plastic-waste-overseas">Do rich countries export most of their plastic waste overseas?<a class="deep-link" href="#do-rich-countries-export-most-of-their-plastic-waste-overseas"></a></h3><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<p>Many people think that rich countries ship <em>most</em> of their plastic waste overseas. But is this really true?</p>
+
+
+
+<p>The short answer is no: many countries export some of their waste, but they still handle most of it domestically.</p>
+
+
+
+<p>Let’s take the example of the UK. In 2010, <a href="https://ourworldindata.org/grapher/plastic-waste-generation-total">it generated</a> an estimated 4.93 million tonnes of plastic waste.<a id="ref-9" class="ref" href="#note-9"><sup>9</sup></a> It exported 838,000 tonnes overseas.&nbsp;</p>
+
+
+
+<p>That means it exported about 17% of its plastic waste. That’s a substantial fraction – nearly one-fifth of it.</p>
+
+
+
+<p>This data is for 2010, a year with good high-quality estimates of plastic waste generation. It’s still likely to be a reasonable estimate today. If anything, this share might have declined slightly, because waste exports have not increased, and waste generation probably has.</p>
+
+
+
+<p>When it comes to the fraction of plastic waste that is exported, the UK is one of the largest exporters. For context, the US exported about 5% of its plastic waste in 2010. France exported 11%, and the Netherlands exported 14%. </p>
+
+
+
+<p>Most rich countries <em>are</em> net exporters of plastic waste. And this can be a significant fraction of their waste. But it’s not the case that they handle <em>most</em> of it by offshoring it to other countries.</p>
+</div>
+
+
+
+<div class="wp-block-column"><div class="wp-sticky-container"></div></div>
+</div><h3 id="how-much-do-rich-countries-contribute-to-plastic-pollution-through-their-exported-waste">How much do rich countries contribute to plastic pollution through their exported waste?<a class="deep-link" href="#how-much-do-rich-countries-contribute-to-plastic-pollution-through-their-exported-waste"></a></h3><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<p>This is the crucial question. While we don’t have an exact answer, we can give a plausible range.</p>
+
+
+
+<p>To give an exact answer we would need to trace each piece of plastic pollution back to its original source. But we can do some calculations to estimate how much plastic is at <em>higher risk</em> of entering the ocean because of this trade.&nbsp;</p>
+
+
+
+<p>In 2020, low-to-middle-income countries – where plastic waste was at a ‘higher risk’ of entering the ocean (because of poorer waste management systems) – imported around 1.6 million tonnes of plastic waste from rich countries. Here ‘rich countries’ include all countries in Europe and North America, plus Japan, Hong Kong, and OECD countries from other regions.<a id="ref-10" class="ref" href="#note-10"><sup>10</sup></a></p>
+
+
+
+<p>How much of this plastic ends up in the ocean?</p>
+
+
+
+<p>Again, we don’t know for sure. But we can run through a worst and best-case scenario.</p>
+
+
+
+<p>Here we will assume that all of this traded waste was ‘mismanaged’, meaning it was not formally managed and was either littered or dumped in open landfills. In reality, not all of it will be mismanaged, but let’s be conservative here.</p>
+
+
+
+<p>The <a href="https://ourworldindata.org/grapher/probability-mismanaged-plastic-ocean">probability that</a> mismanaged waste ends up in the ocean varies a lot by country.&nbsp;</p>
+
+
+
+<p>The country where the probability is highest is the Phillippines – an estimated 7% ends up in the ocean.<a id="ref-11" class="ref" href="#note-11"><sup>11</sup></a> We could imagine this being our ‘worst-case’ scenario: if rich countries exported <em>all</em> of their plastic trade to the Philippines, 7% of it might end up in the ocean. That would be 112,000 tonnes.<a id="ref-12" class="ref" href="#note-12"><sup>12</sup></a></p>
+
+
+
+<p>In a ‘best-case’ scenario, only around 1% of mismanaged waste would end up in the ocean. Most countries across the world have a risk of just under 1%. In Asia, this would be typical of countries such as Thailand and Cambodia. In this ‘best-case’ scenario, around 16,000 tonnes of ocean plastics each year would enter the ocean from trade.<a id="ref-13" class="ref" href="#note-13"><sup>13</sup></a></p>
+
+
+
+<p>This gives us an upper and lower bound for the contribution of trade from rich countries. Since around <a href="https://ourworldindata.org/ocean-plastics">one million tonnes</a> of plastic enters the ocean each year, rich countries would contribute between 1.6% (in the best case) and 11% (in the worst case) of ocean plastics through shipping waste overseas.<a id="ref-14" class="ref" href="#note-14"><sup>14</sup></a></p>
+
+
+
+<p>The true figure probably falls somewhere in between. A reasonable estimate might be around 5% of ocean plastics. In reality, it might be a bit lower because a tonne of waste that is bought and traded is more likely to be managed well than the average tonne of waste in a country.</p>
+
+
+
+<p><strong>I estimate that a few percent of ocean plastics could result from trade from rich countries. A figure as high as 5% would not be unreasonable.</strong></p>
+</div>
+
+
+
+<div class="wp-block-column"><div class="wp-sticky-container"></div></div>
+</div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="ending-plastic-trade-would-only-do-a-bit-to-reduce-plastic-pollution-what-is-needed-are-better-waste-management-systems">Ending plastic trade would only do a bit to reduce plastic pollution – what is needed are better waste-management systems<a class="deep-link" href="#ending-plastic-trade-would-only-do-a-bit-to-reduce-plastic-pollution-what-is-needed-are-better-waste-management-systems"></a></h4></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<p>Stopping exports of plastic waste to countries with poor waste management would help to tackle ocean pollution.&nbsp;</p>
+
+
+
+<p>If rich countries banned the export of plastic waste to these countries, we might reduce plastic pollution a bit: perhaps up to 5%.</p>
+
+
+
+<p>But, an end to trade won’t stop plastic pollution. Only a small fraction of the world’s plastic waste is traded – under 2%. And most – two-thirds of it – ends up in richer countries, where it’s very unlikely to end up in the ocean.</p>
+
+
+
+<p>There are obvious reasons to reduce these exports beyond the plastic pollution problem. Countries <a href="https://www.bbc.co.uk/news/world-48444874">have been guilty</a> of exporting contaminated recycling plastic packages – one of the drivers for countries to ban plastic imports. This is unacceptable: poorer countries are not a dumping ground for the rich.</p>
+
+
+
+<p>Most of the world’s waste is handled domestically and most of the waste that enters the oceans stems from these countries. To really tackle the problem we need to do two things: scale waste management systems in rich countries; the fact that they are exporting waste overseas suggests they have under-invested in practices at home; and, importantly, improve waste management infrastructure and practices in low-to-middle-income countries, as this is where most plastic pollution originates.</p>
+</div>
+
+
+
+<div class="wp-block-column">
+
+<div class="wp-sticky-container"><figure data-explorer-src="https://ourworldindata.org/explorers/plastic-pollution?time=latest&amp;facet=none&amp;Metric=Waste+trade&amp;Per+capita=false&amp;Share+of+world+total=true&amp;Sub-metric=Imports&amp;country=Low-income+countries~High-income+countries~Lower-middle-income+countries~Upper-middle-income+countries&amp;hideControls=true" style="width: 100%; height: 600px; border: 0px none;"><div class="loading-indicator"><span style="border-color:#333"></span></div></figure></div></div>
+</div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><hr class="wp-block-separator"><h5>Keep reading at <em>Our World in Data</em>…</h5><div class="block-wrapper"><div class="wp-block-owid-prominent-link with-image" data-no-lightbox="true" data-style="is-style-thin" data-title="Plastic Pollution"><a href="https://ourworldindata.org/plastic-pollution"><figure><img src="https://ourworldindata.org/uploads/2019/09/Pathway-of-plastic-to-ocean-150x92.png" data-high-res-src="https://ourworldindata.org/uploads/2019/09/Pathway-of-plastic-to-ocean.png" alt="Pathway of plastic to ocean" loading="lazy"></figure><div class="content-wrapper"><div class="title"><span>Plastic Pollution</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></div></div></a></div></div><div class="block-wrapper"><div class="wp-block-owid-prominent-link with-image" data-no-lightbox="true" data-style="is-style-thin" data-title="Where does the plastic in our oceans come from?"><a href="https://ourworldindata.org/ocean-plastics"><figure><img src="https://ourworldindata.org/uploads/2021/04/ocean-plastic-thumbnail-150x79.png" data-high-res-src="https://ourworldindata.org/uploads/2021/04/ocean-plastic-thumbnail.png" alt="Ocean plastic thumbnail" loading="lazy"></figure><div class="content-wrapper"><div class="title"><span>Where does the plastic in our oceans come from?</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></div></div></a></div></div><div class="block-wrapper"><div class="wp-block-owid-prominent-link with-image" data-no-lightbox="true" data-style="is-style-thin" data-title="Global plastics production"><a href="https://ourworldindata.org/grapher/global-plastics-production" target="_blank"><figure><img src="https://ourworldindata.org/grapher/exports/global-plastics-production.svg" alt="Global plastics production" loading="lazy"></figure><div class="content-wrapper"><div class="title"><span>Global plastics production</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></div></div></a></div></div><h5>Acknowledgments</h5><p>Many thanks to Max Roser, Edouard Mathieu, and Bastian Herre for feedback and suggestions on this article.</p></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+</div><footer class="article-footer"><div class="wp-block-columns"><div class="wp-block-column"><h3 id="endnotes" class="h3-bold">Endnotes</h3><ol class="endnotes"><li id="note-1"><p>It’s estimated that around 70% to 80% of the plastic in the ocean comes from land. The other 20% to 30% comes from marine sources, such as fishing nets and lines.<br><br>In some parts of the ocean, the contribution of marine sources is higher. For example, it’s estimated that up to 52% of the plastic mass in the ‘Great Pacific Garbage Patch’ is plastic lines, ropes, and fishing nets.<br><br>Li, W. C., Tse, H. F., &amp; Fok, L. (2016). <a href="https://www.sciencedirect.com/science/article/pii/S0048969716310154">Plastic waste in the marine environment: A review of sources, occurrence and effects</a>. <em>Science of the Total Environment</em>, 566, 333-349.</p>
+
+
+
+<p>Lebreton, L., Slat, B., Ferrari, F., Sainte-Rose, B., Aitken, J., Marthouse, R., … &amp; Noble, K. (2018). <a href="https://www.nature.com/articles/s41598-018-22939-w">Evidence that the Great Pacific Garbage Patch is rapidly accumulating plastic</a>. <em>Scientific Reports</em>, 8(1), 4666.</p></li><li id="note-2"><p>One of the most recent estimates from Meijer et al. (2021) estimates that 81% of plastic waste that is emitted to the ocean comes from Asia.</p>
+
+
+
+<p>An earlier study, by Lebreton et al. (2017), estimated a similar figure of 86% coming from Asian rivers.</p>
+
+
+
+<p>Meijer, J.J.L, Emmerik, T., Ent, R., Schmidt, C., Lebreton, L. (2021). <a href="https://advances.sciencemag.org/content/7/18/eaaz5803">More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean</a>. <em>Science Advances</em>.</p>
+
+
+
+<p>Lebreton, L. C., Van der Zwet, J., Damsteeg, J. W., Slat, B., Andrady, A., &amp; Reisser, J. (2017). <a href="https://www.nature.com/articles/ncomms15611">River plastic emissions to the world’s oceans</a>. <em>Nature Communications</em>, 8, 15611.</p></li><li id="note-3"><p>Here I’m using data on plastic trade from the <a href="https://comtrade.un.org/data/">UN Comtrade Database</a>. Data is sourced from the commodity category: ‘3915 – Waste, parings, and scrap, of plastics’.</p></li><li id="note-4"><p>5 million is 2% of 350 million.</p></li><li id="note-5"><p>Geyer, R., Jambeck, J. R., &amp; Law, K. L. (2017). <a href="https://www.science.org/doi/10.1126/sciadv.1700782">Production, use, and fate of all plastics ever made</a>. <em>Science Advances</em>, 3(7), e1700782.</p></li><li id="note-6"><p>Wen, Z., Xie, Y., Chen, M., &amp; Dinga, C. D. (2021). <a href="https://www.nature.com/articles/s41467-020-20741-9">China’s plastic import ban increases prospects of environmental impact mitigation of plastic waste trade flow worldwide</a>. <em>Nature Communications</em>, 12(1), 1-9.</p>
+
+
+
+<p>Brooks, A. L., Wang, S., &amp; Jambeck, J. R. (2018). <a href="https://www.science.org/doi/10.1126/sciadv.aat0131">The Chinese import ban and its impact on global plastic waste trade</a>. <em>Science Advances</em>, 4(6).</p></li><li id="note-7"><p>This is based on data from the OECD report:</p>
+
+
+
+<p>Brown, A., F. Laubinger and P. Börkey (2022), “<a href="https://www.oecd-ilibrary.org/environment/monitoring-trade-in-plastic-waste-and-scrap_8f3e9c56-en">Monitoring trade in plastic waste and scrap</a>“, OECD Environment Working Papers, No. 194, OECD Publishing, Paris.</p></li><li id="note-8"><p>Brown, A., F. Laubinger and P. Börkey (2022), “<a href="https://www.oecd-ilibrary.org/environment/monitoring-trade-in-plastic-waste-and-scrap_8f3e9c56-en">Monitoring trade in plastic waste and scrap</a>“, OECD Environment Working Papers, No. 194, OECD Publishing, Paris.</p></li><li id="note-9"><p>Jambeck, J. R., Geyer, R., Wilcox, C., Siegler, T. R., Perryman, M., Andrady, A., … &amp; Law, K. L. (2015). Plastic waste inputs from land into the ocean. Science, 347(6223), 768-771.</p></li><li id="note-10"><p>A <a href="https://www.oecd-ilibrary.org/environment/monitoring-trade-in-plastic-waste-and-scrap_8f3e9c56-en">report by the OECD</a> provides a summary of trade flows of plastic waste across the world. We saw this in the Sankey diagram, earlier in the post. The authors use data from the <a href="https://comtradeplus.un.org/">UN Comtrade database</a> to calculate these figures.</p>
+
+
+
+<p>From these figures, we see that in 2020, non-OECD countries in Asia imported around 1.9 million tonnes of plastic waste. ‘Rest of the World’, which in this case is mostly lower-income countries across Africa and South America imported 0.12 million tonnes, and China also imported 0.12 million tonnes. Combined, these low-to-middle-income countries imported 2.14 million tonnes.</p>
+
+
+
+<p>0.57 million tonnes of this came from countries <em>within</em> this group i.e. low-to-middle-income countries.</p>
+
+
+
+<p>That leaves around 1.6 million tonnes that come from richer countries, which is the sum of Europe, North America, Hong Kong, and Japan.</p></li><li id="note-11"><p>This estimate comes from the work of Meijer et al. (2021), published in <em>Science Advances</em>.</p>
+
+
+
+<p>Meijer, L. J., van Emmerik, T., van der Ent, R., Schmidt, C., &amp; Lebreton, L. (2021). <a href="https://www.science.org/doi/10.1126/sciadv.aaz5803">More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean</a>. Science Advances, 7(18), eaaz5803.</p></li><li id="note-12"><p>We can calculate this as 7% of 1.6 million tonnes, which is around 112,000 tonnes.</p></li><li id="note-13"><p>We can calculate this figure as 1% of 1.6 million tonnes, which gives us 16,000 tonnes.</p></li><li id="note-14"><p>Meijer et al. (2021) estimate that around 1 million tonnes of plastic are emitted into the oceans each year. They put the uncertainty range on this between 0.8 and 2.6 million tonnes.</p>
+
+
+
+<p>Meijer, J.J.L, Emmerik, T., Ent, R., Schmidt, C., Lebreton, L. (2021). <a href="https://advances.sciencemag.org/content/7/18/eaaz5803">More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean</a>. <em>Science Advances</em>.</p>
+
+
+
+<p>We get these figures by calculating 16,000 and 112,000 tonnes as a share of 1 million. That comes to 1.6% and 11%.</p></li></ol><h3 id="licence" class="h3-bold">Reuse our work freely</h3><p>All visualizations, data, and code produced by Our World in Data are completely open access under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons BY license</a>. You have the permission to use, distribute, and reproduce these in any medium, provided the source and authors are credited.</p><p>The data produced by third parties and made available by Our World in Data is subject to the license terms from the original third-party authors. We will always indicate the original source of the data in our documentation, so you should always check the license of any such third-party data before use and redistribution.</p><p>All of <a href="/how-to-use-our-world-in-data#how-to-embed-interactive-charts-in-your-article">our charts can be embedded</a> in any site.</p></div><div class="wp-block-column"></div></div></footer></div></div></div></article></main><div id="wpadminbar" style="display:none"><div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar"><ul id="wp-admin-bar-root-default" class="ab-top-menu"><li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="https://owid.cloud/wp/wp-admin">Wordpress</a></li> <li id="wp-admin-bar-edit"><a class="ab-item" href="https://owid.cloud/wp/wp-admin/post.php?post=53401&amp;action=edit">Edit Page</a></li></ul></div></div><section class="donate-footer"><div class="wrapper"><div class="owid-row flex-align-center"><div class="owid-col owid-col--lg-3 owid-padding-bottom--sm-3"><p>Our World in Data is free and accessible for everyone.</p><p>Help us do this work by making a donation.</p></div><div class="owid-col owid-col--lg-1"><a href="/donate" class="owid-button donate-button" data-track-note="donate-footer"><span class="label">Donate now</span><span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg></span></a></div></div></div></section><footer class="site-footer"><div class="wrapper"><div class="owid-row"><div class="owid-col owid-col--lg-1"><ul><li><a href="/about" data-track-note="footer-navigation">About</a></li><li><a href="/about#contact" data-track-note="footer-navigation">Contact</a></li><li><a href="/feedback" data-track-note="footer-navigation">Feedback</a></li><li><a href="/jobs" data-track-note="footer-navigation">Jobs</a></li><li><a href="/funding" data-track-note="footer-navigation">Funding</a></li><li><a href="/about/how-to-use-our-world-in-data" data-track-note="footer-navigation">How to use</a></li><li><a href="/donate" data-track-note="footer-navigation">Donate</a></li><li><a href="/privacy-policy" data-track-note="footer-navigation">Privacy policy</a></li></ul></div><div class="owid-col owid-col--lg-1"><ul><li><a href="/blog" data-track-note="footer-navigation">Latest work</a></li><li><a href="/charts" data-track-note="footer-navigation">All charts</a></li></ul><ul><li><a href="https://twitter.com/OurWorldInData" data-track-note="footer-navigation">Twitter</a></li><li><a href="https://www.facebook.com/OurWorldinData" data-track-note="footer-navigation">Facebook</a></li><li><a href="https://www.instagram.com/ourworldindata/" data-track-note="footer-navigation">Instagram</a></li><li><a href="https://github.com/owid" data-track-note="footer-navigation">GitHub</a></li><li><a href="/feed" data-track-note="footer-navigation">RSS Feed</a></li></ul></div><div class="owid-col owid-col--lg-1"><div class="logos"><a href="https://www.oxfordmartin.ox.ac.uk/global-development" class="partner-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/oms-logo.svg" alt="Oxford Martin School logo" loading="lazy"/></a><a href="/owid-at-ycombinator" class="partner-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/yc-logo.png" alt="Y Combinator logo" loading="lazy"/></a></div></div><div class="owid-col flex-2"><div class="legal"><p>Licenses: All visualizations, data, and articles produced by Our World in Data are open access under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons BY license</a>. You have permission to use, distribute, and reproduce these in any medium, provided the source and authors are credited. All the software and code that we write is open source and made available via GitHub under the permissive <a href="https://github.com/owid/owid-grapher/blob/master/LICENSE.md " target="_blank" rel="noopener noreferrer">MIT license</a>. All other material, including data produced by third parties and made available by Our World in Data, is subject to the license terms from the original third-party authors.</p><p>Please consult our full <a href="/about#legal">legal disclaimer</a>.</p><p><a href="https://global-change-data-lab.org/" class="partner-logo gcdl-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/gcdl-logo.svg" alt="Global Change Data Lab logo" loading="lazy"/></a>Our World In Data is a project of the <a href="https://global-change-data-lab.org/">Global Change Data Lab</a>, a registered charity in England and Wales (Charity Number 1186433).</p></div></div></div></div><div class="site-tools"></div><script src="https://polyfill.io/v3/polyfill.min.js?features=es6,fetch,URL,IntersectionObserver,IntersectionObserverEntry,ResizeObserver"></script><script src="https://ourworldindata.org/assets/commons.js"></script><script src="https://ourworldindata.org/assets/vendors.js"></script><script src="https://ourworldindata.org/assets/owid.js"></script><script>window.runSiteFooterScripts()</script></footer><script>
+                        runTableOfContents({"headings":[],"pageTitle":"Ocean plastics: How much do rich countries contribute by shipping their waste overseas?"})
+                        runRelatedCharts(undefined)
+                        </script></body></html>

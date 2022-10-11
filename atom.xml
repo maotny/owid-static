@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2022-10-11T09:26:00.000Z</updated>
+<updated>2022-10-11T09:50:00.000Z</updated>
+<entry>
+            <title><![CDATA[Ocean plastics: How much do rich countries contribute by shipping their waste overseas?]]></title>
+            <id>https://ourworldindata.org/plastic-waste-trade</id>
+            <link rel="alternate" href="https://ourworldindata.org/plastic-waste-trade"/>
+            <published>2022-10-11T09:50:00.000Z</published>
+            <updated>2022-10-11T10:05:45.000Z</updated>
+            <author><name>Hannah Ritchie</name></author>
+            <summary><![CDATA[Many countries ship plastic waste overseas. How much of the world’s waste is traded, and how big is its role in the pollution of our oceans?<br><br><a href="https://ourworldindata.org/plastic-waste-trade" target="_blank"><img src="https://ourworldindata.org/app/uploads/2022/10/Plastic-waste-trade-featured-image-768x402.png"/></a>]]></summary>
+            </entry>
 <entry>
             <title><![CDATA[We just launched our data explorer on Plastic Waste & Trade]]></title>
             <id>https://ourworldindata.org/plastic-explorer-launch</id>
@@ -86,14 +95,5 @@
             <updated>2022-07-11T15:34:10.000Z</updated>
             <author><name>Lucas Rodés-Guirao</name></author><author><name>Marcel Gerber</name></author><author><name>Edouard Mathieu</name></author><author><name>Hannah Ritchie</name></author>
             <summary><![CDATA[Explore data on population, fertility rates, life expectancy, deaths and other demographic data across the world.<br><br><a href="https://ourworldindata.org/population-explorer-launch" target="_blank"><img src="https://ourworldindata.org/app/uploads/2022/07/Population-Data-Explorer-768x403.png"/></a>]]></summary>
-            </entry>
-<entry>
-            <title><![CDATA[Guinea worm disease is close to being eradicated – how was this progress achieved?]]></title>
-            <id>https://ourworldindata.org/guinea-worm-path-eradication</id>
-            <link rel="alternate" href="https://ourworldindata.org/guinea-worm-path-eradication"/>
-            <published>2022-07-07T09:00:00.000Z</published>
-            <updated>2022-09-19T20:15:45.000Z</updated>
-            <author><name>Saloni Dattani</name></author><author><name>Fiona Spooner</name></author>
-            <summary><![CDATA[In the late 1980s, there were near a million new cases of guinea worm disease recorded worldwide. In 2021, there were only 15. How was this achieved?<br><br><a href="https://ourworldindata.org/guinea-worm-path-eradication" target="_blank"><img src="https://ourworldindata.org/app/uploads/2018/10/Guinea-worm-eradication-thumbnail-768x381.png"/></a>]]></summary>
             </entry>
 </feed>
