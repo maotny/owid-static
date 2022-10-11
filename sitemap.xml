@@ -6066,7 +6066,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/national-poverty-lines-vs-gdp-per-capita</loc>
-        <lastmod>2022-09-22</lastmod>
+        <lastmod>2022-10-11</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/nominal-wages-consumer-prices-and-real-wages-in-the-uk-since-1750</loc>
@@ -9650,7 +9650,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-homicide-deaths</loc>
-        <lastmod>2022-10-04</lastmod>
+        <lastmod>2022-10-11</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/internally-displaced-persons-from-disasters</loc>
@@ -17326,7 +17326,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/mean-daily-expenditure-per-capita-vs-national-poverty-line</loc>
-        <lastmod>2022-09-20</lastmod>
+        <lastmod>2022-10-11</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-elec-by-source</loc>
@@ -17414,7 +17414,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/median-daily-expenditure-per-capita-vs-national-poverty-line</loc>
-        <lastmod>2022-09-20</lastmod>
+        <lastmod>2022-10-11</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/coal-electricity-per-capita</loc>
@@ -22358,6 +22358,22 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe</loc>
+        <lastmod>2022-10-11</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/number-of-homicide-deaths-ghe</loc>
+        <lastmod>2022-10-11</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/homicide-rate-ghe</loc>
+        <lastmod>2022-10-11</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/number-of-deaths-from-suicide-ghe</loc>
+        <lastmod>2022-10-11</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-suicides-ghe</loc>
         <lastmod>2022-10-11</lastmod>
     </url>
     <url>
