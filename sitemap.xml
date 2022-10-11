@@ -21994,7 +21994,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-cardiovascular-disease</loc>
-        <lastmod>2022-10-05</lastmod>
+        <lastmod>2022-10-11</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-from-cardiovascular-disease</loc>
@@ -22303,6 +22303,18 @@
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-tuberculosis-ghe</loc>
         <lastmod>2022-10-10</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/deaths-from-cardiovascular-disease-ghe</loc>
+        <lastmod>2022-10-11</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-cardiovascular-disease-ghe</loc>
+        <lastmod>2022-10-11</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/deaths-from-strokes-ghe</loc>
+        <lastmod>2022-10-11</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/explorers/air-pollution</loc>
