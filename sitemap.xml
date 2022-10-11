@@ -22058,7 +22058,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-diabetes-gbd</loc>
-        <lastmod>2022-10-05</lastmod>
+        <lastmod>2022-10-11</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-alzheimers-other-dementias-gbd</loc>
@@ -22314,6 +22314,18 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-from-strokes-ghe</loc>
+        <lastmod>2022-10-11</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-strokes-ghe</loc>
+        <lastmod>2022-10-11</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/deaths-from-diabetes-ghe</loc>
+        <lastmod>2022-10-11</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/death-rate-from-diabetes-ghe</loc>
         <lastmod>2022-10-11</lastmod>
     </url>
     <url>
