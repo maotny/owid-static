@@ -19557,10 +19557,6 @@
         <lastmod>2022-05-09</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/number-of-people-directly-affected-by-natural-disasters</loc>
-        <lastmod>2022-07-29</lastmod>
-    </url>
-    <url>
         <loc>https://ourworldindata.org/grapher/electronic-waste-recycling-rate</loc>
         <lastmod>2022-07-29</lastmod>
     </url>
@@ -22650,6 +22646,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/explorers/poverty-explorer-2011-vs-2017-ppp</loc>
+        <lastmod>2022-10-12</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/explorers/poverty-explorer-2011-vs-2017-prices</loc>
         <lastmod>2022-10-12</lastmod>
     </url>
     <url>
