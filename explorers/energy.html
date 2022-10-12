@@ -1131,13 +1131,12 @@ const grapherConfigs =
   },
   {
     "id": 4293,
-    "version": 14,
+    "version": 15,
     "slug": "fossil-fuels-share-energy",
     "title": "Share of primary energy from fossil fuels",
     "note": "Primary energy is calculated using the 'substitution method' which takes account of the inefficiencies energy production from fossil fuels.",
     "hideTitleAnnotation": true,
     "hasMapTab": true,
-    "tab": "map",
     "originUrl": "ourworldindata.org/energy",
     "isPublished": true,
     "yAxis": {
@@ -1148,12 +1147,16 @@ const grapherConfigs =
       "binningStrategy": "equalInterval"
     },
     "map": {
+      "time": "latest",
       "colorScale": {
         "baseColorScheme": "YlOrBr",
         "binningStrategy": "manual",
         "customNumericMinValue": 0,
         "customNumericValues": [
-          25,
+          10,
+          20,
+          30,
+          40,
           50,
           60,
           70,
@@ -1162,6 +1165,8 @@ const grapherConfigs =
           100
         ],
         "customNumericColors": [
+          null,
+          null,
           null,
           null
         ]
@@ -1182,9 +1187,13 @@ const grapherConfigs =
       }
     ],
     "selectedEntityNames": [
-      "Taiwan",
-      "Poland",
-      "Denmark"
+      "United States",
+      "Japan",
+      "Canada",
+      "France",
+      "Italy",
+      "Germany",
+      "United Kingdom"
     ],
     "selectedEntityIds": [
       198,
@@ -1194,13 +1203,12 @@ const grapherConfigs =
   },
   {
     "id": 4294,
-    "version": 15,
+    "version": 16,
     "slug": "nuclear-primary-energy",
     "title": "Share of primary energy from nuclear",
     "note": "Primary energy is calculated using the 'substitution method' which takes account of the inefficiencies energy production from fossil fuels.",
     "hideTitleAnnotation": true,
     "hasMapTab": true,
-    "tab": "map",
     "originUrl": "ourworldindata.org/energy",
     "isPublished": true,
     "yAxis": {
@@ -1215,13 +1223,13 @@ const grapherConfigs =
         "baseColorScheme": "BuPu",
         "binningStrategy": "manual",
         "customNumericValues": [
-          2.5,
+          1,
+          2,
           5,
           10,
           20,
-          30,
-          40,
-          50
+          50,
+          100
         ],
         "customNumericColors": [
           null
@@ -1243,9 +1251,13 @@ const grapherConfigs =
       }
     ],
     "selectedEntityNames": [
-      "Peru",
-      "Oman",
-      "Argentina"
+      "Germany",
+      "Italy",
+      "France",
+      "United Kingdom",
+      "Japan",
+      "Canada",
+      "United States"
     ],
     "selectedEntityIds": [
       97,
