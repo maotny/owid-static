@@ -18678,7 +18678,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/per-capita-ocean-plastic-waste</loc>
-        <lastmod>2022-10-06</lastmod>
+        <lastmod>2022-10-12</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/mismanaged-plastic-waste-per-capita</loc>
@@ -21298,15 +21298,15 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/annual-space-visits</loc>
-        <lastmod>2022-06-14</lastmod>
+        <lastmod>2022-10-12</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/cumulative-space-visits</loc>
-        <lastmod>2022-06-14</lastmod>
+        <lastmod>2022-10-12</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/cumulative-people-space</loc>
-        <lastmod>2022-06-14</lastmod>
+        <lastmod>2022-10-12</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/varieties-democracy-vdem</loc>
@@ -22643,6 +22643,10 @@
     <url>
         <loc>https://ourworldindata.org/explorers/population-and-demography</loc>
         <lastmod>2022-09-27</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/explorers/poverty-explorer-2011-vs-2017-ppp</loc>
+        <lastmod>2022-10-12</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/explorers/poverty-explorer</loc>
