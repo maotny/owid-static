@@ -1237,7 +1237,7 @@ const grapherConfigs =
   },
   {
     "id": 677,
-    "version": 14,
+    "version": 15,
     "slug": "child-mortality-rate-ihme",
     "title": "Child mortality rate",
     "subtitle": "The share of newborns who die before reaching the age of five.",
@@ -1255,19 +1255,20 @@ const grapherConfigs =
       "max": 0
     },
     "map": {
+      "time": 2019,
       "timeTolerance": 5,
       "colorScale": {
         "baseColorScheme": "BuPu",
         "binningStrategy": "manual",
         "customNumericValues": [
+          0.25,
           0.5,
           1,
           2.5,
           5,
-          7.5,
           10,
-          20,
-          30
+          25,
+          50
         ],
         "customNumericLabels": [
           "",
@@ -1280,6 +1281,7 @@ const grapherConfigs =
         ],
         "customNumericColors": [
           null,
+          null,
           null
         ],
         "legendDescription": "Child mortality rate (per 1,000 live births)"
@@ -1289,13 +1291,13 @@ const grapherConfigs =
     "dimensions": [
       {
         "property": "y",
-        "variableId": 104402
+        "variableId": 530898
       }
     ],
     "selectedEntityNames": [
-      "United Arab Emirates",
-      "North Macedonia",
-      "Saint Lucia"
+      "Spain",
+      "Denmark",
+      "Seychelles"
     ],
     "selectedEntityIds": [
       72,
@@ -4460,12 +4462,11 @@ const grapherConfigs =
   },
   {
     "id": 3772,
-    "version": 11,
+    "version": 12,
     "slug": "number-of-child-deaths",
     "title": "Number of child deaths",
-    "subtitle": "The number of deaths of children under five years old",
-    "sourceDesc": "Institute for Health Metrics and Evaluation (IHME)",
-    "note": "The source provides rounded figures in thousands – as such '0' here implies an estimate below 500 deaths.",
+    "subtitle": "The number of deaths of children under five years old.",
+    "sourceDesc": "IHME, Global Burden of Disease (2019)",
     "hideTitleAnnotation": true,
     "minTime": 1950,
     "maxTime": 2017,
@@ -4478,21 +4479,44 @@ const grapherConfigs =
       "max": 0
     },
     "map": {
+      "time": 2019,
       "colorScale": {
-        "binningStrategy": "equalInterval"
+        "baseColorScheme": "OrRd",
+        "binningStrategy": "manual",
+        "customNumericValues": [
+          1000,
+          3000,
+          10000,
+          30000,
+          100000,
+          300000,
+          1000000,
+          3000000,
+          10000000,
+          30000000
+        ],
+        "customNumericColors": [
+          null,
+          null,
+          null,
+          null
+        ]
       },
       "variableId": 105812
     },
     "dimensions": [
       {
         "property": "y",
-        "variableId": 105812
+        "variableId": 530891,
+        "display": {
+          "unit": "child deaths",
+          "numDecimalPlaces": 0,
+          "includeInTable": true
+        }
       }
     ],
     "selectedEntityNames": [
-      "Uzbekistan",
-      "Luxembourg",
-      "North Macedonia"
+      "Yemen"
     ],
     "selectedEntityIds": [
       355,
