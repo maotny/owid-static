@@ -1237,11 +1237,11 @@ const grapherConfigs =
   },
   {
     "id": 677,
-    "version": 15,
+    "version": 17,
     "slug": "child-mortality-rate-ihme",
     "title": "Child mortality rate",
     "subtitle": "The share of newborns who die before reaching the age of five.",
-    "sourceDesc": "IHME, Global Burden of Disease",
+    "sourceDesc": "IHME, Global Burden of Disease (2019)",
     "note": "The child mortality rate expresses the probability of a child born in a specific year or period dying before reaching the age of 5 years, if subject to age-specific mortality rates of that period. This is given as the share of live births.",
     "hideTitleAnnotation": true,
     "hasMapTab": true,
@@ -3919,14 +3919,12 @@ const grapherConfigs =
   },
   {
     "id": 3485,
-    "version": 6,
+    "version": 7,
     "slug": "neonatal-mortality-ihme",
     "title": "Neonatal mortality rate",
     "subtitle": "The share of newborns who die before reaching 28 days of age.",
-    "sourceDesc": "Institute for Health Metrics and Evaluation (IHME)",
+    "sourceDesc": "IHME, Global Burden of Disease (2019)",
     "hideTitleAnnotation": true,
-    "minTime": 1990,
-    "maxTime": 2016,
     "hasMapTab": true,
     "tab": "map",
     "variantName": "IHME",
@@ -3937,16 +3935,19 @@ const grapherConfigs =
       "max": 0
     },
     "map": {
+      "time": 2019,
       "colorScale": {
         "baseColorScheme": "OrRd",
         "binningStrategy": "manual",
         "customNumericValues": [
+          0.1,
+          0.25,
           0.5,
           1,
-          2,
-          3,
-          4,
-          5
+          2.5,
+          5,
+          10,
+          25
         ],
         "customNumericColors": [
           null,
@@ -3959,22 +3960,14 @@ const grapherConfigs =
     "dimensions": [
       {
         "property": "y",
-        "variableId": 96526,
-        "display": {
-          "name": "Neonatal mortality",
-          "unit": "%",
-          "conversionFactor": 0.1,
-          "includeInTable": true
-        }
+        "variableId": 530904
       }
     ],
     "selectedEntityNames": [
-      "Bangladesh",
-      "Cyprus",
-      "Namibia",
-      "India",
-      "United States",
-      "Democratic Republic of Congo"
+      "Uzbekistan",
+      "Qatar",
+      "Ethiopia",
+      "Afghanistan"
     ],
     "selectedEntityIds": [
       28,
@@ -4462,14 +4455,13 @@ const grapherConfigs =
   },
   {
     "id": 3772,
-    "version": 12,
+    "version": 13,
     "slug": "number-of-child-deaths",
     "title": "Number of child deaths",
     "subtitle": "The number of deaths of children under five years old.",
     "sourceDesc": "IHME, Global Burden of Disease (2019)",
     "hideTitleAnnotation": true,
     "minTime": 1950,
-    "maxTime": 2017,
     "hasMapTab": true,
     "tab": "map",
     "originUrl": "ourworldindata.org/child-mortality",
@@ -4516,7 +4508,9 @@ const grapherConfigs =
       }
     ],
     "selectedEntityNames": [
-      "Yemen"
+      "Yemen",
+      "Afghanistan",
+      "India"
     ],
     "selectedEntityIds": [
       355,
@@ -4586,14 +4580,12 @@ const grapherConfigs =
   },
   {
     "id": 3799,
-    "version": 12,
+    "version": 14,
     "slug": "number-of-neonatal-deaths-ihme",
     "title": "Number of neonatal deaths",
     "subtitle": "Number of newborns dying before reaching 28 days of age.",
     "sourceDesc": "IHME, Global Burden of Disease (2019)",
     "hideTitleAnnotation": true,
-    "minTime": 1990,
-    "maxTime": 2019,
     "hasMapTab": true,
     "tab": "map",
     "originUrl": "https://ourworldindata.org/child-mortality",
@@ -4603,9 +4595,13 @@ const grapherConfigs =
       "max": 0
     },
     "map": {
+      "time": 2019,
       "colorScale": {
+        "baseColorScheme": "OrRd",
         "binningStrategy": "manual",
         "customNumericValues": [
+          5000,
+          10000,
           25000,
           50000,
           100000,
@@ -4615,6 +4611,8 @@ const grapherConfigs =
           2500000
         ],
         "customNumericColors": [
+          null,
+          null,
           null
         ]
       },
@@ -4623,17 +4621,17 @@ const grapherConfigs =
     "dimensions": [
       {
         "property": "y",
-        "variableId": 418553,
+        "variableId": 530895,
         "display": {
-          "unit": "deaths",
+          "numDecimalPlaces": 0,
           "includeInTable": true
         }
       }
     ],
     "selectedEntityNames": [
-      "United States",
-      "Bahrain",
-      "Venezuela"
+      "Honduras",
+      "Italy",
+      "Saint Kitts and Nevis"
     ],
     "selectedEntityIds": [
       31,
