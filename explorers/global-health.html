@@ -657,10 +657,10 @@ const grapherConfigs =
   },
   {
     "id": 421,
-    "version": 14,
+    "version": 15,
     "slug": "child-deaths-igme-data",
     "title": "Number of child deaths",
-    "subtitle": "The number of deaths of children under five years old",
+    "subtitle": "The number of deaths of children under five years old.",
     "hideTitleAnnotation": true,
     "minTime": 1960,
     "maxTime": 2020,
@@ -679,16 +679,18 @@ const grapherConfigs =
         "colorSchemeInvert": false,
         "binningStrategy": "manual",
         "customNumericValues": [
+          1000,
+          3000,
           10000,
-          25000,
-          50000,
+          30000,
           100000,
-          250000,
-          500000,
+          300000,
           1000000,
-          5000000
+          3000000,
+          10000000
         ],
         "customNumericColors": [
+          null,
           null,
           null
         ],
@@ -701,6 +703,7 @@ const grapherConfigs =
         "property": "y",
         "variableId": 446635,
         "display": {
+          "unit": "deaths",
           "numDecimalPlaces": 0,
           "includeInTable": true
         }
