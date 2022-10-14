@@ -1240,7 +1240,7 @@ const grapherConfigs =
   },
   {
     "id": 677,
-    "version": 17,
+    "version": 18,
     "slug": "child-mortality-rate-ihme",
     "title": "Child mortality rate",
     "subtitle": "The share of newborns who die before reaching the age of five.",
@@ -1261,17 +1261,19 @@ const grapherConfigs =
       "time": 2019,
       "timeTolerance": 5,
       "colorScale": {
-        "baseColorScheme": "BuPu",
+        "baseColorScheme": "OrRd",
         "binningStrategy": "manual",
         "customNumericValues": [
-          0.25,
+          0.1,
+          0.2,
           0.5,
           1,
-          2.5,
+          2,
           5,
           10,
-          25,
-          50
+          20,
+          50,
+          100
         ],
         "customNumericLabels": [
           "",
@@ -1480,7 +1482,7 @@ const grapherConfigs =
   },
   {
     "id": 712,
-    "version": 18,
+    "version": 19,
     "slug": "child-mortality-igme",
     "title": "Child mortality rate",
     "subtitle": "The share of newborns who die before reaching the age of five.",
@@ -1505,13 +1507,15 @@ const grapherConfigs =
         "binningStrategy": "manual",
         "customNumericMinValue": 0,
         "customNumericValues": [
+          0.1,
+          0.2,
           0.5,
           1,
           2,
           5,
           10,
           20,
-          30
+          50
         ],
         "customNumericLabels": [
           "",
@@ -1523,6 +1527,8 @@ const grapherConfigs =
           ""
         ],
         "customNumericColors": [
+          null,
+          null,
           null,
           null
         ],
