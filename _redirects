@@ -627,6 +627,7 @@
 /head-of-product-and-design /jobs 301!
 /population-and-demography /explorers/population-and-demography 301!
 /grapher/daily-covid-deaths-7-day /explorers/coronavirus-data-explorer?tab=map&zoomToSelection=true&facet=none&pickerSort=asc&pickerMetric=location&Metric=Confirmed+deaths&Interval=7-day+rolling+average&Relative+to+Population=false&Color+by+test+positivity=false&country=USA~GBR~CAN~DEU~ITA~IND&hideControls=true 301!
+/poverty-explorer-launch /explorer/poverty-explorer 301!
 /grapher/correlation-between-internet-usage-and-mean-years-of-schooling-2014 /grapher/correlation-between-internet-usage-and-mean-years-of-schooling 302!
 /grapher/correlation-between-child-mortality-and-mean-years-of-schooling-for-those-aged-15-and-older-2000 /grapher/correlation-between-child-mortality-and-mean-years-of-schooling-for-those-aged-15-and-older 302!
 /grapher/public-expenditure-on-education-as-share-of-national-gdp /grapher/public-education-expenditure-as-share-of-gdp 302!
