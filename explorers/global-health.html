@@ -20,7 +20,7 @@ const grapherConfigs =
 [
   {
     "id": 66,
-    "version": 13,
+    "version": 15,
     "slug": "maternal-mortality-rate-per-100000-live-births-around-the-world",
     "title": "Maternal mortality ratio",
     "subtitle": "The maternal mortality ratio is the number of women who die from pregnancy-related causes while pregnant or within 42 days of pregnancy termination per 100,000 live births.",
@@ -70,7 +70,7 @@ const grapherConfigs =
         "variableId": 446710,
         "display": {
           "name": "Maternal mortality ratio",
-          "unit": " per 100,000 live births",
+          "unit": "deaths per 100,000 live births",
           "shortUnit": "",
           "includeInTable": true
         }
@@ -2243,7 +2243,7 @@ const grapherConfigs =
   },
   {
     "id": 1375,
-    "version": 7,
+    "version": 8,
     "slug": "share-of-married-women-ages-15-49-years-whose-need-for-family-planning-is-satisfied",
     "title": "Share of married women whose need for family planning is satisfied with modern methods",
     "subtitle": "The share of married women aged 15-49 years who could satisfy their need for family planning through modern contraceptive methods.",
@@ -2281,7 +2281,11 @@ const grapherConfigs =
     "dimensions": [
       {
         "property": "y",
-        "variableId": 446651
+        "variableId": 446651,
+        "display": {
+          "unit": "% of married women with access to modern contraception",
+          "includeInTable": true
+        }
       }
     ],
     "selectedEntityNames": [
@@ -3122,12 +3126,13 @@ const grapherConfigs =
   },
   {
     "id": 2285,
-    "version": 12,
+    "version": 13,
     "slug": "art-coverage-for-pregnant-women",
     "title": "Share of pregnant women with HIV that receive antiretroviral therapy",
     "subtitle": "Antiretroviral medicine is used to prevent mother-to-child transmission of HIV.",
     "hideTitleAnnotation": true,
     "hasMapTab": true,
+    "tab": "map",
     "originUrl": "ourworldindata.org/hiv-aids",
     "isPublished": true,
     "yAxis": {
@@ -3156,7 +3161,11 @@ const grapherConfigs =
     "dimensions": [
       {
         "property": "y",
-        "variableId": 446669
+        "variableId": 446669,
+        "display": {
+          "unit": "% of pregnant women with HIV receiving antiretroviral therapy",
+          "includeInTable": true
+        }
       }
     ],
     "selectedEntityNames": [
@@ -3828,12 +3837,11 @@ const grapherConfigs =
   },
   {
     "id": 3482,
-    "version": 5,
+    "version": 6,
     "slug": "maternal-mortality-ihme",
     "title": "Maternal mortality ratio",
-    "subtitle": "The number of women who die from pregnancy-related causes per 100,000 live births.",
+    "subtitle": "The maternal mortality ratio is the number of women who die from pregnancy-related causes while pregnant or within 42 days of pregnancy termination per 100,000 live births.",
     "sourceDesc": "Institute for Health Metrics and Evaluation (IHME)",
-    "note": "A maternal death refers to the death of a woman while pregnant or within 42 days of termination of pregnancy. Included are deaths from any cause related to or aggravated by the pregnancy but not from accidental or incidental causes.",
     "hideTitleAnnotation": true,
     "minTime": 1990,
     "maxTime": 2016,
@@ -3852,13 +3860,14 @@ const grapherConfigs =
         "baseColorScheme": "YlOrRd",
         "binningStrategy": "manual",
         "customNumericValues": [
+          10,
+          25,
           50,
           100,
-          200,
-          300,
-          400,
+          250,
           500,
-          600
+          1000,
+          2500
         ],
         "customNumericColors": [
           null
@@ -4676,11 +4685,11 @@ const grapherConfigs =
   },
   {
     "id": 3872,
-    "version": 9,
+    "version": 10,
     "slug": "share-of-mothers-receiving-at-least-one-antenatal-visit-during-pregnancy",
     "title": "Share of mothers receiving at least one antenatal visit during pregnancy",
+    "subtitle": "An antenatal visit refers to antenatal care provided by skilled health personnel (doctors, nurses, or midwives).",
     "sourceDesc": "World Health Organization (WHO); UNICEF",
-    "note": "An antenatal visit refers to antenatal care provided by skilled health personnel (doctors, nurses, or midwives).",
     "hideTitleAnnotation": true,
     "minTime": 2006,
     "maxTime": 2014,
@@ -4717,11 +4726,11 @@ const grapherConfigs =
   },
   {
     "id": 3873,
-    "version": 9,
+    "version": 10,
     "slug": "share-of-mothers-receiving-at-least-four-antenatal-visits-during-pregnancy",
     "title": "Share of mothers receiving at least four antenatal visits during pregnancy",
+    "subtitle": "An antenatal visit refers to antenatal care provided by skilled health personnel (doctors, nurses, or midwives).",
     "sourceDesc": "World Health Organization (WHO); UNICEF",
-    "note": "An antenatal visit refers to antenatal care provided by skilled health personnel (doctors, nurses, or midwives).",
     "minTime": 1990,
     "maxTime": 2020,
     "hasMapTab": true,
