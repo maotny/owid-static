@@ -1396,9 +1396,9 @@ const grapherConfigs =
   },
   {
     "id": 703,
-    "version": 14,
+    "version": 15,
     "slug": "share-of-children-younger-than-5-who-suffer-from-stunting",
-    "title": "Malnutrition: Share of children that are stunted",
+    "title": "Malnutrition: Share of children who are stunted",
     "subtitle": "The share of children younger than five years old that are defined as stunted. Stunting is when a child is significantly shorter than the average for their age, as a consequence of poor nutrition and/or repeated infection.",
     "hideTitleAnnotation": true,
     "hasMapTab": true,
@@ -1417,9 +1417,7 @@ const grapherConfigs =
         "binningStrategy": "manual",
         "customNumericMinValue": 0,
         "customNumericValues": [
-          5,
           10,
-          15,
           20,
           30,
           40,
@@ -1441,6 +1439,10 @@ const grapherConfigs =
           ""
         ],
         "customNumericColorsActive": false,
+        "customNumericColors": [
+          null,
+          null
+        ],
         "legendDescription": "Prevalence of stunting (% of children under 5)"
       },
       "variableId": 446730
@@ -1450,7 +1452,7 @@ const grapherConfigs =
         "property": "y",
         "variableId": 446730,
         "display": {
-          "unit": "% of children under 5",
+          "unit": "% of children under five",
           "isProjection": false,
           "tolerance": 5,
           "includeInTable": true
@@ -3283,10 +3285,10 @@ const grapherConfigs =
   },
   {
     "id": 2836,
-    "version": 9,
+    "version": 10,
     "slug": "child-stunting-ihme",
     "title": "Malnutrition: Share of children who are stunted",
-    "subtitle": "The share of children younger than five who are stunted – significantly shorter than the average for their age, as a consequence of poor nutrition and/or repeated infection.",
+    "subtitle": "The share of children younger than five years old that are defined as stunted. Stunting is when a child is significantly shorter than the average for their age, as a consequence of poor nutrition and/or repeated infection.",
     "sourceDesc": "Institute for Health Metrics and Evaluation (IHME)",
     "hideTitleAnnotation": true,
     "hasMapTab": true,
@@ -3302,9 +3304,7 @@ const grapherConfigs =
         "baseColorScheme": "YlOrRd",
         "binningStrategy": "manual",
         "customNumericValues": [
-          5,
           10,
-          15,
           20,
           30,
           40,
@@ -3321,7 +3321,7 @@ const grapherConfigs =
         "property": "y",
         "variableId": 96514,
         "display": {
-          "unit": "%",
+          "unit": "% of children under five",
           "includeInTable": true
         }
       }
@@ -6433,7 +6433,7 @@ const grapherConfigs =
   },
   {
     "id": 4579,
-    "version": 6,
+    "version": 7,
     "slug": "number-children-stunted-ihme",
     "title": "Malnutrition: Number of children who are stunted",
     "subtitle": "The number of children younger than five who are stunted – significantly shorter than the average for their age, as a consequence of poor nutrition or repeated infection.",
@@ -6455,7 +6455,10 @@ const grapherConfigs =
           100000,
           500000,
           1000000,
-          5000000
+          5000000,
+          10000000,
+          50000000,
+          100000000
         ]
       }
     },
@@ -6875,9 +6878,9 @@ const grapherConfigs =
   },
   {
     "id": 5582,
-    "version": 3,
+    "version": 4,
     "slug": "number-children-stunted-who",
-    "title": "Malnutrition: Number of children under five years old that are stunted",
+    "title": "Malnutrition: Number of children who are stunted",
     "subtitle": "The number of children younger than five who are stunted – significantly shorter than the average for their age, as a consequence of poor nutrition or repeated infection.",
     "hasMapTab": true,
     "tab": "map",
@@ -6894,12 +6897,18 @@ const grapherConfigs =
         "binningStrategy": "manual",
         "binningStrategyBinCount": 6,
         "customNumericValues": [
+          10000,
+          50000,
           100000,
           500000,
           1000000,
           10000000,
           50000000,
           100000000
+        ],
+        "customNumericColors": [
+          null,
+          null
         ]
       },
       "variableId": 315484
@@ -6909,6 +6918,7 @@ const grapherConfigs =
         "property": "y",
         "variableId": 315484,
         "display": {
+          "unit": "children",
           "numDecimalPlaces": 0,
           "includeInTable": true
         }
