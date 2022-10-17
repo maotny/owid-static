@@ -2181,11 +2181,11 @@ const grapherConfigs =
   },
   {
     "id": 1372,
-    "version": 10,
+    "version": 11,
     "slug": "share-of-women-using-modern-contraceptive-methods",
     "title": "Share of women using modern contraceptive methods",
-    "subtitle": "The share of women who are practicing, or whose sexual partners are practicing, at least one modern method of contraception.",
-    "note": "Modern contraceptive methods include oral hormonal pills, the intra-uterine device, male or female condoms, emergency contraception, implant, sterilization, injectables, and vaginal barrier methods. This is usually measured for women aged 15-49 who are married or in a civil union.",
+    "subtitle": "The share of married women aged 15-49 years who are practicing, or whose sexual partners are practicing, at least one modern method of contraception.",
+    "note": "Modern contraceptive methods include oral hormonal pills, the intra-uterine device, male or female condoms, emergency contraception, implant, sterilization, injectables, and vaginal barrier methods.",
     "hideTitleAnnotation": true,
     "maxTime": 2020,
     "hasMapTab": true,
@@ -2220,7 +2220,11 @@ const grapherConfigs =
     "dimensions": [
       {
         "property": "y",
-        "variableId": 446947
+        "variableId": 446947,
+        "display": {
+          "unit": "% of married women aged 15-49",
+          "includeInTable": true
+        }
       }
     ],
     "selectedEntityNames": [
@@ -2517,7 +2521,7 @@ const grapherConfigs =
   },
   {
     "id": 1596,
-    "version": 15,
+    "version": 17,
     "slug": "births-attended-by-health-staff-sdgs",
     "title": "Share of births attended by skilled health staff",
     "subtitle": "The share of deliveries attended by personnel trained to give the necessary supervision, care, and advice to women during pregnancy, labor, and the postpartum period; to conduct deliveries on their own; and to care for newborns.",
@@ -2539,15 +2543,12 @@ const grapherConfigs =
         "binningStrategy": "manual",
         "customNumericMinValue": 0,
         "customNumericValues": [
-          10,
-          20,
-          30,
-          40,
           50,
-          60,
-          70,
-          80,
+          75,
           90,
+          95,
+          97.5,
+          99,
           100
         ],
         "customNumericLabels": [
@@ -2570,10 +2571,6 @@ const grapherConfigs =
           null,
           null,
           null,
-          null,
-          null,
-          null,
-          null,
           null
         ]
       },
@@ -2582,7 +2579,11 @@ const grapherConfigs =
     "dimensions": [
       {
         "property": "y",
-        "variableId": 446700
+        "variableId": 446700,
+        "display": {
+          "unit": "% of births",
+          "includeInTable": true
+        }
       }
     ],
     "selectedEntityNames": [
@@ -5235,7 +5236,7 @@ const grapherConfigs =
   },
   {
     "id": 4542,
-    "version": 3,
+    "version": 4,
     "slug": "postnatal-care",
     "title": "Share of mothers receiving medical care after giving birth",
     "subtitle": "The share of mothers who received medical care in the first two days after giving birth.",
@@ -5258,10 +5259,19 @@ const grapherConfigs =
         "customNumericValues": [
           10,
           20,
+          30,
           40,
+          50,
           60,
+          70,
           80,
+          90,
           100
+        ],
+        "customNumericColors": [
+          null,
+          null,
+          null
         ]
       },
       "variableId": 44082
