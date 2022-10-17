@@ -1,0 +1,528 @@
+<!doctype html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"/><title>From $1.90 to $2.15 a day: the updated International Poverty Line - Our World in Data</title><meta name="description" content="To track progress towards its goal of eradicating extreme poverty by 2030, the UN relies on World Bank estimates of the share of the world population that fall below the International Poverty Line."/><link rel="canonical" href="https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line"/><link rel="alternate" type="application/atom+xml" href="/atom.xml"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><meta property="fb:app_id" content="1149943818390250"/><meta property="og:url" content="https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line"/><meta property="og:title" content="From $1.90 to $2.15 a day: the updated International Poverty Line"/><meta property="og:description" content="To track progress towards its goal of eradicating extreme poverty by 2030, the UN relies on World Bank estimates of the share of the world population that fall below the International Poverty Line."/><meta property="og:image" content="https://ourworldindata.org/default-thumbnail.jpg"/><meta property="og:site_name" content="Our World in Data"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@OurWorldInData"/><meta name="twitter:creator" content="@OurWorldInData"/><meta name="twitter:title" content="From $1.90 to $2.15 a day: the updated International Poverty Line"/><meta name="twitter:description" content="To track progress towards its goal of eradicating extreme poverty by 2030, the UN relies on World Bank estimates of the share of the world population that fall below the International Poverty Line."/><meta name="twitter:image" content="https://ourworldindata.org/default-thumbnail.jpg"/><link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Playfair+Display:400,600,700&amp;display=swap" rel="stylesheet"/><link rel="stylesheet" href="https://ourworldindata.org/assets/commons.css"/><link rel="stylesheet" href="https://ourworldindata.org/assets/owid.css"/></head><body class=""><header class="site-header"><div class="wrapper site-navigation-bar"><div class="site-logo"><a href="/">Our World<br/> in Data</a></div><nav class="site-navigation"><div class="topics-button-wrapper"><a href="/#entries" class="topics-button"><div class="label">Articles <br/><strong>by topic</strong></div><div class="icon"><svg width="12" height="6"><path d="M0,0 L12,0 L6,6 Z" fill="currentColor"></path></svg></div></a></div><div><div class="site-primary-navigation"><form class="HeaderSearch" action="/search" method="GET"><input type="search" name="q" placeholder="Search..."/><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" class="svg-inline--fa fa-magnifying-glass " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"></path></svg></div></form><ul class="site-primary-links"><li><a href="/blog" data-track-note="header-navigation">Latest</a></li><li><a href="/about" data-track-note="header-navigation">About</a></li><li><a href="/donate" data-track-note="header-navigation">Donate</a></li></ul></div><div class="site-secondary-navigation"><ul class="site-secondary-links"><li><a href="/charts" data-track-note="header-navigation">All charts</a></li><li><a href="https://sdg-tracker.org" data-track-note="header-navigation">Sustainable Development Goals Tracker</a></li></ul></div></div></nav><div class="header-logos-wrapper"><a href="https://www.oxfordmartin.ox.ac.uk/global-development" class="oxford-logo"><img src="https://ourworldindata.org/oms-logo.svg" alt="Oxford Martin School logo"/></a><a href="https://global-change-data-lab.org/" class="gcdl-logo"><img src="https://ourworldindata.org/gcdl-logo.svg" alt="Global Change Data Lab logo"/></a></div><div class="mobile-site-navigation"><button data-track-note="mobile-search-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" class="svg-inline--fa fa-magnifying-glass " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"></path></svg></button><button data-track-note="mobile-newsletter-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-open-text" class="svg-inline--fa fa-envelope-open-text " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M215.4 96H144 107.8 96v8.8V144v40.4 89L.2 202.5c1.6-18.1 10.9-34.9 25.7-45.8L48 140.3V96c0-26.5 21.5-48 48-48h76.6l49.9-36.9C232.2 3.9 243.9 0 256 0s23.8 3.9 33.5 11L339.4 48H416c26.5 0 48 21.5 48 48v44.3l22.1 16.4c14.8 10.9 24.1 27.7 25.7 45.8L416 273.4v-89V144 104.8 96H404.2 368 296.6 215.4zM0 448V242.1L217.6 403.3c11.1 8.2 24.6 12.7 38.4 12.7s27.3-4.4 38.4-12.7L512 242.1V448v0c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64v0zM176 160H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H176c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H176c-8.8 0-16-7.2-16-16s7.2-16 16-16z"></path></svg></button><button data-track-note="mobile-hamburger-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path></svg></button></div></div></header><div class="alert-banner"><div class="content"><div class="text"><strong>COVID-19 vaccinations, cases, excess mortality, and much more</strong></div><a href="/coronavirus#explore-the-global-situation" data-track-note="covid-banner-click">Explore our COVID-19 data</a></div></div><main><article class="page no-sidebar thin-banner"><div class="offset-header"><header class="article-header"><div class="article-titles"><h1 class="entry-title">From $1.90 to $2.15 a day: the updated International Poverty Line</h1></div></header></div><div class="content-wrapper"><div class="offset-content"><div class="content-and-footnotes"><div class="article-content"><section><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><div class="article-meta"><div class="authors-byline"><a href="/team">by Joe Hasell</a></div><div class="published-updated"><time>October 17, 2022</time></div></div><p>To track progress towards its goal of <a href="https://sdg-tracker.org/no-poverty#1.1">eradicating extreme poverty by 2030</a>, the UN relies on World Bank estimates of the share of the world population that fall below the International Poverty Line.</p><p>In September 2022, the figure at which this poverty line is set shifted from $1.90 to $2.15. This reflects a change in the units in which the World Bank expresses its poverty and inequality data – from international dollars given in <em>2011</em> prices to international dollars given in <em>2017</em> prices.</p><p>In this article we consider what the World Bank’s revised methodology means for our understanding of global poverty. We then also explain the updated methodology: what international dollars are, what the change to 2017 prices mean, and how this change affects the International Poverty Line and the World Bank’s poverty estimates.</p></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><h3 id="how-does-the-updated-international-poverty-line-affect-our-understanding-of-global-poverty"><strong>How does the updated International Poverty Line affect our understanding of global poverty?</strong><a class="deep-link" href="#how-does-the-updated-international-poverty-line-affect-our-understanding-of-global-poverty"></a></h3><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>The crucial fact to know about the World Bank’s updated International Poverty Line is that, whilst the number has risen – from $1.90 to $2.15 per day – in terms of the goods and services that it affords, the value is broadly the same.</p><p>This is because the units in which the old and new figures are counted have changed: the $1.90 figure was expressed in 2011 international-$, and the new figure of $2.15 is expressed in 2017 international-$.</p><p>Below we explain in much more detail what international dollars are and what the change in base year means. But broadly speaking, the difference in the two units reflects inflation over time: Because prices have gone up, one 2017 international-$ buys a smaller quantity of goods and services than one 2011 international-$. This leaves the real value of the revised International Poverty Line broadly equal to what it was before.</p><p>This continuity is reflected in the data: Overall the update only very modestly changes our understanding of the extent of extreme poverty globally. We see this in the two charts below that show the share and number of people in extreme poverty using the old and updated methodologies.</p><p>Estimates of the share of people living in extreme poverty globally for 2019 – the latest available year – are slightly lower using the updated methodology: 8.4% as compared to 8.7%. That translates to 20 million fewer people living in extreme poverty.</p><p>We also see a slightly faster decline in poverty over recent decades using the updated methodology. Looking back to the 1990s, estimates of the share in extreme poverty using the updated methodology are around 1.5% points higher – or around 80 million people.</p></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="wp-block-columns is-style-side-by-side">
+<div class="wp-block-column">
+<figure data-explorer-src="https://ourworldindata.org/explorers/poverty-explorer-2011-vs-2017-ppp?hideControls=true&amp;Metric=Share+in+poverty&amp;International-%24=Compare+2017+and+2011+prices&amp;Poverty+line=International+Poverty+Line&amp;Household+survey+data+type=Show+data+from+both+income+and+expenditure+surveys&amp;country=~OWID_WRL" style="width: 100%; height: 600px; border: 0px none;"><div class="loading-indicator"><span style="border-color:#333"></span></div></figure>
+</div>
+
+
+
+<div class="wp-block-column">
+<figure data-explorer-src="https://ourworldindata.org/explorers/poverty-explorer-2011-vs-2017-ppp?hideControls=true&amp;Metric=Number+in+poverty&amp;International-%24=Compare+2017+and+2011+prices&amp;Poverty+line=International+Poverty+Line&amp;Household+survey+data+type=Show+data+from+both+income+and+expenditure+surveys&amp;country=~OWID_WRL" style="width: 100%; height: 600px; border: 0px none;"><div class="loading-indicator"><span style="border-color:#333"></span></div></figure>
+</div>
+</div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="differences-within-individual-countries"><strong>Differences within individual countries</strong><a class="deep-link" href="#differences-within-individual-countries"></a></h4></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>There are only small changes to the World Bank’s extreme poverty estimates at the global level. But the updated methodology has resulted in more substantial revisions to poverty estimates for some countries. These changes reflect a revision to the adjustments made to account for differences in the cost of living across countries, as explained in more detail below.</p><p>These revisions go in both directions: some countries see higher poverty estimates and others see lower estimates. These opposing differences are cancelling each other out when we look at the global figures.</p><p>Nigeria is one country that has seen a significant downward revision, with 16 million fewer people estimated to be living in extreme poverty in 2018. You can read more about this particular change in this <a href="https://blogs.worldbank.org/africacan/what-does-moving-2017-ppps-and-new-international-poverty-lines-mean-nigeria">World Bank blogpost</a>.</p><p>In Indonesia, the revision has gone in the other direction – the latest available estimates for 2021 show an additional 4 million people living in extreme poverty when calculated with the new methodology.</p><p>Despite significant differences in some individual countries, our overall understanding of the global distribution of extreme poverty has changed very little though. This can be seen from a comparison of the two map charts below which show the share of population in extreme poverty according to the old and updated World Bank methodologies.</p></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="wp-block-columns is-style-side-by-side">
+<div class="wp-block-column">
+<figure data-explorer-src="https://ourworldindata.org/explorers/poverty-explorer-2011-vs-2017-ppp?time=2019&amp;facet=none&amp;Metric=Share+in+poverty&amp;International-%24=2011+prices&amp;Poverty+line=%241.90+per+day%3A+International+Poverty+Line&amp;Household+survey+data+type=Show+data+from+both+income+and+expenditure+surveys&amp;country=MOZ~NGA~KEN~BGD~BOL~OWID_WRL&amp;hideControls=true" style="width: 100%; height: 600px; border: 0px none;"><div class="loading-indicator"><span style="border-color:#333"></span></div></figure>
+</div>
+
+
+
+<div class="wp-block-column">
+<figure data-explorer-src="https://ourworldindata.org/explorers/poverty-explorer-2011-vs-2017-ppp?time=2019&amp;facet=none&amp;Metric=Share+in+poverty&amp;International-%24=2017+prices&amp;Poverty+line=%242.15+per+day%3A+International+Poverty+Line&amp;Household+survey+data+type=Show+data+from+both+income+and+expenditure+surveys&amp;country=MOZ~NGA~KEN~BGD~BOL~OWID_WRL&amp;hideControls=true" style="width: 100%; height: 600px; border: 0px none;"><div class="loading-indicator"><span style="border-color:#333"></span></div></figure>
+</div>
+</div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="changes-in-poverty-estimates-at-higher-poverty-lines"><strong>Changes in poverty estimates at higher poverty lines</strong><a class="deep-link" href="#changes-in-poverty-estimates-at-higher-poverty-lines"></a></h4></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>The International Poverty Line is set by the World Bank to be representative of national definitions of poverty adopted in the world’s poorest countries.</p><p>In addition to this very low poverty line the World Bank also sets two higher global poverty lines for measuring poverty: one that reflects the definitions of poverty adopted in lower-middle income countries, and one that reflects the definitions adopted in upper-middle income countries. Within the updated methodology, these lines are set at $3.65 and $6.85 in 2017 international-$, replacing the previous $3.20 and $5.50 lines expressed in 2011 international-$.</p><p>How have poverty estimates around the world changed with the revision of these higher lines?</p><p>As with the International Poverty Line, the real value of the lower-middle income poverty line is roughly the same across the two methodologies. Accordingly, global poverty estimates are again very similar across the old and updated methodologies – as we see in the first chart below.</p><p>In contrast, the update of the upper-middle income poverty line represents a real increase in the value of the line: This revised higher line buys more goods and services than the previously used figure. This real-terms increase is due to a rise in the national poverty lines to which the World Bank anchors this line, as discussed in more detail below.</p><p>Since the real value of the poverty line is significantly higher, unsurprisingly the prevalence of poverty when measured with the updated methodology is higher – as shown in the second chart.&nbsp;</p></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="wp-block-columns is-style-side-by-side">
+<div class="wp-block-column">
+<figure data-explorer-src="https://ourworldindata.org/explorers/poverty-explorer-2011-vs-2017-ppp?Metric=Share+in+poverty&amp;International-%24=Compare+2017+and+2011+prices&amp;Poverty+line=Lower-middle+income+poverty+line&amp;Household+survey+data+type=Show+data+from+both+income+and+expenditure+surveys&amp;country=OWID_WRL&amp;hideControls=true" style="width: 100%; height: 600px; border: 0px none;"><div class="loading-indicator"><span style="border-color:#333"></span></div></figure>
+</div>
+
+
+
+<div class="wp-block-column">
+<figure data-explorer-src="https://ourworldindata.org/explorers/poverty-explorer-2011-vs-2017-ppp?Metric=Share+in+poverty&amp;International-%24=Compare+2017+and+2011+prices&amp;Poverty+line=Upper-middle+income+poverty+line&amp;Household+survey+data+type=Show+data+from+both+income+and+expenditure+surveys&amp;country=OWID_WRL&amp;hideControls=true" style="width: 100%; height: 600px; border: 0px none;"><div class="loading-indicator"><span style="border-color:#333"></span></div></figure>
+</div>
+</div><h3 id="explore-the-data"><strong>Explore the data</strong><a class="deep-link" href="#explore-the-data"></a></h3><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>In this data explorer, you can compare the World Bank’s 2011 and 2017 international-$ estimates for a range of key poverty metrics.</p></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><figure data-explorer-src="https://ourworldindata.org/explorers/poverty-explorer-2011-vs-2017-ppp?Metric=Share+in+poverty&amp;International-%24=Compare+2017+and+2011+prices&amp;Poverty+line=International+Poverty+Line&amp;Household+survey+data+type=Show+data+from+both+income+and+expenditure+surveys&amp;country=MOZ~NGA~KEN~BGD~BOL~OWID_WRL&amp;hideControls=false" class="wp-block-full-content-width" style="width: 100%; min-height: 740px; max-height: 950px; height: 100vh; border: 0px none !important;"><div class="loading-indicator"><span style="border-color:#333"></span></div></figure><h3 id="understanding-the-world-bank-s-updated-poverty-estimates-what-does-the-shift-from-2011-to-2017-international-mean"><strong>Understanding the World Bank’s updated poverty estimates: what does the shift from 2011 to 2017 international-$ mean?</strong><a class="deep-link" href="#understanding-the-world-bank-s-updated-poverty-estimates-what-does-the-shift-from-2011-to-2017-international-mean"></a></h3><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>At the heart of the update is a change in the units that the World Bank uses to count and compare the incomes of households in different countries at different times.</p><p>These units are called <em>international dollars </em>– a hypothetical currency that adjusts for inflation and differences in the cost of living between countries.</p><p>To understand the update to the World Bank’s methodology we need a good understanding of what these units mean and how they are calculated. In the box below we give a summary.&nbsp;</p></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="block-wrapper" data-reactroot=""><div data-variation="full-width" data-default-open="true" class="wp-block-owid-additional-information open"><h3 data-track-note="additional-information-toggle"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg>What are international dollars?</h3><div aria-hidden="false" class="rah-static rah-static--height-auto " style="height:auto;overflow:visible"><div style="transition:opacity 250ms ease 0ms;-webkit-transition:opacity 250ms ease 0ms"><div class="content">
+
+
+
+
+
+<div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="wp-sticky-container"><p>Much of the economic data we use to understand the world – for instance on the goods and services bought or produced by households, firms and governments, or the incomes they receive – is initially recorded in terms of the units in which these transactions took place. That means this data starts out being expressed in a variety of local currencies – as so many rupees, US dollars, or yuan, etc. – and without adjusting for inflation over time. This is known as being in ‘current prices’, or in ‘nominal’ terms.</p><p>Before these figures can be meaningfully compared, they need to be converted into common units.</p><p>International dollars (int.-$) are a hypothetical currency that is used for this. It is the result of adjusting both for inflation within countries over time and for differences in the cost of living between countries.</p><p>The goal of international-$ is to provide a unit whose <em>purchasing power</em> is held fixed over time and across countries, such that one int.-$ can buy the same quantity and quality of goods and services no matter where or when it is spent.</p><p>The price level in the US is used as the benchmark – or ‘numeraire’ – so that one 2017 int.-$ is defined as the value of goods and services that one US dollar would buy <em>in the US in 2017</em>.</p><p>The year <em>2017</em> here indicates two things, related to the two adjustments mentioned. Firstly, it tells us the <em>base year</em> used for the inflation adjustment within countries. This is the year whose prices are chosen to be the benchmark. If prices are higher than this benchmark year, nominal data will be adjusted downwards. If prices are lower, nominal data will be adjusted upwards. In the base year itself, the nominal and inflation-adjusted figures are the same by definition.&nbsp;</p><p>Secondly, <em>2017</em> indicates the year in which the differences in the cost of living between countries was assessed.</p><h4><strong>Purchasing Power Parity rates</strong></h4><p>Converting data in local currencies to international-$ means dividing the figures by a set of ‘exchange’ rates, known as Purchasing Power Parity (PPP) rates. Unlike the exchange rates between currencies you would see at the foreign exchange counter, these account for differences in the cost of living between countries.</p><p>If you have ever shopped or eaten in a restaurant abroad, you may have noticed a country as being a particularly expensive or particularly cheap place to live. A given amount of your own currency, when exchanged for another country’s currency, may buy you considerably more or less there than it would have done at home.</p><p>The goal of PPP rates is to account for these price differences. They express, for each country, the amount of local currency that is needed to buy the same goods and services there as 1 US dollar buys in the US.</p><p>You can read more about this in our article <a href="https://ourworldindata.org/what-are-ppps"><em>What are PPP adjustments and why do we need them?</em></a></p><h4><strong>The ‘rounds’ of the International Comparison Program</strong></h4><p>The calculation of PPP rates is the task of the <a href="https://www.worldbank.org/en/programs/icp">International Comparison Program</a> (ICP), which gathers data on the prices of thousands of goods and services in each country in a particular year.</p><p>The ICP does not calculate PPP rates every year, but rather conducts its work in ‘rounds’ that are several years apart. The most recent round was conducted in 2017 and the previous round was conducted in 2011.</p><p>In converting economic data to international-$, which round of PPPs are used to adjust for cost-of-living differences between countries is, in principle, a separate issue to the base year used to adjust for inflation over time. By convention, however, the same year tends to be chosen for both. When converted to <em>2017</em> international-$, nominal local currencies are first adjusted for inflation to local <em>2017</em> prices, and are then adjusted to US prices using the PPPs calculated in the ICP’s 2017 round. Likewise, 2011 international-$ adjust for inflation using 2011 local prices, and then use the 2011 PPPs to adjust for cost-of-living differences.</p></div></div>
+</div>
+
+</div></div></div></div></div><h3 id="how-do-incomes-measured-in-2011-and-2017-international-dollars-compare"><strong>How do incomes measured in 2011 and 2017 international dollars compare?</strong><a class="deep-link" href="#how-do-incomes-measured-in-2011-and-2017-international-dollars-compare"></a></h3><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>The World Bank’s shift from measuring household incomes in 2011 to 2017 international-$ has affected the data in two ways, relating to the two different adjustments made in the calculation of international-$.</p><p>Firstly, it reflects the impact of inflation between 2011 and 2017. Secondly, it reflects a revised assessment of how the cost of living compares in different countries, as presented in the 2017 Purchasing Power Parity rates published by the <a href="https://www.worldbank.org/en/programs/icp">International Comparison Program</a>.</p></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="the-impact-of-inflation-a-general-rise-in-income-figures"><strong>The impact of inflation: a general rise in income figures</strong><a class="deep-link" href="#the-impact-of-inflation-a-general-rise-in-income-figures"></a></h4></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>As explained in more detail in the box above:</p><ul><li>One <em>2017</em> int.-$ is defined as the value of goods and services that one US dollar would buy in the US in <em>2017</em>.</li><li>One <em>2011</em> int.-$ is defined as the value of goods and services that one US dollar would buy in the US in <em>2011</em>.</li></ul><p>The amount of goods and services that one US dollar bought in the US changed over these years. There was inflation of around 9%, meaning that one US dollar bought 9% less in the US in 2017 than it did in 2011.<a id="ref-1" class="ref" href="#note-1"><sup>1</sup></a></p><p>This also means that one 2017 int.-$ buys around 9% less than one 2011 int.-$, and this is one key way in which the two units differ. Expressing incomes in 2017 international-$ generally results in higher numbers than when expressed in 2011 international-$.&nbsp;</p><p>You can see this general increase in the chart here which compares the average income or consumption per person, as expressed in 2011 international-$ (shown on the x-axis) and in 2017 international dollars (on the y-axis).</p><p>The 45 degree line indicates the point where the two numbers would be equal. You see that in almost all countries, average incomes are ‘higher’ when expressed in 2017 international-$ than in 2011 international-$.</p></div><div class="wp-block-column"><div class="wp-sticky-container"><figure data-grapher-src="https://ourworldindata.org/grapher/mean-income-or-expenditure-per-day-2011-vs-2017-international-" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/mean-income-or-expenditure-per-day-2011-vs-2017-international-" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/mean-income-or-expenditure-per-day-2011-vs-2017-international-_v3_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Mean income or expenditure per day 2011 vs 2017 international  v3 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure></div></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="the-impact-of-the-new-2017-pp-ps-a-change-in-countries-relative-income-levels"><strong>The impact of the new 2017 PPPs: a change in countries’ relative income levels</strong><a class="deep-link" href="#the-impact-of-the-new-2017-pp-ps-a-change-in-countries-relative-income-levels"></a></h4></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>But we also see in the chart above that the increase is not uniform across countries. In fact, some&nbsp; countries fall below the 45 degree line: their incomes count as <em>fewer</em> 2017 international-$ than they do 2011 international-$.</p><p>You can see these differences in more detail in this chart, which plots the average income or consumption expenditure of countries over time – as measured in both 2011 and 2017 international-$.</p><p>The incomes are plotted on a log scale to show proportional differences more clearly. Again we see that the switch to 2017 international-$ generally shifts the incomes data up by a certain proportion – but the proportion varies for each country. In the chart we have selected particular countries to demonstrate the range of differences we see in the data, but you can change which countries or regions are shown using the ‘<span class="add-country">
+            <span class="icon">
+                <svg width="16" height="16"><path d="M3,8 h10 m-5,-5 v10"></path></svg>
+            </span>
+            Add country
+        </span>’ button.</p><p>At one end of the spectrum are countries such as Angola whose figures shift up by a large amount. The figure for the average level of consumption in Angola is 80% higher when expressed in 2017 international-$ than in 2011 international-$. At the opposite end of the spectrum is Ghana, whose figures fall by around 25%.</p><p>In the US – the ‘numeraire’ country for the purposes of the PPP adjustment – the rise is 9%, in-line with US inflation as discussed above.</p><p>The different shifts we see across countries means that, with the new 2017 international-$, we have an updated understanding of how incomes compare across countries. Those countries that see a bigger jump in their income figures when measured in the new units now appear relatively richer than countries with a smaller, or even negative jump.&nbsp;</p><p>But what explains these such very different jumps, and how are we to interpret them? Is it that our previous understanding, based on the old 2011 PPPs, was <em>wrong</em>?&nbsp;</p><p>Part of the complication of interpreting the switch to 2017 international-$ is that two factors are operating at the same time.</p><p>Firstly, the change in PPPs reflects changes in the methods and underlying price data used by the ICP. Producing these estimates, in as comparable a way as possible, is a huge and very complex task and not surprisingly the ICP adapts and refines the methods they use in different rounds. Moreover, the quality and coverage of the country price data that go into these calculations is also generally improving over time. It is not necessarily the case that the quality of the estimates improve in every aspect or for every country, but in general the new PPPs do indeed give us a better, truer picture of how incomes compare around the world.<a id="ref-2" class="ref" href="#note-2"><sup>2</sup></a></p><p>Secondly, the change in PPPs reflect actual changes in relative price levels across countries. Inflation happens at different rates in different countries. In part, such changes are accounted for by the inflation adjustment made when converting data to international-$, as discussed above. But the way that PPP rates are calculated means that the change in PPPs need not exactly track these various national inflation rates. When a new cross-country assessment of price levels is made, there can be a gap with what would have been expected based on the previous set of PPPs extended forward with national inflation data.<a id="ref-3" class="ref" href="#note-3"><sup>3</sup></a></p><p>Because the change in PPPs in part pick up ‘real’ changes in the relative price levels between countries, some data providers expressing income data in international-$ – such as the <a href="https://www.rug.nl/ggdc/productivity/pwt/?lang=en">Penn World Tables</a> – use PPPs from multiple ICP rounds and adopt techniques to interpolate, or smooth out the jumps between the rounds. An important downside of this approach, however, is that the trends in income calculated with this approach do not then necessarily match up with the trends observed in the original national data, prior to conversion to international-$.</p><p>This ‘multiple benchmarks’ approach is not the route that the World Bank takes. It uses just one set of PPPs – from the latest available ICP round – applied back over the whole time span of its data. This makes the trends over time consistent with the original data, but it means that the adoption of a new set of PPPs can generate significant revisions to our understanding of income levels in different countries – both now and in the past.</p></div><div class="wp-block-column"><div class="wp-sticky-container"><figure data-explorer-src="https://ourworldindata.org/explorers/poverty-explorer-2011-vs-2017-ppp?yScale=log&amp;hideControls=true&amp;Metric=Mean+income+or+expenditure&amp;International-%24=Compare+2017+and+2011+prices&amp;Poverty+line=International+Poverty+Line&amp;Household+survey+data+type=Show+data+from+both+income+and+expenditure+surveys&amp;country=AGO~NGA~VNM~USA~BRA~GHA" style="width: 100%; height: 600px; border: 0px none;"><div class="loading-indicator"><span style="border-color:#333"></span></div></figure></div></div></div><h3 id="the-world-bank-s-updated-poverty-lines"><strong>The World Bank’s updated poverty lines</strong><a class="deep-link" href="#the-world-bank-s-updated-poverty-lines"></a></h3><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>A key aspect of the World Bank’s updated methodology is that, along with the change in the units by which it measures household incomes, it has also updated the International Poverty Line against which it measures extreme poverty.</p><p>To help explain this change, in the box below we describe what the International Poverty Line is and how it is calculated, along with the higher poverty lines set by the World Bank.</p></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="block-wrapper" data-reactroot=""><div data-variation="full-width" data-default-open="true" class="wp-block-owid-additional-information open"><h3 data-track-note="additional-information-toggle"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg>What is the International Poverty Line?</h3><div aria-hidden="false" class="rah-static rah-static--height-auto " style="height:auto;overflow:visible"><div style="transition:opacity 250ms ease 0ms;-webkit-transition:opacity 250ms ease 0ms"><div class="content">
+
+
+
+
+
+<div class="wp-block-columns is-style-side-by-side">
+<div class="wp-block-column">
+<p>There is no single definition of poverty. Our understanding of the extent of poverty and how it is changing depends on which definition we have in mind.</p>
+
+
+
+<p>In particular, richer and poorer countries set very different poverty lines in order to measure poverty in a way that is informative and relevant to the level of incomes of their citizens.</p>
+
+
+
+<p>For instance, while in the United States a person is counted as being in poverty if they live on less than roughly $24.55 per day, in Ethiopia the poverty line is set more than 10 times lower – at $2.04 per day. You can read more about how these comparable national poverty lines are calculated in this footnote.<a id="ref-4" class="ref" href="#note-4"><sup>4</sup></a></p>
+
+
+
+<p>To measure poverty globally, however, we need to apply a poverty line that is consistent across countries.&nbsp;</p>
+
+
+
+<p>This is the goal of the International Poverty Line of $2.15 per day – shown in red in the chart – which is set by the World Bank and used by the UN to monitor extreme poverty around the world.</p>
+
+
+
+<p>We see that, in global terms, this is an extremely low threshold indeed – set to reflect the poverty lines adopted nationally in the world’s poorest countries. It marks an incredibly low standard of living – a level of income much lower than just the cost of a <a href="https://ourworldindata.org/diet-affordability">healthy diet</a>.</p>
+
+
+
+<p><strong>How does the World Bank set the International Poverty Line?</strong></p>
+</div>
+
+
+
+<div class="wp-block-column">
+<figure class="wp-block-image size-large"><img loading="lazy" width="656" height="550" src="https://ourworldindata.org/uploads/2022/10/Five-income-distributions-national-poverty-and-IPL-1-656x550.png" alt="Five income distributions national poverty and ipl 1" class="wp-image-53676" srcset="https://ourworldindata.org/uploads/2022/10/Five-income-distributions-national-poverty-and-IPL-1-656x550.png 656w, https://ourworldindata.org/uploads/2022/10/Five-income-distributions-national-poverty-and-IPL-1-400x335.png 400w, https://ourworldindata.org/uploads/2022/10/Five-income-distributions-national-poverty-and-IPL-1-150x126.png 150w, https://ourworldindata.org/uploads/2022/10/Five-income-distributions-national-poverty-and-IPL-1-768x643.png 768w, https://ourworldindata.org/uploads/2022/10/Five-income-distributions-national-poverty-and-IPL-1-1536x1287.png 1536w, https://ourworldindata.org/uploads/2022/10/Five-income-distributions-national-poverty-and-IPL-1-2048x1716.png 2048w" sizes="(max-width: 656px) 100vw, 656px" data-high-res-src="https://ourworldindata.org/uploads/2022/10/Five-income-distributions-national-poverty-and-IPL-1.png"></figure>
+</div>
+</div>
+
+
+
+<div class="wp-block-columns is-style-side-by-side">
+<div class="wp-block-column">
+<p>The exact method used by the World Bank to set the International Poverty Line has changed somewhat over past updates. But each time the objective has been broadly the same – to find a “typical standard by which the poorest countries of the world judge their citizens to be impoverished.”<a id="ref-5" class="ref" href="#note-5"><sup>5</sup></a></p>
+
+
+
+<p>The method used in the latest update to arrive at a figure of $2.15, measured in 2017 international-$, is based on a set of harmonized national poverty lines produced by <a href="https://documents1.worldbank.org/curated/en/353811645450974574/pdf/Assessing-the-Impact-of-the-2017-PPPs-on-the-International-Poverty-Line-and-Global-Poverty.pdf">Dean Joliffe and others</a> – shown in the chart here.</p>
+
+
+
+<p>As you can see, there is a strong correlation between the poverty lines countries set, shown on the Y axis, and their income level – as measured here by GDP per capita, and plotted along the X axis.</p>
+
+
+
+<p>The International Poverty Line is calculated as the median national poverty line adopted among low-income countries – using the World Bank’s income classification system. These are the countries shaded in red in the chart and found in the bottom left corner.</p>
+
+
+
+<p>Although the International Poverty Line is by far the most prominent international line, the same method is also used by the World Bank to set two higher poverty lines that reflect the national definitions adopted in lower-middle and upper-middle income groups shown in green and purple respectively. The median poverty line among these two groups of countries are $3.65 and $6.85, as indicated in the chart with horizontal lines.</p>
+</div>
+
+
+
+<div class="wp-block-column">
+
+                <figure data-grapher-src="https://ourworldindata.org/grapher/national-poverty-line-vs-gdp-per-capita" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/national-poverty-line-vs-gdp-per-capita" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/national-poverty-line-vs-gdp-per-capita_v10_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="National poverty line vs gdp per capita v10 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure>
+</div>
+</div>
+
+</div></div></div></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="has-the-value-of-the-world-bank-s-poverty-lines-changed"><strong>Has the value of the World Bank’s poverty lines changed?</strong><a class="deep-link" href="#has-the-value-of-the-world-bank-s-poverty-lines-changed"></a></h4></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>A key question to ask of the World Bank’s updated poverty lines is the extent to which their real value – in terms of the goods and services they can buy – have been maintained, or if instead they represent a shifting of the goalposts.</p><p>One way to answer this question, building on the explanation of change from 2011 to 2017 international-$ given above, is to compare the increase in the numbers to the rate of inflation in the US between these two years. An increase in-line with US inflation would indicate that the poverty lines have the same purchasing power. A rise greater than US inflation would indicate that the real value had increased. This is just a direct consequence of the definition of international-$ for a given base year – where one international-$ is defined as the value of goods and services that one US dollar could buy in that base year.&nbsp;</p><p>Prices in the US rose by 9% between 2011 and 2017. In the case of both the International Poverty Line and the lower-middle income poverty line, the increase across the update was roughly similar – from $1.90 to $2.15 (13%) and from $3.20 to $3.65 (14%) respectively. That the rise was close to the US inflation rate implies that the purchasing power of the lines was similar before and after the update. And, as demonstrated above, this is reflected in the data: global poverty estimates according to these two poverty lines are very similar across the old and updated methodologies.</p><p>The upper-middle poverty line, however, rose by considerably more than US inflation – from $5.50 to $6.85, a 25% increase. Again, this is reflected in the data – with notably higher global poverty estimates resulting from the updated methodology.</p><p>Why would the World Bank ‘shift the goal posts’ by using a higher poverty line? This answer lies in the method the World Bank uses to set the line, just explained in the box above. The upper-middle income country poverty line was set at $5.50 in 2011 international-$ because this was the median poverty line observed among this group of countries at the time of the last update to the World Bank methodology.<a id="ref-6" class="ref" href="#note-6"><sup>6</sup></a></p><p>Since that time, the national poverty lines of some countries in this group have been revised upwards as incomes generally increased. This dynamic was not present for the lower income groupings of countries: in these cases those countries with a rising poverty line were also graduating into a higher income group, thereby maintaining the median poverty line within their former income group roughly constant.<a id="ref-7" class="ref" href="#note-7"><sup>7</sup></a></p></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><h3 id="further-reading"><strong>Further reading</strong><a class="deep-link" href="#further-reading"></a></h3><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>For a fuller understanding of international-$ and PPPs in the context of global poverty measurement you may find some of the following articles helpful.</p><p><strong>On the 2017 PPPs:</strong></p><ul><li>Jolliffe, Dean Mitchell, Daniel Gerszon Mahler, Christoph Lakner, Aziz Atamanov, and Samuel Kofi Tetteh Baah. 2022. <em>Assessing the Impact of the 2017 PPPs on the International Poverty Line and Global Poverty</em>. The World Bank. Available online <a href="https://documents1.worldbank.org/curated/en/353811645450974574/pdf/Assessing-the-Impact-of-the-2017-PPPs-on-the-International-Poverty-Line-and-Global-Poverty.pdf">here</a>.</li><li>A <a href="https://blogs.worldbank.org/opendata/how-do-2017-ppps-change-our-understanding-global-and-regional-poverty">World Bank blog post</a> considering the implication of the 2017 PPPs for global and regional poverty estimates.</li><li>A <a href="https://www.worldbank.org/en/news/factsheet/2022/05/02/fact-sheet-an-adjustment-to-global-poverty-lines#8">World Bank factsheet</a> concerning the updating of its global poverty lines</li></ul><p><strong>And some more general discussions, in the context of past PPP rounds:</strong></p><ul><li>Deaton, Angus, and Bettina Aten. 2017. “Trying to Understand the PPPs in ICP 2011: Why Are the Results So Different?” <em>American Economic Journal: Macroeconomics</em> 9 (1): 243–64. Working paper version available online <a href="https://www.princeton.edu/~deaton/downloads/Deaton_Aten_Trying_to_understand_ICP_2011_V5.pdf">here</a>.</li><li>Bolt, Jutta, and Jan Luiten van Zanden. 2020. “Maddison Style Estimates of the Evolution of the World Economy. A New 2020 Update.” <em>University of Groningen, Groningen Growth and Development Centre, Maddison Project Working Paper</em>, no. 15. <a href="http://reparti.free.fr/maddi2020.pdf">http://reparti.free.fr/maddi2020.pdf</a>.</li></ul></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div><footer class="article-footer"><div class="wp-block-columns"><div class="wp-block-column"><h3 id="endnotes" class="h3-bold">Endnotes</h3><ol class="endnotes"><li id="note-1"><p>According to World Bank data on the <a href="https://data.worldbank.org/indicator/FP.CPI.TOTL?locations=US">Consumer Price Index</a>, the price level (relative to 2010) in 2011 was 103.2% and the price level in 2017 was 112.4%. The increase in prices was therefore 112.4/103.2 = 1.089, or approximately 9%. These are the same figures that the World Bank uses to adjust its data on household incomes for inflation within each country.</p></li><li id="note-2"><p>You can read about these changes and a summary of the ICP’s current methods in its <a href="https://openknowledge.worldbank.org/bitstream/handle/10986/33623/9781464815300.pdf?sequence=4&amp;isAllowed=y">2017 report</a>. <a href="https://documents1.worldbank.org/curated/en/353811645450974574/pdf/Assessing-the-Impact-of-the-2017-PPPs-on-the-International-Poverty-Line-and-Global-Poverty.pdf">Dean Joliffe and others (2022)</a> provide a helpful comparison of the ICPs methods in the 2011 and 2017 rounds in the context of global poverty measurement.</p></li><li id="note-3"><p>A helpful – although quite detailed and technical – explanation of why this gap can exist can be found in this <a href="http://reparti.free.fr/maddi2020.pdf">methodological note</a> from the team behind the Maddison Project Database – another cross-country dataset of incomes that uses international-$ adjustments.<br><br>At the heart of the problem is that, when comparing the overall price level in two places or two years you need to account not just for the prices of each product but also the quantity of that product bought or produced in each country – the <em>weights</em> attached to each product when calculating the average price level. Both the prices and the weights differ between countries. This means that straightforward comparisons of the price level between different pairs of countries needn’t be consistent with each other – the difference in prices between country A and C, need not be the same as the combined differences between country A and country B and country B and country C (in technical terms, they are not <em>transitive</em>). For the purposes of making international comparisons this is clearly an unhelpful property. In calculating PPPs, the IPC use a method for comparing price levels that yields transitive rates. A consequence of this is that there can be inconsistency between the change in price levels found across various rounds of PPPs and the inflation rates recorded in individual countries.</p></li><li id="note-4"><p>Official definitions of poverty in different countries are often not directly comparable due to the different ways poverty is measured. For example, countries account for the size of households in different ways in their poverty measures.</p>
+
+
+
+<p>The poverty lines shown here are an approximation of national definitions, harmonized to allow for comparisons across countries. For all countries apart from the US, we take the harmonized poverty line calculated by Jolliffe et al. (2022). These lines are calculated as the international dollar figure which, in the World Bank’s <a href="https://pip.worldbank.org/"><em>Poverty and Inequality Platform</em></a><em> </em>(PIP)<em> </em>data, yields the same poverty rate as the officially reported rate using national definitions in a particular year (around 2017).</p>
+
+
+
+<p>For the US, Jolliffe et al. (2022) use the OECD’s published poverty rate – which is measured against a relative poverty line of 50% of the median income. This yields a poverty line of $34.79 (measured using 2017 survey data). This however is not the official definition of poverty adopted in the US. We calculated an alternative harmonized figure for the US national poverty using the same method as Jolliffe et al. (2022), but based instead on the official 2019 poverty rate – <a href="https://www.census.gov/content/dam/Census/library/publications/2020/demo/p60-270.pdf">as reported</a> by the U.S. Census Bureau.<br></p>
+
+
+
+<p>You can see in detail how we calculated this poverty line in <a href="https://colab.research.google.com/drive/1IzHT9NikKHrY9uGWKzDzaZ4VVpdc9m5E">this Google Colabs notebook</a>.</p>
+
+
+
+<p><em>Jolliffe, Dean Mitchell, Daniel Gerszon Mahler, Christoph Lakner, Aziz Atamanov, and Samuel Kofi Tetteh Baah. 2022. Assessing the Impact of the 2017 PPPs on the International Poverty Line and Global Poverty. The World Bank. Available to read at the </em><a href="https://documents1.worldbank.org/curated/en/353811645450974574/pdf/Assessing-the-Impact-of-the-2017-PPPs-on-the-International-Poverty-Line-and-Global-Poverty.pdf"><em>World Bank here</em></a><em>.</em></p></li><li id="note-5"><p>As described by Dean Jolliffe and others (2022).<br><br>Jolliffe, Dean Mitchell, Daniel Gerszon Mahler, Christoph Lakner, Aziz Atamanov, and Samuel Kofi Tetteh Baah. 2022. <em>Assessing the Impact of the 2017 PPPs on the International Poverty Line and Global Poverty</em>. The World Bank. Available online <a href="https://documents1.worldbank.org/curated/en/353811645450974574/pdf/Assessing-the-Impact-of-the-2017-PPPs-on-the-International-Poverty-Line-and-Global-Poverty.pdf">here</a>.</p></li><li id="note-6"><p>As documented by Dean Jolliffe and Espen Beer Prydz (2016), in which they introduced the method now applied by the World Bank.</p>
+
+
+
+<p>Jolliffe, Dean, and Espen Beer Prydz. 2016. <em>Estimating International Poverty Lines from Comparable National Thresholds</em>. Washington, DC. Available online <a href="https://openknowledge.worldbank.org/bitstream/handle/10986/24148/Estimating0int00national0thresholds.pdf?sequence=1&amp;isAllowed=y">here</a>.</p></li><li id="note-7"><p>See the paper by Dean Jolliffe and others (2022) that introduces the updated World Bank poverty lines and provides a breakdown of the different factors contributing to the change in the poverty lines.<br><br>Jolliffe, Dean Mitchell, Daniel Gerszon Mahler, Christoph Lakner, Aziz Atamanov, and Samuel Kofi Tetteh Baah. 2022. <em>Assessing the Impact of the 2017 PPPs on the International Poverty Line and Global Poverty</em>. The World Bank. Available online <a href="https://documents1.worldbank.org/curated/en/353811645450974574/pdf/Assessing-the-Impact-of-the-2017-PPPs-on-the-International-Poverty-Line-and-Global-Poverty.pdf">here</a>.</p></li></ol><h3 id="licence" class="h3-bold">Reuse this work freely</h3><p>All visualizations, data, and code produced by Our World in Data are completely open access under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons BY license</a>. You have the permission to use, distribute, and reproduce these in any medium, provided the source and authors are credited.</p><p>The data produced by third parties and made available by Our World in Data is subject to the license terms from the original third-party authors. We will always indicate the original source of the data in our documentation, so you should always check the license of any such third-party data before use and redistribution.</p><p>All of <a href="/how-to-use-our-world-in-data#how-to-embed-interactive-charts-in-your-article">our charts can be embedded</a> in any site.</p></div><div class="wp-block-column"></div></div></footer></div></div></div></article></main><div id="wpadminbar" style="display:none"><div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar"><ul id="wp-admin-bar-root-default" class="ab-top-menu"><li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="https://owid.cloud/wp/wp-admin">Wordpress</a></li> <li id="wp-admin-bar-edit"><a class="ab-item" href="https://owid.cloud/wp/wp-admin/post.php?post=53245&amp;action=edit">Edit Page</a></li></ul></div></div><section class="donate-footer"><div class="wrapper"><div class="owid-row flex-align-center"><div class="owid-col owid-col--lg-3 owid-padding-bottom--sm-3"><p>Our World in Data is free and accessible for everyone.</p><p>Help us do this work by making a donation.</p></div><div class="owid-col owid-col--lg-1"><a href="/donate" class="owid-button donate-button" data-track-note="donate-footer"><span class="label">Donate now</span><span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg></span></a></div></div></div></section><footer class="site-footer"><div class="wrapper"><div class="owid-row"><div class="owid-col owid-col--lg-1"><ul><li><a href="/about" data-track-note="footer-navigation">About</a></li><li><a href="/about#contact" data-track-note="footer-navigation">Contact</a></li><li><a href="/feedback" data-track-note="footer-navigation">Feedback</a></li><li><a href="/jobs" data-track-note="footer-navigation">Jobs</a></li><li><a href="/funding" data-track-note="footer-navigation">Funding</a></li><li><a href="/about/how-to-use-our-world-in-data" data-track-note="footer-navigation">How to use</a></li><li><a href="/donate" data-track-note="footer-navigation">Donate</a></li><li><a href="/privacy-policy" data-track-note="footer-navigation">Privacy policy</a></li></ul></div><div class="owid-col owid-col--lg-1"><ul><li><a href="/blog" data-track-note="footer-navigation">Latest work</a></li><li><a href="/charts" data-track-note="footer-navigation">All charts</a></li></ul><ul><li><a href="https://twitter.com/OurWorldInData" data-track-note="footer-navigation">Twitter</a></li><li><a href="https://www.facebook.com/OurWorldinData" data-track-note="footer-navigation">Facebook</a></li><li><a href="https://www.instagram.com/ourworldindata/" data-track-note="footer-navigation">Instagram</a></li><li><a href="https://github.com/owid" data-track-note="footer-navigation">GitHub</a></li><li><a href="/feed" data-track-note="footer-navigation">RSS Feed</a></li></ul></div><div class="owid-col owid-col--lg-1"><div class="logos"><a href="https://www.oxfordmartin.ox.ac.uk/global-development" class="partner-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/oms-logo.svg" alt="Oxford Martin School logo" loading="lazy"/></a><a href="/owid-at-ycombinator" class="partner-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/yc-logo.png" alt="Y Combinator logo" loading="lazy"/></a></div></div><div class="owid-col flex-2"><div class="legal"><p>Licenses: All visualizations, data, and articles produced by Our World in Data are open access under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons BY license</a>. You have permission to use, distribute, and reproduce these in any medium, provided the source and authors are credited. All the software and code that we write is open source and made available via GitHub under the permissive <a href="https://github.com/owid/owid-grapher/blob/master/LICENSE.md " target="_blank" rel="noopener noreferrer">MIT license</a>. All other material, including data produced by third parties and made available by Our World in Data, is subject to the license terms from the original third-party authors.</p><p>Please consult our full <a href="/about#legal">legal disclaimer</a>.</p><p><a href="https://global-change-data-lab.org/" class="partner-logo gcdl-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/gcdl-logo.svg" alt="Global Change Data Lab logo" loading="lazy"/></a>Our World In Data is a project of the <a href="https://global-change-data-lab.org/">Global Change Data Lab</a>, a registered charity in England and Wales (Charity Number 1186433).</p></div></div></div></div><div class="site-tools"></div><script src="https://polyfill.io/v3/polyfill.min.js?features=es6,fetch,URL,IntersectionObserver,IntersectionObserverEntry,ResizeObserver"></script><script src="https://ourworldindata.org/assets/commons.js"></script><script src="https://ourworldindata.org/assets/vendors.js"></script><script src="https://ourworldindata.org/assets/owid.js"></script><script>window.runSiteFooterScripts()</script></footer><script>
+                        runTableOfContents({"headings":[],"pageTitle":"From $1.90 to $2.15 a day: the updated International Poverty Line"})
+                        runRelatedCharts(undefined)
+                        </script></body></html>
