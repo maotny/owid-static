@@ -9294,7 +9294,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/cancer-death-rates</loc>
-        <lastmod>2022-09-27</lastmod>
+        <lastmod>2022-10-17</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/cancer-death-rates-by-type</loc>
@@ -22426,6 +22426,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-new-hivaids-infections-who</loc>
+        <lastmod>2022-10-17</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/deaths-from-cancer-gbd</loc>
         <lastmod>2022-10-17</lastmod>
     </url>
     <url>
