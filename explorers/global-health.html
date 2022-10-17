@@ -1562,7 +1562,7 @@ const grapherConfigs =
   },
   {
     "id": 714,
-    "version": 18,
+    "version": 19,
     "slug": "neonatal-mortality-WDI",
     "title": "Neonatal mortality rate",
     "subtitle": "The share of newborns who die before reaching 28 days of age.",
@@ -1579,19 +1579,22 @@ const grapherConfigs =
       "max": 0
     },
     "map": {
-      "timeTolerance": 1,
+      "time": 2020,
+      "timeTolerance": 3,
       "colorScale": {
         "baseColorScheme": "OrRd",
         "colorSchemeInvert": false,
         "binningStrategy": "manual",
         "customNumericMinValue": 0,
         "customNumericValues": [
+          0.1,
+          0.25,
           0.5,
           1,
           2.5,
           5,
           10,
-          15
+          25
         ],
         "customNumericLabels": [
           "",
@@ -1607,6 +1610,8 @@ const grapherConfigs =
         ],
         "customNumericColorsActive": false,
         "customNumericColors": [
+          null,
+          null,
           null
         ],
         "legendDescription": "Neonatal mortality rate (per 1,000 live births)"
@@ -4530,7 +4535,7 @@ const grapherConfigs =
   },
   {
     "id": 3798,
-    "version": 13,
+    "version": 14,
     "slug": "infant-mortality-rate",
     "title": "Infant mortality rate",
     "subtitle": "The share of newborns who die before reaching one year of age.",
@@ -4552,13 +4557,18 @@ const grapherConfigs =
         "baseColorScheme": "OrRd",
         "binningStrategy": "manual",
         "customNumericValues": [
+          0.2,
+          0.5,
           1,
-          2.5,
+          2,
           5,
           10,
-          25
+          20,
+          50
         ],
         "customNumericColors": [
+          null,
+          null,
           null
         ]
       },
@@ -4915,7 +4925,7 @@ const grapherConfigs =
   },
   {
     "id": 3968,
-    "version": 9,
+    "version": 10,
     "slug": "number-of-neonatal-deaths-igme",
     "title": "Number of neonatal deaths",
     "subtitle": "Number of newborns dying before reaching 28 days of age.",
@@ -4930,20 +4940,41 @@ const grapherConfigs =
     },
     "map": {
       "colorScale": {
-        "binningStrategy": "equalInterval"
+        "baseColorScheme": "OrRd",
+        "binningStrategy": "manual",
+        "customNumericValues": [
+          5000,
+          10000,
+          25000,
+          50000,
+          100000,
+          250000,
+          500000,
+          1000000,
+          2500000
+        ],
+        "customNumericColors": [
+          null,
+          null
+        ]
       },
       "variableId": 446637
     },
     "dimensions": [
       {
         "property": "y",
-        "variableId": 446637
+        "variableId": 446637,
+        "display": {
+          "unit": "deaths",
+          "numDecimalPlaces": 0,
+          "includeInTable": true
+        }
       }
     ]
   },
   {
     "id": 3969,
-    "version": 11,
+    "version": 12,
     "slug": "number-of-infant-deaths-ihme",
     "title": "Number of infant deaths",
     "subtitle": "The number of infants dying before reaching one year of age.",
@@ -4959,19 +4990,17 @@ const grapherConfigs =
     },
     "map": {
       "colorScale": {
+        "baseColorScheme": "OrRd",
         "binningStrategy": "manual",
         "customNumericValues": [
           10000,
-          25000,
           50000,
           100000,
-          250000,
           500000,
           1000000,
-          2500000
+          5000000
         ],
         "customNumericColors": [
-          null,
           null
         ]
       },
