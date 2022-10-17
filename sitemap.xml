@@ -9634,7 +9634,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/hiv-death-rates</loc>
-        <lastmod>2022-09-27</lastmod>
+        <lastmod>2022-10-17</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/hiv-death-rates-by-age</loc>
@@ -21926,7 +21926,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-hivaids</loc>
-        <lastmod>2022-10-03</lastmod>
+        <lastmod>2022-10-17</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-from-diarrheal-diseases</loc>
@@ -22414,6 +22414,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/daily-mean-income-2011-ppp</loc>
+        <lastmod>2022-10-17</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/number-of-deaths-from-hivaids-who</loc>
         <lastmod>2022-10-17</lastmod>
     </url>
     <url>
