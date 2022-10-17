@@ -5782,7 +5782,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/total-population-living-in-extreme-poverty-by-world-region</loc>
-        <lastmod>2022-10-16</lastmod>
+        <lastmod>2022-10-17</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/inequality-of-incomes-chartbook</loc>
@@ -9942,10 +9942,6 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-the-population-with-alcohol-use-disorders</loc>
-        <lastmod>2022-09-06</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/death-rate-unsafe-water-source</loc>
         <lastmod>2022-09-06</lastmod>
     </url>
     <url>
@@ -20118,7 +20114,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/total-population-living-in-extreme-poverty-by-world-region-india-china-separate</loc>
-        <lastmod>2022-10-16</lastmod>
+        <lastmod>2022-10-17</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/population-since-1800</loc>
@@ -21686,11 +21682,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/income-shares-by-quintile-pip</loc>
-        <lastmod>2022-09-20</lastmod>
+        <lastmod>2022-10-17</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/income-share-of-the-top-10-pip</loc>
-        <lastmod>2022-09-30</lastmod>
+        <lastmod>2022-10-17</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/human-papillomavirus-vaccine-immunization-schedule</loc>
@@ -21842,7 +21838,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/mean-daily-per-capita-expenditure-vs-gdp-per-capita-2011-ppp</loc>
-        <lastmod>2022-10-16</lastmod>
+        <lastmod>2022-10-17</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/mean-daily-expenditure-per-capita-vs-gdp-per-capita-2011-ppp</loc>
@@ -21858,7 +21854,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/distribution-of-population-poverty-thresholds-2011-ppp</loc>
-        <lastmod>2022-10-16</lastmod>
+        <lastmod>2022-10-17</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-in-poverty-relative-to-different-poverty-thresholds-2011-ppp</loc>
@@ -21866,15 +21862,15 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty-2011-ppp</loc>
-        <lastmod>2022-10-16</lastmod>
+        <lastmod>2022-10-17</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/mpi-vs-consumption-2011-ppp</loc>
-        <lastmod>2022-10-16</lastmod>
+        <lastmod>2022-10-17</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/poverty-share-on-less-than-30-per-day-2011-ppp</loc>
-        <lastmod>2022-10-16</lastmod>
+        <lastmod>2022-10-17</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-from-falls</loc>
