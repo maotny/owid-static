@@ -1,0 +1,1002 @@
+<!doctype html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Poverty - Our World in Data</title><meta name="description" content="Global poverty is one of the most pressing problems that the world faces today. The poorest in the world are often undernourished, without access to basic services such as electricity and safe drinking water; they have less access to education, and suffer from much poorer health."/><link rel="canonical" href="https://ourworldindata.org/poverty"/><link rel="alternate" type="application/atom+xml" href="/atom.xml"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><meta property="fb:app_id" content="1149943818390250"/><meta property="og:url" content="https://ourworldindata.org/poverty"/><meta property="og:title" content="Poverty"/><meta property="og:description" content="Global poverty is one of the most pressing problems that the world faces today. The poorest in the world are often undernourished, without access to basic services such as electricity and safe drinking water; they have less access to education, and suffer from much poorer health."/><meta property="og:image" content="https://ourworldindata.org/default-thumbnail.jpg"/><meta property="og:site_name" content="Our World in Data"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@OurWorldInData"/><meta name="twitter:creator" content="@OurWorldInData"/><meta name="twitter:title" content="Poverty"/><meta name="twitter:description" content="Global poverty is one of the most pressing problems that the world faces today. The poorest in the world are often undernourished, without access to basic services such as electricity and safe drinking water; they have less access to education, and suffer from much poorer health."/><meta name="twitter:image" content="https://ourworldindata.org/default-thumbnail.jpg"/><link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Playfair+Display:400,600,700&amp;display=swap" rel="stylesheet"/><link rel="stylesheet" href="https://ourworldindata.org/assets/commons.css"/><link rel="stylesheet" href="https://ourworldindata.org/assets/owid.css"/><meta name="citation_title" content="Poverty"/><meta name="citation_fulltext_html_url" content="https://ourworldindata.org/poverty"/><meta name="citation_fulltext_world_readable" content=""/><meta name="citation_publication_date" content="2022/10/17"/><meta name="citation_journal_title" content="Our World in Data"/><meta name="citation_journal_abbrev" content="Our World in Data"/><meta name="citation_author" content="Joe Hasell"/><meta name="citation_author" content="Max Roser"/><meta name="citation_author" content="Esteban Ortiz-Ospina"/><meta name="citation_author" content="Pablo Arriagada"/></head><body class="topic-page"><header class="site-header"><div class="wrapper site-navigation-bar"><div class="site-logo"><a href="/">Our World<br/> in Data</a></div><nav class="site-navigation"><div class="topics-button-wrapper"><a href="/#entries" class="topics-button"><div class="label">Articles <br/><strong>by topic</strong></div><div class="icon"><svg width="12" height="6"><path d="M0,0 L12,0 L6,6 Z" fill="currentColor"></path></svg></div></a></div><div><div class="site-primary-navigation"><form class="HeaderSearch" action="/search" method="GET"><input type="search" name="q" placeholder="Search..."/><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" class="svg-inline--fa fa-magnifying-glass " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"></path></svg></div></form><ul class="site-primary-links"><li><a href="/blog" data-track-note="header-navigation">Latest</a></li><li><a href="/about" data-track-note="header-navigation">About</a></li><li><a href="/donate" data-track-note="header-navigation">Donate</a></li></ul></div><div class="site-secondary-navigation"><ul class="site-secondary-links"><li><a href="/charts" data-track-note="header-navigation">All charts</a></li><li><a href="https://sdg-tracker.org" data-track-note="header-navigation">Sustainable Development Goals Tracker</a></li></ul></div></div></nav><div class="header-logos-wrapper"><a href="https://www.oxfordmartin.ox.ac.uk/global-development" class="oxford-logo"><img src="https://ourworldindata.org/oms-logo.svg" alt="Oxford Martin School logo"/></a><a href="https://global-change-data-lab.org/" class="gcdl-logo"><img src="https://ourworldindata.org/gcdl-logo.svg" alt="Global Change Data Lab logo"/></a></div><div class="mobile-site-navigation"><button data-track-note="mobile-search-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" class="svg-inline--fa fa-magnifying-glass " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"></path></svg></button><button data-track-note="mobile-newsletter-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-open-text" class="svg-inline--fa fa-envelope-open-text " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M215.4 96H144 107.8 96v8.8V144v40.4 89L.2 202.5c1.6-18.1 10.9-34.9 25.7-45.8L48 140.3V96c0-26.5 21.5-48 48-48h76.6l49.9-36.9C232.2 3.9 243.9 0 256 0s23.8 3.9 33.5 11L339.4 48H416c26.5 0 48 21.5 48 48v44.3l22.1 16.4c14.8 10.9 24.1 27.7 25.7 45.8L416 273.4v-89V144 104.8 96H404.2 368 296.6 215.4zM0 448V242.1L217.6 403.3c11.1 8.2 24.6 12.7 38.4 12.7s27.3-4.4 38.4-12.7L512 242.1V448v0c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64v0zM176 160H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H176c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H176c-8.8 0-16-7.2-16-16s7.2-16 16-16z"></path></svg></button><button data-track-note="mobile-hamburger-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path></svg></button></div></div></header><div class="alert-banner"><div class="content"><div class="text"><strong>COVID-19 vaccinations, cases, excess mortality, and much more</strong></div><a href="/coronavirus#explore-the-global-situation" data-track-note="covid-banner-click">Explore our COVID-19 data</a></div></div><main><article class="page no-sidebar large-banner"><div class="offset-header"><header class="article-header"><div class="article-titles"><h1 class="entry-title">Poverty</h1></div><div class="authors-byline"><a href="/team">by Joe Hasell, Max Roser, Esteban Ortiz-Ospina and Pablo Arriagada</a></div><div class="tools"><a href="#licence"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons" class="svg-inline--fa fa-creative-commons " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M245.83 214.87l-33.22 17.28c-9.43-19.58-25.24-19.93-27.46-19.93-22.13 0-33.22 14.61-33.22 43.84 0 23.57 9.21 43.84 33.22 43.84 14.47 0 24.65-7.09 30.57-21.26l30.55 15.5c-6.17 11.51-25.69 38.98-65.1 38.98-22.6 0-73.96-10.32-73.96-77.05 0-58.69 43-77.06 72.63-77.06 30.72-.01 52.7 11.95 65.99 35.86zm143.05 0l-32.78 17.28c-9.5-19.77-25.72-19.93-27.9-19.93-22.14 0-33.22 14.61-33.22 43.84 0 23.55 9.23 43.84 33.22 43.84 14.45 0 24.65-7.09 30.54-21.26l31 15.5c-2.1 3.75-21.39 38.98-65.09 38.98-22.69 0-73.96-9.87-73.96-77.05 0-58.67 42.97-77.06 72.63-77.06 30.71-.01 52.58 11.95 65.56 35.86zM247.56 8.05C104.74 8.05 0 123.11 0 256.05c0 138.49 113.6 248 247.56 248 129.93 0 248.44-100.87 248.44-248 0-137.87-106.62-248-248.44-248zm.87 450.81c-112.54 0-203.7-93.04-203.7-202.81 0-105.42 85.43-203.27 203.72-203.27 112.53 0 202.82 89.46 202.82 203.26-.01 121.69-99.68 202.82-202.84 202.82z"></path></svg>Reuse our work freely</a><a href="#citation"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="book" class="svg-inline--fa fa-book " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"></path></svg>Cite this research</a></div></header></div><nav class="sticky-nav"><style>
+                    [id] {
+                         scroll-margin-top:70px;
+                    }
+                    .wp-sticky-container {
+                        top: 70px;
+                    }</style><ul class="sticky-nav-container"><li><a tabindex="0" class="" href="#introduction">Introduction</a></li><li><a tabindex="0" class="" href="#key-insights-on-poverty">Key Insights</a></li><li><a tabindex="0" class="" href="#explore-data-poverty">Data Explorer</a></li><li><a tabindex="0" class="" href="#research-writing">Research &amp; Writing</a></li><li><a tabindex="0" class="" href="#all-our-interactive-charts-on-poverty">Charts</a></li><li><a tabindex="0" class="" href="#endnotes">Endnotes</a></li><li><a tabindex="0" class="" href="#citation">Cite This Work</a></li><li><a tabindex="0" class="" href="#licence">Reuse this work</a></li></ul></nav><div class="content-wrapper"><div class="offset-content"><div class="content-and-footnotes"><div class="article-content"><section><div class="wp-block-columns front-matter">
+<div class="wp-block-column">
+<p id="introduction">Global poverty is one of the most pressing problems that the world faces today. The poorest in the world are often <a href="https://ourworldindata.org/grapher/extreme-poverty-vs-prevalence-of-underweight-children">undernourished</a>, without access to basic services such as <a href="https://ourworldindata.org/grapher/access-to-electricity-of-population-vs-share-in-extreme-poverty?time=latest">electricity</a> and <a href="https://ourworldindata.org/grapher/death-rate-from-unsafe-water-sources-vs-share-in-extreme-poverty?time=latest">safe drinking water</a>; they have less access to <a href="https://ourworldindata.org/grapher/expected-years-of-schooling-vs-share-in-extreme-poverty?xScale=log&amp;time=latest">education</a>, and suffer from <a href="https://ourworldindata.org/grapher/poverty-and-child-mortality">much poorer health</a>.</p>
+
+
+
+<p id="introduction">In order to make progress against such poverty in the future, we need to understand poverty around the world today and how it has changed.</p>
+
+
+
+<p id="introduction">On this page you can find all our data, visualizations and writing relating to poverty. This work aims to help you understand the scale of the problem today; where progress has been achieved and where it has not; what can be done to make progress against poverty in the future; and the methods behind the data on which this knowledge is based.</p>
+</div>
+
+
+
+<div class="wp-block-column">
+<div class="wp-block-button btn-secondary"><a class="wp-block-button__link" href="https://github.com/owid/poverty-data">Download Poverty data on GitHub</a></div>
+
+
+
+<div class="wp-container-634d677387ae3 wp-block-group related-topics">
+<p>Related topics</p>
+
+
+
+<ul><li><a href="https://ourworldindata.org/economic-growth">Economic Growth</a></li><li><a href="https://ourworldindata.org/income-inequality">Income Inequality</a></li><li><a href="https://ourworldindata.org/global-economic-inequality">Global Economic Inequality</a></li></ul>
+</div>
+</div>
+</div></section>
+
+
+
+	<section><h2 id="key-insights-on-poverty" class="key-insights-heading" data-reactroot="">Key insights on Poverty<a class="deep-link" href="#key-insights-on-poverty"></a></h2><div class="wp-block-owid-key-insights" data-reactroot=""><div class="block-wrapper"><div class="thumbs" role="tablist"><div class="react-horizontal-scrolling-menu--wrapper "><div class="react-horizontal-scrolling-menu--scroll-container "><div class="react-horizontal-scrolling-menu--item " data-key="0" data-index="0"><button role="tab" aria-selected="true" class="thumb">Measuring global poverty in an unequal world</button></div><div class="react-horizontal-scrolling-menu--separator " data-key="0-separator" data-index="0.1"></div><div class="react-horizontal-scrolling-menu--item " data-key="1" data-index="1"><button role="tab" aria-selected="false" class="thumb">Global extreme poverty declined substantially over the last generation</button></div><div class="react-horizontal-scrolling-menu--separator " data-key="1-separator" data-index="1.1"></div><div class="react-horizontal-scrolling-menu--item " data-key="2" data-index="2"><button role="tab" aria-selected="false" class="thumb">The pandemic pushed millions into extreme poverty</button></div><div class="react-horizontal-scrolling-menu--separator " data-key="2-separator" data-index="2.1"></div><div class="react-horizontal-scrolling-menu--item " data-key="3" data-index="3"><button role="tab" aria-selected="false" class="thumb">Hundreds of millions will remain in extreme poverty on current trends</button></div><div class="react-horizontal-scrolling-menu--separator " data-key="3-separator" data-index="3.1"></div><div class="react-horizontal-scrolling-menu--item " data-key="4" data-index="4"><button role="tab" aria-selected="false" class="thumb">The rapid progress seen in many countries shows an end to poverty is possible</button></div><div class="react-horizontal-scrolling-menu--separator " data-key="4-separator" data-index="4.1"></div><div class="react-horizontal-scrolling-menu--item " data-key="5" data-index="5"><button role="tab" aria-selected="false" class="thumb">After 200 years of progress the fight against global poverty is just beginning</button></div></div><button class="arrow right"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg></button></div></div></div><div class="slides"><div class="slide" data-active="true" role="tabpanel" tabindex="0"><div class="content"><section><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="poverty-is-defined-and-measured-in-different-ways">Measuring global poverty in an unequal world</h4><p>There is no single definition of poverty. Our understanding of the extent of poverty and how it is changing depends on which definition we have in mind.</p><p>In particular, richer and poorer countries set very different poverty lines in order to measure poverty in a way that is informative and relevant to the level of incomes of their citizens.</p><p>For instance, while in the United States a person is counted as being in poverty if they live on less than roughly $24.55 per day, in Ethiopia the poverty line is set more than 10 times lower – at $2.04 per day. You can read more about how these comparable national poverty lines are calculated in this footnote.<a id="ref-1" class="ref" href="#note-1"><sup>1</sup></a></p><p>To measure poverty globally, however, we need to apply a poverty line that is consistent across countries.&nbsp;</p><p>This is the goal of the International Poverty Line of $2.15 per day – shown in red in the chart – which is set by the World Bank and used by the UN to monitor extreme poverty around the world.</p><p>We see that, in global terms, this is an extremely low threshold indeed – set to reflect the poverty lines adopted nationally in the world’s poorest countries. It marks an incredibly low standard of living – a level of income much lower than just the cost of a <a href="https://ourworldindata.org/diet-affordability">healthy diet</a>.</p><div class="block-wrapper"><div class="wp-block-owid-prominent-link with-image" data-no-lightbox="true" data-style="is-style-thin" data-title="From $1.90 to $2.15 a day: the updated International Poverty Line"><a href="https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line"><figure><img src="https://ourworldindata.org/uploads/2022/10/poverty-explorer-2011-vs-2017-ppp-150x106.png" data-high-res-src="https://ourworldindata.org/uploads/2022/10/poverty-explorer-2011-vs-2017-ppp.png" alt="Poverty explorer 2011 vs 2017 ppp" loading="lazy"></figure><div class="content-wrapper"><div class="title"><span>From $1.90 to $2.15 a day: the updated International Poverty Line</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></div><div class="content">
+
+<p>Read more</p>
+
+</div></div></a></div></div><div class="wp-block-owid-technical-text">
+		
+
+<h5>Methods &amp; data quality</h5>
+
+
+
+<ul><li>Global poverty data relies on national household surveys that have differences affecting their comparability across countries or over time. Here the data for the US relates to incomes and the data for other countries relates to consumption expenditure.<a id="ref-2" class="ref" href="#note-2"><sup>2</sup></a></li></ul>
+
+
+
+
+
+
+
+<ul><li>The poverty lines here are an approximation of national definitions of poverty, made in order to allow comparisons across the countries.<a id="ref-3" class="ref" href="#note-3"><sup>3</sup></a></li></ul>
+
+
+
+
+
+
+
+<ul><li>Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.<a id="ref-4" class="ref" href="#note-4"><sup>4</sup></a></li></ul>
+
+
+
+
+
+
+
+<ul><li>Data is measured in 2017 international-$, which means that inflation and differences in the cost of living across countries are taken into account<strong>.</strong><a id="ref-5" class="ref" href="#note-5"><sup>5</sup></a></li></ul>
+
+
+	</div></div><div class="wp-block-column"><div class="wp-sticky-container"><figure class="wp-block-image size-large"><img loading="lazy" width="657" height="550" src="https://ourworldindata.org/uploads/2022/10/Five-income-distributions-national-poverty-and-IPL-2-657x550.png" alt="Five income distributions national poverty and ipl 2" class="wp-image-53743" srcset="https://ourworldindata.org/uploads/2022/10/Five-income-distributions-national-poverty-and-IPL-2-657x550.png 657w, https://ourworldindata.org/uploads/2022/10/Five-income-distributions-national-poverty-and-IPL-2-400x335.png 400w, https://ourworldindata.org/uploads/2022/10/Five-income-distributions-national-poverty-and-IPL-2-150x126.png 150w, https://ourworldindata.org/uploads/2022/10/Five-income-distributions-national-poverty-and-IPL-2-768x643.png 768w, https://ourworldindata.org/uploads/2022/10/Five-income-distributions-national-poverty-and-IPL-2-1536x1287.png 1536w" sizes="(max-width: 657px) 100vw, 657px" data-high-res-src="https://ourworldindata.org/uploads/2022/10/Five-income-distributions-national-poverty-and-IPL-2.png"></figure></div></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+</div></div><div class="slide" data-active="false" role="tabpanel" tabindex="0"><div class="content"><section><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="global-extreme-poverty-declined-substantially-over-the-last-generation">Global extreme poverty declined substantially over the last generation</h4><p>Over the past generation extreme poverty declined hugely. This is one of the most important ways our world has changed over this time.</p><p>There are more than a billion fewer people living below the International Poverty Line of $2.15 per day today than in 1990. On average, the number declined by 47 million every year, or 130,000 people each day.<a id="ref-6" class="ref" href="#note-6"><sup>6</sup></a></p><p>The scale of global poverty today, however, remains vast. The latest global estimates of extreme poverty are for 2019. In that year the World Bank estimates that around 650 million people – roughly one in twelve – were living on less than $2.15 a day.</p><div class="block-wrapper"><div class="wp-block-owid-prominent-link with-image" data-no-lightbox="true" data-style="is-style-thin" data-title="Extreme poverty: how far have we come, how far do we still have to go?"><a href="https://ourworldindata.org/extreme-poverty-in-brief"><figure><img src="https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-150x82.png" data-high-res-src="https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post.png" alt="Featured image for the post" loading="lazy"></figure><div class="content-wrapper"><div class="title"><span>Extreme poverty: how far have we come, how far do we still have to go?</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></div><div class="content">
+
+<p>Read more</p>
+
+</div></div></a></div></div><div class="wp-block-owid-technical-text">
+		
+
+<h5><strong>Methods &amp; data quality:</strong></h5>
+
+
+
+<ul><li>Extreme poverty here is defined according to the UN’s definition of living on less than $2.15 a day – an <em>extremely</em> low threshold needed to monitor and draw attention to the living conditions of the poorest around the world. Read more in our article, <a href="https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line"><em>From $1.90 to $2.15 a day: the updated International Poverty Line</em></a>.</li></ul>
+
+
+
+
+
+
+
+<ul><li>Global poverty data relies on national household surveys that have differences affecting their comparability across countries or over time.<a id="ref-7" class="ref" href="#note-7"><sup>7</sup></a></li></ul>
+
+
+
+
+
+
+
+<ul><li>Surveys are <a href="https://ourworldindata.org/grapher/data-deprivation-poverty-surveys-per-decade">less frequently available</a> in poorer countries and for earlier decades. To produce regional and global poverty estimates, the World Bank collates the closest survey for each country and projects the data forward or backwards to the year being estimated.<a id="ref-8" class="ref" href="#note-8"><sup>8</sup></a></li></ul>
+
+
+
+
+
+
+
+<ul><li>Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.<a id="ref-9" class="ref" href="#note-9"><sup>9</sup></a></li></ul>
+
+
+
+
+
+
+
+<ul><li>Data is measured in 2017 international-$, which means that inflation and differences in the cost of living across countries are taken into account<strong>.</strong><a id="ref-10" class="ref" href="#note-10"><sup>10</sup></a></li></ul>
+
+
+	</div></div><div class="wp-block-column"><div class="wp-sticky-container"><figure data-grapher-src="https://ourworldindata.org/grapher/the-share-and-number-of-people-living-in-extreme-poverty?country=~OWID_WRL" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/the-share-and-number-of-people-living-in-extreme-poverty?country=~OWID_WRL" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/the-share-and-number-of-people-living-in-extreme-poverty-ed9cc8bcc7e00c8a5b0c73d8f2310738_v12_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="The share and number of people living in extreme poverty ed9cc8bcc7e00c8a5b0c73d8f2310738 v12 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure></div></div></div></section>
+
+
+
+
+
+
+
+
+
+
+    
+
+	
+
+
+
+                
+
+
+
+
+
+</div></div><div class="slide" data-active="false" role="tabpanel" tabindex="0"><div class="content"><section><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="the-pandemic-pushed-millions-into-extreme-poverty">The pandemic pushed millions into extreme poverty</h4><p>Official estimates for global poverty over the course of the <a href="https://ourworldindata.org/coronavirus">Coronavirus pandemic</a> are not yet available.&nbsp;</p><p>But it is clear that the global recession it brought about has had a terrible impact on the world’s poorest.</p><p>Preliminary estimates produced by researchers at the World Bank suggest that the number of people in extreme poverty rose by around 70 million in 2020 – the first substantial rise in a generation – and remains around 70-90 million higher than would have been expected in the pandemic’s absence.<a id="ref-11" class="ref" href="#note-11"><sup>11</sup></a></p><div class="wp-block-owid-technical-text">
+		
+
+<h5><strong>Methods &amp; data quality:</strong></h5>
+
+
+
+<ul><li>Extreme poverty here is defined according to the UN’s definition of living on less than $2.15 a day – an <em>extremely</em> low threshold needed to monitor and draw attention to the living conditions of the poorest around the world. Read more in our article, <a href="https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line"><em>From $1.90 to $2.15 a day: the updated International Poverty Line</em></a>.</li></ul>
+
+
+
+
+
+
+
+<ul><li>Figures for 2020-2022 are preliminary estimates and projections by World Bank researchers, based on economic growth forecasts. The pre-pandemic projection is based on growth forecasts prior to the pandemic. You can read more about this data and the methods behind it in the World Bank’s <a href="https://www.worldbank.org/en/publication/poverty-and-shared-prosperity">Poverty and Shared Prosperity 2022</a> report.<a id="ref-12" class="ref" href="#note-12"><sup>12</sup></a></li></ul>
+
+
+
+
+
+
+
+<ul><li>Global poverty data relies on national household surveys that have differences affecting their comparability across countries or over time.<a id="ref-13" class="ref" href="#note-13"><sup>13</sup></a></li></ul>
+
+
+
+
+
+
+
+<ul><li>Surveys are <a href="https://ourworldindata.org/grapher/data-deprivation-poverty-surveys-per-decade">less frequently available</a> in poorer countries and for earlier decades. To produce regional and global poverty estimates, the World Bank collates the closest survey for each country and projects the data forward or backwards to the year being estimated.<a id="ref-14" class="ref" href="#note-14"><sup>14</sup></a></li></ul>
+
+
+
+
+
+
+
+<ul><li>Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.<a id="ref-15" class="ref" href="#note-15"><sup>15</sup></a></li></ul>
+
+
+
+
+
+
+
+<ul><li>Data is measured in 2017 international-$, which means that inflation and differences in the cost of living across countries are taken into account<strong>.</strong><a id="ref-16" class="ref" href="#note-16"><sup>16</sup></a></li></ul>
+
+
+	</div></div><div class="wp-block-column"><div class="wp-sticky-container"><figure class="wp-block-image size-large"><img loading="lazy" width="682" height="550" src="https://ourworldindata.org/uploads/2022/10/number-of-poor-plus-projections-1-682x550.png" alt="Number of poor plus projections 1" class="wp-image-53745" srcset="https://ourworldindata.org/uploads/2022/10/number-of-poor-plus-projections-1-682x550.png 682w, https://ourworldindata.org/uploads/2022/10/number-of-poor-plus-projections-1-400x323.png 400w, https://ourworldindata.org/uploads/2022/10/number-of-poor-plus-projections-1-150x121.png 150w, https://ourworldindata.org/uploads/2022/10/number-of-poor-plus-projections-1-768x620.png 768w, https://ourworldindata.org/uploads/2022/10/number-of-poor-plus-projections-1-1536x1239.png 1536w" sizes="(max-width: 682px) 100vw, 682px" data-high-res-src="https://ourworldindata.org/uploads/2022/10/number-of-poor-plus-projections-1.png"></figure></div></div></div></section>
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+</div></div><div class="slide" data-active="false" role="tabpanel" tabindex="0"><div class="content"><section><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="hundreds-of-millions-will-remain-in-extreme-poverty-on-current-trends">Hundreds of millions will remain in extreme poverty on current trends</h4><p>Extreme poverty declined during the last generation because the majority of the poorest people on the planet lived in countries with strong economic growth – primarily in Asia.</p><p>The majority of the poorest now live in Sub-Saharan Africa, where weaker economic growth and high population growth in many countries has led to a rising number of people living in extreme poverty.</p><p>The chart here shows projections of global extreme poverty produced by World Bank researchers based on economic growth forecasts.<a id="ref-17" class="ref" href="#note-17"><sup>17</sup></a></p><p>A very bleak future is ahead of us should such weak economic growth in the world’s poorest countries continue – a future in which extreme poverty is the reality for hundreds of millions for many years to come.</p><div class="block-wrapper"><div class="wp-block-owid-prominent-link with-image" data-no-lightbox="true" data-style="is-style-thin" data-title="Extreme poverty: how far have we come, how far do we still have to go?"><a href="https://ourworldindata.org/extreme-poverty-in-brief"><figure><img src="https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-150x82.png" data-high-res-src="https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post.png" alt="Featured image for the post" loading="lazy"></figure><div class="content-wrapper"><div class="title"><span>Extreme poverty: how far have we come, how far do we still have to go?</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></div><div class="content">
+
+<p>Read more</p>
+
+</div></div></a></div></div><div class="wp-block-owid-technical-text">
+		
+
+<h5><strong>Methods &amp; data quality:</strong></h5>
+
+
+
+<ul><li>The extreme poverty estimates and projections shown here relate to a previous release of the World Bank’s poverty and inequality data in which incomes are expressed in 2011 international-$. The World Bank has since updated its methods, and now measures incomes in 2017 international-$. As part of this change, the International Poverty Line used to measure extreme poverty has also been updated: from $1.90 (in 2011 prices) to $2.15 (in 2017 prices).<br><br>This has had little effect on our overall understanding of poverty and inequality around the world. You can read more about this change and how it affected the World Bank estimates of poverty in our article <a href="https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line"><em>From $1.90 to $2.15 a day: the updated International Poverty Line</em></a>.</li></ul>
+
+
+
+
+
+
+
+<ul><li>Figures for 2018 and beyond are preliminary estimates and projections by Lakner et al. (2022), based on economic growth forecasts. You can read more about this data and the methods behind it in the <a href="https://blogs.worldbank.org/opendata/projecting-global-extreme-poverty-2030-how-close-are-we-world-banks-3-goal">related blog post</a>.<a id="ref-18" class="ref" href="#note-18"><sup>18</sup></a></li></ul>
+
+
+
+
+
+
+
+<ul><li>Global poverty data relies on national household surveys that have differences affecting their comparability across countries or over time.<a id="ref-19" class="ref" href="#note-19"><sup>19</sup></a></li></ul>
+
+
+
+
+
+
+
+<ul><li>Surveys are <a href="https://ourworldindata.org/grapher/data-deprivation-poverty-surveys-per-decade">less frequently available</a> in poorer countries and for earlier decades. To produce regional and global poverty estimates, the World Bank collates the closest survey for each country and projects the data forward or backwards to the year being estimated.<a id="ref-20" class="ref" href="#note-20"><sup>20</sup></a></li></ul>
+
+
+
+
+
+
+
+<ul><li>Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.<a id="ref-21" class="ref" href="#note-21"><sup>21</sup></a></li></ul>
+
+
+
+
+
+
+
+<ul><li>Data is measured in 2011 international-$, which means that inflation and differences in the cost of living across countries are taken into account<strong>.</strong><a id="ref-22" class="ref" href="#note-22"><sup>22</sup></a></li></ul>
+
+
+
+
+
+
+	</div></div><div class="wp-block-column"><div class="wp-sticky-container"><figure class="wp-block-image size-large"><img loading="lazy" width="705" height="550" src="https://ourworldindata.org/uploads/2022/10/projections-to-2030-by-world-region-705x550.png" alt="Projections to 2030 by world region" class="wp-image-53741" srcset="https://ourworldindata.org/uploads/2022/10/projections-to-2030-by-world-region-705x550.png 705w, https://ourworldindata.org/uploads/2022/10/projections-to-2030-by-world-region-400x312.png 400w, https://ourworldindata.org/uploads/2022/10/projections-to-2030-by-world-region-150x117.png 150w, https://ourworldindata.org/uploads/2022/10/projections-to-2030-by-world-region-768x599.png 768w, https://ourworldindata.org/uploads/2022/10/projections-to-2030-by-world-region-1536x1199.png 1536w" sizes="(max-width: 705px) 100vw, 705px" data-high-res-src="https://ourworldindata.org/uploads/2022/10/projections-to-2030-by-world-region.png"></figure></div></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+	
+
+
+
+
+</div></div><div class="slide" data-active="false" role="tabpanel" tabindex="0"><div class="content"><section><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="the-rapid-progress-seen-in-many-countries-shows-an-end-to-poverty-is-possible">The rapid progress seen in many countries shows an end to poverty is possible</h4><p>Each of the countries shown in the chart achieved large declines in extreme poverty over the last generation.<a id="ref-23" class="ref" href="#note-23"><sup>23</sup></a></p><p>The fact that rapid progress against poverty has been achieved in many places is one of the most important lessons we can learn from the available data on extreme poverty.</p><p>For those who are not aware of such progress – which is <a href="https://ourworldindata.org/wrong-about-the-world">the majority of people</a> – it would be easy to make the mistake of believing that poverty is inevitable and that action to tackle poverty is hence doomed to fail.</p><p>The huge progress seen in so many places shows that this view is incorrect.</p><div class="wp-block-owid-technical-text">
+		
+
+<h5><strong>Methods &amp; data quality:</strong></h5>
+
+
+
+<ul><li>Extreme poverty here is defined according to the UN’s definition of living on less than $2.15 a day – an <em>extremely</em> low threshold needed to monitor and draw attention to the living conditions of the poorest around the world. Read more in our article, <a href="https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line"><em>From $1.90 to $2.15 a day: the updated International Poverty Line</em></a>.</li></ul>
+
+
+
+
+
+
+
+<ul><li>Global poverty data relies on national household surveys that have differences affecting their comparability across countries or over time.<a id="ref-24" class="ref" href="#note-24"><sup>24</sup></a></li></ul>
+
+
+
+
+
+
+
+<ul><li>Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account.<a id="ref-25" class="ref" href="#note-25"><sup>25</sup></a></li></ul>
+
+
+
+
+
+
+
+<ul><li>Data is measured in 2017 international-$, which means that inflation and differences in the cost of living across countries are taken into account<strong>.</strong><a id="ref-26" class="ref" href="#note-26"><sup>26</sup></a></li></ul>
+
+
+	</div></div><div class="wp-block-column"><div class="wp-sticky-container"><figure data-explorer-src="https://ourworldindata.org/explorers/poverty-explorer?tab=chart&amp;facet=entity&amp;hideControls=true&amp;Metric=Share+in+poverty&amp;Poverty+line=%242.15+a+day&amp;Household+survey+data+type=Show+data+from+both+income+and+expenditure+surveys&amp;Show+breaks+between+less+comparable+surveys=false&amp;country=CHN~IDN~NPL~PAK~GMB~GIN~VNM~SWZ~TJK~GTM~BFA~ETH~NAM~MLI~MRT~IND" style="width: 100%; height: 600px; border: 0px none;"><div class="loading-indicator"><span style="border-color:#333"></span></div></figure></div></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+</div></div><div class="slide" data-active="false" role="tabpanel" tabindex="0"><div class="content"><section><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="after-200-years-of-progress-the-fight-against-global-poverty-is-just-beginning">After 200 years of progress the fight against global poverty is just beginning</h4><p>Over the past two centuries the world made good progress against <em>extreme</em> poverty. But only very recently has poverty fallen at higher poverty lines.</p><p>Global poverty rates at these higher lines remain very high:</p><ul><li>25% of the world lives on less than $3.65 per day – a poverty line broadly reflective of the lines adopted in lower-middle income countries.</li><li>47% of the world lives on less than $6.85 per day – a poverty line broadly reflective of the lines adopted in upper-middle income countries.</li><li>81% live on less than $24.35 per day – a poverty line broadly reflective of the lines adopted in high income countries.<a id="ref-27" class="ref" href="#note-27"><sup>27</sup></a></li></ul><p>Economic growth over the past two centuries has allowed the majority of the world to leave extreme poverty behind. But by the standards of today’s rich countries, the world remains very poor. If this should change, the world needs to achieve very substantial economic growth further still.</p><div class="block-wrapper"><div class="wp-block-owid-prominent-link with-image" data-no-lightbox="true" data-style="is-style-thin" data-title="The history of the end of poverty has just begun"><a href="https://ourworldindata.org/history-of-poverty-has-just-begun"><figure><img src="https://ourworldindata.org/uploads/2021/11/Screen-Shot-2021-11-21-at-21.06.10-150x54.png" data-high-res-src="https://ourworldindata.org/uploads/2021/11/Screen-Shot-2021-11-21-at-21.06.10.png" alt="Screen shot 2021 11 21 at 21.06.10" loading="lazy"></figure><div class="content-wrapper"><div class="title"><span>The history of the end of poverty has just begun</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></div><div class="content">
+
+<p>Read more</p>
+
+</div></div></a></div></div><div class="block-wrapper"><div class="wp-block-owid-prominent-link with-image" data-no-lightbox="true" data-style="is-style-thin" data-title="How much economic growth is necessary to reduce global poverty substantially?"><a href="https://ourworldindata.org/poverty-minimum-growth-needed"><figure><img src="https://ourworldindata.org/uploads/2021/03/Screen-Shot-2021-03-15-at-12.14.00-150x75.png" data-high-res-src="https://ourworldindata.org/uploads/2021/03/Screen-Shot-2021-03-15-at-12.14.00.png" alt="Screen shot 2021 03 15 at 12.14.00" loading="lazy"></figure><div class="content-wrapper"><div class="title"><span>How much economic growth is necessary to reduce global poverty substantially?</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></div></div></a></div></div><div class="wp-block-owid-technical-text">
+		
+
+<h5><strong>Methods &amp; data quality:</strong></h5>
+
+
+
+<ul><li>The data from 1981 onwards is based on household surveys collated by the World Bank. Earlier figures are from Moatsos (2021), who extends the series backwards based on historical reconstructions of GDP per capita and inequality data.<a id="ref-28" class="ref" href="#note-28"><sup>28</sup></a></li></ul>
+
+
+
+
+
+
+
+<ul><li>All data is measured in international-$ which means that inflation and differences in purchasing power across countries are taken into account<strong>.</strong><a id="ref-29" class="ref" href="#note-29"><sup>29</sup></a><br><br>The World Bank data for the higher poverty lines is measured in 2017 international-$, and the Moatsos (2021) series for extreme poverty is based on 2011 international-$ using the previously used value for the International Poverty Line of $1.90 a day (in 2011 prices). You can read more about the update to the World Bank’s methodology and how it has affected its estimates of poverty in our article <a href="https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line"><em>From $1.90 to $2.15 a day: the updated International Poverty Line</em></a>.</li></ul>
+
+
+
+
+
+
+
+<ul><li>The global poverty data shown from 1981 onwards relies on national household surveys that have differences affecting their comparability across countries or over time.<a id="ref-30" class="ref" href="#note-30"><sup>30</sup></a></li></ul>
+
+
+
+
+
+
+
+<ul><li>Such surveys are <a href="https://ourworldindata.org/grapher/data-deprivation-poverty-surveys-per-decade">less frequently available</a> in poorer countries and for earlier decades. To produce regional and global poverty estimates, the World Bank collates the closest survey for each country and projects the data forward or backwards to the year being estimated.<a id="ref-31" class="ref" href="#note-31"><sup>31</sup></a></li></ul>
+
+
+
+
+
+
+
+<ul><li>Non-market sources of income, including food grown by subsistence farmers for their own consumption, are taken into account. This is also true of the historical data – in producing historical estimates of GDP per capita on which these long-run estimates are based, economic historians take into account such non-market sources of income, as we discuss further in our article <a href="https://ourworldindata.org/extreme-history-methods"><em>How do we know the history of extreme poverty?</em></a></li></ul>
+
+
+	</div></div><div class="wp-block-column"><div class="wp-sticky-container"><figure class="wp-block-image size-large"><img loading="lazy" width="800" height="500" src="https://ourworldindata.org/uploads/2022/10/Share-of-the-world-population-in-extreme-poverty-Moatsos-2021-–-Reworked-with-2017-PPP-data-from-PIP-1-800x500.png" alt="Share of the world population in extreme poverty moatsos 2021 – reworked with 2017 ppp data from pip 1" class="wp-image-53751" srcset="https://ourworldindata.org/uploads/2022/10/Share-of-the-world-population-in-extreme-poverty-Moatsos-2021-–-Reworked-with-2017-PPP-data-from-PIP-1-800x500.png 800w, https://ourworldindata.org/uploads/2022/10/Share-of-the-world-population-in-extreme-poverty-Moatsos-2021-–-Reworked-with-2017-PPP-data-from-PIP-1-400x250.png 400w, https://ourworldindata.org/uploads/2022/10/Share-of-the-world-population-in-extreme-poverty-Moatsos-2021-–-Reworked-with-2017-PPP-data-from-PIP-1-150x94.png 150w, https://ourworldindata.org/uploads/2022/10/Share-of-the-world-population-in-extreme-poverty-Moatsos-2021-–-Reworked-with-2017-PPP-data-from-PIP-1-768x480.png 768w, https://ourworldindata.org/uploads/2022/10/Share-of-the-world-population-in-extreme-poverty-Moatsos-2021-–-Reworked-with-2017-PPP-data-from-PIP-1-1536x961.png 1536w, https://ourworldindata.org/uploads/2022/10/Share-of-the-world-population-in-extreme-poverty-Moatsos-2021-–-Reworked-with-2017-PPP-data-from-PIP-1-2048x1281.png 2048w" sizes="(max-width: 800px) 100vw, 800px" data-high-res-src="https://ourworldindata.org/uploads/2022/10/Share-of-the-world-population-in-extreme-poverty-Moatsos-2021-–-Reworked-with-2017-PPP-data-from-PIP-1.png"></figure></div></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+	
+
+
+
+
+</div></div></div></div><h3 id="explore-data-poverty">Explore data on Poverty<a class="deep-link" href="#explore-data-poverty"></a></h3><div class="wp-container-634d67738859e wp-block-group wp-block-full-content-width">
+<figure data-explorer-src="https://ourworldindata.org/explorers/poverty-explorer?facet=none&amp;hideControls=false&amp;Metric=Share+in+poverty&amp;Poverty+line=%241.90+a+day&amp;Household+survey+data+type=Either+income+or+consumption&amp;Show+extrapolated+estimates+for+years+with+no+survey+data=true&amp;country=IND~MOZ~BRA~MDG~GHA" class="wp-block-full-content-width" style="width: 100%; min-height: 740px; max-height: 950px; height: 100vh; border: 0px none;"><div class="loading-indicator"><span style="border-color:#333"></span></div></figure>
+
+
+
+<div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<h4 id="about-this-data">About this data<a class="deep-link" href="#about-this-data"></a></h4>
+
+
+
+<p>All the data included in this explorer is available to download <a href="https://github.com/owid/poverty-data">in GitHub</a>, alongside a range of other poverty and inequality metrics.</p>
+
+
+	<div><div class="expandable-paragraph">
+
+<h4 id="where-is-this-data-sourced-from">Where is this data sourced from?<a class="deep-link" href="#where-is-this-data-sourced-from"></a></h4>
+
+
+
+<p>This data explorer is collated and adapted from the World Bank’s <a href="https://pip.worldbank.org/home">Poverty and Inequality Platform</a> (PIP).</p>
+
+
+
+<p>The World Bank’s PIP data is a large collection of household surveys where steps have been taken by the World Bank to harmonize definitions and methods across countries and over time.</p>
+
+
+
+<h4 id="about-the-comparability-of-household-surveys">About the comparability of household surveys<a class="deep-link" href="#about-the-comparability-of-household-surveys"></a></h4>
+
+
+
+<p>There is no global survey of incomes. To understand how incomes across the world compare, researchers need to rely on available national surveys.</p>
+
+
+
+<p>Such surveys are partly designed with cross-country comparability in mind, but because the surveys reflect the circumstances and priorities of individual countries at the time of the survey, there are some important differences.</p>
+
+
+
+<p><strong>Income vs expenditure surveys</strong></p>
+
+
+
+<p>One important issue is that the survey data included within the <a href="https://pip.worldbank.org/home">PIP</a> database tends to measure people’s income in high-income countries, and people’s consumption expenditure in poorer countries.</p>
+
+
+
+<p>The two concepts are closely related: the income of a household equals their consumption plus any saving, or minus any borrowing or spending out of savings.&nbsp;</p>
+
+
+
+<p>One important difference is that, while zero consumption is not a feasible value – people with zero consumption would starve – a zero income is a feasible value. This means that, at the bottom end of the distribution, income and consumption can give quite different pictures about a person’s welfare. For instance, a person dissaving in retirement may have a very low, or even zero, income, but have a high level of consumption nevertheless.</p>
+
+
+
+<p>The gap between income and consumption is higher at the top of this distribution too, richer households tend to save more, meaning that the gap between income and consumption is higher at the top of this distribution too. Taken together, one implication is that inequality measured in terms of consumption is generally somewhat lower than the inequality measured in terms of income.</p>
+
+
+
+<p>In our <a href="https://ourworldindata.org/poverty#explore-data-poverty">Data Explorer</a> of this data there is the option to view only income survey data or only consumption survey data, or instead to pool the data available from both types of survey – which yields greater coverage.</p>
+
+
+
+<p><strong>Other comparability issues</strong></p>
+
+
+
+<p>There are a number of other ways in which comparability across surveys can be limited. The PIP <a href="https://worldbank.github.io/PIP-Methodology/index.html">Methodology Handbook</a> provides a good summary of the comparability and data quality issues affecting this data and how it tries to address them.</p>
+
+
+
+<p>In collating this survey data the World Bank takes a range of steps to harmonize it where possible, but comparability issues remain. These affect comparisons both across countries and within individual countries over time.</p>
+
+
+
+<p>To help communicate the latter, the World Bank produces a variable that groups surveys within each individual country into more comparable ‘spells’. Our <a href="https://ourworldindata.org/poverty#explore-data-poverty">Data Explorer</a> provides the option of viewing the data with these breaks in comparability indicated, and these spells are also indicated in our data <a href="https://github.com/owid/poverty-data">download</a>.</p>
+
+
+
+<h4 id="global-and-regional-poverty-estimates">Global and regional poverty estimates<a class="deep-link" href="#global-and-regional-poverty-estimates"></a></h4>
+
+
+
+<p>Along with data for individual countries, the World Bank also provides global and regional poverty estimates which aggregate over the available country data.</p>
+
+
+
+<p>Surveys are not conducted annually in every country however – coverage is generally poorer the further back in time you look, and remains particularly patchy within Sub-Saharan Africa. You can see that visualized in our chart of the <a href="https://ourworldindata.org/grapher/data-deprivation-poverty-surveys-per-decade?time=latest">number of surveys included in the World Bank data</a> by decade.</p>
+
+
+
+<p>In order to produce global and regional aggregate estimates for a given year, the World Bank takes the surveys falling closest to that year for each country and ‘lines-up’ the data to the year being estimated by projecting it forwards or backwards.</p>
+
+
+
+<p>This lining-up is generally done on the assumption that household incomes or expenditure grow in line with the growth rates observed in national accounts data. You can read more about the interpolation methods used by the World Bank in <a href="https://worldbank.github.io/PIP-Methodology/lineupestimates.html">Chapter 5</a> of the Poverty and Inequality Platform Methodology Handbook.</p>
+
+
+
+<h4 id="how-does-the-data-account-for-inflation-and-for-differences-in-the-cost-of-living-across-countries">How does the data account for inflation and for differences in the cost of living across countries?<a class="deep-link" href="#how-does-the-data-account-for-inflation-and-for-differences-in-the-cost-of-living-across-countries"></a></h4>
+
+
+
+<p>To account for inflation and price differences across countries, the World Bank’s data is measured in international dollars. This is a hypothetical currency that results from price adjustments across time and place. It is defined as having the same purchasing power as one US-$ would in the United States in a given base year. One int.-$ buys the same quantity of goods and services no matter where or when it is spent.</p>
+
+
+
+<p>There are many challenges to making such adjustments and they are far from perfect. Angus Deaton (<a href="https://rpds.princeton.edu/sites/g/files/toruqf1956/files/media/deaton_price_indexes_inequality_and_the_measurement_of_world_poverty_aer.pdf">Deaton, 2010</a>) provides a good discussion of the difficulties involved in price adjustments and how this relates to global poverty measurement.</p>
+
+
+
+<p>But in a world where price differences across countries and over time are large it is important to attempt to account for these differences as well as possible, and this is what these adjustments do.</p>
+
+
+
+<p>In September 2022, the World Bank updated its methodology, and now uses international-$ expressed in 2017 prices – updated from 2011 prices. This has had little effect on our overall understanding of poverty and inequality around the world. But poverty estimates for particular countries vary somewhat between the old and updated methodology. You can read more about this update in our article <a href="https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line"><em>From $1.90 to $2.15 a day: the updated International Poverty Line</em></a>.</p>
+
+
+
+<p>To allow for comparisons with the official data now expressed in 2017 international-$ data, the World Bank continues to release its poverty and inequality data expressed in 2011 international-$ as well. We have built a <a href="https://ourworldindata.org/explorers/poverty-explorer-2011-vs-2017-ppp">Data Explorer</a> to allow you to compare these, and we make all figures available in terms of both sets of prices in our <a href="https://github.com/owid/poverty-data">data download</a>.</p>
+
+
+
+<h4 id="absolute-vs-relative-poverty-lines">Absolute vs relative poverty lines<a class="deep-link" href="#absolute-vs-relative-poverty-lines"></a></h4>
+
+
+
+<p>This dataset provides poverty estimates for a range of absolute and relative poverty lines.</p>
+
+
+
+<p>An absolute poverty line represents a fixed standard of living; a threshold that is held constant across time. Within the World Bank’s poverty data, absolute poverty lines also aim to represent a standard of living that is fixed across countries (by converting local currencies to international-$). The International Poverty Line of $2.15 per day (in 2017 international-$) is the best known absolute poverty line and is used by the World Bank and the UN to measure extreme poverty around the world.</p>
+
+
+
+<p>The value of relative poverty lines instead rises and falls as average incomes change within a given country. In most cases they are set at a certain fraction of the median income. Because of this, relative poverty can be considered a metric of inequality – it measures how spread out the bottom half of the income distribution is.</p>
+
+
+
+<p>The idea behind measuring poverty in relative terms is that a person’s well-being depends not on their own absolute standard of living but on how that standard compares with some reference group, or whether it enables them to participate in the norms and customs of their society. For instance, joining a friend’s birthday celebration without shame might require more resources in a rich society if the norm is to go for an expensive meal out, or give costly presents.</p>
+
+
+
+<p>Our dataset includes three commonly-used relative poverty lines: 40%, 50%, and 60% of the median.</p>
+
+
+
+<p>Such lines are most commonly used in rich countries, and are the main way poverty is measured by the <a href="https://data.oecd.org/inequality/poverty-rate.htm">OECD</a> and the <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:At-risk-of-poverty_rate">European Union</a>.<br><br>More recently, relative poverty measures have come to be applied in a global context. The share of people living below 50 per cent of median income is, for instance, one of the UN’s <a href="https://sdg-tracker.org/inequality#10.2">Sustainable Development Goal indicators</a>. And the World Bank now produces estimates of global poverty using a <a href="https://datatopics.worldbank.org/world-development-indicators/stories/societal-poverty-a-global-measure-of-relative-poverty.html">Societal Poverty Line</a> that combines absolute and relative components.</p>
+
+
+
+<p>When comparing relative poverty rates around the world, however, it is important to keep in mind that – since <a href="https://ourworldindata.org/explorers/poverty-explorer?tab=map&amp;facet=none&amp;hideControls=false&amp;Metric=Median+income+or+expenditure&amp;Household+survey+data+type=Show+data+from+both+income+and+expenditure+surveys&amp;country=IND~MOZ~BRA~MDG~GHA">average incomes</a> are so far apart – such relative poverty lines relate to very different standards of living in rich and poor countries.</p>
+
+
+
+<h4 id="does-the-data-account-for-non-market-income-such-as-food-grown-by-subsistence-farmers">Does the data account for non-market income, such as food grown by subsistence farmers?<a class="deep-link" href="#does-the-data-account-for-non-market-income-such-as-food-grown-by-subsistence-farmers"></a></h4>
+
+
+
+<p>Many poor people today, as in the past, rely on subsistence farming rather than a monetary income gained from selling goods or their labor on the market. To take this into account and make a fair comparison of their living standards, the statisticians that produce these figures estimate the monetary value of their home production and add it to their income/expenditure.</p>
+
+</div><button class="expandable-paragraph__expand-button">Show more</button></div></div>
+
+
+
+<div class="wp-block-column"><div class="wp-sticky-container"></div></div>
+</div>
+</div><div class="wp-container-634d677392aa0 wp-block-group wp-block-research-and-writing">
+<h2 id="research-writing">Research &amp; Writing<a class="deep-link" href="#research-writing"></a></h2>
+
+
+
+<div class="wp-container-634d67738ad6c wp-block-group research-and-writing__top">      <div class="wp-block-owid-card  with-image" data-no-lightbox="">
+        <a href="https://ourworldindata.org/extreme-poverty-in-brief">
+            <figure><img width="768" height="422" src="https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-768x422.png" class="attachment-medium_large size-medium_large" alt="Featured image for the post" loading="lazy" srcset="https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-768x422.png 768w, https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-400x220.png 400w, https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-800x440.png 800w, https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-150x82.png 150w, https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-1536x844.png 1536w, https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post-2048x1125.png 2048w" sizes="(max-width: 768px) 100vw, 768px" data-high-res-src="https://ourworldindata.org/uploads/2021/11/Featured-Image-for-the-post.png"></figure>
+            <div class="text-wrapper">
+              <div class="title">Extreme poverty: how far have we come, how far do we still have to go?</div>
+              <div class="description">
+                
+
+<p>Despite making immense progress against extreme poverty, it is still the reality for every tenth person in the world.</p>
+
+
+
+<p>Max Roser</p>
+
+
+              </div>
+            </div>
+        </a>
+      </div>
+
+
+<div class="wp-container-634d67738aab8 wp-block-group research-and-writing__top-right">      <div class="wp-block-owid-card  with-image" data-no-lightbox="">
+        <a href="https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line">
+            <figure><img width="768" height="542" src="https://ourworldindata.org/uploads/2022/10/national-poverty-lines-vs-gdp-per-capita-1-768x542.png" class="attachment-medium_large size-medium_large" alt="National poverty lines vs gdp per capita 1" loading="lazy" srcset="https://ourworldindata.org/uploads/2022/10/national-poverty-lines-vs-gdp-per-capita-1-768x542.png 768w, https://ourworldindata.org/uploads/2022/10/national-poverty-lines-vs-gdp-per-capita-1-400x282.png 400w, https://ourworldindata.org/uploads/2022/10/national-poverty-lines-vs-gdp-per-capita-1-779x550.png 779w, https://ourworldindata.org/uploads/2022/10/national-poverty-lines-vs-gdp-per-capita-1-150x106.png 150w, https://ourworldindata.org/uploads/2022/10/national-poverty-lines-vs-gdp-per-capita-1-1536x1084.png 1536w, https://ourworldindata.org/uploads/2022/10/national-poverty-lines-vs-gdp-per-capita-1-2048x1446.png 2048w" sizes="(max-width: 768px) 100vw, 768px" data-high-res-src="https://ourworldindata.org/uploads/2022/10/national-poverty-lines-vs-gdp-per-capita-1.png"></figure>
+            <div class="text-wrapper">
+              <div class="title">$2.15 a day: the updated International Poverty Line</div>
+              <div class="description">
+                
+
+<p>What does the World Bank’s updated methods mean for our understanding of global poverty?</p>
+
+
+
+<p>Joe Hasell</p>
+
+
+              </div>
+            </div>
+        </a>
+      </div>
+
+
+<div class="wp-container-634d67738a80c wp-block-group">
+<div class="wp-container-634d67738a55a wp-block-group research-and-writing__shorts">
+<div class="wp-container-634d677389ce5 wp-block-group">
+<h5>More Key articles on Poverty</h5>
+
+
+
+<h6><a href="https://ourworldindata.org/history-of-poverty-has-just-begun">The history of the end of poverty has just begun</a></h6>
+
+
+
+<p>Max Roser</p>
+</div>
+
+
+
+<div class="wp-container-634d677389fdc wp-block-group">
+<h6><a href="https://ourworldindata.org/poverty-growth-needed">The economies that are home to the poorest billions of people need to grow if we want global poverty to decline substantially</a></h6>
+
+
+
+<p>Max Roser</p>
+</div>
+
+
+
+<div class="wp-container-634d67738a2ce wp-block-group">
+<h6><a href="https://ourworldindata.org/wrong-about-the-world">Most of us are wrong about how the world has changed (especially those who are pessimistic about the future)</a></h6>
+
+
+
+<p>Max Roser</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<h4 id="global-poverty-over-the-long-run">Global poverty over the long-run<a class="deep-link" href="#global-poverty-over-the-long-run"></a></h4>
+
+
+	<div class="wp-block-owid-grid research-and-writing__sub-category">
+		
+      <div class="wp-block-owid-card  with-image" data-no-lightbox="">
+        <a href="https://ourworldindata.org/history-of-poverty-has-just-begun">
+            <figure><img width="768" height="277" src="https://ourworldindata.org/uploads/2021/11/Screen-Shot-2021-11-21-at-21.06.10-768x277.png" class="attachment-medium_large size-medium_large" alt="Screen shot 2021 11 21 at 21.06.10" loading="lazy" srcset="https://ourworldindata.org/uploads/2021/11/Screen-Shot-2021-11-21-at-21.06.10-768x277.png 768w, https://ourworldindata.org/uploads/2021/11/Screen-Shot-2021-11-21-at-21.06.10-400x145.png 400w, https://ourworldindata.org/uploads/2021/11/Screen-Shot-2021-11-21-at-21.06.10-800x289.png 800w, https://ourworldindata.org/uploads/2021/11/Screen-Shot-2021-11-21-at-21.06.10-150x54.png 150w, https://ourworldindata.org/uploads/2021/11/Screen-Shot-2021-11-21-at-21.06.10-1536x555.png 1536w, https://ourworldindata.org/uploads/2021/11/Screen-Shot-2021-11-21-at-21.06.10-2048x740.png 2048w" sizes="(max-width: 768px) 100vw, 768px" data-high-res-src="https://ourworldindata.org/uploads/2021/11/Screen-Shot-2021-11-21-at-21.06.10.png"></figure>
+            <div class="text-wrapper">
+              <div class="title">The history of the end of poverty has just begun</div>
+              <div class="description">
+                
+
+<p>Max Roser</p>
+
+
+              </div>
+            </div>
+        </a>
+      </div>
+
+      <div class="wp-block-owid-card  with-image" data-no-lightbox="">
+        <a href="https://ourworldindata.org/extreme-history-methods">
+            <figure><img width="768" height="446" src="https://ourworldindata.org/uploads/2019/02/Screen-Shot-2021-02-02-at-09.32.29-768x446.png" class="attachment-medium_large size-medium_large" alt="Screen shot 2021 02 02 at 09.32.29" loading="lazy" srcset="https://ourworldindata.org/uploads/2019/02/Screen-Shot-2021-02-02-at-09.32.29-768x446.png 768w, https://ourworldindata.org/uploads/2019/02/Screen-Shot-2021-02-02-at-09.32.29-400x232.png 400w, https://ourworldindata.org/uploads/2019/02/Screen-Shot-2021-02-02-at-09.32.29-800x465.png 800w, https://ourworldindata.org/uploads/2019/02/Screen-Shot-2021-02-02-at-09.32.29-150x87.png 150w, https://ourworldindata.org/uploads/2019/02/Screen-Shot-2021-02-02-at-09.32.29-1536x892.png 1536w, https://ourworldindata.org/uploads/2019/02/Screen-Shot-2021-02-02-at-09.32.29-2048x1190.png 2048w" sizes="(max-width: 768px) 100vw, 768px" data-high-res-src="https://ourworldindata.org/uploads/2019/02/Screen-Shot-2021-02-02-at-09.32.29.png"></figure>
+            <div class="text-wrapper">
+              <div class="title">How do we know the history of extreme poverty?</div>
+              <div class="description">
+                
+
+<p>Joe Hasell and Max Roser</p>
+
+
+              </div>
+            </div>
+        </a>
+      </div>
+
+      <div class="wp-block-owid-card  with-image" data-no-lightbox="">
+        <a href="https://ourworldindata.org/breaking-the-malthusian-trap">
+            <figure><img width="768" height="503" src="https://ourworldindata.org/uploads/2020/11/Screen-Shot-2020-11-25-at-12.46.32-768x503.png" class="attachment-medium_large size-medium_large" alt="Screen shot 2020 11 25 at 12.46.32" loading="lazy" srcset="https://ourworldindata.org/uploads/2020/11/Screen-Shot-2020-11-25-at-12.46.32-768x503.png 768w, https://ourworldindata.org/uploads/2020/11/Screen-Shot-2020-11-25-at-12.46.32-400x262.png 400w, https://ourworldindata.org/uploads/2020/11/Screen-Shot-2020-11-25-at-12.46.32-800x524.png 800w, https://ourworldindata.org/uploads/2020/11/Screen-Shot-2020-11-25-at-12.46.32-150x98.png 150w, https://ourworldindata.org/uploads/2020/11/Screen-Shot-2020-11-25-at-12.46.32-1536x1006.png 1536w, https://ourworldindata.org/uploads/2020/11/Screen-Shot-2020-11-25-at-12.46.32-2048x1341.png 2048w" sizes="(max-width: 768px) 100vw, 768px" data-high-res-src="https://ourworldindata.org/uploads/2020/11/Screen-Shot-2020-11-25-at-12.46.32.png"></figure>
+            <div class="text-wrapper">
+              <div class="title">Breaking out of the Malthusian trap: How pandemics allow us to understand why our ancestors were stuck in poverty</div>
+              <div class="description">
+                
+
+<p>Max Roser</p>
+
+
+              </div>
+            </div>
+        </a>
+      </div>
+
+      <div class="wp-block-owid-card  with-image" data-no-lightbox="">
+        <a href="https://ourworldindata.org/a-history-of-global-living-conditions-in-5-charts">
+            <figure><img width="768" height="508" src="https://ourworldindata.org/uploads/2022/10/Two-centuries-World-as-100-people-768x508.png" class="attachment-medium_large size-medium_large" alt="Two centuries world as 100 people" loading="lazy" srcset="https://ourworldindata.org/uploads/2022/10/Two-centuries-World-as-100-people-768x508.png 768w, https://ourworldindata.org/uploads/2022/10/Two-centuries-World-as-100-people-400x265.png 400w, https://ourworldindata.org/uploads/2022/10/Two-centuries-World-as-100-people-800x529.png 800w, https://ourworldindata.org/uploads/2022/10/Two-centuries-World-as-100-people-150x99.png 150w, https://ourworldindata.org/uploads/2022/10/Two-centuries-World-as-100-people-1536x1017.png 1536w, https://ourworldindata.org/uploads/2022/10/Two-centuries-World-as-100-people-2048x1355.png 2048w" sizes="(max-width: 768px) 100vw, 768px" data-high-res-src="https://ourworldindata.org/uploads/2022/10/Two-centuries-World-as-100-people.png"></figure>
+            <div class="text-wrapper">
+              <div class="title">The short history of global living conditions and why it matters that we know it</div>
+              <div class="description">
+                
+
+<p>Max Roser</p>
+
+
+              </div>
+            </div>
+        </a>
+      </div>
+
+	</div>
+
+
+<h4 id="poverty-economic-growth">Poverty &amp; economic growth<a class="deep-link" href="#poverty-economic-growth"></a></h4>
+
+
+	<div class="wp-block-owid-grid research-and-writing__sub-category">
+		
+      <div class="wp-block-owid-card  with-image" data-no-lightbox="">
+        <a href="https://ourworldindata.org/poverty-growth-needed">
+            <figure><img width="768" height="410" src="https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-768x410.png" class="attachment-medium_large size-medium_large" alt="Screen shot 2021 02 23 at 11.48.16" loading="lazy" srcset="https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-768x410.png 768w, https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-400x214.png 400w, https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-800x427.png 800w, https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-150x80.png 150w, https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16-1536x820.png 1536w, https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16.png 2004w" sizes="(max-width: 768px) 100vw, 768px" data-high-res-src="https://ourworldindata.org/uploads/2021/02/Screen-Shot-2021-02-23-at-11.48.16.png"></figure>
+            <div class="text-wrapper">
+              <div class="title">The economies that are home to the poorest billions of people need to grow if we want global poverty to decline substantially</div>
+              <div class="description">
+                
+
+<p>Max Roser</p>
+
+
+              </div>
+            </div>
+        </a>
+      </div>
+
+      <div class="wp-block-owid-card  with-image" data-no-lightbox="">
+        <a href="https://ourworldindata.org/poverty-minimum-growth-needed">
+            <figure><img width="768" height="383" src="https://ourworldindata.org/uploads/2021/03/Screen-Shot-2021-03-15-at-12.14.00-768x383.png" class="attachment-medium_large size-medium_large" alt="Screen shot 2021 03 15 at 12.14.00" loading="lazy" srcset="https://ourworldindata.org/uploads/2021/03/Screen-Shot-2021-03-15-at-12.14.00-768x383.png 768w, https://ourworldindata.org/uploads/2021/03/Screen-Shot-2021-03-15-at-12.14.00-400x200.png 400w, https://ourworldindata.org/uploads/2021/03/Screen-Shot-2021-03-15-at-12.14.00-800x399.png 800w, https://ourworldindata.org/uploads/2021/03/Screen-Shot-2021-03-15-at-12.14.00-150x75.png 150w, https://ourworldindata.org/uploads/2021/03/Screen-Shot-2021-03-15-at-12.14.00-1536x766.png 1536w, https://ourworldindata.org/uploads/2021/03/Screen-Shot-2021-03-15-at-12.14.00.png 1936w" sizes="(max-width: 768px) 100vw, 768px" data-high-res-src="https://ourworldindata.org/uploads/2021/03/Screen-Shot-2021-03-15-at-12.14.00.png"></figure>
+            <div class="text-wrapper">
+              <div class="title">How much economic growth is necessary to reduce global poverty substantially?</div>
+              <div class="description">
+                
+
+<p>Max Roser</p>
+
+
+              </div>
+            </div>
+        </a>
+      </div>
+
+      <div class="wp-block-owid-card  with-image" data-no-lightbox="">
+        <a href="https://ourworldindata.org/higher-poverty-global-line">
+            <figure><img width="768" height="364" src="https://ourworldindata.org/uploads/2021/03/Screen-Shot-2021-03-05-at-14.35.22-768x364.png" class="attachment-medium_large size-medium_large" alt="Screen shot 2021 03 05 at 14.35.22" loading="lazy" srcset="https://ourworldindata.org/uploads/2021/03/Screen-Shot-2021-03-05-at-14.35.22-768x364.png 768w, https://ourworldindata.org/uploads/2021/03/Screen-Shot-2021-03-05-at-14.35.22-400x190.png 400w, https://ourworldindata.org/uploads/2021/03/Screen-Shot-2021-03-05-at-14.35.22-800x379.png 800w, https://ourworldindata.org/uploads/2021/03/Screen-Shot-2021-03-05-at-14.35.22-150x71.png 150w, https://ourworldindata.org/uploads/2021/03/Screen-Shot-2021-03-05-at-14.35.22.png 1312w" sizes="(max-width: 768px) 100vw, 768px" data-high-res-src="https://ourworldindata.org/uploads/2021/03/Screen-Shot-2021-03-05-at-14.35.22.png"></figure>
+            <div class="text-wrapper">
+              <div class="title">Global poverty in an unequal world: Who is considered poor in a rich country? And what does this mean for our understanding of global poverty?</div>
+              <div class="description">
+                
+
+<p>Max Roser</p>
+
+
+              </div>
+            </div>
+        </a>
+      </div>
+
+      <div class="wp-block-owid-card " data-no-lightbox="">
+        
+            
+            <div class="text-wrapper">
+              
+              <div class="description">
+                
+              </div>
+            </div>
+        
+      </div>
+
+	</div>
+
+
+<h4 id="more-articles-on-poverty">More articles on Poverty<a class="deep-link" href="#more-articles-on-poverty"></a></h4>
+
+
+	<div class="wp-block-owid-grid research-and-writing__sub-category">
+		
+      <div class="wp-block-owid-card  with-image" data-no-lightbox="">
+        <a href="https://ourworldindata.org/what-do-poor-people-think-about-poverty">
+            <figure><img width="768" height="538" src="https://ourworldindata.org/uploads/2022/10/dissatisfied-vs-income-1-768x538.png" class="attachment-medium_large size-medium_large" alt="Dissatisfied vs income 1" loading="lazy" srcset="https://ourworldindata.org/uploads/2022/10/dissatisfied-vs-income-1-768x538.png 768w, https://ourworldindata.org/uploads/2022/10/dissatisfied-vs-income-1-400x280.png 400w, https://ourworldindata.org/uploads/2022/10/dissatisfied-vs-income-1-786x550.png 786w, https://ourworldindata.org/uploads/2022/10/dissatisfied-vs-income-1-150x105.png 150w, https://ourworldindata.org/uploads/2022/10/dissatisfied-vs-income-1-1536x1075.png 1536w, https://ourworldindata.org/uploads/2022/10/dissatisfied-vs-income-1-2048x1434.png 2048w" sizes="(max-width: 768px) 100vw, 768px" data-high-res-src="https://ourworldindata.org/uploads/2022/10/dissatisfied-vs-income-1.png"></figure>
+            <div class="text-wrapper">
+              <div class="title">What do poor people think about poverty?</div>
+              <div class="description">
+                
+
+<p>Max Roser</p>
+
+
+              </div>
+            </div>
+        </a>
+      </div>
+
+      <div class="wp-block-owid-card  with-image" data-no-lightbox="">
+        <a href="https://ourworldindata.org/diet-affordability">
+            <figure><img width="768" height="301" src="https://ourworldindata.org/uploads/2021/07/Diet-costs-thumbnail-768x301.png" class="attachment-medium_large size-medium_large" alt="Diet costs thumbnail" loading="lazy" srcset="https://ourworldindata.org/uploads/2021/07/Diet-costs-thumbnail-768x301.png 768w, https://ourworldindata.org/uploads/2021/07/Diet-costs-thumbnail-400x157.png 400w, https://ourworldindata.org/uploads/2021/07/Diet-costs-thumbnail-800x314.png 800w, https://ourworldindata.org/uploads/2021/07/Diet-costs-thumbnail-150x59.png 150w, https://ourworldindata.org/uploads/2021/07/Diet-costs-thumbnail-1536x603.png 1536w, https://ourworldindata.org/uploads/2021/07/Diet-costs-thumbnail.png 1600w" sizes="(max-width: 768px) 100vw, 768px" data-high-res-src="https://ourworldindata.org/uploads/2021/07/Diet-costs-thumbnail.png"></figure>
+            <div class="text-wrapper">
+              <div class="title">Three billion people cannot afford a healthy diet<br></div>
+              <div class="description">
+                
+
+<p>Hannah Ritchie</p>
+
+
+              </div>
+            </div>
+        </a>
+      </div>
+
+      <div class="wp-block-owid-card  with-image" data-no-lightbox="">
+        <a href="https://ourworldindata.org/homelessness-and-poverty-in-rich-countries">
+            <figure><img width="768" height="542" src="https://ourworldindata.org/uploads/2022/10/share-of-population-who-have-ever-been-homeless-2003-768x542.png" class="attachment-medium_large size-medium_large" alt="Share of population who have ever been homeless 2003" loading="lazy" srcset="https://ourworldindata.org/uploads/2022/10/share-of-population-who-have-ever-been-homeless-2003-768x542.png 768w, https://ourworldindata.org/uploads/2022/10/share-of-population-who-have-ever-been-homeless-2003-400x282.png 400w, https://ourworldindata.org/uploads/2022/10/share-of-population-who-have-ever-been-homeless-2003-779x550.png 779w, https://ourworldindata.org/uploads/2022/10/share-of-population-who-have-ever-been-homeless-2003-150x106.png 150w, https://ourworldindata.org/uploads/2022/10/share-of-population-who-have-ever-been-homeless-2003-1536x1084.png 1536w, https://ourworldindata.org/uploads/2022/10/share-of-population-who-have-ever-been-homeless-2003-2048x1446.png 2048w" sizes="(max-width: 768px) 100vw, 768px" data-high-res-src="https://ourworldindata.org/uploads/2022/10/share-of-population-who-have-ever-been-homeless-2003.png"></figure>
+            <div class="text-wrapper">
+              <div class="title">Homelessness and poverty in rich countries</div>
+              <div class="description">
+                
+
+<p>Esteban Ortiz-Ospina</p>
+
+
+              </div>
+            </div>
+        </a>
+      </div>
+
+      <div class="wp-block-owid-card  with-image" data-no-lightbox="">
+        <a href="https://ourworldindata.org/historical-poverty-reductions-more-than-a-story-about-free-market-capitalism">
+            <figure><img width="768" height="542" src="https://ourworldindata.org/uploads/2017/09/social-spending-oecd-longrun-3-768x542.png" class="attachment-medium_large size-medium_large" alt="Social spending oecd longrun 3" loading="lazy" srcset="https://ourworldindata.org/uploads/2017/09/social-spending-oecd-longrun-3-768x542.png 768w, https://ourworldindata.org/uploads/2017/09/social-spending-oecd-longrun-3-150x106.png 150w, https://ourworldindata.org/uploads/2017/09/social-spending-oecd-longrun-3-400x282.png 400w, https://ourworldindata.org/uploads/2017/09/social-spending-oecd-longrun-3-750x529.png 750w, https://ourworldindata.org/uploads/2017/09/social-spending-oecd-longrun-3.png 2040w" sizes="(max-width: 768px) 100vw, 768px" data-high-res-src="https://ourworldindata.org/uploads/2017/09/social-spending-oecd-longrun-3.png"></figure>
+            <div class="text-wrapper">
+              <div class="title">Historical poverty reductions: more than a story about ‘free-market capitalism’</div>
+              <div class="description">
+                
+
+<p>Esteban Ortiz-Ospina</p>
+
+
+              </div>
+            </div>
+        </a>
+      </div>
+
+	</div></div><h3 id="all-our-interactive-charts-on-poverty">All our interactive charts on Poverty<a class="deep-link" href="#all-our-interactive-charts-on-poverty"></a></h3><div class="wp-block-full-content-width"><div class="related-charts"><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><ul><li class="active"><a href="https://ourworldindata.org/grapher/distribution-of-population-between-different-poverty-thresholds-historical"><img src="https://ourworldindata.org/grapher/exports/distribution-of-population-between-different-poverty-thresholds-historical.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Distribution of population between different poverty thresholds</span></a><span class="variantName">Historical estimates (Moatsos, 2021)</span></li><li class=""><a href="https://ourworldindata.org/grapher/distribution-of-population-between-different-poverty-thresholds-up-to-30-dollars"><img src="https://ourworldindata.org/grapher/exports/distribution-of-population-between-different-poverty-thresholds-up-to-30-dollars.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Distribution of population between different poverty thresholds</span></a><span class="variantName">more thresholds</span></li><li class=""><a href="https://ourworldindata.org/grapher/MPI-vs-Consumption"><img src="https://ourworldindata.org/grapher/exports/MPI-vs-Consumption.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>How does extreme poverty compare to multidimensional poverty?</span></a><span class="variantName">Current estimates</span></li><li class=""><a href="https://ourworldindata.org/grapher/daily-median-income"><img src="https://ourworldindata.org/grapher/exports/daily-median-income.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Median income or expenditure per day</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/multidimensional-poverty-index-mpi"><img src="https://ourworldindata.org/grapher/exports/multidimensional-poverty-index-mpi.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Multidimensional Poverty Index (MPI)</span></a><span class="variantName">Current estimates</span></li><li class=""><a href="https://ourworldindata.org/grapher/total-population-in-extreme-poverty"><img src="https://ourworldindata.org/grapher/exports/total-population-in-extreme-poverty.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Number of people living in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/share-living-with-less-than-1-int--per-day"><img src="https://ourworldindata.org/grapher/exports/share-living-with-less-than-1-int--per-day.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Poverty: Share of population living on less than $1 a day</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/share-living-with-less-than-320-int--per-day"><img src="https://ourworldindata.org/grapher/exports/share-living-with-less-than-320-int--per-day.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Poverty: Share of population living on less than $3.65 a day</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/share-living-with-less-than-550-int--per-day"><img src="https://ourworldindata.org/grapher/exports/share-living-with-less-than-550-int--per-day.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Poverty: Share of population living on less than $6.85 a day</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/share-in-poverty-relative-to-different-poverty-thresholds"><img src="https://ourworldindata.org/grapher/exports/share-in-poverty-relative-to-different-poverty-thresholds.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share in poverty relative to different poverty thresholds</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/share-multi-poverty"><img src="https://ourworldindata.org/grapher/exports/share-multi-poverty.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of population in multidimensional poverty</span></a><span class="variantName">Current estimates</span></li><li class=""><a href="https://ourworldindata.org/grapher/share-of-population-living-in-extreme-poverty-cost-of-basic-needs"><img src="https://ourworldindata.org/grapher/exports/share-of-population-living-in-extreme-poverty-cost-of-basic-needs.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of population living in extreme poverty</span></a><span class="variantName">'Cost of basic needs' approach, Historical estimates (Moatsos, 2021)</span></li><li class=""><a href="https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty"><img src="https://ourworldindata.org/grapher/exports/share-of-population-in-extreme-poverty.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of population living in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/size-poverty-gap-countries"><img src="https://ourworldindata.org/grapher/exports/size-poverty-gap-countries.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>The poverty gap</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/the-share-and-number-of-people-living-in-extreme-poverty"><img src="https://ourworldindata.org/grapher/exports/the-share-and-number-of-people-living-in-extreme-poverty.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>The share and number of people living in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/total-population-living-in-extreme-poverty-by-world-region"><img src="https://ourworldindata.org/grapher/exports/total-population-living-in-extreme-poverty-by-world-region.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Total population living in extreme poverty by world region</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/access-to-electricity-of-population-vs-share-in-extreme-poverty"><img src="https://ourworldindata.org/grapher/exports/access-to-electricity-of-population-vs-share-in-extreme-poverty.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Access to electricity (% of population) vs. share in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/co-emissions-per-capita-vs-the-share-of-people-living-in-extreme-poverty"><img src="https://ourworldindata.org/grapher/exports/co-emissions-per-capita-vs-the-share-of-people-living-in-extreme-poverty.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>CO₂ emissions per capita vs. share  in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/cereal-yield-vs-extreme-poverty"><img src="https://ourworldindata.org/grapher/exports/cereal-yield-vs-extreme-poverty.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Cereal yield vs share in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/extreme-poverty-vs-child-mortality"><img src="https://ourworldindata.org/grapher/exports/extreme-poverty-vs-child-mortality.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Child mortality vs. share in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertility-rate-vs-the-share-living-in-extreme-poverty"><img src="https://ourworldindata.org/grapher/exports/fertility-rate-vs-the-share-living-in-extreme-poverty.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Children per woman vs. share living in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/comparison-extreme-poverty-rich-countries"><img src="https://ourworldindata.org/grapher/exports/comparison-extreme-poverty-rich-countries.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Comparison of extreme poverty estimates, World Bank PIP vs Bradshaw &amp; Mayhew (2011)</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/mean-daily-per-capita-expenditure-vs-daily-gdp-per-capita-reference-lines"><img src="https://ourworldindata.org/grapher/exports/mean-daily-per-capita-expenditure-vs-daily-gdp-per-capita-reference-lines.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Daily GDP per capita vs. Mean income or expenditure per day</span></a><span class="variantName">Daily GDP per capita, with comparison lines</span></li><li class=""><a href="https://ourworldindata.org/grapher/daily-income-of-the-poorest-and-richest-decile"><img src="https://ourworldindata.org/grapher/exports/daily-income-of-the-poorest-and-richest-decile.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Daily income of the poorest and richest decile</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/mean-versus-median-monthly-per-capita-expenditure-or-income"><img src="https://ourworldindata.org/grapher/exports/mean-versus-median-monthly-per-capita-expenditure-or-income.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Daily income: Mean vs. Median</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/data-deprivation-poverty-surveys-per-decade"><img src="https://ourworldindata.org/grapher/exports/data-deprivation-poverty-surveys-per-decade.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Data deprivation: number of income/expenditure surveys in the past decade available via the World Bank</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/death-rate-from-unsafe-water-sources-vs-share-in-extreme-poverty"><img src="https://ourworldindata.org/grapher/exports/death-rate-from-unsafe-water-sources-vs-share-in-extreme-poverty.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Death rate from unsafe water sources vs. share of population living in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/death-rates-from-indoor-air-pollution-vs-share-of-population-in-absolute-poverty"><img src="https://ourworldindata.org/grapher/exports/death-rates-from-indoor-air-pollution-vs-share-of-population-in-absolute-poverty.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Death rates from indoor air pollution vs. share  in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/distribution-of-population-poverty-thresholds"><img src="https://ourworldindata.org/grapher/exports/distribution-of-population-poverty-thresholds.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Distribution of population between different poverty thresholds</span></a><span class="variantName">fewer thresholds</span></li><li class=""><a href="https://ourworldindata.org/grapher/distribution-of-population-between-different-poverty-thresholds-stacke-bar"><img src="https://ourworldindata.org/grapher/exports/distribution-of-population-between-different-poverty-thresholds-stacke-bar.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Distribution of population between different poverty thresholds</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/energy-use-per-capita-vs-share-of-population-in-extreme-poverty"><img src="https://ourworldindata.org/grapher/exports/energy-use-per-capita-vs-share-of-population-in-extreme-poverty.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Energy use per capita vs. share in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/expected-years-of-schooling-vs-share-in-extreme-poverty"><img src="https://ourworldindata.org/grapher/exports/expected-years-of-schooling-vs-share-in-extreme-poverty.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Expected years of schooling vs. Share in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/poverty-and-child-mortality"><img src="https://ourworldindata.org/grapher/exports/poverty-and-child-mortality.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Extreme poverty and child mortality</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/gdp-per-capita-worldbank"><img src="https://ourworldindata.org/grapher/exports/gdp-per-capita-worldbank.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>GDP per capita</span></a><span class="variantName">World Bank</span></li><li class=""><a href="https://ourworldindata.org/grapher/mean-daily-expenditure-per-capita-vs-gdp-per-capita"><img src="https://ourworldindata.org/grapher/exports/mean-daily-expenditure-per-capita-vs-gdp-per-capita.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>GDP per capita vs. Mean income or expenditure per day</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/mean-daily-per-capita-expenditure-vs-gdp-per-capita"><img src="https://ourworldindata.org/grapher/exports/mean-daily-per-capita-expenditure-vs-gdp-per-capita.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>GDP per capita vs. Mean income or expenditure per day</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/median-daily-per-capita-expenditure-vs-gdp-per-capita"><img src="https://ourworldindata.org/grapher/exports/median-daily-per-capita-expenditure-vs-gdp-per-capita.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>GDP per capita vs. Median income or expenditure per day</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/global-hunger-index-vs-extreme-poverty"><img src="https://ourworldindata.org/grapher/exports/global-hunger-index-vs-extreme-poverty.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Global Hunger Index vs. share in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/hidden-hunger-index-vs-extreme-poverty"><img src="https://ourworldindata.org/grapher/exports/hidden-hunger-index-vs-extreme-poverty.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Hidden Hunger Index vs. share in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/intensity-of-multidimensional-poverty-hot"><img src="https://ourworldindata.org/grapher/exports/intensity-of-multidimensional-poverty-hot.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Intensity of multidimensional poverty</span></a><span class="variantName">Harmonized over time estimates</span></li><li class=""><a href="https://ourworldindata.org/grapher/intensity-of-multidimensional-poverty-national"><img src="https://ourworldindata.org/grapher/exports/intensity-of-multidimensional-poverty-national.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Intensity of multidimensional poverty</span></a><span class="variantName">Current estimates</span></li><li class=""><a href="https://ourworldindata.org/grapher/level-of-income-top-10-vs-bottom-10"><img src="https://ourworldindata.org/grapher/exports/level-of-income-top-10-vs-bottom-10.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Level of income: top 10% vs bottom 10%</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/daily-mean-income"><img src="https://ourworldindata.org/grapher/exports/daily-mean-income.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Mean income or expenditure per day</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/mean-income-per-person-per-day-marimekko"><img src="https://ourworldindata.org/grapher/exports/mean-income-per-person-per-day-marimekko.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Mean income or expenditure per day</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/multidimensional-poverty-index-mpi-hot"><img src="https://ourworldindata.org/grapher/exports/multidimensional-poverty-index-mpi-hot.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Multidimensional Poverty Index (MPI)</span></a><span class="variantName">Harmonized over time estimates</span></li><li class=""><a href="https://ourworldindata.org/grapher/mean-daily-expenditure-per-capita-vs-national-poverty-line"><img src="https://ourworldindata.org/grapher/exports/mean-daily-expenditure-per-capita-vs-national-poverty-line.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>National poverty line vs Mean daily income or expenditure</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/median-daily-expenditure-per-capita-vs-national-poverty-line"><img src="https://ourworldindata.org/grapher/exports/median-daily-expenditure-per-capita-vs-national-poverty-line.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>National poverty line vs Median income or expenditure per day</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/national-poverty-lines-vs-gdp-per-capita"><img src="https://ourworldindata.org/grapher/exports/national-poverty-lines-vs-gdp-per-capita.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>National poverty line vs. GDP per capita</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/national-poverty-line-vs-gdp-per-capita"><img src="https://ourworldindata.org/grapher/exports/national-poverty-line-vs-gdp-per-capita.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>National poverty line vs. GDP per capita</span></a><span class="variantName">By income group</span></li><li class=""><a href="https://ourworldindata.org/grapher/above-or-below-extreme-poverty-line-world-bank"><img src="https://ourworldindata.org/grapher/exports/above-or-below-extreme-poverty-line-world-bank.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Number of people living in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/number-of-people-living-in-extreme-poverty-by-region-190"><img src="https://ourworldindata.org/grapher/exports/number-of-people-living-in-extreme-poverty-by-region-190.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Number of people living in extreme poverty by region</span></a><span class="variantName">Historical estimates (Moatsos, 2021)</span></li><li class=""><a href="https://ourworldindata.org/grapher/number-of-people-living-in-extreme-poverty-by-region-cbn"><img src="https://ourworldindata.org/grapher/exports/number-of-people-living-in-extreme-poverty-by-region-cbn.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Number of people living in extreme poverty by region</span></a><span class="variantName">'Cost of basic needs' approach, Historical estimates (Moatsos, 2021)</span></li><li class=""><a href="https://ourworldindata.org/grapher/p90-vs-p10-logs"><img src="https://ourworldindata.org/grapher/exports/p90-vs-p10-logs.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>P90 vs. P10 of income/consumption distribution</span></a><span class="variantName">Log view</span></li><li class=""><a href="https://ourworldindata.org/grapher/poverty-gap-index-at-190-int-per-day-povcal"><img src="https://ourworldindata.org/grapher/exports/poverty-gap-index-at-190-int-per-day-povcal.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Poverty gap index at $2.15 per day</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/share-living-with-less-than-10-int--per-day"><img src="https://ourworldindata.org/grapher/exports/share-living-with-less-than-10-int--per-day.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Poverty: Share of population living on less than $10 a day</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/share-living-on-less-than-10-marimekko"><img src="https://ourworldindata.org/grapher/exports/share-living-on-less-than-10-marimekko.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Poverty: Share of population living on less than $10 a day</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/poverty-share-on-less-than-30-per-day"><img src="https://ourworldindata.org/grapher/exports/poverty-share-on-less-than-30-per-day.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Poverty: Share of population living on less than $30 a day</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/poverty-share-of-population-living-on-less-than-40-a-day"><img src="https://ourworldindata.org/grapher/exports/poverty-share-of-population-living-on-less-than-40-a-day.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Poverty: Share of population living on less than $40 a day</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/prevalence-of-undernourishment-vs-share-of-population-living-in-absolute-poverty"><img src="https://ourworldindata.org/grapher/exports/prevalence-of-undernourishment-vs-share-of-population-living-in-absolute-poverty.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Prevalence of undernourishment vs. share in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/extreme-poverty-vs-prevalence-of-underweight-children"><img src="https://ourworldindata.org/grapher/exports/extreme-poverty-vs-prevalence-of-underweight-children.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Prevalence of underweight children vs. share in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/relative-poverty-share-of-people-below-40-of-the-median"><img src="https://ourworldindata.org/grapher/exports/relative-poverty-share-of-people-below-40-of-the-median.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Relative poverty: Share of people below 40% of the median</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/relative-poverty-share-of-people-below-50-of-the-median"><img src="https://ourworldindata.org/grapher/exports/relative-poverty-share-of-people-below-50-of-the-median.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Relative poverty: Share of people below 50% of the median</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/relative-poverty-share-of-people-below-60-of-the-median"><img src="https://ourworldindata.org/grapher/exports/relative-poverty-share-of-people-below-60-of-the-median.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Relative poverty: Share of people below 60% of the median</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/extreme-poverty-headcount-ratio-vs-life-expectancy-at-birth"><img src="https://ourworldindata.org/grapher/exports/extreme-poverty-headcount-ratio-vs-life-expectancy-at-birth.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share in extreme poverty vs Life expectancy at birth</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/poverty-headcount-rate-vs-poverty-gap"><img src="https://ourworldindata.org/grapher/exports/poverty-headcount-rate-vs-poverty-gap.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share in extreme poverty vs. poverty gap index</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/share-in-extreme-poverty-cost-of-basic-needs-vs-below-190-a-day"><img src="https://ourworldindata.org/grapher/exports/share-in-extreme-poverty-cost-of-basic-needs-vs-below-190-a-day.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share in extreme poverty: Cost of basic needs approach vs. Living on less than $1.90 a day</span></a><span class="variantName">Historical estimates (Moatsos, 2021)</span></li><li class=""><a href="https://ourworldindata.org/grapher/share-in-poverty-relative-to-different-poverty-thresholds-historical"><img src="https://ourworldindata.org/grapher/exports/share-in-poverty-relative-to-different-poverty-thresholds-historical.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share in poverty relative to different poverty thresholds</span></a><span class="variantName">Historical estimates (Moatsos, 2021)</span></li><li class=""><a href="https://ourworldindata.org/grapher/poverty-vs-life-expectancy"><img src="https://ourworldindata.org/grapher/exports/poverty-vs-life-expectancy.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share in poverty vs. Life expectancy</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/poverty-vs-mean-schooling"><img src="https://ourworldindata.org/grapher/exports/poverty-vs-mean-schooling.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share in poverty vs. educational attainment</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/share-living-on-less-than-550-per-day-vs-average-daily-income"><img src="https://ourworldindata.org/grapher/exports/share-living-on-less-than-550-per-day-vs-average-daily-income.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share living on less than $6.85 a day vs mean income or expenditure per day</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/donated-official-development-assistance-grants-for-poverty-reduction"><img src="https://ourworldindata.org/grapher/exports/donated-official-development-assistance-grants-for-poverty-reduction.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of GNI donated towards poverty reduction</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/received-official-development-assistance-grants-for-poverty-reduction"><img src="https://ourworldindata.org/grapher/exports/received-official-development-assistance-grants-for-poverty-reduction.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of GNI from poverty reduction grants</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/share-of-government-consumption-at-current-ppps-vs-share-of-the-population-living-on-less-than-190-per-day"><img src="https://ourworldindata.org/grapher/exports/share-of-government-consumption-at-current-ppps-vs-share-of-the-population-living-on-less-than-190-per-day.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of government consumption in GDP vs. Share of population living in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/risk-of-impoverishing-expenditure-for-surgical-care"><img src="https://ourworldindata.org/grapher/exports/risk-of-impoverishing-expenditure-for-surgical-care.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of people at risk of falling into poverty if payment for surgical care is required</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/distribution-of-population-across-income-thresholds-stacked-bar-30-only"><img src="https://ourworldindata.org/grapher/exports/distribution-of-population-across-income-thresholds-stacked-bar-30-only.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of population below and above $30 per day</span></a><span class="variantName">Stacked bar: Above/below $30 per day</span></li><li class=""><a href="https://ourworldindata.org/grapher/share-of-population-multidimensionally-poor-hot"><img src="https://ourworldindata.org/grapher/exports/share-of-population-multidimensionally-poor-hot.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of population in multidimensional poverty</span></a><span class="variantName">Harmonized over time estimates</span></li><li class=""><a href="https://ourworldindata.org/grapher/share-of-population-in-multidimensional-poverty-urban-vs-rural-hot"><img src="https://ourworldindata.org/grapher/exports/share-of-population-in-multidimensional-poverty-urban-vs-rural-hot.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of population in multidimensional poverty: Urban vs. rural</span></a><span class="variantName">Harmonized over time estimates</span></li><li class=""><a href="https://ourworldindata.org/grapher/share-of-population-in-multidimensional-poverty-urban-vs-rural-cme"><img src="https://ourworldindata.org/grapher/exports/share-of-population-in-multidimensional-poverty-urban-vs-rural-cme.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of population in multidimensional poverty: Urban vs. rural</span></a><span class="variantName">Current estimates</span></li><li class=""><a href="https://ourworldindata.org/grapher/share-of-population-living-in-extreme-poverty-lines-cbn"><img src="https://ourworldindata.org/grapher/exports/share-of-population-living-in-extreme-poverty-lines-cbn.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of population living in extreme poverty</span></a><span class="variantName">'Cost of basic needs' approach, Historical estimates (Moatsos, 2021)</span></li><li class=""><a href="https://ourworldindata.org/grapher/share-of-population-living-in-extreme-poverty-historical"><img src="https://ourworldindata.org/grapher/exports/share-of-population-living-in-extreme-poverty-historical.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of population living in extreme poverty</span></a><span class="variantName">Historical estimates (Moatsos, 2021)</span></li><li class=""><a href="https://ourworldindata.org/grapher/share-of-population-living-in-extreme-poverty"><img src="https://ourworldindata.org/grapher/exports/share-of-population-living-in-extreme-poverty.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of population living in extreme poverty</span></a><span class="variantName">Historical estimates (Moatsos, 2021)</span></li><li class=""><a href="https://ourworldindata.org/grapher/share-living-on-less-than-190-marimekko"><img src="https://ourworldindata.org/grapher/exports/share-living-on-less-than-190-marimekko.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of population living in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita"><img src="https://ourworldindata.org/grapher/exports/the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of population living in extreme poverty vs GDP per capita</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/share-of-the-population-living-in-extreme-poverty-vs-average-consumption-or-income"><img src="https://ourworldindata.org/grapher/exports/share-of-the-population-living-in-extreme-poverty-vs-average-consumption-or-income.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of population living in extreme poverty vs. mean income or expenditure per day</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/share-of-population-living-in-poverty-by-national-poverty-lines"><img src="https://ourworldindata.org/grapher/exports/share-of-population-living-in-poverty-by-national-poverty-lines.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of population living in poverty by national poverty lines</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/share-of-population-living-with-less-than-190-and-320-per-day"><img src="https://ourworldindata.org/grapher/exports/share-of-population-living-with-less-than-190-and-320-per-day.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of population living with less than $2.15 and $3.65 per day</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/distribution-of-population-across-income-thresholds-stacked-bar"><img src="https://ourworldindata.org/grapher/exports/distribution-of-population-across-income-thresholds-stacked-bar.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of population within different income thresholds</span></a><span class="variantName">Stacked bar: Above/below $30 per day</span></li><li class=""><a href="https://ourworldindata.org/grapher/rural-population-poverty-at-national-poverty-lines"><img src="https://ourworldindata.org/grapher/exports/rural-population-poverty-at-national-poverty-lines.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of rural population living in poverty at national poverty lines</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/urban-and-rural-poverty-by-national-poverty-lines"><img src="https://ourworldindata.org/grapher/exports/urban-and-rural-poverty-by-national-poverty-lines.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of urban and rural population living in poverty by national poverty lines</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/urban-poverty-at-national-poverty-lines"><img src="https://ourworldindata.org/grapher/exports/urban-poverty-at-national-poverty-lines.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of urban population living in poverty at national poverty lines</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/share-vs-intensity-of-multidimensional-poverty-hot"><img src="https://ourworldindata.org/grapher/exports/share-vs-intensity-of-multidimensional-poverty-hot.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share vs. Intensity of multidimensional poverty</span></a><span class="variantName">Harmonized over time estimates</span></li><li class=""><a href="https://ourworldindata.org/grapher/share-vs-intensity-of-multidimensional-poverty"><img src="https://ourworldindata.org/grapher/exports/share-vs-intensity-of-multidimensional-poverty.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share vs. Intensity of multidimensional poverty</span></a><span class="variantName">Current estimates</span></li><li class=""><a href="https://ourworldindata.org/grapher/total-population-living-in-extreme-poverty-by-world-region-india-china-separate"><img src="https://ourworldindata.org/grapher/exports/total-population-living-in-extreme-poverty-by-world-region-india-china-separate.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Total population living in extreme poverty by world region</span></a><span class="variantName">India and China shown separately</span></li><li class=""><a href="https://ourworldindata.org/grapher/vaccination-coverage-DPT-by-extreme-poverty"><img src="https://ourworldindata.org/grapher/exports/vaccination-coverage-DPT-by-extreme-poverty.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Vaccination coverage vs. share  in extreme poverty</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/world-population-in-extreme-poverty-absolute"><img src="https://ourworldindata.org/grapher/exports/world-population-in-extreme-poverty-absolute.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>World population living in extreme poverty</span></a><span class="variantName">World Bank &amp; Bourguignon and Morrisson</span></li></ul></div><div class="wp-block-column" id="all-charts-preview"><figure data-grapher-src="https://ourworldindata.org/grapher/distribution-of-population-between-different-poverty-thresholds-historical"></figure><div class="gallery-navigation"><button disabled="" class="gallery-arrow prev"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-left-long" class="svg-inline--fa fa-arrow-left-long " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M109.3 288L480 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-370.7 0 73.4-73.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288z"></path></svg></button><div class="gallery-pagination">Chart 1 of 95</div><button class="gallery-arrow next"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-left-long" class="svg-inline--fa fa-arrow-left-long fa-flip-horizontal " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M109.3 288L480 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-370.7 0 73.4-73.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288z"></path></svg></button></div></div></div></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div><footer class="article-footer"><div class="wp-block-columns"><div class="wp-block-column"><h3 id="endnotes" class="h3-bold">Endnotes</h3><ol class="endnotes"><li id="note-1"><p>Official definitions of poverty in different countries are often not directly comparable due to the different ways poverty is measured. For example, countries account for the size of households in different ways in their poverty measures.</p>
+
+
+
+<p>The poverty lines shown here are an approximation of national definitions, harmonized to allow for comparisons across countries. For all countries apart from the US, we take the harmonized poverty line calculated by Jolliffe et al. (2022). These lines are calculated as the international dollar figure which, in the World Bank’s <a href="https://pip.worldbank.org/"><em>Poverty and Inequality Platform</em></a><em> </em>(PIP)<em> </em>data, yields the same poverty rate as the officially reported rate using national definitions in a particular year (around 2017).</p>
+
+
+
+<p>For the US, Jolliffe et al. (2022) use the OECD’s published poverty rate – which is measured against a relative poverty line of 50% of the median income. This yields a poverty line of $34.79 (measured using 2017 survey data). This however is not the official definition of poverty adopted in the US. We calculated an alternative harmonized figure for the US national poverty using the same method as Jolliffe et al. (2022), but based instead on the official 2019 poverty rate – <a href="https://www.census.gov/content/dam/Census/library/publications/2020/demo/p60-270.pdf">as reported</a> by the U.S. Census Bureau.<br></p>
+
+
+
+<p>You can see in detail how we calculated this poverty line in <a href="https://colab.research.google.com/drive/1IzHT9NikKHrY9uGWKzDzaZ4VVpdc9m5E">this Google Colabs notebook</a>.</p>
+
+
+
+<p><em>Jolliffe, Dean Mitchell, Daniel Gerszon Mahler, Christoph Lakner, Aziz Atamanov, and Samuel Kofi Tetteh Baah. 2022. Assessing the Impact of the 2017 PPPs on the International Poverty Line and Global Poverty. The World Bank. Available to read at the </em><a href="https://documents1.worldbank.org/curated/en/353811645450974574/pdf/Assessing-the-Impact-of-the-2017-PPPs-on-the-International-Poverty-Line-and-Global-Poverty.pdf"><em>World Bank here</em></a><em>.</em></p></li><li id="note-2"><p>Because there is no global survey of incomes, researchers need to rely on available national surveys. Such surveys are designed with cross-country comparability in mind, but because the surveys reflect the circumstances and priorities of individual countries at the time of the survey, there are some important differences. In collating this survey data the World Bank takes steps to harmonize it where possible, but comparability issues remain.<br><br>One important issue is that, whilst in most high-income countries the surveys capture people’s incomes, in poorer countries these surveys tend to capture people’s consumption. The two concepts are closely related: the income of a household equals their consumption plus any saving, or minus any borrowing or spending out of savings.<br><br>One important difference is that, while zero consumption is not a feasible value – people with zero consumption would starve – a zero income is a feasible value. This means that, at the bottom end of the distribution, income and consumption can give quite different pictures about a person’s welfare. For instance, a person dissaving in retirement may have a very low, or even zero, income, but have a high level of consumption nevertheless.<br><br>The gap between income and consumption is higher at the top of this distribution too, richer households tend to save more, meaning that the gap between income and consumption is higher at the top of this distribution too. Taken together, one implication is that inequality measured in terms of consumption is generally somewhat lower than the inequality measured in terms of income.<br><br>In our <a href="https://ourworldindata.org/poverty#explore-data-poverty">Data Explorer</a> of this data there is the option to view only income survey data or only consumption survey data, or instead to pool the data available from both types of survey – which yields greater coverage.<br><br>There are a number of other ways in which comparability across surveys can be limited. The PIP <a href="https://worldbank.github.io/PIP-Methodology/index.html">Methodology Handbook</a> provides a good summary of the comparability and data quality issues affecting this data and how it tries to address them.<br><br>In collating this survey data the World Bank takes a range of steps to harmonize it where possible, but comparability issues remain. These affect comparisons both across countries and within individual countries over time.<br><br>To help communicate the latter, the World Bank produces a variable that groups surveys within each individual country into more comparable ‘spells’ (which we include in our data <a href="https://github.com/owid/poverty-data">download</a>). Our <a href="https://ourworldindata.org/poverty#explore-data-poverty">Data Explorer</a> provides the option of viewing the data with these breaks in comparability indicated.</p></li><li id="note-3"><p>Official definitions of poverty in different countries are often not directly comparable due to the different ways poverty is measured. For example, countries account for the size of households in different ways in their poverty measures.<br><br>The poverty lines shown here are an approximation of national definitions, harmonized to allow for comparisons across countries. For all countries apart from the US, we take the harmonized poverty line calculated by Jolliffe et al. (2022). These figures are the value in 2017 international-$ which, in the World Bank’s <a href="https://pip.worldbank.org/"><em>Poverty and Inequality Platform</em></a><em> </em>(PIP)<em> </em>data, yields the same poverty rate as the officially reported rate using national definitions in a particular year (around 2017).<br><br>For the US, Jolliffe et al. (2022) use the OECD’s published poverty rate – which is measured against a relative poverty line of 50% of the median income. This yields a poverty line of $34.79 (measured using 2017 survey data). This however is not the official definition of poverty adopted in the US. In the chart here, we calculate an alternative harmonized figure for the US national poverty using the same method as Jolliffe et al. (2022), but based instead on the official 2019 poverty rate – <a href="https://www.census.gov/content/dam/Census/library/publications/2020/demo/p60-270.pdf">as reported</a> by the U.S. Census Bureau.<br><br>You can see in detail how we calculated this poverty line in <a href="https://colab.research.google.com/drive/1IzHT9NikKHrY9uGWKzDzaZ4VVpdc9m5E">this Google Colabs notebook</a>.<br><br><em>Jolliffe, Dean Mitchell, Daniel Gerszon Mahler, Christoph Lakner, Aziz Atamanov, and Samuel Kofi Tetteh Baah. 2022. Assessing the Impact of the 2017 PPPs on the International Poverty Line and Global Poverty. The World Bank. Available to read at the </em><a href="https://documents1.worldbank.org/curated/en/353811645450974574/pdf/Assessing-the-Impact-of-the-2017-PPPs-on-the-International-Poverty-Line-and-Global-Poverty.pdf"><em>World Bank here</em></a><em>.</em><br></p></li><li id="note-4"><p>Many poor people today, as in the past, rely on subsistence farming rather than a monetary income gained from selling goods or their labor on the market. To take this into account and make a fair comparison of their living standards, the statisticians that produce these figures estimate the monetary value of their home production and add it to their income/expenditure.</p></li><li id="note-5"><p>The international-$ is a hypothetical currency that results from price adjustments across time and place. It is defined as having the same purchasing power as one US-$ in a given base year – in this case 2017. One int.-$ buys the same quantity of goods and services no matter where or when it is spent.<br><br>There are many challenges to making such adjustments and they are far from perfect. But in a world where price differences across countries and over time are large it is important to attempt to account for these differences as well as possible, and this is what these adjustments do.<br><br>You can read more in our article<em> </em><a href="https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line"><em>From $1.90 to $2.15 a day: the updated International Poverty Line</em></a>.</p></li><li id="note-6"><p>​​According to World Bank data, in 1990 there were 2.00 billion people living in poverty, and in 2019 that had fallen to 0.648 billion. The average fall over the 29 years in between is: (2.00 billion – 0.648 billion)/29 = 46.6 million. Dividing by the number of days (29 x 365) gives the average daily fall: (2.00 billion – 0.648 billion)/(29 x 365) = 128,000. (All figures rounded to 3 significant figures).</p></li><li id="note-7"><p>Because there is no global survey of incomes, researchers need to rely on available national surveys. Such surveys are designed with cross-country comparability in mind, but because the surveys reflect the circumstances and priorities of individual countries at the time of the survey, there are some important differences. In collating this survey data the World Bank takes steps to harmonize it where possible, but comparability issues remain.<br><br>One important issue is that, whilst in most high-income countries the surveys capture people’s incomes, in poorer countries these surveys tend to capture people’s consumption. The two concepts are closely related: the income of a household equals their consumption plus any saving, or minus any borrowing or spending out of savings.<br><br>One important difference is that, while zero consumption is not a feasible value – people with zero consumption would starve – a zero income is a feasible value. This means that, at the bottom end of the distribution, income and consumption can give quite different pictures about a person’s welfare. For instance, a person dissaving in retirement may have a very low, or even zero, income, but have a high level of consumption nevertheless.<br><br>The gap between income and consumption is higher at the top of this distribution too, richer households tend to save more, meaning that the gap between income and consumption is higher at the top of this distribution too. Taken together, one implication is that inequality measured in terms of consumption is generally somewhat lower than the inequality measured in terms of income.<br><br>In our <a href="https://ourworldindata.org/poverty#explore-data-poverty">Data Explorer</a> of this data there is the option to view only income survey data or only consumption survey data, or instead to pool the data available from both types of survey – which yields greater coverage.<br><br>There are a number of other ways in which comparability across surveys can be limited. The PIP <a href="https://worldbank.github.io/PIP-Methodology/index.html">Methodology Handbook</a> provides a good summary of the comparability and data quality issues affecting this data and how it tries to address them.<br><br>In collating this survey data the World Bank takes a range of steps to harmonize it where possible, but comparability issues remain. These affect comparisons both across countries and within individual countries over time.<br><br>To help communicate the latter, the World Bank produces a variable that groups surveys within each individual country into more comparable ‘spells’ (which we include in our data <a href="https://github.com/owid/poverty-data">download</a>). Our <a href="https://ourworldindata.org/poverty#explore-data-poverty">Data Explorer</a> provides the option of viewing the data with these breaks in comparability indicated.</p></li><li id="note-8"><p>The projections are generally made on the assumption that incomes or expenditure grow in line with the growth rates observed in national accounts data. You can read more about the interpolation methods used by the World Bank in <a href="https://worldbank.github.io/PIP-Methodology/lineupestimates.html">Chapter 5</a> of the Poverty and Inequality Platform Methodology Handbook.</p></li><li id="note-9"><p>Many poor people today, as in the past, rely on subsistence farming rather than a monetary income gained from selling goods or their labor on the market. To take this into account and make a fair comparison of their living standards, the statisticians that produce these figures estimate the monetary value of their home production and add it to their income/expenditure.</p></li><li id="note-10"><p>The international-$ is a hypothetical currency that results from price adjustments across time and place.&nbsp; It is defined as having the same purchasing power as one US-$ in a given base year – in this case 2017. One int.-$ buys the same quantity of goods and services no matter where or when it is spent. There are many challenges to making such adjustments and they are far from perfect. But in a world where price differences across countries and over time are large it is important to attempt to account for these differences as well as possible, and this is what these adjustments do. Read more in our article<em> </em><a href="https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line"><em>From $1.90 to $2.15 a day: the updated International Poverty Line</em></a>.</p></li><li id="note-11"><p>We use the figures presented in the World Bank’s <a href="https://www.worldbank.org/en/publication/poverty-and-shared-prosperity">Poverty and Shared Prosperity 2022</a> report. Earlier estimates were also published in Lakner, C., Mahler, D.G., Negre, M. et al. How much does reducing inequality matter for global poverty?. J Econ Inequal (2022). <a href="https://doi.org/10.1007/s10888-021-09510-w">https://doi.org/10.1007/s10888-021-09510-w</a>. Available <a href="https://link.springer.com/content/pdf/10.1007/s10888-021-09510-w.pdf">online here</a>.</p></li><li id="note-12"><p>Earlier estimates were also published in Lakner, C., Mahler, D.G., Negre, M. et al. How much does reducing inequality matter for global poverty?. J Econ Inequal (2022). <a href="https://doi.org/10.1007/s10888-021-09510-w">https://doi.org/10.1007/s10888-021-09510-w</a>. Available <a href="https://link.springer.com/content/pdf/10.1007/s10888-021-09510-w.pdf">online here</a>.</p></li><li id="note-13"><p>Because there is no global survey of incomes, researchers need to rely on available national surveys. Such surveys are designed with cross-country comparability in mind, but because the surveys reflect the circumstances and priorities of individual countries at the time of the survey, there are some important differences. In collating this survey data the World Bank takes steps to harmonize it where possible, but comparability issues remain.<br><br>One important issue is that, whilst in most high-income countries the surveys capture people’s incomes, in poorer countries these surveys tend to capture people’s consumption. The two concepts are closely related: the income of a household equals their consumption plus any saving, or minus any borrowing or spending out of savings.<br><br>One important difference is that, while zero consumption is not a feasible value – people with zero consumption would starve – a zero income is a feasible value. This means that, at the bottom end of the distribution, income and consumption can give quite different pictures about a person’s welfare. For instance, a person dissaving in retirement may have a very low, or even zero, income, but have a high level of consumption nevertheless.<br><br>The gap between income and consumption is higher at the top of this distribution too, richer households tend to save more, meaning that the gap between income and consumption is higher at the top of this distribution too. Taken together, one implication is that inequality measured in terms of consumption is generally somewhat lower than the inequality measured in terms of income.<br><br>In our <a href="https://ourworldindata.org/poverty#explore-data-poverty">Data Explorer</a> of this data there is the option to view only income survey data or only consumption survey data, or instead to pool the data available from both types of survey – which yields greater coverage.<br><br>There are a number of other ways in which comparability across surveys can be limited. The PIP <a href="https://worldbank.github.io/PIP-Methodology/index.html">Methodology Handbook</a> provides a good summary of the comparability and data quality issues affecting this data and how it tries to address them.<br><br>In collating this survey data the World Bank takes a range of steps to harmonize it where possible, but comparability issues remain. These affect comparisons both across countries and within individual countries over time.<br><br>To help communicate the latter, the World Bank produces a variable that groups surveys within each individual country into more comparable ‘spells’ (which we include in our data <a href="https://github.com/owid/poverty-data">download</a>). Our <a href="https://ourworldindata.org/poverty#explore-data-poverty">Data Explorer</a> provides the option of viewing the data with these breaks in comparability indicated.</p></li><li id="note-14"><p>The projections are generally made on the assumption that incomes or expenditure grow in line with the growth rates observed in national accounts data. You can read more about the interpolation methods used by the World Bank in <a href="https://worldbank.github.io/PIP-Methodology/lineupestimates.html">Chapter 5</a> of the Poverty and Inequality Platform Methodology Handbook.</p></li><li id="note-15"><p>Many poor people today, as in the past, rely on subsistence farming rather than a monetary income gained from selling goods or their labor on the market. To take this into account and make a fair comparison of their living standards, the statisticians that produce these figures estimate the monetary value of their home production and add it to their income/expenditure.</p></li><li id="note-16"><p>The international-$ is a hypothetical currency that results from price adjustments across time and place.&nbsp; It is defined as having the same purchasing power as one US-$ in a given base year – in this case 2017. One int.-$ buys the same quantity of goods and services no matter where or when it is spent. There are many challenges to making such adjustments and they are far from perfect. But in a world where price differences across countries and over time are large it is important to attempt to account for these differences as well as possible, and this is what these adjustments do. Read more in our article<em> </em><a href="https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line"><em>From $1.90 to $2.15 a day: the updated International Poverty Line</em></a>.</p></li><li id="note-17"><p>The figures are taken from a<a href="https://blogs.worldbank.org/opendata/projecting-global-extreme-poverty-2030-how-close-are-we-world-banks-3-goal"> World Bank blog post</a> by Nishant Yonzan, Christoph Lakner and Daniel Gerszon Mahler. The post builds on and updates the estimates published by Lakner et al. (2022).</p>
+
+
+
+<p>In September 2022, the World Bank changed from using 2011 international-$ to 2017 international-$ in the measurement of global poverty. The International Poverty Line used by the World Bank and the UN to define extreme poverty was accordingly updated from $1.90 a day (in 2011 prices) to $2.15 (in 2017 prices).<br><br>In order to match up to the projected figures, the extreme poverty estimates shown here relate to a previous release of the World Bank’s data using data expressed in 2011 prices, which vary slightly from the latest data in 2017 prices. You can read more about this change and how it affected the World Bank estimates of poverty in our article <a href="https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line"><em>From $1.90 to $2.15 a day: the updated International Poverty Line</em></a>.</p>
+
+
+
+<p>Lakner, C., Mahler, D.G., Negre, M. et al. How much does reducing inequality matter for global poverty?. J Econ Inequal (2022).<a href="https://doi.org/10.1007/s10888-021-09510-w"> https://doi.org/10.1007/s10888-021-09510-w</a>. Available<a href="https://link.springer.com/content/pdf/10.1007/s10888-021-09510-w.pdf"> online here</a>.</p></li><li id="note-18"><p>We use the figures provided in the blog post, which extend the methods presented in Lakner et al. (2022).<br><br>Lakner, C., Mahler, D.G., Negre, M. et al. How much does reducing inequality matter for global poverty?. J Econ Inequal (2022). <a href="https://doi.org/10.1007/s10888-021-09510-w">https://doi.org/10.1007/s10888-021-09510-w</a>. Available <a href="https://link.springer.com/content/pdf/10.1007/s10888-021-09510-w.pdf">online here</a>.</p></li><li id="note-19"><p>Because there is no global survey of incomes, researchers need to rely on available national surveys. Such surveys are designed with cross-country comparability in mind, but because the surveys reflect the circumstances and priorities of individual countries at the time of the survey, there are some important differences. In collating this survey data the World Bank takes steps to harmonize it where possible, but comparability issues remain.<br><br>One important issue is that, whilst in most high-income countries the surveys capture people’s incomes, in poorer countries these surveys tend to capture people’s consumption. The two concepts are closely related: the income of a household equals their consumption plus any saving, or minus any borrowing or spending out of savings.<br><br>One important difference is that, while zero consumption is not a feasible value – people with zero consumption would starve – a zero income is a feasible value. This means that, at the bottom end of the distribution, income and consumption can give quite different pictures about a person’s welfare. For instance, a person dissaving in retirement may have a very low, or even zero, income, but have a high level of consumption nevertheless.<br><br>The gap between income and consumption is higher at the top of this distribution too, richer households tend to save more, meaning that the gap between income and consumption is higher at the top of this distribution too. Taken together, one implication is that inequality measured in terms of consumption is generally somewhat lower than the inequality measured in terms of income.<br><br>In our <a href="https://ourworldindata.org/poverty#explore-data-poverty">Data Explorer</a> of this data there is the option to view only income survey data or only consumption survey data, or instead to pool the data available from both types of survey – which yields greater coverage.<br><br>There are a number of other ways in which comparability across surveys can be limited. The PIP <a href="https://worldbank.github.io/PIP-Methodology/index.html">Methodology Handbook</a> provides a good summary of the comparability and data quality issues affecting this data and how it tries to address them.<br><br>In collating this survey data the World Bank takes a range of steps to harmonize it where possible, but comparability issues remain. These affect comparisons both across countries and within individual countries over time.<br><br>To help communicate the latter, the World Bank produces a variable that groups surveys within each individual country into more comparable ‘spells’ (which we include in our data <a href="https://github.com/owid/poverty-data">download</a>). Our <a href="https://ourworldindata.org/poverty#explore-data-poverty">Data Explorer</a> provides the option of viewing the data with these breaks in comparability indicated.</p></li><li id="note-20"><p>The projections are generally made on the assumption that incomes or expenditure grow in line with the growth rates observed in national accounts data. You can read more about the interpolation methods used by the World Bank in <a href="https://worldbank.github.io/PIP-Methodology/lineupestimates.html">Chapter 5</a> of the Poverty and Inequality Platform Methodology Handbook.</p></li><li id="note-21"><p>Many poor people today, as in the past, rely on subsistence farming rather than a monetary income gained from selling goods or their labor on the market. To take this into account and make a fair comparison of their living standards, the statisticians that produce these figures estimate the monetary value of their home production and add it to their income/expenditure.</p></li><li id="note-22"><p>The international-$ is a hypothetical currency that results from price adjustments across time and place.&nbsp; It is defined as having the same purchasing power as one US-$ in a given base year – in this case 2011. One int.-$ buys the same quantity of goods and services no matter where or when it is spent. There are many challenges to making such adjustments and they are far from perfect. But in a world where price differences across countries and over time are large it is important to attempt to account for these differences as well as possible, and this is what these adjustments do. Read more in our article<em> </em><a href="https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line"><em>From $1.90 to $2.15 a day: the updated International Poverty Line</em></a>.</p></li><li id="note-23"><p>Shown are those countries with a decline of more than 30 percentage points over a period of 15 years or more.<br><br>There are a number of ways in which comparability across the different household surveys on which this data is based can be limited. These affect comparisons both across countries and within individual countries over time.<br><br>The World Bank’s Poverty and Inequality Platform <a href="https://worldbank.github.io/PIP-Methodology/index.html">Methodology Handbook</a> provides a good summary of the comparability and data quality issues affecting this data and how it tries to address them. In collating this survey data the World Bank takes a range of steps to harmonize it where possible, but comparability issues remain.</p>
+
+
+
+<p>To help communicate the latter, the World Bank produces a variable that groups surveys within each individual country into more comparable ‘spells’. Our <a href="https://ourworldindata.org/explorers/poverty-explorer?hideControls=true&amp;Metric=Share+in+poverty&amp;Poverty+line=%242.15+a+day&amp;Household+survey+data+type=Show+data+from+both+income+and+expenditure+surveys&amp;Show+breaks+between+less+comparable+surveys=true&amp;country=CHN~IDN~NPL~PAK~GMB~GIN~VNM~SWZ~TJK~GTM~BFA~ETH~NAM~MLI~MRT~IND">Data Explorer</a> provides the option of viewing the data with these breaks in comparability indicated.</p></li><li id="note-24"><p>Because there is no global survey of incomes, researchers need to rely on available national surveys. Such surveys are designed with cross-country comparability in mind, but because the surveys reflect the circumstances and priorities of individual countries at the time of the survey, there are some important differences. In collating this survey data the World Bank takes steps to harmonize it where possible, but comparability issues remain.<br><br>One important issue is that, whilst in most high-income countries the surveys capture people’s incomes, in poorer countries these surveys tend to capture people’s consumption. The two concepts are closely related: the income of a household equals their consumption plus any saving, or minus any borrowing or spending out of savings.<br><br>One important difference is that, while zero consumption is not a feasible value – people with zero consumption would starve – a zero income is a feasible value. This means that, at the bottom end of the distribution, income and consumption can give quite different pictures about a person’s welfare. For instance, a person dissaving in retirement may have a very low, or even zero, income, but have a high level of consumption nevertheless.<br><br>The gap between income and consumption is higher at the top of this distribution too, richer households tend to save more, meaning that the gap between income and consumption is higher at the top of this distribution too. Taken together, one implication is that inequality measured in terms of consumption is generally somewhat lower than the inequality measured in terms of income.<br><br>In our <a href="https://ourworldindata.org/poverty#explore-data-poverty">Data Explorer</a> of this data there is the option to view only income survey data or only consumption survey data, or instead to pool the data available from both types of survey – which yields greater coverage.<br><br>There are a number of other ways in which comparability across surveys can be limited. The PIP <a href="https://worldbank.github.io/PIP-Methodology/index.html">Methodology Handbook</a> provides a good summary of the comparability and data quality issues affecting this data and how it tries to address them.<br><br>In collating this survey data the World Bank takes a range of steps to harmonize it where possible, but comparability issues remain. These affect comparisons both across countries and within individual countries over time.<br><br>To help communicate the latter, the World Bank produces a variable that groups surveys within each individual country into more comparable ‘spells’ (which we include in our data <a href="https://github.com/owid/poverty-data">download</a>). Our <a href="https://ourworldindata.org/poverty#explore-data-poverty">Data Explorer</a> provides the option of viewing the data with these breaks in comparability indicated.</p></li><li id="note-25"><p>Many poor people today, as in the past, rely on subsistence farming rather than a monetary income gained from selling goods or their labor on the market. To take this into account and make a fair comparison of their living standards, the statisticians that produce these figures estimate the monetary value of their home production and add it to their income/expenditure.</p></li><li id="note-26"><p>The international-$ is a hypothetical currency that results from price adjustments across time and place.&nbsp; It is defined as having the same purchasing power as one US-$ in a given base year – in this case 2017. One int.-$ buys the same quantity of goods and services no matter where or when it is spent. There are many challenges to making such adjustments and they are far from perfect. But in a world where price differences across countries and over time are large it is important to attempt to account for these differences as well as possible, and this is what these adjustments do. Read more in our article<em> </em><a href="https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line"><em>From $1.90 to $2.15 a day: the updated International Poverty Line</em></a>.</p></li><li id="note-27"><p>You can read more about how the World Bank sets these higher poverty lines, as well as the International Poverty Line against which it measures extreme poverty, in our article <a href="https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line"><em>From $1.90 to $2.15 a day: the updated International Poverty Line</em></a>.</p></li><li id="note-28"><p>For details of the methods used to produce the long-run poverty data see, Moatsos, M. (2021). <em>Global extreme poverty: Present and past since 1820</em>. In van Zanden, Rijpma, Malinowski and Mira d’Ercole (eds.) <em>How Was Life? Volume II: New Perspectives on Well-Being and Global Inequality since 1820</em>. Available from the <a href="https://www.oecd-ilibrary.org/social-issues-migration-health/how-was-life-volume-ii_e20f2f1a-en">OECD here</a>.</p></li><li id="note-29"><p>The international-$ is a hypothetical currency that results from price adjustments across time and place.&nbsp; It is defined as having the same purchasing power as one US-$ in a given base year. One int.-$ buys the same quantity of goods and services no matter where or when it is spent. There are many challenges to making such adjustments and they are far from perfect. But in a world where price differences across countries and over time are large it is important to attempt to account for these differences as well as possible, and this is what these adjustments do.</p></li><li id="note-30"><p>Because there is no global survey of incomes, researchers need to rely on available national surveys. Such surveys are designed with cross-country comparability in mind, but because the surveys reflect the circumstances and priorities of individual countries at the time of the survey, there are some important differences. In collating this survey data the World Bank takes steps to harmonize it where possible, but comparability issues remain.<br><br>One important issue is that, whilst in most high-income countries the surveys capture people’s incomes, in poorer countries these surveys tend to capture people’s consumption. The two concepts are closely related: the income of a household equals their consumption plus any saving, or minus any borrowing or spending out of savings.<br><br>One important difference is that, while zero consumption is not a feasible value – people with zero consumption would starve – a zero income is a feasible value. This means that, at the bottom end of the distribution, income and consumption can give quite different pictures about a person’s welfare. For instance, a person dissaving in retirement may have a very low, or even zero, income, but have a high level of consumption nevertheless.<br><br>The gap between income and consumption is higher at the top of this distribution too, richer households tend to save more, meaning that the gap between income and consumption is higher at the top of this distribution too. Taken together, one implication is that inequality measured in terms of consumption is generally somewhat lower than the inequality measured in terms of income.<br><br>In our <a href="https://ourworldindata.org/poverty#explore-data-poverty">Data Explorer</a> of this data there is the option to view only income survey data or only consumption survey data, or instead to pool the data available from both types of survey – which yields greater coverage.<br><br>There are a number of other ways in which comparability across surveys can be limited. The PIP <a href="https://worldbank.github.io/PIP-Methodology/index.html">Methodology Handbook</a> provides a good summary of the comparability and data quality issues affecting this data and how it tries to address them.<br><br>In collating this survey data the World Bank takes a range of steps to harmonize it where possible, but comparability issues remain. These affect comparisons both across countries and within individual countries over time.<br><br>To help communicate the latter, the World Bank produces a variable that groups surveys within each individual country into more comparable ‘spells’ (which we include in our data <a href="https://github.com/owid/poverty-data">download</a>). Our <a href="https://ourworldindata.org/poverty#explore-data-poverty">Data Explorer</a> provides the option of viewing the data with these breaks in comparability indicated.</p></li><li id="note-31"><p>The projections are generally made on the assumption that incomes or expenditure grow in line with the growth rates observed in national accounts data. You can read more about the interpolation methods used by the World Bank in <a href="https://worldbank.github.io/PIP-Methodology/lineupestimates.html">Chapter 5</a> of the Poverty and Inequality Platform Methodology Handbook.</p></li></ol><h3 id="citation" class="h3-bold">Cite this work</h3><p>Our articles and data visualizations rely on work from many different people and organizations. When citing this entry, please also cite the underlying data sources. This entry can be cited as:</p><div><div class="wp-code-snippet"><pre class="wp-block-code"><code>Joe Hasell, Max Roser, Esteban Ortiz-Ospina and Pablo Arriagada (2022) - &quot;Poverty&quot;. Published online at OurWorldInData.org. Retrieved from: &#x27;https://ourworldindata.org/poverty&#x27; [Online Resource]</code></pre><button class="code-copy-button" aria-label="Copy to clipboard"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy" class="svg-inline--fa fa-copy " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M224 0c-35.3 0-64 28.7-64 64V288c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H224zM64 160c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V384H288v64H64V224h64V160H64z"></path></svg></button></div></div><p>BibTeX citation</p><div><div class="wp-code-snippet"><pre class="wp-block-code"><code>@article{owidpoverty,
+    author = {Joe Hasell and Max Roser and Esteban Ortiz-Ospina and Pablo Arriagada},
+    title = {Poverty},
+    journal = {Our World in Data},
+    year = {2022},
+    note = {https://ourworldindata.org/poverty}
+}</code></pre><button class="code-copy-button" aria-label="Copy to clipboard"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy" class="svg-inline--fa fa-copy " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M224 0c-35.3 0-64 28.7-64 64V288c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H224zM64 160c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V384H288v64H64V224h64V160H64z"></path></svg></button></div></div><hr style="padding-bottom:0"/><h3 id="licence" class="h3-bold">Reuse this work freely</h3><p>All visualizations, data, and code produced by Our World in Data are completely open access under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons BY license</a>. You have the permission to use, distribute, and reproduce these in any medium, provided the source and authors are credited.</p><p>The data produced by third parties and made available by Our World in Data is subject to the license terms from the original third-party authors. We will always indicate the original source of the data in our documentation, so you should always check the license of any such third-party data before use and redistribution.</p><p>All of <a href="/how-to-use-our-world-in-data#how-to-embed-interactive-charts-in-your-article">our charts can be embedded</a> in any site.</p></div><div class="wp-block-column"></div></div></footer></div></div></div></article></main><div id="wpadminbar" style="display:none"><div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar"><ul id="wp-admin-bar-root-default" class="ab-top-menu"><li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="https://owid.cloud/wp/wp-admin">Wordpress</a></li> <li id="wp-admin-bar-edit"><a class="ab-item" href="https://owid.cloud/wp/wp-admin/post.php?post=51861&amp;action=edit">Edit Page</a></li></ul></div></div><section class="donate-footer"><div class="wrapper"><div class="owid-row flex-align-center"><div class="owid-col owid-col--lg-3 owid-padding-bottom--sm-3"><p>Our World in Data is free and accessible for everyone.</p><p>Help us do this work by making a donation.</p></div><div class="owid-col owid-col--lg-1"><a href="/donate" class="owid-button donate-button" data-track-note="donate-footer"><span class="label">Donate now</span><span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg></span></a></div></div></div></section><footer class="site-footer"><div class="wrapper"><div class="owid-row"><div class="owid-col owid-col--lg-1"><ul><li><a href="/about" data-track-note="footer-navigation">About</a></li><li><a href="/about#contact" data-track-note="footer-navigation">Contact</a></li><li><a href="/feedback" data-track-note="footer-navigation">Feedback</a></li><li><a href="/jobs" data-track-note="footer-navigation">Jobs</a></li><li><a href="/funding" data-track-note="footer-navigation">Funding</a></li><li><a href="/about/how-to-use-our-world-in-data" data-track-note="footer-navigation">How to use</a></li><li><a href="/donate" data-track-note="footer-navigation">Donate</a></li><li><a href="/privacy-policy" data-track-note="footer-navigation">Privacy policy</a></li></ul></div><div class="owid-col owid-col--lg-1"><ul><li><a href="/blog" data-track-note="footer-navigation">Latest work</a></li><li><a href="/charts" data-track-note="footer-navigation">All charts</a></li></ul><ul><li><a href="https://twitter.com/OurWorldInData" data-track-note="footer-navigation">Twitter</a></li><li><a href="https://www.facebook.com/OurWorldinData" data-track-note="footer-navigation">Facebook</a></li><li><a href="https://www.instagram.com/ourworldindata/" data-track-note="footer-navigation">Instagram</a></li><li><a href="https://github.com/owid" data-track-note="footer-navigation">GitHub</a></li><li><a href="/feed" data-track-note="footer-navigation">RSS Feed</a></li></ul></div><div class="owid-col owid-col--lg-1"><div class="logos"><a href="https://www.oxfordmartin.ox.ac.uk/global-development" class="partner-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/oms-logo.svg" alt="Oxford Martin School logo" loading="lazy"/></a><a href="/owid-at-ycombinator" class="partner-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/yc-logo.png" alt="Y Combinator logo" loading="lazy"/></a></div></div><div class="owid-col flex-2"><div class="legal"><p>Licenses: All visualizations, data, and articles produced by Our World in Data are open access under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons BY license</a>. You have permission to use, distribute, and reproduce these in any medium, provided the source and authors are credited. All the software and code that we write is open source and made available via GitHub under the permissive <a href="https://github.com/owid/owid-grapher/blob/master/LICENSE.md " target="_blank" rel="noopener noreferrer">MIT license</a>. All other material, including data produced by third parties and made available by Our World in Data, is subject to the license terms from the original third-party authors.</p><p>Please consult our full <a href="/about#legal">legal disclaimer</a>.</p><p><a href="https://global-change-data-lab.org/" class="partner-logo gcdl-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/gcdl-logo.svg" alt="Global Change Data Lab logo" loading="lazy"/></a>Our World In Data is a project of the <a href="https://global-change-data-lab.org/">Global Change Data Lab</a>, a registered charity in England and Wales (Charity Number 1186433).</p></div></div></div></div><div class="site-tools"></div><script src="https://polyfill.io/v3/polyfill.min.js?features=es6,fetch,URL,IntersectionObserver,IntersectionObserverEntry,ResizeObserver"></script><script src="https://ourworldindata.org/assets/commons.js"></script><script src="https://ourworldindata.org/assets/vendors.js"></script><script src="https://ourworldindata.org/assets/owid.js"></script><script>window.runSiteFooterScripts()</script></footer><script>
+                        runTableOfContents({"headings":[],"pageTitle":"Poverty"})
+                        runRelatedCharts([{"slug":"access-to-electricity-of-population-vs-share-in-extreme-poverty","title":"Access to electricity (% of population) vs. share in extreme poverty","variantName":null,"isKey":null},{"slug":"co-emissions-per-capita-vs-the-share-of-people-living-in-extreme-poverty","title":"CO₂ emissions per capita vs. share  in extreme poverty","variantName":null,"isKey":null},{"slug":"cereal-yield-vs-extreme-poverty","title":"Cereal yield vs share in extreme poverty","variantName":null,"isKey":null},{"slug":"extreme-poverty-vs-child-mortality","title":"Child mortality vs. share in extreme poverty","variantName":null,"isKey":null},{"slug":"fertility-rate-vs-the-share-living-in-extreme-poverty","title":"Children per woman vs. share living in extreme poverty","variantName":null,"isKey":null},{"slug":"comparison-extreme-poverty-rich-countries","title":"Comparison of extreme poverty estimates, World Bank PIP vs Bradshaw & Mayhew (2011)","variantName":null,"isKey":null},{"slug":"mean-daily-per-capita-expenditure-vs-daily-gdp-per-capita-reference-lines","title":"Daily GDP per capita vs. Mean income or expenditure per day","variantName":"Daily GDP per capita, with comparison lines","isKey":null},{"slug":"daily-income-of-the-poorest-and-richest-decile","title":"Daily income of the poorest and richest decile","variantName":null,"isKey":0},{"slug":"mean-versus-median-monthly-per-capita-expenditure-or-income","title":"Daily income: Mean vs. Median","variantName":null,"isKey":null},{"slug":"data-deprivation-poverty-surveys-per-decade","title":"Data deprivation: number of income/expenditure surveys in the past decade available via the World Bank","variantName":null,"isKey":null},{"slug":"death-rate-from-unsafe-water-sources-vs-share-in-extreme-poverty","title":"Death rate from unsafe water sources vs. share of population living in extreme poverty","variantName":null,"isKey":null},{"slug":"death-rates-from-indoor-air-pollution-vs-share-of-population-in-absolute-poverty","title":"Death rates from indoor air pollution vs. share  in extreme poverty","variantName":null,"isKey":null},{"slug":"distribution-of-population-between-different-poverty-thresholds-historical","title":"Distribution of population between different poverty thresholds","variantName":"Historical estimates (Moatsos, 2021)","isKey":1},{"slug":"distribution-of-population-poverty-thresholds","title":"Distribution of population between different poverty thresholds","variantName":"fewer thresholds","isKey":0},{"slug":"distribution-of-population-between-different-poverty-thresholds-stacke-bar","title":"Distribution of population between different poverty thresholds","variantName":null,"isKey":0},{"slug":"distribution-of-population-between-different-poverty-thresholds-up-to-30-dollars","title":"Distribution of population between different poverty thresholds","variantName":"more thresholds","isKey":1},{"slug":"energy-use-per-capita-vs-share-of-population-in-extreme-poverty","title":"Energy use per capita vs. share in extreme poverty","variantName":null,"isKey":null},{"slug":"expected-years-of-schooling-vs-share-in-extreme-poverty","title":"Expected years of schooling vs. Share in extreme poverty","variantName":null,"isKey":null},{"slug":"poverty-and-child-mortality","title":"Extreme poverty and child mortality","variantName":null,"isKey":null},{"slug":"gdp-per-capita-worldbank","title":"GDP per capita","variantName":"World Bank","isKey":null},{"slug":"mean-daily-expenditure-per-capita-vs-gdp-per-capita","title":"GDP per capita vs. Mean income or expenditure per day","variantName":null,"isKey":null},{"slug":"mean-daily-per-capita-expenditure-vs-gdp-per-capita","title":"GDP per capita vs. Mean income or expenditure per day","variantName":null,"isKey":null},{"slug":"median-daily-per-capita-expenditure-vs-gdp-per-capita","title":"GDP per capita vs. Median income or expenditure per day","variantName":null,"isKey":null},{"slug":"global-hunger-index-vs-extreme-poverty","title":"Global Hunger Index vs. share in extreme poverty","variantName":null,"isKey":null},{"slug":"hidden-hunger-index-vs-extreme-poverty","title":"Hidden Hunger Index vs. share in extreme poverty","variantName":null,"isKey":null},{"slug":"MPI-vs-Consumption","title":"How does extreme poverty compare to multidimensional poverty?","variantName":"Current estimates","isKey":1},{"slug":"intensity-of-multidimensional-poverty-hot","title":"Intensity of multidimensional poverty","variantName":"Harmonized over time estimates","isKey":null},{"slug":"intensity-of-multidimensional-poverty-national","title":"Intensity of multidimensional poverty","variantName":"Current estimates","isKey":0},{"slug":"level-of-income-top-10-vs-bottom-10","title":"Level of income: top 10% vs bottom 10%","variantName":null,"isKey":0},{"slug":"daily-mean-income","title":"Mean income or expenditure per day","variantName":null,"isKey":null},{"slug":"mean-income-per-person-per-day-marimekko","title":"Mean income or expenditure per day","variantName":null,"isKey":null},{"slug":"daily-median-income","title":"Median income or expenditure per day","variantName":null,"isKey":1},{"slug":"multidimensional-poverty-index-mpi","title":"Multidimensional Poverty Index (MPI)","variantName":"Current estimates","isKey":1},{"slug":"multidimensional-poverty-index-mpi-hot","title":"Multidimensional Poverty Index (MPI)","variantName":"Harmonized over time estimates","isKey":null},{"slug":"mean-daily-expenditure-per-capita-vs-national-poverty-line","title":"National poverty line vs Mean daily income or expenditure","variantName":null,"isKey":null},{"slug":"median-daily-expenditure-per-capita-vs-national-poverty-line","title":"National poverty line vs Median income or expenditure per day","variantName":null,"isKey":null},{"slug":"national-poverty-lines-vs-gdp-per-capita","title":"National poverty line vs. GDP per capita","variantName":null,"isKey":null},{"slug":"national-poverty-line-vs-gdp-per-capita","title":"National poverty line vs. GDP per capita","variantName":"By income group","isKey":null},{"slug":"above-or-below-extreme-poverty-line-world-bank","title":"Number of people living in extreme poverty","variantName":null,"isKey":0},{"slug":"total-population-in-extreme-poverty","title":"Number of people living in extreme poverty","variantName":null,"isKey":1},{"slug":"number-of-people-living-in-extreme-poverty-by-region-190","title":"Number of people living in extreme poverty by region","variantName":"Historical estimates (Moatsos, 2021)","isKey":null},{"slug":"number-of-people-living-in-extreme-poverty-by-region-cbn","title":"Number of people living in extreme poverty by region","variantName":"'Cost of basic needs' approach, Historical estimates (Moatsos, 2021)","isKey":null},{"slug":"p90-vs-p10-logs","title":"P90 vs. P10 of income/consumption distribution","variantName":"Log view","isKey":null},{"slug":"poverty-gap-index-at-190-int-per-day-povcal","title":"Poverty gap index at $2.15 per day","variantName":null,"isKey":0},{"slug":"share-living-with-less-than-1-int--per-day","title":"Poverty: Share of population living on less than $1 a day","variantName":null,"isKey":1},{"slug":"share-living-with-less-than-10-int--per-day","title":"Poverty: Share of population living on less than $10 a day","variantName":null,"isKey":null},{"slug":"share-living-on-less-than-10-marimekko","title":"Poverty: Share of population living on less than $10 a day","variantName":null,"isKey":null},{"slug":"share-living-with-less-than-320-int--per-day","title":"Poverty: Share of population living on less than $3.65 a day","variantName":null,"isKey":1},{"slug":"poverty-share-on-less-than-30-per-day","title":"Poverty: Share of population living on less than $30 a day","variantName":null,"isKey":null},{"slug":"poverty-share-of-population-living-on-less-than-40-a-day","title":"Poverty: Share of population living on less than $40 a day","variantName":null,"isKey":null},{"slug":"share-living-with-less-than-550-int--per-day","title":"Poverty: Share of population living on less than $6.85 a day","variantName":null,"isKey":1},{"slug":"prevalence-of-undernourishment-vs-share-of-population-living-in-absolute-poverty","title":"Prevalence of undernourishment vs. share in extreme poverty","variantName":null,"isKey":null},{"slug":"extreme-poverty-vs-prevalence-of-underweight-children","title":"Prevalence of underweight children vs. share in extreme poverty","variantName":null,"isKey":null},{"slug":"relative-poverty-share-of-people-below-40-of-the-median","title":"Relative poverty: Share of people below 40% of the median","variantName":null,"isKey":null},{"slug":"relative-poverty-share-of-people-below-50-of-the-median","title":"Relative poverty: Share of people below 50% of the median","variantName":null,"isKey":null},{"slug":"relative-poverty-share-of-people-below-60-of-the-median","title":"Relative poverty: Share of people below 60% of the median","variantName":null,"isKey":null},{"slug":"extreme-poverty-headcount-ratio-vs-life-expectancy-at-birth","title":"Share in extreme poverty vs Life expectancy at birth","variantName":null,"isKey":null},{"slug":"poverty-headcount-rate-vs-poverty-gap","title":"Share in extreme poverty vs. poverty gap index","variantName":null,"isKey":null},{"slug":"share-in-extreme-poverty-cost-of-basic-needs-vs-below-190-a-day","title":"Share in extreme poverty: Cost of basic needs approach vs. Living on less than $1.90 a day","variantName":"Historical estimates (Moatsos, 2021)","isKey":null},{"slug":"share-in-poverty-relative-to-different-poverty-thresholds-historical","title":"Share in poverty relative to different poverty thresholds","variantName":"Historical estimates (Moatsos, 2021)","isKey":null},{"slug":"share-in-poverty-relative-to-different-poverty-thresholds","title":"Share in poverty relative to different poverty thresholds","variantName":null,"isKey":1},{"slug":"poverty-vs-life-expectancy","title":"Share in poverty vs. Life expectancy","variantName":null,"isKey":null},{"slug":"poverty-vs-mean-schooling","title":"Share in poverty vs. educational attainment","variantName":null,"isKey":null},{"slug":"share-living-on-less-than-550-per-day-vs-average-daily-income","title":"Share living on less than $6.85 a day vs mean income or expenditure per day","variantName":null,"isKey":null},{"slug":"donated-official-development-assistance-grants-for-poverty-reduction","title":"Share of GNI donated towards poverty reduction","variantName":null,"isKey":null},{"slug":"received-official-development-assistance-grants-for-poverty-reduction","title":"Share of GNI from poverty reduction grants","variantName":null,"isKey":null},{"slug":"share-of-government-consumption-at-current-ppps-vs-share-of-the-population-living-on-less-than-190-per-day","title":"Share of government consumption in GDP vs. Share of population living in extreme poverty","variantName":null,"isKey":null},{"slug":"risk-of-impoverishing-expenditure-for-surgical-care","title":"Share of people at risk of falling into poverty if payment for surgical care is required","variantName":null,"isKey":null},{"slug":"distribution-of-population-across-income-thresholds-stacked-bar-30-only","title":"Share of population below and above $30 per day","variantName":"Stacked bar: Above/below $30 per day","isKey":null},{"slug":"share-multi-poverty","title":"Share of population in multidimensional poverty","variantName":"Current estimates","isKey":1},{"slug":"share-of-population-multidimensionally-poor-hot","title":"Share of population in multidimensional poverty","variantName":"Harmonized over time estimates","isKey":null},{"slug":"share-of-population-in-multidimensional-poverty-urban-vs-rural-hot","title":"Share of population in multidimensional poverty: Urban vs. rural","variantName":"Harmonized over time estimates","isKey":null},{"slug":"share-of-population-in-multidimensional-poverty-urban-vs-rural-cme","title":"Share of population in multidimensional poverty: Urban vs. rural","variantName":"Current estimates","isKey":null},{"slug":"share-of-population-living-in-extreme-poverty-cost-of-basic-needs","title":"Share of population living in extreme poverty","variantName":"'Cost of basic needs' approach, Historical estimates (Moatsos, 2021)","isKey":1},{"slug":"share-of-population-living-in-extreme-poverty-lines-cbn","title":"Share of population living in extreme poverty","variantName":"'Cost of basic needs' approach, Historical estimates (Moatsos, 2021)","isKey":null},{"slug":"share-of-population-living-in-extreme-poverty-historical","title":"Share of population living in extreme poverty","variantName":"Historical estimates (Moatsos, 2021)","isKey":null},{"slug":"share-of-population-in-extreme-poverty","title":"Share of population living in extreme poverty","variantName":null,"isKey":1},{"slug":"share-of-population-living-in-extreme-poverty","title":"Share of population living in extreme poverty","variantName":"Historical estimates (Moatsos, 2021)","isKey":null},{"slug":"share-living-on-less-than-190-marimekko","title":"Share of population living in extreme poverty","variantName":null,"isKey":0},{"slug":"the-share-of-people-living-in-extreme-poverty-vs-gdp-per-capita","title":"Share of population living in extreme poverty vs GDP per capita","variantName":null,"isKey":null},{"slug":"share-of-the-population-living-in-extreme-poverty-vs-average-consumption-or-income","title":"Share of population living in extreme poverty vs. mean income or expenditure per day","variantName":null,"isKey":null},{"slug":"share-of-population-living-in-poverty-by-national-poverty-lines","title":"Share of population living in poverty by national poverty lines","variantName":null,"isKey":0},{"slug":"share-of-population-living-with-less-than-190-and-320-per-day","title":"Share of population living with less than $2.15 and $3.65 per day","variantName":null,"isKey":0},{"slug":"distribution-of-population-across-income-thresholds-stacked-bar","title":"Share of population within different income thresholds","variantName":"Stacked bar: Above/below $30 per day","isKey":null},{"slug":"rural-population-poverty-at-national-poverty-lines","title":"Share of rural population living in poverty at national poverty lines","variantName":null,"isKey":0},{"slug":"urban-and-rural-poverty-by-national-poverty-lines","title":"Share of urban and rural population living in poverty by national poverty lines","variantName":null,"isKey":null},{"slug":"urban-poverty-at-national-poverty-lines","title":"Share of urban population living in poverty at national poverty lines","variantName":null,"isKey":null},{"slug":"share-vs-intensity-of-multidimensional-poverty-hot","title":"Share vs. Intensity of multidimensional poverty","variantName":"Harmonized over time estimates","isKey":null},{"slug":"share-vs-intensity-of-multidimensional-poverty","title":"Share vs. Intensity of multidimensional poverty","variantName":"Current estimates","isKey":null},{"slug":"size-poverty-gap-countries","title":"The poverty gap","variantName":null,"isKey":1},{"slug":"the-share-and-number-of-people-living-in-extreme-poverty","title":"The share and number of people living in extreme poverty","variantName":null,"isKey":1},{"slug":"total-population-living-in-extreme-poverty-by-world-region-india-china-separate","title":"Total population living in extreme poverty by world region","variantName":"India and China shown separately","isKey":0},{"slug":"total-population-living-in-extreme-poverty-by-world-region","title":"Total population living in extreme poverty by world region","variantName":null,"isKey":1},{"slug":"vaccination-coverage-DPT-by-extreme-poverty","title":"Vaccination coverage vs. share  in extreme poverty","variantName":null,"isKey":null},{"slug":"world-population-in-extreme-poverty-absolute","title":"World population living in extreme poverty","variantName":"World Bank & Bourguignon and Morrisson","isKey":null}])
+                        </script></body></html>
