@@ -380,9 +380,9 @@
 /land-cover/ /land-use 301!
 /null / 301!
 /gdp-growth-over-the-very-long-run/#world-maps-of-gdp-per-capita-1-2008-max-roserref /grapher/world-gdp-over-the-last-two-millennia 301!
-/size-poverty-gap /extreme-poverty 301!
+/size-poverty-gap /poverty 301!
 /grapher/number-of-people-directly-affected-by-natural-disasters /explorers/natural-disasters?tab=map&facet=none&Disaster+Type=All+disasters&Impact=Affected&Timespan=Annual&Per+capita=true&country=~OWID_WRL&hideControls=true 301!
-/extreme-poverty-in-rich-countries-what-we-know-and-what-we-dont-know /extreme-poverty 301!
+/extreme-poverty-in-rich-countries-what-we-know-and-what-we-dont-know /poverty 301!
 /grapher/190 /grapher/the-price-for-lighting-per-million-lumen-hours-in-the-uk-in-british-pound?time=1301..2006 301!
 /grapher/colonialism-and-imperialism /democracy 301!
 /grapher/number-affected-by-natural-disasters /explorers/natural-disasters?facet=none&Disaster+Type=All+disasters&Impact=Affected&Timespan=Annual&Per+capita=false&country=~OWID_WRL&hideControls=true 301!
@@ -393,7 +393,7 @@
 /grapher/population-of-women-in-the-reproductive-age-bracket-15-49 /uploads/2019/05/Population-momentum-1.png 301!
 /data-viz-job /senior-data-visualisation-engineer 301!
 /data/war-peace/war-and-peace-before-1945/#global-war-deaths-between-1400-and-today-the-size-of-the-bubble-shows-the-percentage-of-world-population-killed-the-hague-centre-for-strategic-studiesref /uploads/2018/09/Bubble-and-lines-FINAL-03.png 301!
-/children-and-poverty-results-from-new-data /extreme-poverty 301!
+/children-and-poverty-results-from-new-data /poverty 301!
 /grapher/79 /grapher/population-breakdown-by-highest-level-of-education-achieved-for-those-aged-15-in 301!
 /grapher/31 /grapher/projections-of-the-rate-of-no-education-based-on-current-global-education-trends-1970-2050 301!
 /data/violence-rights/homicides /homicides 301!
@@ -628,6 +628,11 @@
 /population-and-demography /explorers/population-and-demography 301!
 /grapher/daily-covid-deaths-7-day /explorers/coronavirus-data-explorer?tab=map&zoomToSelection=true&facet=none&pickerSort=asc&pickerMetric=location&Metric=Confirmed+deaths&Interval=7-day+rolling+average&Relative+to+Population=false&Color+by+test+positivity=false&country=USA~GBR~CAN~DEU~ITA~IND&hideControls=true 301!
 /poverty-explorer-launch /explorer/poverty-explorer 301!
+/extreme-poverty-projections /poverty 301!
+/poverty-at-higher-poverty-lines /poverty 301!
+/no-matter-what-global-poverty-line /poverty 301!
+/the-global-decline-of-extreme-poverty-was-it-only-china /poverty 301!
+/extreme-poverty /our-work-on-poverty-has-moved 301!
 /grapher/correlation-between-internet-usage-and-mean-years-of-schooling-2014 /grapher/correlation-between-internet-usage-and-mean-years-of-schooling 302!
 /grapher/correlation-between-child-mortality-and-mean-years-of-schooling-for-those-aged-15-and-older-2000 /grapher/correlation-between-child-mortality-and-mean-years-of-schooling-for-those-aged-15-and-older 302!
 /grapher/public-expenditure-on-education-as-share-of-national-gdp /grapher/public-education-expenditure-as-share-of-gdp 302!
