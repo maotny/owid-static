@@ -14542,7 +14542,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/neonatal-mortality-ihme</loc>
-        <lastmod>2022-10-13</lastmod>
+        <lastmod>2022-10-18</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/child-stunting-ihme-slope</loc>
@@ -22454,6 +22454,10 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-neonatal-deaths-gho</loc>
+        <lastmod>2022-10-18</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/neonatal-mortality-rate-gho</loc>
         <lastmod>2022-10-18</lastmod>
     </url>
     <url>
