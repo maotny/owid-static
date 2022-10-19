@@ -5518,7 +5518,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/birth-rate-the-number-of-births-per-1000-people-in-the-population</loc>
-        <lastmod>2022-04-25</lastmod>
+        <lastmod>2022-10-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/Demographic-Transition-Mitchell</loc>
@@ -5622,7 +5622,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/data-deprivation-poverty-surveys-per-decade</loc>
-        <lastmod>2022-10-02</lastmod>
+        <lastmod>2022-10-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/tax-revenue-national-income-longrun</loc>
@@ -8610,11 +8610,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/population-growth-the-annual-change-of-the-population</loc>
-        <lastmod>2022-09-05</lastmod>
+        <lastmod>2022-10-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/population-growth-by-world-region-the-annual-change-of-the-population</loc>
-        <lastmod>2022-09-05</lastmod>
+        <lastmod>2022-10-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/us-women-are-overrepresented-in-low-wage-occupations</loc>
@@ -12058,10 +12058,6 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/gap-in-gdp-per-hour-worked-with-respect-to-the-united-states</loc>
-        <lastmod>2018-04-23</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/unit-labor-cost-by-main-economic-activity-isic-rev4</loc>
         <lastmod>2018-04-23</lastmod>
     </url>
     <url>
@@ -16942,11 +16938,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/per-capita-ghg-co2-excluding-land-use</loc>
-        <lastmod>2022-08-12</lastmod>
+        <lastmod>2022-10-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/per-capita-ghg-co2-including-land-use</loc>
-        <lastmod>2022-08-12</lastmod>
+        <lastmod>2022-10-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/phillips-curves-in-the-us</loc>
@@ -17210,7 +17206,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-that-has-access-to-electricity-vs-per-capita-co-emissions</loc>
-        <lastmod>2022-06-29</lastmod>
+        <lastmod>2022-10-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/expected-years-of-schooling-vs-co-emissions-per-capita</loc>
@@ -17662,15 +17658,15 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-with-access-to-electricity-vs-per-capita-energy-consumption</loc>
-        <lastmod>2022-09-20</lastmod>
+        <lastmod>2022-10-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-indoor-air-pollution-vs-per-capita-energy-consumption</loc>
-        <lastmod>2022-09-20</lastmod>
+        <lastmod>2022-10-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/access-to-clean-fuels-and-technologies-for-cooking-vs-per-capita-energy-consumption</loc>
-        <lastmod>2022-09-20</lastmod>
+        <lastmod>2022-10-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/global-co2-emissions-fossil-land</loc>
