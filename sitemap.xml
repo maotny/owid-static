@@ -8902,11 +8902,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rates-road-incidents</loc>
-        <lastmod>2022-10-04</lastmod>
+        <lastmod>2022-10-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-deaths-from-road-injuries</loc>
-        <lastmod>2022-10-05</lastmod>
+        <lastmod>2022-10-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-agriculture-in-total-employment</loc>
@@ -8950,10 +8950,6 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/suicide-mortality-rate</loc>
-        <lastmod>2022-06-30</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/mortality-road-injuries</loc>
         <lastmod>2022-06-30</lastmod>
     </url>
     <url>
@@ -15310,7 +15306,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-suicide-deaths</loc>
-        <lastmod>2022-08-23</lastmod>
+        <lastmod>2022-10-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/suicide-rate-by-firearm</loc>
@@ -21942,7 +21938,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-road-accidents</loc>
-        <lastmod>2022-10-05</lastmod>
+        <lastmod>2022-10-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-suicides</loc>
@@ -21994,7 +21990,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-poisoning</loc>
-        <lastmod>2022-10-05</lastmod>
+        <lastmod>2022-10-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-poisoning-gbd</loc>
@@ -22270,11 +22266,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-from-road-injuries</loc>
-        <lastmod>2022-10-11</lastmod>
+        <lastmod>2022-10-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-road-accidents-ghe</loc>
-        <lastmod>2022-10-11</lastmod>
+        <lastmod>2022-10-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-homicide-deaths-ghe</loc>
@@ -22286,7 +22282,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-deaths-from-suicide-ghe</loc>
-        <lastmod>2022-10-11</lastmod>
+        <lastmod>2022-10-19</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-from-suicides-ghe</loc>
