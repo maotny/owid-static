@@ -22378,7 +22378,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-child-deaths-gho</loc>
-        <lastmod>2022-10-18</lastmod>
+        <lastmod>2022-10-20</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-infant-deaths-gho</loc>
@@ -22391,6 +22391,10 @@
     <url>
         <loc>https://ourworldindata.org/grapher/neonatal-mortality-rate-gho</loc>
         <lastmod>2022-10-18</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/number-of-youth-deaths</loc>
+        <lastmod>2022-10-20</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/explorers/air-pollution</loc>
