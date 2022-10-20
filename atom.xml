@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2022-10-18T10:00:00.000Z</updated>
+<updated>2022-10-20T10:45:00.000Z</updated>
+<entry>
+            <title><![CDATA[How many people die from the flu?]]></title>
+            <id>https://ourworldindata.org/influenza-deaths</id>
+            <link rel="alternate" href="https://ourworldindata.org/influenza-deaths"/>
+            <published>2022-10-20T10:45:00.000Z</published>
+            <updated>2022-10-20T06:57:55.000Z</updated>
+            <author><name>Saloni Dattani</name></author><author><name>Fiona Spooner</name></author>
+            <summary><![CDATA[The risk of death from influenza has declined over time, but globally, hundreds of thousands of people still die from the disease each year.<br><br><a href="https://ourworldindata.org/influenza-deaths" target="_blank"><img src="https://ourworldindata.org/app/uploads/2022/10/Flu-deaths-thumbnail-768x303.png"/></a>]]></summary>
+            </entry>
 <entry>
             <title><![CDATA[Introducing our updated work on Poverty: a new design for our content]]></title>
             <id>https://ourworldindata.org/owid-entry-redesign</id>
@@ -86,14 +95,5 @@
             <updated>2022-08-17T10:38:21.000Z</updated>
             <author><name>Hannah Ritchie</name></author>
             <summary><![CDATA[Explore the environmental impacts of hundreds of specific food products.<br><br><a href="https://ourworldindata.org/new-env-food-data-explorer" target="_blank"><img src="https://ourworldindata.org/app/uploads/2022/08/Env-Impacts-of-Food-Data-Explorer-768x403.png"/></a>]]></summary>
-            </entry>
-<entry>
-            <title><![CDATA[We just published our Air Pollution Data Explorer]]></title>
-            <id>https://ourworldindata.org/launch-air-pollution-explorer</id>
-            <link rel="alternate" href="https://ourworldindata.org/launch-air-pollution-explorer"/>
-            <published>2022-08-11T10:30:00.000Z</published>
-            <updated>2022-08-11T11:15:01.000Z</updated>
-            <author><name>Hannah Ritchie</name></author>
-            <summary><![CDATA[Explore historical and recent emissions of air pollutants across the world.<br><br><a href="https://ourworldindata.org/launch-air-pollution-explorer" target="_blank"><img src="https://ourworldindata.org/app/uploads/2022/08/Air-Pollution-Data-Explorer-768x403.png"/></a>]]></summary>
             </entry>
 </feed>

@@ -1,0 +1,373 @@
+<!doctype html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"/><title>How many people die from the flu? - Our World in Data</title><meta name="description" content="The risk of death from influenza has declined over time, but globally, hundreds of thousands of people still die from the disease each year."/><link rel="canonical" href="https://ourworldindata.org/influenza-deaths"/><link rel="alternate" type="application/atom+xml" href="/atom.xml"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><meta property="fb:app_id" content="1149943818390250"/><meta property="og:url" content="https://ourworldindata.org/influenza-deaths"/><meta property="og:title" content="How many people die from the flu?"/><meta property="og:description" content="The risk of death from influenza has declined over time, but globally, hundreds of thousands of people still die from the disease each year."/><meta property="og:image" content="https://ourworldindata.org/uploads/2022/10/Flu-deaths-thumbnail-768x303.png"/><meta property="og:site_name" content="Our World in Data"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@OurWorldInData"/><meta name="twitter:creator" content="@OurWorldInData"/><meta name="twitter:title" content="How many people die from the flu?"/><meta name="twitter:description" content="The risk of death from influenza has declined over time, but globally, hundreds of thousands of people still die from the disease each year."/><meta name="twitter:image" content="https://ourworldindata.org/uploads/2022/10/Flu-deaths-thumbnail-768x303.png"/><link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Playfair+Display:400,600,700&amp;display=swap" rel="stylesheet"/><link rel="stylesheet" href="https://ourworldindata.org/assets/commons.css"/><link rel="stylesheet" href="https://ourworldindata.org/assets/owid.css"/></head><body class=""><header class="site-header"><div class="wrapper site-navigation-bar"><div class="site-logo"><a href="/">Our World<br/> in Data</a></div><nav class="site-navigation"><div class="topics-button-wrapper"><a href="/#entries" class="topics-button"><div class="label">Articles <br/><strong>by topic</strong></div><div class="icon"><svg width="12" height="6"><path d="M0,0 L12,0 L6,6 Z" fill="currentColor"></path></svg></div></a></div><div><div class="site-primary-navigation"><form class="HeaderSearch" action="/search" method="GET"><input type="search" name="q" placeholder="Search..."/><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" class="svg-inline--fa fa-magnifying-glass " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"></path></svg></div></form><ul class="site-primary-links"><li><a href="/blog" data-track-note="header-navigation">Latest</a></li><li><a href="/about" data-track-note="header-navigation">About</a></li><li><a href="/donate" data-track-note="header-navigation">Donate</a></li></ul></div><div class="site-secondary-navigation"><ul class="site-secondary-links"><li><a href="/charts" data-track-note="header-navigation">All charts</a></li><li><a href="https://sdg-tracker.org" data-track-note="header-navigation">Sustainable Development Goals Tracker</a></li></ul></div></div></nav><div class="header-logos-wrapper"><a href="https://www.oxfordmartin.ox.ac.uk/global-development" class="oxford-logo"><img src="https://ourworldindata.org/oms-logo.svg" alt="Oxford Martin School logo"/></a><a href="https://global-change-data-lab.org/" class="gcdl-logo"><img src="https://ourworldindata.org/gcdl-logo.svg" alt="Global Change Data Lab logo"/></a></div><div class="mobile-site-navigation"><button data-track-note="mobile-search-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" class="svg-inline--fa fa-magnifying-glass " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"></path></svg></button><button data-track-note="mobile-newsletter-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-open-text" class="svg-inline--fa fa-envelope-open-text " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M215.4 96H144 107.8 96v8.8V144v40.4 89L.2 202.5c1.6-18.1 10.9-34.9 25.7-45.8L48 140.3V96c0-26.5 21.5-48 48-48h76.6l49.9-36.9C232.2 3.9 243.9 0 256 0s23.8 3.9 33.5 11L339.4 48H416c26.5 0 48 21.5 48 48v44.3l22.1 16.4c14.8 10.9 24.1 27.7 25.7 45.8L416 273.4v-89V144 104.8 96H404.2 368 296.6 215.4zM0 448V242.1L217.6 403.3c11.1 8.2 24.6 12.7 38.4 12.7s27.3-4.4 38.4-12.7L512 242.1V448v0c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64v0zM176 160H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H176c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H176c-8.8 0-16-7.2-16-16s7.2-16 16-16z"></path></svg></button><button data-track-note="mobile-hamburger-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path></svg></button></div></div></header><div class="alert-banner"><div class="content"><div class="text"><strong>COVID-19 vaccinations, cases, excess mortality, and much more</strong></div><a href="/coronavirus#explore-the-global-situation" data-track-note="covid-banner-click">Explore our COVID-19 data</a></div></div><main><article class="page no-sidebar thin-banner"><div class="offset-header"><header class="article-header"><div class="article-titles"><h1 class="entry-title">How many people die from the flu?</h1></div></header></div><div class="content-wrapper"><div class="offset-content"><div class="content-and-footnotes"><div class="article-content"><section><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><div class="article-meta"><div class="excerpt">The risk of death from influenza has declined over time, but globally, hundreds of thousands of people still die from the disease each year.</div><div class="authors-byline"><a href="/team">by Saloni Dattani and Fiona Spooner</a></div><div class="published-updated"><time>October 20, 2022</time></div></div></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<p>Globally, hundreds of thousands of people die from seasonal influenza every year. During large flu pandemics, when influenza strains evolved substantially, the death toll was even higher.</p>
+
+
+
+<p>But the risk of dying from influenza has declined substantially over time from improvements in sanitation, healthcare, and vaccination.&nbsp;</p>
+
+
+
+<p>People born in 1940 had around a third of the risk of dying from influenza as those born in 1900 –&nbsp;even when they reached the same age. This decline continued, and those born in 1980 have a risk of half that of those born in 1940.</p>
+
+
+
+<p>Influenza still remains a large burden around the world, because of an aging population and a lack of access to healthcare and sanitation in many countries.&nbsp;</p>
+
+
+
+<p>In this article, we look into these developments in detail: how many people die from seasonal influenza and how this has changed over time.&nbsp;</p>
+
+
+
+<p>We will also look at which factors increase the risk of dying from the flu and understand why, in some years, influenza has led to large pandemics that caused millions of deaths. This knowledge can inform us about the risks of influenza in the future.</p>
+</div>
+
+
+
+<div class="wp-block-column"><div class="wp-sticky-container"></div></div>
+</div><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<h4 id="how-many-people-die-from-seasonal-influenza">How many people die from seasonal influenza?<a class="deep-link" href="#how-many-people-die-from-seasonal-influenza"></a></h4>
+</div>
+
+
+
+<div class="wp-block-column"><div class="wp-sticky-container"></div></div>
+</div><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<p>Although this is an important question, it is often difficult to answer.</p>
+
+
+
+<p>Despite being a well-understood disease, it can be hard to count the number of deaths from influenza for several reasons.<a id="ref-1" class="ref" href="#note-1"><sup>1</sup></a></p>
+
+
+
+<p>One problem is that the symptoms of influenza look similar to other infections, such as respiratory syncytial virus and rhinovirus. In many countries, only a fraction of patients with an “influenza-like illness” are tested to confirm whether they were infected by the virus.<a id="ref-2" class="ref" href="#note-2"><sup>2</sup></a> This means we miss many – or, in some countries, most – infections.</p>
+
+
+
+<p>Another problem is that influenza can lead to death in a number of indirect ways. It can cause death through respiratory complications such as pneumonia, but also from cardiovascular complications such as heart attacks and strokes, or other serious infections. This is especially true for the elderly and people who have chronic health conditions.<a id="ref-3" class="ref" href="#note-3"><sup>3</sup></a> Without accounting for these deaths, we would underestimate the number of flu deaths.</p>
+
+
+
+<p>To overcome this, researchers estimate the burden of influenza with other methods. They can estimate the number of <em>excess</em> deaths that occur during flu seasons, and use routine surveillance data and mortality records, to estimate how many of these are caused by the flu.</p>
+
+
+
+<p>The annual mortality caused by seasonal influenza was estimated by the <a href="https://www.nivel.nl/en/project/glamor-ii-global-influenza-mortality-research">Global Pandemic Mortality Project II</a> using data between 2002 and 2011. They estimated that, during this period, seasonal influenza caused between 294,000 and 518,000 deaths each year globally.<a id="ref-4" class="ref" href="#note-4"><sup>4</sup></a></p>
+
+
+
+<p>These estimates focus on deaths where people had respiratory disease. This means they miss some flu deaths, as some people may die from cardiovascular complications of the flu without having respiratory disease.</p>
+
+
+
+<p>On the map, you can see the estimates of flu mortality shown as a rate per 100,000 people, among people aged over 65.&nbsp;</p>
+
+
+
+<p>In Europe, the rate of deaths from the flu was 30.8 per 100,000 each year, among those aged over 65. This is more than three times the risk from traffic accidents, which kill 9 per 100,000, in the same age group.<a id="ref-5" class="ref" href="#note-5"><sup>5</sup></a>&nbsp;</p>
+
+
+
+<p>In low-income countries, these estimates tend to be less certain, due to lower levels of testing for influenza and limited mortality records.&nbsp;</p>
+
+
+
+<p>But flu is estimated to be more deadly in countries in South America, Africa, and South Asia than in Europe and North America. For example, Indonesia has more than twice the death rate of Canada. These disparities are at least partly due to poverty, poorer underlying health, and lower access to healthcare.</p>
+</div>
+
+
+
+<div class="wp-block-column">
+
+                
+<div class="wp-sticky-container"><figure data-grapher-src="https://ourworldindata.org/grapher/annual-mortality-rate-from-seasonal-influenza-ages-65?tab=map&amp;country=South-East+Asia~OWID_WRL~Western+Pacific~Eastern+Mediterranean~Africa~Europe~Americas" class="grapherPreview">
+                    <a href="https://ourworldindata.org/grapher/annual-mortality-rate-from-seasonal-influenza-ages-65?tab=map&amp;country=South-East+Asia~OWID_WRL~Western+Pacific~Eastern+Mediterranean~Africa~Europe~Americas" target="_blank">
+                        <div><img src="https://ourworldindata.org/exports/annual-mortality-rate-from-seasonal-influenza-ages-65-0fe9d47c6e5d72f22f2f29857a4b8e15_v19_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Annual mortality rate from seasonal influenza ages 65 0fe9d47c6e5d72f22f2f29857a4b8e15 v19 850x600"></div>
+                        <div class="interactionNotice">
+                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
+    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
+    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
+</svg></span>
+                            <span class="label">Click to open interactive version</span>
+                        </div>
+                    </a>
+                </figure></div></div>
+</div><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<h4 id="what-did-influenza-mortality-look-like-in-the-past">What did influenza mortality look like in the past?<a class="deep-link" href="#what-did-influenza-mortality-look-like-in-the-past"></a></h4>
+</div>
+
+
+
+<div class="wp-block-column"><div class="wp-sticky-container"></div></div>
+</div><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<p>Death rates from influenza are much lower than they were in the past.</p>
+
+
+
+<p>We don’t have good long-term estimates of flu deaths across most countries. But, researchers have produced weekly estimates of influenza deaths over long periods in the United States. This allows us to see how modern rates compare to the past. You can see this data in the chart.<a id="ref-6" class="ref" href="#note-6"><sup>6</sup></a></p>
+
+
+
+<p>Deaths from influenza fluctuate across the year, with large peaks in the winter.<a id="ref-7" class="ref" href="#note-7"><sup>7</sup></a> The <em>total</em> number of deaths from influenza has been roughly stable in the United States over the last 65 years. You can see this in the top panel of the chart.</p>
+
+
+
+<p>However, a large part of this is due to the fact that the population has been growing and aging.</p>
+
+
+
+<p>If we look at death rates <em>within</em> age groups, the rate of deaths from influenza has been falling. You can see this in the bottom panel, which accounts for changes in the size and age structure of the population. </p>
+
+
+
+<p>This means the likelihood that someone dies from influenza <em>at a given age</em> has declined over time. But, because the population is getting larger and older, the total number of deaths has remained stable.</p>
+</div>
+
+
+
+<div class="wp-block-column">
+
+<div class="wp-sticky-container"><figure class="wp-block-image size-medium is-resized"><img loading="lazy" src="https://ourworldindata.org/uploads/2022/10/Historical-influenza-deaths-USA-3-panels-1-224x400.png" alt="Historical influenza deaths usa 3 panels 1" class="wp-image-53552" width="600" height="1071" srcset="https://ourworldindata.org/uploads/2022/10/Historical-influenza-deaths-USA-3-panels-1-224x400.png 224w, https://ourworldindata.org/uploads/2022/10/Historical-influenza-deaths-USA-3-panels-1-308x550.png 308w, https://ourworldindata.org/uploads/2022/10/Historical-influenza-deaths-USA-3-panels-1-84x150.png 84w, https://ourworldindata.org/uploads/2022/10/Historical-influenza-deaths-USA-3-panels-1-768x1369.png 768w, https://ourworldindata.org/uploads/2022/10/Historical-influenza-deaths-USA-3-panels-1-861x1536.png 861w, https://ourworldindata.org/uploads/2022/10/Historical-influenza-deaths-USA-3-panels-1.png 1535w" sizes="(max-width: 600px) 100vw, 600px" data-high-res-src="https://ourworldindata.org/uploads/2022/10/Historical-influenza-deaths-USA-3-panels-1.png"></figure></div></div>
+</div><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<h4 id="why-has-influenza-mortality-declined-over-time">Why has influenza mortality declined over time?<a class="deep-link" href="#why-has-influenza-mortality-declined-over-time"></a></h4>
+</div>
+
+
+
+<div class="wp-block-column"><div class="wp-sticky-container"></div></div>
+</div><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<p>Influenza mortality has declined over several generations. We know this from historical data from the United States, which has been used to estimate “cohort effects”. This tells us whether people who were born more recently have lower risks of death, after accounting for their younger age.</p>
+
+
+
+<p>Since 1900, there has been a long-term decline in the risk of dying from the flu.<a id="ref-8" class="ref" href="#note-8"><sup>8</sup></a> There are several reasons for this.&nbsp;</p>
+
+
+
+<p>One is that there were large projects to improve sanitation in cities across the United States in the early 1900s.<a id="ref-9" class="ref" href="#note-9"><sup>9</sup></a> Over the twentieth century, there were also improvements in neonatal healthcare and increases in the rate of <a href="https://ourworldindata.org/vaccination">childhood vaccinations</a>. All of these factors had benefits that carried forward as people aged: they protected people from developing comorbidities that increased the risk of dying from influenza.</p>
+
+
+
+<p>There has also been an increase in the rate of flu vaccinations. Influenza vaccines were developed for the first time in the 1930s and 1940s. In 1952, the World Health Organization began a surveillance system to monitor which flu strains were circulating worldwide. This helped researchers develop new vaccines each year that matched those strains.<a id="ref-10" class="ref" href="#note-10"><sup>10</sup></a> Over the following decades, <a href="https://ourworldindata.org/grapher/influenza-vaccination-rate?country=NZL~GRC~ISR~TUR~LVA~POL~EST~SVK~AUT~HUN~CZE~LTU~SVN~LUX~DEU~FIN~ISL~BEL~FRA~SWE~CRI~AUS~CAN~CHL~NLD~MEX~GBR~USA~CHE~KOR~ESP~IRL~ITA~JPN~NOR~PRT~DNK">the rate of influenza vaccinations among the elderly</a> began to grow.<a id="ref-11" class="ref" href="#note-11"><sup>11</sup></a>&nbsp;</p>
+
+
+
+<p>The historical decline in influenza mortality has been substantial, as you can see in the chart.</p>
+
+
+
+<p>Even when they reached the same age, people born in 1940 had around a third of the risk of dying from influenza as those born in 1900. This decline continued, and those born in 1980 had a risk of half that of those born in 1940.<a id="ref-12" class="ref" href="#note-12"><sup>12</sup></a></p>
+</div>
+
+
+
+<div class="wp-block-column">
+
+<div class="wp-sticky-container"><figure class="wp-block-image size-large is-resized"><img loading="lazy" src="https://ourworldindata.org/uploads/2022/10/Historical-decline-in-influenza-deaths-by-birth-cohort-635x550.png" alt="People born more recently have a lower risk of dying from influenza. Even when they reached the same age, people born in 1940 had a third of the risk of dying from flu than those born in 1900. This risk halved further for those born in 1980." class="wp-image-53553" width="700" height="606" srcset="https://ourworldindata.org/uploads/2022/10/Historical-decline-in-influenza-deaths-by-birth-cohort-635x550.png 635w, https://ourworldindata.org/uploads/2022/10/Historical-decline-in-influenza-deaths-by-birth-cohort-400x346.png 400w, https://ourworldindata.org/uploads/2022/10/Historical-decline-in-influenza-deaths-by-birth-cohort-150x130.png 150w, https://ourworldindata.org/uploads/2022/10/Historical-decline-in-influenza-deaths-by-birth-cohort-768x665.png 768w, https://ourworldindata.org/uploads/2022/10/Historical-decline-in-influenza-deaths-by-birth-cohort.png 1252w" sizes="(max-width: 700px) 100vw, 700px" data-high-res-src="https://ourworldindata.org/uploads/2022/10/Historical-decline-in-influenza-deaths-by-birth-cohort.png"></figure></div></div>
+</div><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<h4 id="which-factors-affect-the-number-of-deaths-from-the-flu">Which factors affect the number of deaths from the flu?<a class="deep-link" href="#which-factors-affect-the-number-of-deaths-from-the-flu"></a></h4>
+</div>
+
+
+
+<div class="wp-block-column"><div class="wp-sticky-container"></div></div>
+</div><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<p>Age is a major risk factor of dying from the flu. As you can see in the chart, infants and the elderly tend to have a much higher risk of death from a range of respiratory diseases, including influenza, compared to young adults. For example, 60-year-olds have a ten times greater risk of death from influenza than 20-year-olds.<a id="ref-13" class="ref" href="#note-13"><sup>13</sup></a></p>
+
+
+
+<p>Once someone reaches their twenties, their mortality risk from the flu increases exponentially. This shape follows the risk of death from all causes.<a id="ref-14" class="ref" href="#note-14"><sup>14</sup></a>&nbsp;</p>
+
+
+
+<p>The risk of dying from influenza also depends on other factors such as the quality of healthcare, the strain of influenza, and whether the person received the flu vaccine.<a id="ref-15" class="ref" href="#note-15"><sup>15</sup></a> </p>
+
+
+
+<p>Every year, influenza vaccines are reformulated to match the strains of flu that are expected to dominate during the winter. When there is a mismatch between the strains in the vaccine and the flu strains that are circulating, the vaccines tend to have lower efficacy, and flu seasons tend to be more severe.<a id="ref-16" class="ref" href="#note-16"><sup>16</sup></a></p>
+</div>
+
+
+
+<div class="wp-block-column">
+
+<div class="wp-sticky-container"><figure class="wp-block-image size-large is-resized"><img loading="lazy" src="https://ourworldindata.org/uploads/2022/10/Risk-of-death-respiratory-diseases-by-age-693x550.png" alt="The risk of death from respiratory diseases increases exponentially with age. This is shown for influenza, MERS, Covid-19 and SARS. On average, people aged 20 have a tenth of the risk of death from influenza as people aged 60." class="wp-image-53554" width="700" height="555" srcset="https://ourworldindata.org/uploads/2022/10/Risk-of-death-respiratory-diseases-by-age-693x550.png 693w, https://ourworldindata.org/uploads/2022/10/Risk-of-death-respiratory-diseases-by-age-400x317.png 400w, https://ourworldindata.org/uploads/2022/10/Risk-of-death-respiratory-diseases-by-age-150x119.png 150w, https://ourworldindata.org/uploads/2022/10/Risk-of-death-respiratory-diseases-by-age-768x609.png 768w, https://ourworldindata.org/uploads/2022/10/Risk-of-death-respiratory-diseases-by-age.png 1283w" sizes="(max-width: 700px) 100vw, 700px" data-high-res-src="https://ourworldindata.org/uploads/2022/10/Risk-of-death-respiratory-diseases-by-age.png"></figure></div></div>
+</div><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<h4 id="why-are-some-flu-seasons-so-severe">Why are some flu seasons so severe?<a class="deep-link" href="#why-are-some-flu-seasons-so-severe"></a></h4>
+</div>
+
+
+
+<div class="wp-block-column"><div class="wp-sticky-container"></div></div>
+</div><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<p>Some seasons are far more severe than usual seasonal influenza. This tends to occur when new influenza strains arise and cause influenza pandemics.&nbsp;</p>
+
+
+
+<p>Over time, influenza viruses that are circulating in the population tend to mutate through a process called “antigenic drift”. This gives them the ability to evade people’s immunity.</p>
+
+
+
+<p>But, influenza viruses can also evolve with large and sudden changes. This happens in a process called “antigenic shift”, when parts of different strains combine with each other. These new combinations can be more infectious and lethal than previous strains, leading to deadlier pandemics.</p>
+
+
+
+<p>For example, the Spanish flu evolved from a combination of human influenza and another animal influenza, which formed a new H1N1 influenza virus. As you can see in the chart, it caused <a href="https://ourworldindata.org/spanish-flu-largest-influenza-pandemic-in-history">the largest influenza pandemic in history</a>: recent research estimates that 17.4 million people died worldwide from the Spanish flu between 1918 and 1920.<a id="ref-17" class="ref" href="#note-17"><sup>17</sup></a>&nbsp;</p>
+
+
+
+<p>This death toll massively exceeds the number who die in a typical year from the flu – it is between 30 to 60 times higher than the estimate of 294,000 to 518,000 deaths that are caused by seasonal influenza each year, even though the <a href="https://ourworldindata.org/world-population-growth">global population was much smaller at the time</a>.<a id="ref-18" class="ref" href="#note-18"><sup>18</sup></a> </p>
+
+
+
+<p>Mortality during the Spanish flu rose sharply in young adults, compared to previous seasons. Research suggests that this is because they lacked immunity to H1 influenza viruses because they had been exposed to different influenza strains in their childhood. In contrast, older generations had been exposed to similar H1 influenza viruses decades before the pandemic began, which gave them some protection from the H1N1 pandemic strain.<a id="ref-19" class="ref" href="#note-19"><sup>19</sup></a></p>
+</div>
+
+
+
+<div class="wp-block-column">
+
+<div class="wp-sticky-container"><figure class="wp-block-image size-large is-resized"><img loading="lazy" src="https://ourworldindata.org/uploads/2020/03/Influenza-pandemics-in-comparison-1-800x393.png" alt="Influenza pandemics in comparison 1" class="wp-image-30340" width="700" height="393" data-high-res-src="https://ourworldindata.org/uploads/2020/03/Influenza-pandemics-in-comparison-1.png"></figure></div></div>
+</div><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<h4 id="conclusion">Conclusion<a class="deep-link" href="#conclusion"></a></h4>
+</div>
+
+
+
+<div class="wp-block-column"><div class="wp-sticky-container"></div></div>
+</div><div class="wp-block-columns is-style-sticky-right">
+<div class="wp-block-column">
+<p>Hundreds of thousands of people die from seasonal influenza each year. But the burden is far lower than it was in the past, due to improvements in sanitation, healthcare, and vaccination.</p>
+
+
+
+<p>The flu also remains a large burden around the world for two major reasons. One is that many people around the world still lack access to healthcare and have low rates of influenza vaccination, which increases the risk of death.</p>
+
+
+
+<p>Another reason is that the populations of many countries have been aging rapidly. In lower-income countries, the flu could become a larger burden as they face <a href="https://ourworldindata.org/grapher/historic-and-un-pop-projections-by-age">aging populations in the future</a>.</p>
+
+
+
+<p>To tackle this risk, the world can take lessons from how the burden has been reduced in the past. One way is to increase the rates of influenza vaccination, as well as other routine vaccinations, which also reduce the risk that flu is severe. Another is to improve sanitation and access to healthcare around the world.</p>
+
+
+
+<p>We’ve already seen a huge decline in the burden of the flu over many decades, and with greater efforts, we could see that burden decline even further.</p>
+</div>
+
+
+
+<div class="wp-block-column"><div class="wp-sticky-container"></div></div>
+</div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><hr class="wp-block-separator"><p><em><strong>Keep reading on Our World in Data:</strong></em></p><div class="block-wrapper"><div class="wp-block-owid-prominent-link with-image" data-no-lightbox="true" data-style="is-style-thin" data-title="Causes of death"><a href="https://ourworldindata.org/causes-of-death"><figure><img src="https://ourworldindata.org/uploads/2019/12/annual-number-of-deaths-by-cause-3-150x106.png" data-high-res-src="https://ourworldindata.org/uploads/2019/12/annual-number-of-deaths-by-cause-3.png" alt="Annual number of deaths by cause 3" loading="lazy"></figure><div class="content-wrapper"><div class="title"><span>Causes of death</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></div></div></a></div></div><div class="block-wrapper"><div class="wp-block-owid-prominent-link with-image" data-no-lightbox="true" data-style="is-style-thin" data-title="Coronavirus Pandemic (COVID-19)"><a href="https://ourworldindata.org/coronavirus"><figure><img src="https://ourworldindata.org/uploads/2021/02/coronavirus-150x78.png" data-high-res-src="https://ourworldindata.org/uploads/2021/02/coronavirus.png" alt="Coronavirus" loading="lazy"></figure><div class="content-wrapper"><div class="title"><span>Coronavirus Pandemic (COVID-19)</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></div></div></a></div></div><div class="block-wrapper"><div class="wp-block-owid-prominent-link with-image" data-no-lightbox="true" data-style="is-style-thin" data-title="Vaccination"><a href="https://ourworldindata.org/vaccination"><figure><img src="https://ourworldindata.org/uploads/2020/12/Screen-Shot-2020-12-30-at-19.13.37-150x91.png" data-high-res-src="https://ourworldindata.org/uploads/2020/12/Screen-Shot-2020-12-30-at-19.13.37.png" alt="Screen shot 2020 12 30 at 19.13.37" loading="lazy"></figure><div class="content-wrapper"><div class="title"><span>Vaccination</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></div></div></a></div></div><p><strong>Acknowledgments:</strong> Hannah Ritchie, Max Roser and Edouard Mathieu provided very helpful guidance and comments that helped improve this post.</p></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+</div><footer class="article-footer"><div class="wp-block-columns"><div class="wp-block-column"><h3 id="endnotes" class="h3-bold">Endnotes</h3><ol class="endnotes"><li id="note-1"><p>Gordon, A., &amp; Reingold, A. (2018). The Burden of Influenza: A Complex Problem. <em>Current Epidemiology Reports</em>, <em>5</em>(1), 1–9.<a href="https://doi.org/10.1007/s40471-018-0136-1"> https://doi.org/10.1007/s40471-018-0136-1</a></p></li><li id="note-2"><p>Charbonneau, D. H., &amp; James, L. N. (2019). FluView and FluNet: Tools for Influenza Activity and Surveillance. <em>Medical Reference Services Quarterly</em>, <em>38</em>(4), 358–368.<a href="https://doi.org/10.1080/02763869.2019.1657734"> https://doi.org/10.1080/02763869.2019.1657734</a></p></li><li id="note-3"><p>Macias, A. E., McElhaney, J. E., Chaves, S. S., Nealon, J., Nunes, M. C., Samson, S. I., Seet, B. T., Weinke, T., &amp; Yu, H. (2021). The disease burden of influenza beyond respiratory illness. <em>Vaccine</em>, <em>39</em>, A6–A14.<a href="https://doi.org/10.1016/j.vaccine.2020.09.048"> </a><a href="https://doi.org/10.1016/j.vaccine.2020.09.048%7B/ref">https://doi.org/10.1016/j.vaccine.2020.09.048</a></p></li><li id="note-4"><p>Paget J, Spreeuwenberg P, Charu V, Taylor RJ, Iuliano AD, Bresee J, Simonsen L, Viboud C; Global Seasonal Influenza-associated Mortality Collaborator Network and GLaMOR Collaborating Teams*. Global mortality associated with seasonal influenza epidemics: New burden estimates and predictors from the GLaMOR Project. J Glob Health. 2019 Dec;9(2):020421. doi: 10.7189/jogh.09.020421. <a href="https://pubmed.ncbi.nlm.nih.gov/31673337/">https://pubmed.ncbi.nlm.nih.gov/31673337/</a><br><br>This shows the mean estimate of annual influenza mortality between 2002–2011, excluding the 2009 “Swine flu” pandemic influenza season.<br><br>Other global estimates of seasonal influenza mortality have been made by the Institute of Health Metrics and Evaluation (IHME) and the Centers for Disease Control and Prevention (CDC).&nbsp;</p>
+
+
+
+<p>Estimates made by GLaMOR were comparable to those by the CDC, while estimates made by IHME were around 4-5 times lower. This may be because the IHME estimated influenza mortality by first estimating the number of deaths caused by lower respiratory diseases, then estimating the fraction of those that were primarily attributed to influenza in vital records, verbal autopsies, and other mortality data. This approach would have missed many deaths caused by complications of influenza and deaths that were not specified on records to be caused by influenza due to limited testing.</p>
+
+
+
+<p>Both CDC and GLaMOR’s models are also likely to be underestimating the total mortality burden from influenza, as they only use data from respiratory-associated deaths. While this <em>would</em> include deaths caused by influenza that had, for example, influenza listed as a secondary cause of death on death certificates, it <em>would</em> <em>miss</em> some that were caused by influenza but attributed to another cause like cardiovascular disease. Had these models used all-cause mortality to estimate deaths caused by influenza, they would have been more sensitive (captured more deaths caused by influenza) but also less specific (captured more deaths caused by other diseases that could not be distinguished easily).<br><br>In comparison to CDC estimates, GLaMOR used many country-specific indicators in order to extrapolate seasonal influenza mortality to countries that did not provide weekly or monthly influenza mortality records or influenza surveillance data, while the CDC extrapolated this using mainly the WHO Global Health Estimates of respiratory mortality.</p></li><li id="note-5"><p>Eurostat. (2022). <em>Causes of death—Standardised death rate</em>. European Commission.<a href="https://ec.europa.eu/eurostat/databrowser/view/HLTH_CD_ASDR2__custom_3500876/default/table?lang=en"> https://ec.europa.eu/eurostat/databrowser/view/HLTH_CD_ASDR2__custom_3500876/default/table?lang=en</a><br>Transport accidents are counted under (V01–V99, Y85) in the ICD-10. Across 27 EU countries, these rates were 9.02, 9.15, and 8.77 per 100,000 in 2015, 2016 and 2017 respectively.</p>
+
+
+
+<p>Estimates of the rate of death from influenza are much lower in the ICD-10 since they only consider deaths where influenza is listed as the cause of death on death certificates, while the estimates we show above also include those that are caused by flu indirectly. This means ICD-10 death rates are likely to be highly underestimated for the flu. However, deaths caused by traffic accidents are more likely to be listed as the primary cause of death on death certificates and are much less underestimated by death certificate data.</p></li><li id="note-6"><p>Acosta, E., Hallman, S. A., Dillon, L. Y., Ouellette, N., Bourbeau, R., Herring, D. A., Inwood, K., Earn, D. J. D., Madrenas, J., Miller, M. S., &amp; Gagnon, A. (2019). Determinants of Influenza Mortality Trends: Age-Period-Cohort Analysis of Influenza Mortality in the United States, 1959–2016. <em>Demography</em>, <em>56</em>(5), 1723–1746.<a href="https://doi.org/10.1007/s13524-019-00809-y"> https://doi.org/10.1007/s13524-019-00809-y</a></p>
+
+
+
+<p>From 1960 to 2015, the number of deaths from influenza was estimated using a Serfling model, which estimates the excess number of deaths during flu seasons using data from the rest of the year and accounting for changes that occur year by year. Since 1997, there has also been routine testing for “influenza-like illnesses” in hospitals to determine the share of them that are actually caused by influenza, rather than other diseases. Therefore, estimates from 1997 to 2015 were also calculated using a Serfling-surveillance model, which accounted for the share of tests that were positive for influenza. This also validates the estimates from the regular Serfling model. In addition, deaths among children aged under 5 are excluded in both models, as they would be likely to include deaths from respiratory syncytial virus.</p>
+
+
+
+<p>Mortality in the US was slightly lower in during the 2009 Swine flu pandemic season than usual flu seasons, as severe disease shifted away from the elderly to young and middle-aged adults. However, the 2009 Swine flu pandemic led to more deaths than regular flu seasons in other countries such as Mexico. Gagnon, A., Acosta, E., Hallman, S., Bourbeau, R., Dillon, L. Y., Ouellette, N., Earn, D. J. D., Herring, D. A., Inwood, K., Madrenas, J., &amp; Miller, M. S. (2018). Pandemic Paradox: Early Life H2N2 Pandemic Influenza Infection Enhanced Susceptibility to Death during the 2009 H1N1 Pandemic. <em>MBio</em>, <em>9</em>(1), e02091-17. <a href="https://doi.org/10.1128/mBio.02091-17">https://doi.org/10.1128/mBio.02091-17</a></p></li><li id="note-7"><p>Influenza viruses are thought to transmit more efficiently during the winter due to lower temperatures and humidity. But in many tropical countries, flu epidemics coincide with warm rainy seasons, so the trends may have more causes. Other explanations include seasonal changes in human immunity or changes in human behavior, such as more indoor mixing and crowding. Petrova, V. N., &amp; Russell, C. A. (2018). The evolution of seasonal influenza viruses. <em>Nature Reviews Microbiology</em>, <em>16</em>(1), 47–60.<a href="https://doi.org/10.1038/nrmicro.2017.118"> https://doi.org/10.1038/nrmicro.2017.118</a></p></li><li id="note-8"><p> Between 1860 and 1900, there was a slight increase in the risk of death from influenza, which may have been due to worsening health conditions as more people moved into crowded urban areas.</p>
+
+
+
+<p>Acosta, E., Hallman, S. A., Dillon, L. Y., Ouellette, N., Bourbeau, R., Herring, D. A., Inwood, K., Earn, D. J. D., Madrenas, J., Miller, M. S., &amp; Gagnon, A. (2019). Determinants of Influenza Mortality Trends: Age-Period-Cohort Analysis of Influenza Mortality in the United States, 1959–2016. Demography, 56(5), 1723–1746. https://doi.org/10.1007/s13524-019-00809-y</p></li><li id="note-9"><p>Cutler, D., &amp; Miller, G. (2005). The role of public health improvements in health advances: The twentieth-century United States. <em>Demography</em>, <em>42</em>(1), 1–22.<a href="https://doi.org/10.1353/dem.2005.0002"> </a><a href="https://doi.org/10.1353/dem.2005.0002%7B/ref">https://doi.org/10.1353/dem.2005.0002</a></p></li><li id="note-10"><p>Barberis, I., Myles, P., Ault, S. K., Bragazzi, N. L., &amp; Martini, M. (2016). History and evolution of influenza control through vaccination: From the first monovalent vaccine to universal vaccines. <em>Journal of Preventive Medicine and Hygiene</em>, <em>57</em>(3), E115–E120. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5139605/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5139605/</a> </p></li><li id="note-11"><p>Centers for Disease Control and Prevention, &amp; National Center for Immunization and Respiratory Diseases. (2021). <em>Historical Reference of Seasonal Influenza Vaccine Doses Distributed</em>.<a href="https://www.cdc.gov/flu/prevent/vaccine-supply-historical.htm"> https://www.cdc.gov/flu/prevent/vaccine-supply-historical.htm</a></p></li><li id="note-12"><p>These estimates are more variable for young age groups, particularly those born after 1990 because the number of influenza deaths to make comparisons were low, especially as deaths in children under 5 were excluded from the models, to avoid counting deaths from respiratory syncytial virus.<br>Acosta, E., Hallman, S. A., Dillon, L. Y., Ouellette, N., Bourbeau, R., Herring, D. A., Inwood, K., Earn, D. J. D., Madrenas, J., Miller, M. S., &amp; Gagnon, A. (2019). Determinants of Influenza Mortality Trends: Age-Period-Cohort Analysis of Influenza Mortality in the United States, 1959–2016. <em>Demography</em>, <em>56</em>(5), 1723–1746.<a href="https://doi.org/10.1007/s13524-019-00809-y"> https://doi.org/10.1007/s13524-019-00809-y</a></p></li><li id="note-13"><p>Metcalf, C. J. E., Paireau, J., O’Driscoll, M., Pivette, M., Hubert, B., Pontais, I., Nickbakhsh, S., Cummings, D. A. T., Cauchemez, S., &amp; Salje, H. (2022). Comparing the age and sex trajectories of SARS-CoV-2 morbidity and mortality with other respiratory pathogens. <em>Royal Society Open Science</em>, <em>9</em>(6), 211498.<a href="https://doi.org/10.1098/rsos.211498"> https://doi.org/10.1098/rsos.211498</a></p>
+
+
+
+<p>In this post, we show the relative risks of death. This is because it’s more difficult to give an absolute risk of death from influenza at different ages, because mortality rates vary widely over time and between countries, as we saw earlier. Absolute risks depend on how many people are infected during a flu season, the availability of healthcare, the rates of vaccination, and so on. However, the <em>relative</em> risk of death –&nbsp;ratio between the risk of death in one age group versus another –&nbsp;tends to be more consistent.</p></li><li id="note-14"><p>The shape of this age–mortality curve is often described by the Gompertz function. Olshansky, S. J., &amp; Carnes, B. A. (1997). Ever since gompertz. <em>Demography</em>, <em>34</em>(1), 1-15. <a href="https://link.springer.com/content/pdf/10.2307/2061656.pdf">https://link.springer.com/content/pdf/10.2307/2061656.pdf</a> </p></li><li id="note-15"><p>Belongia, E. A., Simpson, M. D., King, J. P., Sundaram, M. E., Kelley, N. S., Osterholm, M. T., &amp; McLean, H. Q. (2016). Variable influenza vaccine effectiveness by subtype: A systematic review and meta-analysis of test-negative design studies. <em>The Lancet Infectious Diseases</em>, <em>16</em>(8), 942–951.<a href="https://doi.org/10.1016/S1473-3099(16)00129-8"> https://doi.org/10.1016/S1473-3099(16)00129-8</a></p></li><li id="note-16"><p>Tricco, A. C., Chit, A., Soobiah, C., Hallett, D., Meier, G., Chen, M. H., Tashkandi, M., Bauch, C. T., &amp; Loeb, M. (2013). Comparing influenza vaccine efficacy against mismatched and matched strains: A systematic review and meta-analysis. <em>BMC Medicine</em>, <em>11</em>(1), 153.<a href="https://doi.org/10.1186/1741-7015-11-153"> https://doi.org/10.1186/1741-7015-11-153</a></p></li><li id="note-17"><p>P. Spreeuwenberg; et al. (1 December 2018). “Reassessing the Global Mortality Burden of the 1918 Influenza Pandemic”. American Journal of Epidemiology. 187 (12): 2561–2567. doi:10.1093/aje/kwy191. PMID 30202996. Online <a href="https://academic.oup.com/aje/article/187/12/2561/5092383">here</a>.</p></li><li id="note-18"><p>Paget J, Spreeuwenberg P, Charu V, Taylor RJ, Iuliano AD, Bresee J, Simonsen L, Viboud C; Global Seasonal Influenza-associated Mortality Collaborator Network and GLaMOR Collaborating Teams*. Global mortality associated with seasonal influenza epidemics: New burden estimates and predictors from the GLaMOR Project. J Glob Health. 2019 Dec;9(2):020421. doi: 10.7189/jogh.09.020421. <a href="https://pubmed.ncbi.nlm.nih.gov/31673337/">https://pubmed.ncbi.nlm.nih.gov/31673337/</a> </p></li><li id="note-19"><p>Worobey, M., Han, G.-Z., &amp; Rambaut, A. (2014). Genesis and pathogenesis of the 1918 pandemic H1N1 influenza A virus. <em>Proceedings of the National Academy of Sciences</em>, <em>111</em>(22), 8107–8112.<a href="https://doi.org/10.1073/pnas.1324197111"> https://doi.org/10.1073/pnas.1324197111<br></a>Gagnon, A., Miller, M. S., Hallman, S. A., Bourbeau, R., Herring, D. A., Earn, D. J. D., &amp; Madrenas, J. (2013). Age-specific mortality during the 1918 influenza pandemic: Unravelling the mystery of high young adult mortality. <em>PloS One</em>, <em>8</em>(8), e69586.<a href="https://doi.org/10.1371/journal.pone.0069586"> https://doi.org/10.1371/journal.pone.0069586<br></a>Luk, J., Gross, P., &amp; Thompson, W. W. (2001). Observations on Mortality during the 1918 Influenza Pandemic. <em>Clinical Infectious Diseases</em>, <em>33</em>(8), 1375–1378.<a href="https://doi.org/10.1086/322662"> https://doi.org/10.1086/322662</a></p></li></ol><h3 id="licence" class="h3-bold">Reuse this work freely</h3><p>All visualizations, data, and code produced by Our World in Data are completely open access under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons BY license</a>. You have the permission to use, distribute, and reproduce these in any medium, provided the source and authors are credited.</p><p>The data produced by third parties and made available by Our World in Data is subject to the license terms from the original third-party authors. We will always indicate the original source of the data in our documentation, so you should always check the license of any such third-party data before use and redistribution.</p><p>All of <a href="/how-to-use-our-world-in-data#how-to-embed-interactive-charts-in-your-article">our charts can be embedded</a> in any site.</p></div><div class="wp-block-column"></div></div></footer></div></div></div></article></main><div id="wpadminbar" style="display:none"><div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar"><ul id="wp-admin-bar-root-default" class="ab-top-menu"><li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="https://owid.cloud/wp/wp-admin">Wordpress</a></li> <li id="wp-admin-bar-edit"><a class="ab-item" href="https://owid.cloud/wp/wp-admin/post.php?post=53550&amp;action=edit">Edit Page</a></li></ul></div></div><section class="donate-footer"><div class="wrapper"><div class="owid-row flex-align-center"><div class="owid-col owid-col--lg-3 owid-padding-bottom--sm-3"><p>Our World in Data is free and accessible for everyone.</p><p>Help us do this work by making a donation.</p></div><div class="owid-col owid-col--lg-1"><a href="/donate" class="owid-button donate-button" data-track-note="donate-footer"><span class="label">Donate now</span><span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg></span></a></div></div></div></section><footer class="site-footer"><div class="wrapper"><div class="owid-row"><div class="owid-col owid-col--lg-1"><ul><li><a href="/about" data-track-note="footer-navigation">About</a></li><li><a href="/about#contact" data-track-note="footer-navigation">Contact</a></li><li><a href="/feedback" data-track-note="footer-navigation">Feedback</a></li><li><a href="/jobs" data-track-note="footer-navigation">Jobs</a></li><li><a href="/funding" data-track-note="footer-navigation">Funding</a></li><li><a href="/about/how-to-use-our-world-in-data" data-track-note="footer-navigation">How to use</a></li><li><a href="/donate" data-track-note="footer-navigation">Donate</a></li><li><a href="/privacy-policy" data-track-note="footer-navigation">Privacy policy</a></li></ul></div><div class="owid-col owid-col--lg-1"><ul><li><a href="/blog" data-track-note="footer-navigation">Latest work</a></li><li><a href="/charts" data-track-note="footer-navigation">All charts</a></li></ul><ul><li><a href="https://twitter.com/OurWorldInData" data-track-note="footer-navigation">Twitter</a></li><li><a href="https://www.facebook.com/OurWorldinData" data-track-note="footer-navigation">Facebook</a></li><li><a href="https://www.instagram.com/ourworldindata/" data-track-note="footer-navigation">Instagram</a></li><li><a href="https://github.com/owid" data-track-note="footer-navigation">GitHub</a></li><li><a href="/feed" data-track-note="footer-navigation">RSS Feed</a></li></ul></div><div class="owid-col owid-col--lg-1"><div class="logos"><a href="https://www.oxfordmartin.ox.ac.uk/global-development" class="partner-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/oms-logo.svg" alt="Oxford Martin School logo" loading="lazy"/></a><a href="/owid-at-ycombinator" class="partner-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/yc-logo.png" alt="Y Combinator logo" loading="lazy"/></a></div></div><div class="owid-col flex-2"><div class="legal"><p>Licenses: All visualizations, data, and articles produced by Our World in Data are open access under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons BY license</a>. You have permission to use, distribute, and reproduce these in any medium, provided the source and authors are credited. All the software and code that we write is open source and made available via GitHub under the permissive <a href="https://github.com/owid/owid-grapher/blob/master/LICENSE.md " target="_blank" rel="noopener noreferrer">MIT license</a>. All other material, including data produced by third parties and made available by Our World in Data, is subject to the license terms from the original third-party authors.</p><p>Please consult our full <a href="/about#legal">legal disclaimer</a>.</p><p><a href="https://global-change-data-lab.org/" class="partner-logo gcdl-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/gcdl-logo.svg" alt="Global Change Data Lab logo" loading="lazy"/></a>Our World In Data is a project of the <a href="https://global-change-data-lab.org/">Global Change Data Lab</a>, a registered charity in England and Wales (Charity Number 1186433).</p></div></div></div></div><div class="site-tools"></div><script src="https://polyfill.io/v3/polyfill.min.js?features=es6,fetch,URL,IntersectionObserver,IntersectionObserverEntry,ResizeObserver"></script><script src="https://ourworldindata.org/assets/commons.js"></script><script src="https://ourworldindata.org/assets/vendors.js"></script><script src="https://ourworldindata.org/assets/owid.js"></script><script>window.runSiteFooterScripts()</script></footer><script>
+                        runTableOfContents({"headings":[],"pageTitle":"How many people die from the flu?"})
+                        runRelatedCharts(undefined)
+                        </script></body></html>
