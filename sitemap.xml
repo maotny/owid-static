@@ -6102,7 +6102,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/meat-supply-per-person</loc>
-        <lastmod>2022-04-12</lastmod>
+        <lastmod>2022-10-21</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rate-by-source-from-air-pollution</loc>
@@ -14446,7 +14446,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/terrorist-attacks-by-region</loc>
-        <lastmod>2022-06-23</lastmod>
+        <lastmod>2022-10-21</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/youth-mortality-rate</loc>
@@ -22447,10 +22447,6 @@
     <url>
         <loc>https://ourworldindata.org/explorers/impacts-of-energy-sources</loc>
         <lastmod>2022-07-06</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/explorers/incomes-across-distribution-ppp2017</loc>
-        <lastmod>2022-10-21</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/explorers/ipcc-scenarios</loc>
