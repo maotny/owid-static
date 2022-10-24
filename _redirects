@@ -1127,8 +1127,8 @@
 /grapher/u5mr-1970-vs-2015 /grapher/u5mr-vs-2019 302!
 /grapher/test /grapher/suffrage 302!
 /grapher/child-mortality-complete /grapher/child-mortality-complete-gapminder 302!
-/grapher/human-rights-rating-vs-gdp /grapher/human-rights-protection-vs-gdp-per-capita 302!
-/grapher/human-rights-score-vs-gdp /grapher/human-rights-protection-vs-gdp-per-capita 302!
+/grapher/human-rights-rating-vs-gdp /grapher/physical-integrity-rights-fkr-vs-gdp-per-capita 302!
+/grapher/human-rights-score-vs-gdp /grapher/physical-integrity-rights-fkr-vs-gdp-per-capita 302!
 /grapher/human-rights-vs-the-political-regime /grapher/physical-integrity-rights-fkr-vs-liberal-democracy 302!
 /grapher/proportion-of-important-sites-for-terrestrial-biodiversity-covered-by-protected-areas /grapher/protected-terrestrial-biodiversity-sites 302!
 /grapher/child-mortality-rate /grapher/child-mortality-rate-ihme 302!
@@ -1397,10 +1397,10 @@
 /grapher/numbers-of-autocracies-and-democracies /grapher/share-democracies-nondemocracies-bmr 302!
 /grapher/number-of-different-political-regimes /grapher/share-democracies-nondemocracies-bmr 302!
 /grapher/number-of-autocracies-democracies /grapher/share-democracies-nondemocracies-bmr 302!
-/grapher/human-rights-score-vs-gdp-per-capita /grapher/human-rights-protection-vs-gdp-per-capita 302!
+/grapher/human-rights-score-vs-gdp-per-capita /grapher/physical-integrity-rights-fkr-vs-gdp-per-capita 302!
 /grapher/human-rights-scores /grapher/physical-integrity-rights-fkr 302!
 /grapher/human-rights-vs-liberal-democracy /grapher/physical-integrity-rights-fkr-vs-liberal-democracy 302!
-/grapher/human-rights-vs-gdp-per-capita /grapher/human-rights-protection-vs-gdp-per-capita 302!
+/grapher/human-rights-vs-gdp-per-capita /grapher/physical-integrity-rights-fkr-vs-gdp-per-capita 302!
 /grapher/world-map-of-the-freedom-of-the-press-status /grapher/press-freedom-fh 302!
 /grapher/number-of-different-political-regimes-row /grapher/share-democracies-autocracies-row 302!
 /grapher/political-regimes /grapher/political-regime 302!
@@ -1611,3 +1611,5 @@
 /grapher/countries-that-applied-for-accreditation-in-paris-principles /grapher/countries-that-applied-for-accreditation-of-national-human-rights-institutions 302!
 /grapher/cases-of-killings-of-human-rights-defenders-journalists-trade-unionists /grapher/cases-of-killed-human-rights-defenders-journalists-trade-unionists 302!
 /grapher/human-rights-protection-vs-liberal-democracy /grapher/physical-integrity-rights-fkr-vs-liberal-democracy 302!
+/grapher/human-rights-protection-vs-gdp-per-capita /grapher/physical-integrity-rights-fkr-vs-gdp-per-capita 302!
+/grapher/antenatal-care-coverage /grapher/share-of-mothers-receiving-at-least-four-antenatal-visits-during-pregnancy 302!

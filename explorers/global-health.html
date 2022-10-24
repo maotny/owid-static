@@ -4671,7 +4671,7 @@ const grapherConfigs =
   },
   {
     "id": 3872,
-    "version": 11,
+    "version": 14,
     "slug": "share-of-mothers-receiving-at-least-one-antenatal-visit-during-pregnancy",
     "title": "Share of mothers receiving at least one antenatal visit during pregnancy",
     "subtitle": "An antenatal visit refers to pregnancy care provided by skilled health personnel (doctors, nurses or midwives).",
@@ -4688,7 +4688,10 @@ const grapherConfigs =
       "max": 0
     },
     "map": {
+      "time": "latest",
+      "timeTolerance": 3,
       "colorScale": {
+        "baseColorScheme": "YlGnBu",
         "binningStrategy": "equalInterval"
       },
       "variableId": 470706
@@ -4696,7 +4699,11 @@ const grapherConfigs =
     "dimensions": [
       {
         "property": "y",
-        "variableId": 470706
+        "variableId": 470706,
+        "display": {
+          "numDecimalPlaces": 1,
+          "includeInTable": true
+        }
       }
     ],
     "selectedEntityNames": [
@@ -4712,7 +4719,7 @@ const grapherConfigs =
   },
   {
     "id": 3873,
-    "version": 11,
+    "version": 16,
     "slug": "share-of-mothers-receiving-at-least-four-antenatal-visits-during-pregnancy",
     "title": "Share of mothers receiving at least four antenatal visits during pregnancy",
     "subtitle": "An antenatal visit refers to pregnancy care provided by skilled health personnel (doctors, nurses or midwives).",
@@ -4729,8 +4736,9 @@ const grapherConfigs =
     },
     "map": {
       "time": 2020,
-      "timeTolerance": 2,
+      "timeTolerance": 4,
       "colorScale": {
+        "baseColorScheme": "YlGnBu",
         "binningStrategy": "equalInterval"
       },
       "variableId": 470713
@@ -4741,6 +4749,7 @@ const grapherConfigs =
         "variableId": 470713,
         "display": {
           "unit": "%",
+          "numDecimalPlaces": 1,
           "includeInTable": true
         }
       }
@@ -4748,7 +4757,8 @@ const grapherConfigs =
     "selectedEntityNames": [
       "South Africa",
       "Sudan",
-      "Eritrea"
+      "Eritrea",
+      "San Marino"
     ],
     "selectedEntityIds": [
       81,
