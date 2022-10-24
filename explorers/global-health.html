@@ -350,9 +350,10 @@ const grapherConfigs =
   },
   {
     "id": 299,
-    "version": 18,
+    "version": 21,
     "slug": "share-of-children-vaccinated-against-measles",
-    "title": "Share of one-year-olds vaccinated against measles (MCV1)",
+    "title": "Share of one-year-olds vaccinated against measles",
+    "subtitle": "Share of one-year-olds who have received the first dose of the measles vaccine (MCV1).",
     "sourceDesc": "World Health Organization (WHO); UNICEF",
     "note": "Measles is a highly contagious viral disease, most common in young children. Its effects include blindness, inflammation of the brain, severe diarrhea, and severe respiratory infections such as pneumonia.",
     "hideTitleAnnotation": true,
@@ -360,7 +361,7 @@ const grapherConfigs =
     "maxTime": 2019,
     "hasMapTab": true,
     "tab": "map",
-    "originUrl": "https://ourworldindata.org/vaccination/",
+    "originUrl": "https://ourworldindata.org/vaccination",
     "isPublished": true,
     "yAxis": {
       "min": 0,
@@ -393,7 +394,11 @@ const grapherConfigs =
     "dimensions": [
       {
         "property": "y",
-        "variableId": 525808
+        "variableId": 525808,
+        "display": {
+          "numDecimalPlaces": 0,
+          "includeInTable": true
+        }
       }
     ],
     "selectedEntityNames": [
@@ -2406,7 +2411,7 @@ const grapherConfigs =
   },
   {
     "id": 1546,
-    "version": 10,
+    "version": 11,
     "slug": "immunization-hepb3-of-one-year-old-children",
     "title": "Share of one-year-olds vaccinated against hepatitis B",
     "subtitle": "Share of one-year-olds who have received the thirds dose of the hepatitis B vaccine (HepB3).",
@@ -2447,7 +2452,11 @@ const grapherConfigs =
     "dimensions": [
       {
         "property": "y",
-        "variableId": 525804
+        "variableId": 525804,
+        "display": {
+          "numDecimalPlaces": 0,
+          "includeInTable": true
+        }
       }
     ],
     "selectedEntityNames": [
@@ -5717,9 +5726,9 @@ const grapherConfigs =
   },
   {
     "id": 4563,
-    "version": 5,
+    "version": 6,
     "slug": "dtp3-children-unvaccinated",
-    "title": "Number of one-year-olds who have not been vaccinated against diptheria, pertussis and tetatnus",
+    "title": "Number of one-year-olds who are not vaccinated against diptheria, pertussis and tetatnus",
     "subtitle": "Number of one-year-olds who haven't received the third dose of the diptheria, pertussis and tetanus vaccine (DTP3).",
     "note": "Diphtheria and pertussis are infectious respiratory diseases caused by bacteria in the throat and airways. Tetanus is a bacterial infection that leads to severe muscle spasms, fever, headache, and can be fatal.",
     "hideTitleAnnotation": true,
@@ -5869,9 +5878,9 @@ const grapherConfigs =
   },
   {
     "id": 4566,
-    "version": 6,
+    "version": 7,
     "slug": "hib3-number-unvaccinated",
-    "title": "Number of one-year-olds who have not been vaccinated against Haemophilus influenzae type B",
+    "title": "Number of one-year-olds who are not vaccinated against Haemophilus influenzae type B",
     "subtitle": "Number of one-year-olds who haven't received the third dose of the _Haemophilus influenzae_ type B vaccination (Hib3).",
     "note": "Haemophilus influenza type B is a bacteria responsible for severe pneumonia, meningitis and other invasive diseases almost exclusively in children younger than 5 years.",
     "hideTitleAnnotation": true,
@@ -5974,9 +5983,10 @@ const grapherConfigs =
   },
   {
     "id": 4568,
-    "version": 5,
+    "version": 6,
     "slug": "measles-number-unvaccinated",
-    "title": "Number of one-year-olds who did not receive the vaccine against measles (MCV1)",
+    "title": "Number of one-year-olds are not vaccinated against measle",
+    "subtitle": "Number of one-year-olds who have not received the first dose of the measles vaccine (MCV1).",
     "note": "Measles is a highly contagious viral disease, most common in young children. Its effects include blindness, inflammation of the brain, severe diarrhoea, and severe respiratory infections such as pneumonia.",
     "hideTitleAnnotation": true,
     "maxTime": 2019,
