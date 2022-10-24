@@ -962,7 +962,7 @@
 /grapher/deaths-from-smallpox-per-1-million-population /grapher/deaths-from-smallpox-per-1000-population 302!
 /grapher/annual-number-of-reported-cases-of-guinea-worm-disease /grapher/global-number-of-reported-guinea-worm-cases 302!
 /grapher/countries-that-adopt-and-implement-guarantees-for-public-access-to-information /grapher/countries-that-adopt-guarantees-for-public-access-to-information 302!
-/grapher/countries-with-national-human-rights-institutions-in-compliance-with-the-paris-principles /grapher/countries-in-compliance-with-paris-principles 302!
+/grapher/countries-with-national-human-rights-institutions-in-compliance-with-the-paris-principles /grapher/countries-with-independent-national-human-rights-institution 302!
 /grapher/annual-number-of-deaths-by-cause-percent /grapher/share-of-deaths-by-cause 302!
 /grapher/annual-deaths-by-cause-percent-2016 /grapher/share-of-deaths-by-cause 302!
 /grapher/share-suffering-from-depressive-disorders /grapher/share-with-depression 302!
@@ -1129,7 +1129,7 @@
 /grapher/child-mortality-complete /grapher/child-mortality-complete-gapminder 302!
 /grapher/human-rights-rating-vs-gdp /grapher/human-rights-protection-vs-gdp-per-capita 302!
 /grapher/human-rights-score-vs-gdp /grapher/human-rights-protection-vs-gdp-per-capita 302!
-/grapher/human-rights-vs-the-political-regime /grapher/human-rights-protection-vs-liberal-democracy 302!
+/grapher/human-rights-vs-the-political-regime /grapher/physical-integrity-rights-fkr-vs-liberal-democracy 302!
 /grapher/proportion-of-important-sites-for-terrestrial-biodiversity-covered-by-protected-areas /grapher/protected-terrestrial-biodiversity-sites 302!
 /grapher/child-mortality-rate /grapher/child-mortality-rate-ihme 302!
 /grapher/share-of-children-under-5-who-received-diarrhea-treatment /grapher/children-who-receive-ors 302!
@@ -1391,15 +1391,15 @@
 /grapher/trust-attitudes-in-the-us /grapher/interpersonal-trust-in-the-us 302!
 /grapher/average-rating-of-trust-in-others-selected-countries /grapher/interpersonal-trust-in-europe 302!
 /grapher/projected-extreme-poverty-among-different-groupings-of-fragile-states-crespo-cuaresma-et-al-2018 /grapher/projected-extreme-poverty-different-classifications-of-fragile-states 302!
-/grapher/human-rights-score-vs-political-regime-type /grapher/human-rights-protection-vs-liberal-democracy 302!
+/grapher/human-rights-score-vs-political-regime-type /grapher/physical-integrity-rights-fkr-vs-liberal-democracy 302!
 /grapher/income-vs-type-of-political-regime /grapher/gdp-per-capita-vs-liberal-democracy 302!
 /grapher/child-mortality-vs-type-of-political-regime /grapher/child-mortality-vs-liberal-democracy 302!
 /grapher/numbers-of-autocracies-and-democracies /grapher/share-democracies-nondemocracies-bmr 302!
 /grapher/number-of-different-political-regimes /grapher/share-democracies-nondemocracies-bmr 302!
 /grapher/number-of-autocracies-democracies /grapher/share-democracies-nondemocracies-bmr 302!
 /grapher/human-rights-score-vs-gdp-per-capita /grapher/human-rights-protection-vs-gdp-per-capita 302!
-/grapher/human-rights-scores /grapher/human-rights-protection 302!
-/grapher/human-rights-vs-liberal-democracy /grapher/human-rights-protection-vs-liberal-democracy 302!
+/grapher/human-rights-scores /grapher/physical-integrity-rights-fkr 302!
+/grapher/human-rights-vs-liberal-democracy /grapher/physical-integrity-rights-fkr-vs-liberal-democracy 302!
 /grapher/human-rights-vs-gdp-per-capita /grapher/human-rights-protection-vs-gdp-per-capita 302!
 /grapher/world-map-of-the-freedom-of-the-press-status /grapher/press-freedom-fh 302!
 /grapher/number-of-different-political-regimes-row /grapher/share-democracies-autocracies-row 302!
@@ -1416,7 +1416,7 @@
 /grapher/universal-suffrage-granted-to-women /grapher/universal-suffrage-women-lied 302!
 /grapher/risk-of-catastrophic-expenditure-for-surgical-care /grapher/share-of-the-population-at-risk-of-catastrophic-expenditure-when-surgical-care-is-required 302!
 /grapher/freedom-of-the-press /grapher/press-freedom-fh 302!
-/grapher/human-rights-violations /grapher/human-rights-protection 302!
+/grapher/human-rights-violations /grapher/physical-integrity-rights-fkr 302!
 /grapher/world-press-freedom /grapher/press-freedom-rsf 302!
 /grapher/press-freedom /grapher/press-freedom-fh 302!
 /grapher/full-list-covid-19-tests-per-day /grapher/daily-tests-per-thousand-people-smoothed-7-day 302!
@@ -1596,7 +1596,7 @@
 /grapher/global-population-defined-as-undernourished /grapher/number-undernourished 302!
 /grapher/number-of-people-who-are-undernourished-world /grapher/number-undernourished 302!
 /grapher/global-carbon-tax-coverage /grapher/carbon-tax-trading-coverage 302!
-/grapher/cases-of-killings-of-journalists-and-media-personnel /grapher/cases-of-killings-of-human-rights-defenders-journalists-trade-unionists 302!
+/grapher/cases-of-killings-of-journalists-and-media-personnel /grapher/cases-of-killed-human-rights-defenders-journalists-trade-unionists 302!
 /grapher/pneumonia-death-rates /grapher/pneumonia-death-rates-age-standardized 302!
 /grapher/https://ourworldindata.org/grapher/global-demand-for-education-world-population-and-projected-growth-to-2100-by-age-group-in-thousands-of-people /grapher/historic-and-un-pop-projections-by-age 302!
 /grapher/global-demand-for-education-world-population-and-projected-growth-to-2100-by-age-group-in-thousands-of-people /grapher/historic-and-un-pop-projections-by-age 302!
@@ -1606,3 +1606,8 @@
 /grapher/mortality-road-injuries /grapher/death-rate-from-road-accidents-ghe 302!
 /grapher/the-number-of-deaths-from-malaria-by-world-region /grapher/malaria-deaths-by-region 302!
 /grapher/malaria-deaths-by-world-region /grapher/malaria-deaths-by-region 302!
+/grapher/human-rights-protection /grapher/physical-integrity-rights-fkr 302!
+/grapher/countries-in-compliance-with-paris-principles /grapher/countries-with-independent-national-human-rights-institution 302!
+/grapher/countries-that-applied-for-accreditation-in-paris-principles /grapher/countries-that-applied-for-accreditation-of-national-human-rights-institutions 302!
+/grapher/cases-of-killings-of-human-rights-defenders-journalists-trade-unionists /grapher/cases-of-killed-human-rights-defenders-journalists-trade-unionists 302!
+/grapher/human-rights-protection-vs-liberal-democracy /grapher/physical-integrity-rights-fkr-vs-liberal-democracy 302!

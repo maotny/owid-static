@@ -5453,8 +5453,8 @@
         <lastmod>2022-02-17</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/human-rights-protection</loc>
-        <lastmod>2022-04-25</lastmod>
+        <loc>https://ourworldindata.org/grapher/physical-integrity-rights-fkr</loc>
+        <lastmod>2022-10-24</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/Male-Female-Ratio-of-Suicide-Rates</loc>
@@ -5529,8 +5529,8 @@
         <lastmod>2022-03-07</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/human-rights-protection-vs-gdp-per-capita</loc>
-        <lastmod>2022-10-07</lastmod>
+        <loc>https://ourworldindata.org/grapher/physical-integrity-rights-fkr-vs-gdp-per-capita</loc>
+        <lastmod>2022-10-24</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/self-reported-trust-attitudes</loc>
@@ -5793,8 +5793,8 @@
         <lastmod>2022-04-13</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/human-rights-protection-vs-liberal-democracy</loc>
-        <lastmod>2022-10-07</lastmod>
+        <loc>https://ourworldindata.org/grapher/physical-integrity-rights-fkr-vs-liberal-democracy</loc>
+        <lastmod>2022-10-24</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/gdp-per-capita-vs-liberal-democracy</loc>
@@ -10429,16 +10429,16 @@
         <lastmod>2022-08-02</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/cases-of-killings-of-human-rights-defenders-journalists-trade-unionists</loc>
-        <lastmod>2022-10-07</lastmod>
+        <loc>https://ourworldindata.org/grapher/cases-of-killed-human-rights-defenders-journalists-trade-unionists</loc>
+        <lastmod>2022-10-24</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/countries-that-applied-for-accreditation-in-paris-principles</loc>
-        <lastmod>2022-10-19</lastmod>
+        <loc>https://ourworldindata.org/grapher/countries-that-applied-for-accreditation-of-national-human-rights-institutions</loc>
+        <lastmod>2022-10-24</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/countries-in-compliance-with-paris-principles</loc>
-        <lastmod>2022-10-19</lastmod>
+        <loc>https://ourworldindata.org/grapher/countries-with-independent-national-human-rights-institution</loc>
+        <lastmod>2022-10-24</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/net-oda-from-oecd-dac-countries</loc>
@@ -14818,7 +14818,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/lifetime-risk-of-maternal-death</loc>
-        <lastmod>2022-06-29</lastmod>
+        <lastmod>2022-10-24</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/deaths-from-air-pollution</loc>
