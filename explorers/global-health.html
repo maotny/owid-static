@@ -2061,10 +2061,10 @@ const grapherConfigs =
   },
   {
     "id": 1068,
-    "version": 9,
+    "version": 10,
     "slug": "polio-vaccine-coverage-of-one-year-olds",
     "title": "Share of one-year-olds vaccinated against polio (Pol3)",
-    "sourceDesc": "World Health Organization (WHO); UNICEF",
+    "sourceDesc": "WHO; UNICEF (2022)",
     "note": "Polio is a highly infectious viral disease. The polio virus invades the nervous system and can cause irreversible paralysis.",
     "hideTitleAnnotation": true,
     "maxTime": 2019,
@@ -2474,9 +2474,10 @@ const grapherConfigs =
   },
   {
     "id": 1547,
-    "version": 10,
+    "version": 11,
     "slug": "bcg-immunization-coverage-for-tb-among-1-year-olds",
-    "title": "Share of one-year-olds vaccinated against tuberculosis (BCG)",
+    "title": "Share of one-year-olds vaccinated against tuberculosis",
+    "subtitle": "Share of one-year-olds who have received the Bacillus Calmette-Guérin (BCG) vaccine which protects against tuberculosis.",
     "sourceDesc": "WHO; UNICEF (2022)",
     "note": "Bacillus Calmette-Guérin (BCG) vaccine protects against tuberculosis, which is a chronic lung infection caused by a bacterium that leads to chronic cough with blood-containing mucus, fever, weight loss, and fatigue. ",
     "hideTitleAnnotation": true,
@@ -4089,11 +4090,11 @@ const grapherConfigs =
   },
   {
     "id": 3553,
-    "version": 15,
+    "version": 17,
     "slug": "share-of-one-year-olds-who-received-the-rotavirus-vaccine",
     "title": "Share of one-year-olds vaccinated against rotavirus",
     "subtitle": "The share of one-year-old children who received the final recommended dose of rotavirus vaccine.",
-    "sourceDesc": "World Health Organization (WHO); UNICEF",
+    "sourceDesc": "WHO; UNICEF (2022)",
     "note": "Rotaviruses are the most common cause of diarrhoeal disease in young children.",
     "hideTitleAnnotation": true,
     "hasMapTab": true,
@@ -4129,7 +4130,11 @@ const grapherConfigs =
     "dimensions": [
       {
         "property": "y",
-        "variableId": 525812
+        "variableId": 525812,
+        "display": {
+          "numDecimalPlaces": 0,
+          "includeInTable": true
+        }
       }
     ],
     "selectedEntityNames": [
@@ -4200,7 +4205,7 @@ const grapherConfigs =
   },
   {
     "id": 3594,
-    "version": 29,
+    "version": 30,
     "slug": "share-of-one-year-olds-who-received-the-final-dose-of-pneumococcal-vaccine",
     "title": "Share of one-year-olds vaccinated against pneumonia",
     "subtitle": "Share of one-year-olds who have received the third dose of pneumococcal conjugate (PCV3).",
@@ -4242,7 +4247,11 @@ const grapherConfigs =
     "dimensions": [
       {
         "property": "y",
-        "variableId": 525809
+        "variableId": 525809,
+        "display": {
+          "numDecimalPlaces": 0,
+          "includeInTable": true
+        }
       }
     ],
     "selectedEntityNames": [
@@ -4925,7 +4934,7 @@ const grapherConfigs =
   },
   {
     "id": 3887,
-    "version": 18,
+    "version": 19,
     "slug": "share-of-children-vaccinated-with-mcv2",
     "title": "Share of children fully vaccinated against measles",
     "subtitle": "Share of children who have received the second dose of the measles vaccine (MCV2).",
@@ -4964,7 +4973,11 @@ const grapherConfigs =
     "dimensions": [
       {
         "property": "y",
-        "variableId": 525810
+        "variableId": 525810,
+        "display": {
+          "numDecimalPlaces": 0,
+          "includeInTable": true
+        }
       }
     ],
     "selectedEntityNames": [
@@ -5676,7 +5689,7 @@ const grapherConfigs =
   },
   {
     "id": 4561,
-    "version": 7,
+    "version": 8,
     "slug": "ipv-vaccine-coverage",
     "title": "Share of one-year-olds who received the inactivated polio vaccine (IPV)",
     "subtitle": "IPV protects children against polioviruses types 1, 2 and 3. IPV does not replace the Oral Polio Vaccine (Pol3), but is used with OPV to strengthen a child’s immune system and protect them from polio.",
@@ -5712,7 +5725,11 @@ const grapherConfigs =
     "dimensions": [
       {
         "property": "y",
-        "variableId": 525807
+        "variableId": 525807,
+        "display": {
+          "numDecimalPlaces": 0,
+          "includeInTable": true
+        }
       }
     ],
     "selectedEntityNames": [
@@ -5729,10 +5746,11 @@ const grapherConfigs =
   },
   {
     "id": 4563,
-    "version": 8,
+    "version": 9,
     "slug": "dtp3-children-unvaccinated",
     "title": "Number of one-year-olds who are not vaccinated against diphtheria, pertussis and tetanus",
     "subtitle": "Number of one-year-olds who haven't received the third dose of the diphtheria, pertussis and tetanus vaccine (DTP3).",
+    "sourceDesc": "WHO; UNICEF (2022)",
     "note": "Diphtheria and pertussis are infectious respiratory diseases caused by bacteria in the throat and airways. Tetanus is a bacterial infection that leads to severe muscle spasms, fever, headache, and can be fatal.",
     "hideTitleAnnotation": true,
     "maxTime": 2019,
@@ -5779,9 +5797,11 @@ const grapherConfigs =
   },
   {
     "id": 4564,
-    "version": 4,
+    "version": 6,
     "slug": "bcg-number-unvaccinated",
-    "title": "Number of one-year-olds who did not receive the vaccine against tuberculosis (BCG)",
+    "title": "Number of one-year-olds who are not vaccinated against tuberculosis",
+    "subtitle": "Number of one-year-olds who haven't received the Bacillus Calmette-Guérin (BCG) vaccine which protects against tuberculosis.",
+    "sourceDesc": "WHO; UNICEF (2022)",
     "note": "Bacillus Calmette-Guérin (BCG) vaccine protects against tuberculosis, which is a chronic lung infection caused by a bacterium that leads to chronic cough with blood-containing mucus, fever, weight loss, and fatigue.",
     "hideTitleAnnotation": true,
     "maxTime": 2019,
@@ -5830,10 +5850,11 @@ const grapherConfigs =
   },
   {
     "id": 4565,
-    "version": 6,
+    "version": 8,
     "slug": "hepb3-number-unvaccinated",
     "title": "Number of one-year-olds who are not vaccinated against hepatitis B",
-    "subtitle": "Number of one-year-olds who haven't received the thirds dose of the hepatitis B vaccine (HepB3).",
+    "subtitle": "Number of one-year-olds who haven't received the third dose of the hepatitis B vaccine (HepB3).",
+    "sourceDesc": "WHO; UNICEF (2022)",
     "note": "Hepatitis B is a viral infection that attacks the liver and can cause both acute and chronic disease.",
     "hideTitleAnnotation": true,
     "maxTime": 2019,
@@ -5881,10 +5902,11 @@ const grapherConfigs =
   },
   {
     "id": 4566,
-    "version": 7,
+    "version": 8,
     "slug": "hib3-number-unvaccinated",
     "title": "Number of one-year-olds who are not vaccinated against Haemophilus influenzae type B",
     "subtitle": "Number of one-year-olds who haven't received the third dose of the _Haemophilus influenzae_ type B vaccination (Hib3).",
+    "sourceDesc": "WHO; UNICEF (2022)",
     "note": "Haemophilus influenza type B is a bacteria responsible for severe pneumonia, meningitis and other invasive diseases almost exclusively in children younger than 5 years.",
     "hideTitleAnnotation": true,
     "maxTime": 2019,
@@ -5934,11 +5956,11 @@ const grapherConfigs =
   },
   {
     "id": 4567,
-    "version": 6,
+    "version": 7,
     "slug": "ipv1-number-unvaccinated",
     "title": "Number of one-year-olds who did not receive the inactivate polio vaccine (IPV1)",
     "subtitle": "IPV protects children against polioviruses types 1, 2 and 3. IPV does not replace the Oral Polio Vaccine (Pol3), but is used with OPV to strengthen a child’s immune system and protect them from polio.",
-    "sourceDesc": "World Health Organization (WHO); UNICEF",
+    "sourceDesc": "WHO; UNICEF (2022)",
     "note": "Polio is a highly infectious viral disease. The polio virus invades the nervous system and can cause irreversible paralysis. ",
     "hideTitleAnnotation": true,
     "maxTime": 2019,
@@ -5986,10 +6008,11 @@ const grapherConfigs =
   },
   {
     "id": 4568,
-    "version": 7,
+    "version": 8,
     "slug": "measles-number-unvaccinated",
     "title": "Number of one-year-olds are not vaccinated against measles",
     "subtitle": "Number of one-year-olds who have not received the first dose of the measles vaccine (MCV1).",
+    "sourceDesc": "WHO; UNICEF (2022)",
     "note": "Measles is a highly contagious viral disease, most common in young children. Its effects include blindness, inflammation of the brain, severe diarrhoea, and severe respiratory infections such as pneumonia.",
     "hideTitleAnnotation": true,
     "maxTime": 2019,
@@ -6037,9 +6060,10 @@ const grapherConfigs =
   },
   {
     "id": 4569,
-    "version": 4,
+    "version": 5,
     "slug": "polio-number-unvaccinated",
     "title": "Number of one-year-olds who did not receive the polio vaccine (Pol3)",
+    "sourceDesc": "WHO; UNICEF (2022)",
     "note": "Polio is a highly infectious viral disease. The polio virus invades the nervous system and can cause irreversible paralysis.",
     "hideTitleAnnotation": true,
     "maxTime": 2019,
@@ -6088,9 +6112,11 @@ const grapherConfigs =
   },
   {
     "id": 4570,
-    "version": 4,
+    "version": 6,
     "slug": "yellow-fever-number-unvaccinated",
-    "title": "Number of one-year-olds who did not receive the vaccine against yellow fever",
+    "title": "Number of one-year-olds who are not vaccinated against yellow fever",
+    "subtitle": "Number of one-year-olds who haven't received the yellow fever vaccine (YF).",
+    "sourceDesc": "WHO; UNICEF (2022)",
     "note": "Yellow Fever (YF) is a mosquito-borne viral disease of humans and other primates, and is currently endemic in over 43 countries in the tropical regions of Africa and The Americas.",
     "hideTitleAnnotation": true,
     "maxTime": 2019,
@@ -6139,9 +6165,11 @@ const grapherConfigs =
   },
   {
     "id": 4571,
-    "version": 4,
+    "version": 6,
     "slug": "rotavirus-number-unvaccinated",
-    "title": "Number of one-year-olds who did not receive the vaccine against rotavirus",
+    "title": "Number of one-year-olds who are not vaccinated against rotavirus",
+    "subtitle": "Number of one-year-olds who haven't received the last dose of the rotavirus vaccine (RotaC).",
+    "sourceDesc": "WHO; UNICEF (2022)",
     "note": "Rotaviruses are the most common cause of diarrhoeal disease in young children.",
     "hideTitleAnnotation": true,
     "maxTime": 2019,
@@ -6190,9 +6218,10 @@ const grapherConfigs =
   },
   {
     "id": 4572,
-    "version": 4,
+    "version": 5,
     "slug": "pcv3-number-unvaccinated",
     "title": "Number of one-year-olds who did not receive the vaccine against pneumococcal conjugate (PCV3)",
+    "sourceDesc": "WHO; UNICEF (2022)",
     "note": "Streptococcus pneumoniae is a bacterium that causes a number of common diseases including meningitis, septicaemia and pneumonia. It is most common in young children and the elderly.",
     "hideTitleAnnotation": true,
     "maxTime": 2019,
@@ -6297,7 +6326,7 @@ const grapherConfigs =
   },
   {
     "id": 4574,
-    "version": 6,
+    "version": 7,
     "slug": "rubella-number-unvaccinated",
     "title": "Number of one-year-olds who are not vaccinated against rubella",
     "subtitle": "Number of one-year-olds who haven't received the first dose of the rubella vaccine (RCV1).",
