@@ -5226,7 +5226,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/life-expectancy-at-age-10</loc>
-        <lastmod>2022-10-24</lastmod>
+        <lastmod>2022-10-25</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/differences-in-life-expectancy-are-more-regional-than-national</loc>
@@ -5454,7 +5454,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/physical-integrity-rights-fkr</loc>
-        <lastmod>2022-10-24</lastmod>
+        <lastmod>2022-10-25</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/Male-Female-Ratio-of-Suicide-Rates</loc>
@@ -13038,7 +13038,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/life-expectancy-at-birth-total-years</loc>
-        <lastmod>2022-06-30</lastmod>
+        <lastmod>2022-10-25</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/participation-time-in-employment-per-day</loc>
@@ -18482,7 +18482,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/life-expectancy-at-birth-who-gho</loc>
-        <lastmod>2022-10-18</lastmod>
+        <lastmod>2022-10-25</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/reported-number-of-deaths-from-malaria</loc>
@@ -22389,6 +22389,22 @@
         <lastmod>2022-10-25</lastmod>
     </url>
     <url>
+        <loc>https://ourworldindata.org/grapher/human-rights-vdem</loc>
+        <lastmod>2022-10-25</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/physical-integrity-rights-vdem</loc>
+        <lastmod>2022-10-25</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/private-civil-liberties</loc>
+        <lastmod>2022-10-25</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/political-civil-liberties</loc>
+        <lastmod>2022-10-25</lastmod>
+    </url>
+    <url>
         <loc>https://ourworldindata.org/explorers/air-pollution</loc>
         <lastmod>2022-08-16</lastmod>
     </url>
@@ -22630,11 +22646,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/explorers/poverty-explorer-2011-vs-2017-ppp</loc>
-        <lastmod>2022-10-17</lastmod>
+        <lastmod>2022-10-25</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/explorers/poverty-explorer</loc>
-        <lastmod>2022-10-18</lastmod>
+        <lastmod>2022-10-25</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/explorers/ukraine-russia-food</loc>
