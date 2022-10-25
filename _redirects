@@ -1617,3 +1617,6 @@
 /grapher/gini-index /grapher/gini-index-us 302!
 /grapher/countries-that-applied-for-accreditation-of-national-human-rights-institutions /grapher/share-countries-accredited-independent-national-human-rights-institutions 302!
 /grapher/share-of-one-year-olds-vaccinated-against-polio-pol3 /grapher/polio-vaccine-coverage-of-one-year-olds 302!
+/grapher/share-of-one-year-olds-vaccinated-against-measles-mcv1 /grapher/share-of-children-vaccinated-against-measles 302!
+/grapher/share-of-one-year-olds-vaccinated-against-diphtheria-pertussis-and-tetanus-dtp3 /grapher/share-of-children-immunized-dtp3 302!
+/grapher/coverage-of-diphtheria-tetanus-pertussis-vaccine /grapher/share-of-children-immunized-dtp3 302!
