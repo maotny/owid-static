@@ -1607,7 +1607,7 @@
 /grapher/malaria-deaths-by-world-region /grapher/malaria-deaths-by-region 302!
 /grapher/human-rights-protection /grapher/physical-integrity-rights-fkr 302!
 /grapher/countries-in-compliance-with-paris-principles /grapher/countries-with-independent-national-human-rights-institution 302!
-/grapher/countries-that-applied-for-accreditation-in-paris-principles /grapher/countries-that-applied-for-accreditation-of-national-human-rights-institutions 302!
+/grapher/countries-that-applied-for-accreditation-in-paris-principles /grapher/share-countries-accredited-independent-national-human-rights-institutions 302!
 /grapher/cases-of-killings-of-human-rights-defenders-journalists-trade-unionists /grapher/cases-of-killed-human-rights-defenders-journalists-trade-unionists 302!
 /grapher/human-rights-protection-vs-liberal-democracy /grapher/physical-integrity-rights-fkr-vs-liberal-democracy 302!
 /grapher/human-rights-protection-vs-gdp-per-capita /grapher/physical-integrity-rights-fkr-vs-gdp-per-capita 302!
@@ -1615,3 +1615,4 @@
 /grapher/corporate-investment-in-artificial-intelligence /grapher/corporate-investment-in-artificial-intelligence-by-type 302!
 /grapher/exclusive-breastfeeding /grapher/exclusive-breastfeeding-rate 302!
 /grapher/gini-index /grapher/gini-index-us 302!
+/grapher/countries-that-applied-for-accreditation-of-national-human-rights-institutions /grapher/share-countries-accredited-independent-national-human-rights-institutions 302!

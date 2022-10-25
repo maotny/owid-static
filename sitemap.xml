@@ -10433,8 +10433,8 @@
         <lastmod>2022-10-24</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/countries-that-applied-for-accreditation-of-national-human-rights-institutions</loc>
-        <lastmod>2022-10-24</lastmod>
+        <loc>https://ourworldindata.org/grapher/share-countries-accredited-independent-national-human-rights-institutions</loc>
+        <lastmod>2022-10-25</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/countries-with-independent-national-human-rights-institution</loc>
@@ -14814,7 +14814,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-one-year-olds-who-received-the-final-dose-of-pneumococcal-vaccine</loc>
-        <lastmod>2022-10-21</lastmod>
+        <lastmod>2022-10-25</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/lifetime-risk-of-maternal-death</loc>
@@ -15630,7 +15630,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-of-children-vaccinated-with-mcv2</loc>
-        <lastmod>2022-10-21</lastmod>
+        <lastmod>2022-10-25</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-births-per-year</loc>
@@ -17674,7 +17674,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/measles-number-unvaccinated</loc>
-        <lastmod>2022-10-24</lastmod>
+        <lastmod>2022-10-25</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/polio-number-unvaccinated</loc>
@@ -19026,7 +19026,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/covid-variants-area</loc>
-        <lastmod>2022-10-24</lastmod>
+        <lastmod>2022-10-25</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/death-rates-no-handwashing</loc>
@@ -19046,7 +19046,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/covid-variants-bar</loc>
-        <lastmod>2022-10-24</lastmod>
+        <lastmod>2022-10-25</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/land-sparing-by-crop</loc>
@@ -22393,10 +22393,6 @@
         <lastmod>2022-10-24</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/number-of-one-year-olds-who-did-not-receive-the-second-dose-of-the-vaccine-against-measles-mcv2</loc>
-        <lastmod>2022-10-24</lastmod>
-    </url>
-    <url>
         <loc>https://ourworldindata.org/grapher/population-having-attained-at-least-basic-education-by-region</loc>
         <lastmod>2022-10-24</lastmod>
     </url>
@@ -22426,7 +22422,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/explorers/coronavirus-data-explorer</loc>
-        <lastmod>2022-10-24</lastmod>
+        <lastmod>2022-10-25</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/explorers/crop-yields</loc>
