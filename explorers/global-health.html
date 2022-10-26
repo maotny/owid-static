@@ -2746,10 +2746,10 @@ const grapherConfigs =
   },
   {
     "id": 1828,
-    "version": 19,
+    "version": 20,
     "slug": "hiv-death-rates",
     "title": "Death rate from HIV/AIDS",
-    "subtitle": "The number of deaths from HIV/AIDS per 100,000 people.",
+    "subtitle": "The number of deaths from [HIV/AIDS](hover::general::hiv_aids) per 100,000 people.",
     "sourceDesc": "IHME, Global Burden of Disease (2019)",
     "note": "To allow comparisons between countries and over time this metric is age-standardized.",
     "hideTitleAnnotation": true,
@@ -6436,9 +6436,10 @@ const grapherConfigs =
   },
   {
     "id": 4575,
-    "version": 11,
+    "version": 12,
     "slug": "deaths-from-aids-ihme",
     "title": "Number of deaths from HIV/AIDS",
+    "subtitle": "Annual number of deaths from [HIV/AIDS](hover::general::hiv_aids).",
     "sourceDesc": "IHME, Global Burden of Disease (2019)",
     "hideTitleAnnotation": true,
     "maxTime": 2019,
@@ -6488,13 +6489,25 @@ const grapherConfigs =
       129,
       137,
       78
-    ]
+    ],
+    "details": {
+      "general": {
+        "hiv_aids": {
+          "id": 18,
+          "term": "hiv_aids",
+          "title": "HIV/AIDS",
+          "content": "The human immunodeficiency virus (HIV) targets cells of the immune system which help the body respond to infection. Without effective treatment, the immune system will become weakened to the point that it can no longer fight infection and disease. \n\nAcquired immunodeficiency syndrome (AIDS) is a term that applies to the most advanced stages of HIV infection. It is defined by the occurrence of any of the more than 20 life-threatening cancers or “opportunistic infections” that can take advantage of a weakened immune system. ",
+          "category": "general"
+        }
+      }
+    }
   },
   {
     "id": 4576,
-    "version": 6,
+    "version": 7,
     "slug": "deaths-from-aids-un",
     "title": "Number of deaths from HIV/AIDS",
+    "subtitle": "Annual number of deaths from [HIV/AIDS](hover::general::hiv_aids).",
     "hideTitleAnnotation": true,
     "hasMapTab": true,
     "originUrl": "ourworldindata.org/hiv-aids",
@@ -6539,7 +6552,18 @@ const grapherConfigs =
       129,
       117,
       115
-    ]
+    ],
+    "details": {
+      "general": {
+        "hiv_aids": {
+          "id": 18,
+          "term": "hiv_aids",
+          "title": "HIV/AIDS",
+          "content": "The human immunodeficiency virus (HIV) targets cells of the immune system which help the body respond to infection. Without effective treatment, the immune system will become weakened to the point that it can no longer fight infection and disease. \n\nAcquired immunodeficiency syndrome (AIDS) is a term that applies to the most advanced stages of HIV infection. It is defined by the occurrence of any of the more than 20 life-threatening cancers or “opportunistic infections” that can take advantage of a weakened immune system. ",
+          "category": "general"
+        }
+      }
+    }
   },
   {
     "id": 4577,
