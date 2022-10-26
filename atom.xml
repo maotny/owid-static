@@ -5,7 +5,16 @@
 <id>https://ourworldindata.org/</id>
 <link type="text/html" rel="alternate" href="https://ourworldindata.org"/>
 <link type="application/atom+xml" rel="self" href="https://ourworldindata.org/atom.xml"/>
-<updated>2022-10-20T10:45:00.000Z</updated>
+<updated>2022-10-26T12:00:00.000Z</updated>
+<entry>
+            <title><![CDATA[From $1.90 to $2.15 a day: the updated International Poverty Line]]></title>
+            <id>https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line</id>
+            <link rel="alternate" href="https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line"/>
+            <published>2022-10-26T12:00:00.000Z</published>
+            <updated>2022-10-26T13:17:45.000Z</updated>
+            <author><name>Joe Hasell</name></author>
+            <summary><![CDATA[The World Bank has updated the methods it uses to measure incomes and poverty around the world. What does this mean for our understanding of global poverty?<br><br><a href="https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line" target="_blank"><img src="https://ourworldindata.org/app/uploads/2022/10/Poverty-line-thumbnail-768x402.png"/></a>]]></summary>
+            </entry>
 <entry>
             <title><![CDATA[How many people die from the flu?]]></title>
             <id>https://ourworldindata.org/influenza-deaths</id>
@@ -86,14 +95,5 @@
             <updated>2022-09-12T13:42:57.000Z</updated>
             <author><name>Bastian Herre</name></author>
             <summary><![CDATA[Many more people have democratic rights than in the past. Some of this progress has recently been reversed.<br><br><a href="https://ourworldindata.org/less-democratic" target="_blank"><img src="https://ourworldindata.org/app/uploads/2022/09/less-democratic2-e1662990170102-768x389.png"/></a>]]></summary>
-            </entry>
-<entry>
-            <title><![CDATA[We just published a new data explorer on the Environmental Impacts of Food]]></title>
-            <id>https://ourworldindata.org/new-env-food-data-explorer</id>
-            <link rel="alternate" href="https://ourworldindata.org/new-env-food-data-explorer"/>
-            <published>2022-08-17T10:00:00.000Z</published>
-            <updated>2022-08-17T10:38:21.000Z</updated>
-            <author><name>Hannah Ritchie</name></author>
-            <summary><![CDATA[Explore the environmental impacts of hundreds of specific food products.<br><br><a href="https://ourworldindata.org/new-env-food-data-explorer" target="_blank"><img src="https://ourworldindata.org/app/uploads/2022/08/Env-Impacts-of-Food-Data-Explorer-768x403.png"/></a>]]></summary>
             </entry>
 </feed>
