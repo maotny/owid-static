@@ -1,914 +1,129 @@
 <!doctype html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Fertilizers - Our World in Data</title><meta name="description" content="Fertilizers supply plants with nutrients that are essential for growth.
 How important are fertilizers? How does their use vary across the world?"/><link rel="canonical" href="https://ourworldindata.org/fertilizers"/><link rel="alternate" type="application/atom+xml" href="/atom.xml"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><meta property="fb:app_id" content="1149943818390250"/><meta property="og:url" content="https://ourworldindata.org/fertilizers"/><meta property="og:title" content="Fertilizers"/><meta property="og:description" content="Fertilizers supply plants with nutrients that are essential for growth.
 How important are fertilizers? How does their use vary across the world?"/><meta property="og:image" content="https://ourworldindata.org/uploads/2021/09/reducing-fertilizer-768x301.png"/><meta property="og:site_name" content="Our World in Data"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@OurWorldInData"/><meta name="twitter:creator" content="@OurWorldInData"/><meta name="twitter:title" content="Fertilizers"/><meta name="twitter:description" content="Fertilizers supply plants with nutrients that are essential for growth.
-How important are fertilizers? How does their use vary across the world?"/><meta name="twitter:image" content="https://ourworldindata.org/uploads/2021/09/reducing-fertilizer-768x301.png"/><link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Playfair+Display:400,600,700&amp;display=swap" rel="stylesheet"/><link rel="stylesheet" href="https://ourworldindata.org/assets/commons.css"/><link rel="stylesheet" href="https://ourworldindata.org/assets/owid.css"/><meta name="citation_title" content="Fertilizers"/><meta name="citation_fulltext_html_url" content="https://ourworldindata.org/fertilizers"/><meta name="citation_fulltext_world_readable" content=""/><meta name="citation_publication_date" content="2013/10/26"/><meta name="citation_journal_title" content="Our World in Data"/><meta name="citation_journal_abbrev" content="Our World in Data"/><meta name="citation_author" content="Hannah Ritchie"/><meta name="citation_author" content="Max Roser"/><meta name="citation_author" content="Pablo Rosado"/></head><body class=""><header class="site-header"><div class="wrapper site-navigation-bar"><div class="site-logo"><a href="/">Our World<br/> in Data</a></div><nav class="site-navigation"><div class="topics-button-wrapper"><a href="/#entries" class="topics-button"><div class="label">Articles <br/><strong>by topic</strong></div><div class="icon"><svg width="12" height="6"><path d="M0,0 L12,0 L6,6 Z" fill="currentColor"></path></svg></div></a></div><div><div class="site-primary-navigation"><form class="HeaderSearch" action="/search" method="GET"><input type="search" name="q" placeholder="Search..."/><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" class="svg-inline--fa fa-magnifying-glass " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"></path></svg></div></form><ul class="site-primary-links"><li><a href="/blog" data-track-note="header-navigation">Latest</a></li><li><a href="/about" data-track-note="header-navigation">About</a></li><li><a href="/donate" data-track-note="header-navigation">Donate</a></li></ul></div><div class="site-secondary-navigation"><ul class="site-secondary-links"><li><a href="/charts" data-track-note="header-navigation">All charts</a></li><li><a href="https://sdg-tracker.org" data-track-note="header-navigation">Sustainable Development Goals Tracker</a></li></ul></div></div></nav><div class="header-logos-wrapper"><a href="https://www.oxfordmartin.ox.ac.uk/global-development" class="oxford-logo"><img src="https://ourworldindata.org/oms-logo.svg" alt="Oxford Martin School logo"/></a><a href="https://global-change-data-lab.org/" class="gcdl-logo"><img src="https://ourworldindata.org/gcdl-logo.svg" alt="Global Change Data Lab logo"/></a></div><div class="mobile-site-navigation"><button data-track-note="mobile-search-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" class="svg-inline--fa fa-magnifying-glass " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"></path></svg></button><button data-track-note="mobile-newsletter-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-open-text" class="svg-inline--fa fa-envelope-open-text " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M215.4 96H144 107.8 96v8.8V144v40.4 89L.2 202.5c1.6-18.1 10.9-34.9 25.7-45.8L48 140.3V96c0-26.5 21.5-48 48-48h76.6l49.9-36.9C232.2 3.9 243.9 0 256 0s23.8 3.9 33.5 11L339.4 48H416c26.5 0 48 21.5 48 48v44.3l22.1 16.4c14.8 10.9 24.1 27.7 25.7 45.8L416 273.4v-89V144 104.8 96H404.2 368 296.6 215.4zM0 448V242.1L217.6 403.3c11.1 8.2 24.6 12.7 38.4 12.7s27.3-4.4 38.4-12.7L512 242.1V448v0c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64v0zM176 160H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H176c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H176c-8.8 0-16-7.2-16-16s7.2-16 16-16z"></path></svg></button><button data-track-note="mobile-hamburger-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path></svg></button></div></div></header><div class="alert-banner"><div class="content"><div class="text"><strong>COVID-19 vaccinations, cases, excess mortality, and much more</strong></div><a href="/coronavirus#explore-the-global-situation" data-track-note="covid-banner-click">Explore our COVID-19 data</a></div></div><main><article class="page with-sidebar large-banner"><div class="offset-header"><header class="article-header"><div class="article-titles"><h1 class="entry-title">Fertilizers</h1></div><div class="authors-byline"><a href="/team">by Hannah Ritchie, Max Roser and Pablo Rosado</a></div><div class="tools"><a href="#licence"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons" class="svg-inline--fa fa-creative-commons " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M245.83 214.87l-33.22 17.28c-9.43-19.58-25.24-19.93-27.46-19.93-22.13 0-33.22 14.61-33.22 43.84 0 23.57 9.21 43.84 33.22 43.84 14.47 0 24.65-7.09 30.57-21.26l30.55 15.5c-6.17 11.51-25.69 38.98-65.1 38.98-22.6 0-73.96-10.32-73.96-77.05 0-58.69 43-77.06 72.63-77.06 30.72-.01 52.7 11.95 65.99 35.86zm143.05 0l-32.78 17.28c-9.5-19.77-25.72-19.93-27.9-19.93-22.14 0-33.22 14.61-33.22 43.84 0 23.55 9.23 43.84 33.22 43.84 14.45 0 24.65-7.09 30.54-21.26l31 15.5c-2.1 3.75-21.39 38.98-65.09 38.98-22.69 0-73.96-9.87-73.96-77.05 0-58.67 42.97-77.06 72.63-77.06 30.71-.01 52.58 11.95 65.56 35.86zM247.56 8.05C104.74 8.05 0 123.11 0 256.05c0 138.49 113.6 248 247.56 248 129.93 0 248.44-100.87 248.44-248 0-137.87-106.62-248-248.44-248zm.87 450.81c-112.54 0-203.7-93.04-203.7-202.81 0-105.42 85.43-203.27 203.72-203.27 112.53 0 202.82 89.46 202.82 203.26-.01 121.69-99.68 202.82-202.84 202.82z"></path></svg>Reuse our work freely</a><a href="#citation"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="book" class="svg-inline--fa fa-book " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"></path></svg>Cite this research</a></div></header></div><div class="content-wrapper"><div class="toc-wrapper"><aside class="entry-sidebar"><nav class="entry-toc"><ul><li><a href="#" data-track-note="toc-header">Fertilizers</a></li><li class="section"><a href="#how-many-people-does-synthetic-fertilizer-feed" data-track-note="toc-link">How many people does synthetic fertilizer feed?</a></li><li class="section"><a href="#fertilizer-application-rates" data-track-note="toc-link">Fertilizer application rates</a></li><li class="subsection"><a href="#total-fertilizer" data-track-note="toc-link">Total fertilizer</a></li><li class="subsection"><a href="#nitrogen-fertilizer" data-track-note="toc-link">Nitrogen fertilizer</a></li><li class="subsection"><a href="#phosphate-fertilizer" data-track-note="toc-link">Phosphate fertilizer</a></li><li class="subsection"><a href="#potash-fertilizer" data-track-note="toc-link">Potash fertilizer</a></li><li class="section"><a href="#how-much-fertilizer-do-we-produce-and-consume" data-track-note="toc-link">How much fertilizer do we produce and consume?</a></li><li class="subsection"><a href="#total-fertilizer-consumption" data-track-note="toc-link">Total fertilizer consumption</a></li><li class="subsection"><a href="#total-fertilizer-production-by-nutrient" data-track-note="toc-link">Total fertilizer production by nutrient</a></li><li class="subsection"><a href="#fertilizer-use-per-capita" data-track-note="toc-link">Fertilizer use per capita</a></li><li class="section"><a href="#excess-fertilizer-use-which-countries-cause-environmental-damage-by-overapplying-fertilizers" data-track-note="toc-link">Excess fertilizer use: Which countries cause environmental damage by overapplying fertilizers?</a></li><li class="subsection"><a href="#nearly-two-thirds-of-applied-nitrogen-is-not-used-by-our-crops" data-track-note="toc-link">Nearly two-thirds of applied nitrogen is not used by our crops</a></li><li class="subsection"><a href="#more-than-half-of-applied-phosphorous-is-lost-to-the-environment" data-track-note="toc-link">More than half of applied phosphorous is lost to the environment</a></li><li class="subsection"><a href="#some-countries-could-use-more-fertilizer-some-could-use-less" data-track-note="toc-link">Some countries could use more fertilizer; some could use less</a></li><li class="section"><a href="#can-we-reduce-fertilizer-use-without-sacrificing-food-production" data-track-note="toc-link">Can we reduce fertilizer use without sacrificing food production?</a></li><li class="subsection"><a href="#there-are-large-differences-in-fertilizer-use-across-the-world" data-track-note="toc-link">There are large differences in fertilizer use across the world</a></li><li class="subsection"><a href="#nitrogen-use-efficiency-balancing-yields-and-the-need-for-nutrient-inputs" data-track-note="toc-link">Nitrogen use efficiency: balancing yields and the need for nutrient inputs</a></li><li class="subsection"><a href="#we-can-reduce-nitrogen-pollution-without-a-decline-in-yields" data-track-note="toc-link">We can reduce nitrogen pollution without a decline in yields</a></li><li class="subsection"><a href="#how-can-we-use-nitrogen-more-efficiently" data-track-note="toc-link">How can we use nitrogen more efficiently?</a></li><li class="section"><a href="#how-does-fertilizer-use-relate-to-income" data-track-note="toc-link">How does fertilizer use relate to income?</a></li><li class="section"><a href="#yields-tend-to-increase-with-fertilizer-application" data-track-note="toc-link">Yields tend to increase with fertilizer application</a></li><li class="section"><a href="#data-sources" data-track-note="toc-link">Data Sources</a></li><li class="section"><a href="#endnotes" data-track-note="toc-link">Endnotes</a></li><li class="section"><a href="#licence" data-track-note="toc-link">Licence</a></li><li class="section"><a href="#citation" data-track-note="toc-link">Citation</a></li></ul></nav><div class="toggle-toc"><button data-track-note="page-toggle-toc" aria-label="Open table of contents"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path></svg><span class="label">Contents</span></button></div></aside></div><div class="offset-content"><div class="content-and-footnotes"><div class="article-content"><section><figure data-explorer-src="https://ourworldindata.org/explorers/fertilizers" class="wp-block-full-content-width" style="width: 100%; min-height: 740px; max-height: 950px; height: 100vh; border: 0px none !important;"><div class="loading-indicator"><span style="border-color:#333"></span></div></figure><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>→ <a href="https://ourworldindata.org/explorers/fertilizers" target="_blank" rel="noreferrer noopener">Open the Data Explorer</a> in a new tab.</p></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="block-wrapper" data-reactroot=""><div data-variation="full-width" data-default-open="false" class="wp-block-owid-additional-information"><h3 class="additional-information__heading" data-track-note="additional-information-toggle"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg>All our interactive charts on Fertilizers</h3><div aria-hidden="true" class="rah-static rah-static--height-zero " style="height:0;overflow:hidden"><div style="transition:opacity 250ms ease 0ms;-webkit-transition:opacity 250ms ease 0ms;opacity:0"><div class="content">
-            <div class="wp-block-full-content-width"><div class="related-charts"><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><ul><li class="active"><a href="https://ourworldindata.org/grapher/cereal-crop-yield-vs-fertilizer-application"><img src="https://ourworldindata.org/grapher/exports/cereal-crop-yield-vs-fertilizer-application.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Cereal yield vs. fertilizer use</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/eutrophying-emissions-protein"><img src="https://ourworldindata.org/grapher/exports/eutrophying-emissions-protein.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Eutrophying emissions per 100 grams of  protein</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/eutrophying-emissions-kcal"><img src="https://ourworldindata.org/grapher/exports/eutrophying-emissions-kcal.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Eutrophying emissions per 1000 kilocalories</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/eutrophying-emissions-per-kg-poore"><img src="https://ourworldindata.org/grapher/exports/eutrophying-emissions-per-kg-poore.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Eutrophying emissions per kilogram of food product</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/excess-phosphorous"><img src="https://ourworldindata.org/grapher/exports/excess-phosphorous.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Excess phosphorous from croplands</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/excess-phosphorous-per-hectare"><img src="https://ourworldindata.org/grapher/exports/excess-phosphorous-per-hectare.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Excess phosphorous per hectare of cropland</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertilizer-application-rates-over-the-long-run"><img src="https://ourworldindata.org/grapher/exports/fertilizer-application-rates-over-the-long-run.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Fertilizer application rates over the long-run</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertilizer-consumption-usda"><img src="https://ourworldindata.org/grapher/exports/fertilizer-consumption-usda.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Fertilizer consumption</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertilizer-inputs-per-land"><img src="https://ourworldindata.org/grapher/exports/fertilizer-inputs-per-land.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Fertilizer inputs per unit of agricultural land</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertilizer-production-by-nutrient-type-npk"><img src="https://ourworldindata.org/grapher/exports/fertilizer-production-by-nutrient-type-npk.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Fertilizer production by nutrient type</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertilizer-use-nutrient"><img src="https://ourworldindata.org/grapher/exports/fertilizer-use-nutrient.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Fertilizer use by nutrient</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertilizer-per-capita"><img src="https://ourworldindata.org/grapher/exports/fertilizer-per-capita.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Fertilizer use per capita</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertilizer-use-in-kg-per-hectare-of-arable-land"><img src="https://ourworldindata.org/grapher/exports/fertilizer-use-in-kg-per-hectare-of-arable-land.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Fertilizer use per hectare of cropland</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertilizer-per-hectare"><img src="https://ourworldindata.org/grapher/exports/fertilizer-per-hectare.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Fertilizer use per hectare of cropland</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertilizer-consumption-per-hectare-vs-gdp-per-capita"><img src="https://ourworldindata.org/grapher/exports/fertilizer-consumption-per-hectare-vs-gdp-per-capita.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Fertilizer use vs. GDP per capita</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertilizer-exports-russia-ukraine"><img src="https://ourworldindata.org/grapher/exports/fertilizer-exports-russia-ukraine.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Global fertilizer exports: how much comes from Russia, Belarus &amp; Ukraine?</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/insecticide-use"><img src="https://ourworldindata.org/grapher/exports/insecticide-use.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Insecticide use</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/nitrogen-fertilizer-application-per-hectare-of-cropland"><img src="https://ourworldindata.org/grapher/exports/nitrogen-fertilizer-application-per-hectare-of-cropland.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Nitrogen fertilizer use per hectare of cropland</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/nitrogen-inputs-per-hectare"><img src="https://ourworldindata.org/grapher/exports/nitrogen-inputs-per-hectare.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Nitrogen inputs per hectare of cropland</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/pesticide-breakdown-by-type"><img src="https://ourworldindata.org/grapher/exports/pesticide-breakdown-by-type.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Pesticide breakdown by type</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/pesticide-use-tonnes"><img src="https://ourworldindata.org/grapher/exports/pesticide-use-tonnes.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Pesticide use</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/pesticide-use-per-hectare-of-cropland"><img src="https://ourworldindata.org/grapher/exports/pesticide-use-per-hectare-of-cropland.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Pesticide use per hectare of cropland</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/phosphate-application-per-hectare-of-cropland"><img src="https://ourworldindata.org/grapher/exports/phosphate-application-per-hectare-of-cropland.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Phosphate fertilizer use per hectare of cropland</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/potash-fertilizer-application-per-hectare-of-cropland"><img src="https://ourworldindata.org/grapher/exports/potash-fertilizer-application-per-hectare-of-cropland.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Potash fertilizer use per hectare of cropland</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/share-suicide-pesticide-poisoning"><img src="https://ourworldindata.org/grapher/exports/share-suicide-pesticide-poisoning.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of suicide deaths from pesticide poisoning</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/total-nitrogen-inputs-crops"><img src="https://ourworldindata.org/grapher/exports/total-nitrogen-inputs-crops.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Total nitrogen inputs to crops</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/yield-gap-vs-nitrogen-pollution"><img src="https://ourworldindata.org/grapher/exports/yield-gap-vs-nitrogen-pollution.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Which countries are overapplying nitrogen without gains in crop yields?</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/world-population-supported-by-synthetic-nitrogen-fertilizers"><img src="https://ourworldindata.org/grapher/exports/world-population-supported-by-synthetic-nitrogen-fertilizers.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>World population supported by synthetic nitrogen fertilizers</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/world-population-with-and-without-fertilizer"><img src="https://ourworldindata.org/grapher/exports/world-population-with-and-without-fertilizer.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>World population with and without synthetic nitrogen fertilizers</span></a></li></ul></div><div class="wp-block-column" id="all-charts-preview"><figure data-grapher-src="https://ourworldindata.org/grapher/cereal-crop-yield-vs-fertilizer-application"></figure><div class="gallery-navigation"><button disabled="" class="gallery-arrow prev"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-left-long" class="svg-inline--fa fa-arrow-left-long " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M109.3 288L480 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-370.7 0 73.4-73.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288z"></path></svg></button><div class="gallery-pagination">Chart 1 of 29</div><button class="gallery-arrow next"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-left-long" class="svg-inline--fa fa-arrow-left-long fa-flip-horizontal " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M109.3 288L480 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-370.7 0 73.4-73.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288z"></path></svg></button></div></div></div></div></div>
-            </div></div></div></div></div></section>
-
-
-
-
-
-
-
-
-        
-        <section><div class="section-heading"><div class="wrapper"><div><h2 id="how-many-people-does-synthetic-fertilizer-feed">How many people does synthetic fertilizer feed?<a class="deep-link" href="#how-many-people-does-synthetic-fertilizer-feed"></a></h2></div></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>Predictions of a global food crisis —&nbsp;that the world’s food production would not be able to keep pace with population growth — have a long history. In the 18th century the English cleric Thomas Robert Malthus hypothesized that gains in per capita resources would inevitably be outstripped by population until food supplies finally acted as a barrier to further growth.<a id="ref-1" class="ref" href="#note-1"><sup>1</sup></a></p><p> Such predictions have continued well into the 20th and 21st centuries; in his controversial 1968 book&nbsp;<em>The Population Bomb</em>, Paul Ehrlich argued that global population would continue to grow until the point of mass starvation.<a id="ref-2" class="ref" href="#note-2"><sup>2</sup></a></p><p>Both Malthus and Ehrlich should be surprised to see the current state of the world. Today, we can support a <a href="https://ourworldindata.org/world-population-growth/">global population</a> of around 7.4 billion (and growing), with <a href="https://ourworldindata.org/food-per-person/">many consuming</a> far in excess of requirements.<a id="ref-3" class="ref" href="#note-3"><sup>3</sup></a></p><p> There are a number of scientific and technological innovations which have allowed for rapid growth in crop productivity, particularly in the second half of the 20th century. None of these had a more dramatic impact than the ability to produce synthetic nitrogen fertilizer.</p><p>In fact, it’s estimated that nitrogen fertilizer now supports approximately half of the global population. In other words, Fritz Haber and Carl Bosch — the pioneers of this technological breakthrough — are estimated to have enabled the lives of several billion people, who otherwise would have died prematurely, or never been born at all.<a id="ref-4" class="ref" href="#note-4"><sup>4</sup></a></p><p> It may be the case that the existence of every second person reading this attributes back to their 20th century innovation.</p></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="atmospheric-alchemy-making-fertilizer-from-air">Atmospheric alchemy: making fertilizer from air<a class="deep-link" href="#atmospheric-alchemy-making-fertilizer-from-air"></a></h4></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>Understanding the significance of nitrogen fertilizer requires a brief explanation of its role in global crop production. In addition to water and sunlight, crops need three key nutrients to grow: nitrogen, phosphorous and potassium. Nitrogen is often the nutrient that is limiting to further crop production, despite Earth’s atmosphere containing more than 78 percent. This is because in the atmosphere, nitrogen exists in its largely unreactive N<sub>2&nbsp;</sub>form, rather than in a reactive form which plants can utilize.</p><p>For millennia, agricultural crop had to rely on the limited quantity of reactive nitrogen which was naturally occurring in soils and ecosystems.<a id="ref-5" class="ref" href="#note-5"><sup>5</sup></a></p><p> This remained the case until 1908 when the German chemist <a href="https://en.wikipedia.org/wiki/Fritz_Haber">Fritz Haber</a> developed a process by which atmospheric N<sub>2</sub> could be converted into ammonia (NH<sub>3</sub>) – a form of reactive nitrogen which plants can use.<a id="ref-6" class="ref" href="#note-6"><sup>6</sup></a></p><p><a href="https://en.wikipedia.org/wiki/Carl_Bosch">Carl Bosch</a>, another German chemist and engineer, was able to take Fritz Haber’s laboratory-scale process and develop it at an industrial scale. The combined “Haber-Bosch process” remains the primary industrial method for the production of synthetic nitrogen fertilizer.</p></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="how-many-people-does-nitrogen-fertilizer-feed">How many people does nitrogen fertilizer feed?<a class="deep-link" href="#how-many-people-does-nitrogen-fertilizer-feed"></a></h4></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>In simple terms, crops typically respond positively to nutrient inputs. As we explore in detail in our entry on <a href="https://ourworldindata.org/crop-yields">Crop Yields,</a>&nbsp;crop yields and fertilizer application typically show a strong <a href="https://ourworldindata.org/grapher/cereal-crop-yield-vs-fertilizer-application">positive relationship</a>. Fertilizer application, combined with other productivity factors such as improved crop varieties, genetic breeding, irrigation and mechanization led to a significant inflection in <a href="https://ourworldindata.org/yields-and-land-use-in-agriculture/#yields-in-the-uk-over-the-long-run">crop yield trends</a> across the world in the 20th century. It should be noted that this growth in agricultural output&nbsp;— from both industrial and organic farming&nbsp;— has undoubtedly&nbsp; resulted in important ecological and resource pressures. However, as we cover in detail in a <a href="https://ourworldindata.org/is-organic-agriculture-better-for-the-environment">recent blog</a> post, organic farming (that is, agriculture without synthetic inputs) can often have a greater environmental impact than conventional agriculture.</p><p>So, how many people does synthetic nitrogen fertilizer actually feed? Below we draw upon several published estimates, which tend to converge on a similar share of the global population. Results published by Erisman et al. (2012) in the scientific magazine&nbsp;<em>Nature&nbsp;</em>are shown in the chart.<a id="ref-7" class="ref" href="#note-7"><sup>7</sup></a></p><p> These results also tie closely with Vaclav Smil’s widely-quoted estimates, which we discuss later.<a id="ref-8" class="ref" href="#note-8"><sup>8</sup></a></p><ul><li>In the chart we see the actual global population trend in blue — growing from around 1.65 billion in 1900 to almost 7.4 billion in 2015.</li><li>The line in grey represents estimates of the number of people fed by synthetic nitrogen fertilizers. As we see, nitrogen fertilizers only became available following the commercialization of the Haber-Bosch process from 1910 onwards. Since then, Erisman et al. estimate it has supported 42 percent of global births over the past century. This amounts to 44 percent of the global population in 2000 being fed by nitrogen fertilizers, rising to 48 percent in 2008. Here we have extended this estimate to 2015 with the continuation of the assumption that 48 percent of the global population are fed by nitrogen fertilizers. Since the share supported by the process continues to rise, this may in fact be a conservative estimate. This means that in 2015, nitrogen fertilizers supported 3.5 billion people that otherwise would have died.</li><li>The red line represents the size of the global population which would therefore be supported&nbsp;<em>without</em> the use of nitrogenous fertilizers. This is shown simply as the actual population minus the number of people reliant on them for food production. Without this innovation, global population may have been reduced to only 3.5 to 4 billion people.</li></ul></div><div class="wp-block-column"><div class="wp-sticky-container"><figure data-grapher-src="https://ourworldindata.org/grapher/world-population-with-and-without-haber-bosch-nitrogen" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/world-population-with-and-without-haber-bosch-nitrogen" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/world-population-with-and-without-haber-bosch-nitrogen_v1_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="World population with and without haber bosch nitrogen v1 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure></div></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="how-can-we-estimate-the-number-of-people-fed">How can we estimate the number of people fed?<a class="deep-link" href="#how-can-we-estimate-the-number-of-people-fed"></a></h4></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>Firstly, it’s important to note that these estimates are understandably difficult to derive with a high degree of certainty. This difficulty arises for several reasons. Notably there have been a number of additional contributors to productivity gains in agriculture throughout the 20th and 21st centuries, including crop breeding, irrigation, mechanization, and farm management techniques — untangling the individual role of nitrogen fertilizers alone is challenging. Secondly, the global food system is complex and geographically highly unequal: high-income countries have moved beyond the stage of aiming to meet basic nutritional requirements from food production, and now dedicate a large share of food production to meat (which is a much less efficient nitrogen converter) and bioenergy production.<a id="ref-9" class="ref" href="#note-9"><sup>9</sup></a></p><p>Nonetheless, general estimates tend to converge on a figure in the range of 40-50 percent of the population. Let’s look at three widely cited estimates:</p><ul><li>Utilizing a range of long-term evaluations, spanning a total of&nbsp;362 seasons of crop production, of crop yields and nutrient budgets across the world, Stewart et al. (2005) concluded that between 30-50 percent of yield increases could be attributed to synthetic fertilizer inputs (and typically even higher in the tropics).<a id="ref-10" class="ref" href="#note-10"><sup>10</sup></a></li></ul><p> Smil (2004) reached similar conclusions, suggesting with high confidence that global crop harvests would be approximately half of current levels without nitrogen fertilizer inputs.<a id="ref-11" class="ref" href="#note-11"><sup>11</sup></a></p><li>Vaclav Smil derives his calculations based on the use of nitrogen crop, livestock and human protein (of which the building blocks are nitrogen) balances. His nitrogen balance concluded that 85 percent of all nitrogen in food protein for humans is derived from cropland; the remainder came from seafood or livestock on grazing land. Since nitrogen fertilizer provided around half of the nutrient in this harvested crop, he estimated that it provided 40 percent of dietary protein in the mid-1990s. He concluded that 40 percent of the global population in 2000 were dependent on food production from synthetic fertilizers.</li><li>Erisman et al. (2012) have since updated these estimates to the year 2008, estimating a similar (but slightly higher) share of 44 percent in 2000 and 48 percent in 2008.</li><p>The complexities of the global food system make it challenging to provide a firm figure, however, it’s likely that just under half of the global population is dependent on synthetic nitrogen fertilizers. This is further shown in the chart. As a result, the Haber-Bosch process is likely to have enabled the lives of at least 3 to 3.5 billion people today.</p></div><div class="wp-block-column"><div class="wp-sticky-container"><figure data-grapher-src="https://ourworldindata.org/grapher/world-population-supported-by-synthetic-nitrogen-fertilizers" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/world-population-supported-by-synthetic-nitrogen-fertilizers" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/world-population-supported-by-synthetic-nitrogen-fertilizers_v2_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="World population supported by synthetic nitrogen fertilizers v2 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure></div></div></div><div class="block-wrapper" data-reactroot=""><div data-variation="full-width" data-default-open="false" class="wp-block-owid-additional-information"><h3 class="additional-information__heading" data-track-note="additional-information-toggle"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg>Additional discussion:</h3><div aria-hidden="true" class="rah-static rah-static--height-zero " style="height:0;overflow:hidden"><div style="transition:opacity 250ms ease 0ms;-webkit-transition:opacity 250ms ease 0ms;opacity:0"><div class="content">
-
-
-
-
-
-<div class="wp-block-columns is-style-sticky-right">
+How important are fertilizers? How does their use vary across the world?"/><meta name="twitter:image" content="https://ourworldindata.org/uploads/2021/09/reducing-fertilizer-768x301.png"/><link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Playfair+Display:400,600,700&amp;display=swap" rel="stylesheet"/><link rel="stylesheet" href="https://ourworldindata.org/assets/commons.css"/><link rel="stylesheet" href="https://ourworldindata.org/assets/owid.css"/><meta name="citation_title" content="Fertilizers"/><meta name="citation_fulltext_html_url" content="https://ourworldindata.org/fertilizers"/><meta name="citation_fulltext_world_readable" content=""/><meta name="citation_publication_date" content="2022/10/26"/><meta name="citation_journal_title" content="Our World in Data"/><meta name="citation_journal_abbrev" content="Our World in Data"/><meta name="citation_author" content="Hannah Ritchie"/><meta name="citation_author" content="Max Roser"/><meta name="citation_author" content="Pablo Rosado"/></head><body class="topic-page"><header class="site-header"><div class="wrapper site-navigation-bar"><div class="site-logo"><a href="/">Our World<br/> in Data</a></div><nav class="site-navigation"><div class="topics-button-wrapper"><a href="/#entries" class="topics-button"><div class="label">Articles <br/><strong>by topic</strong></div><div class="icon"><svg width="12" height="6"><path d="M0,0 L12,0 L6,6 Z" fill="currentColor"></path></svg></div></a></div><div><div class="site-primary-navigation"><form class="HeaderSearch" action="/search" method="GET"><input type="search" name="q" placeholder="Search..."/><div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" class="svg-inline--fa fa-magnifying-glass " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"></path></svg></div></form><ul class="site-primary-links"><li><a href="/blog" data-track-note="header-navigation">Latest</a></li><li><a href="/about" data-track-note="header-navigation">About</a></li><li><a href="/donate" data-track-note="header-navigation">Donate</a></li></ul></div><div class="site-secondary-navigation"><ul class="site-secondary-links"><li><a href="/charts" data-track-note="header-navigation">All charts</a></li><li><a href="https://sdg-tracker.org" data-track-note="header-navigation">Sustainable Development Goals Tracker</a></li></ul></div></div></nav><div class="header-logos-wrapper"><a href="https://www.oxfordmartin.ox.ac.uk/global-development" class="oxford-logo"><img src="https://ourworldindata.org/oms-logo.svg" alt="Oxford Martin School logo"/></a><a href="https://global-change-data-lab.org/" class="gcdl-logo"><img src="https://ourworldindata.org/gcdl-logo.svg" alt="Global Change Data Lab logo"/></a></div><div class="mobile-site-navigation"><button data-track-note="mobile-search-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" class="svg-inline--fa fa-magnifying-glass " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"></path></svg></button><button data-track-note="mobile-newsletter-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope-open-text" class="svg-inline--fa fa-envelope-open-text " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M215.4 96H144 107.8 96v8.8V144v40.4 89L.2 202.5c1.6-18.1 10.9-34.9 25.7-45.8L48 140.3V96c0-26.5 21.5-48 48-48h76.6l49.9-36.9C232.2 3.9 243.9 0 256 0s23.8 3.9 33.5 11L339.4 48H416c26.5 0 48 21.5 48 48v44.3l22.1 16.4c14.8 10.9 24.1 27.7 25.7 45.8L416 273.4v-89V144 104.8 96H404.2 368 296.6 215.4zM0 448V242.1L217.6 403.3c11.1 8.2 24.6 12.7 38.4 12.7s27.3-4.4 38.4-12.7L512 242.1V448v0c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64v0zM176 160H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H176c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H176c-8.8 0-16-7.2-16-16s7.2-16 16-16z"></path></svg></button><button data-track-note="mobile-hamburger-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path></svg></button></div></div></header><div class="alert-banner"><div class="content"><div class="text"><strong>COVID-19 vaccinations, cases, excess mortality, and much more</strong></div><a href="/coronavirus#explore-the-global-situation" data-track-note="covid-banner-click">Explore our COVID-19 data</a></div></div><main><article class="page no-sidebar large-banner"><div class="offset-header"><header class="article-header"><div class="article-titles"><h1 class="entry-title">Fertilizers</h1></div><div class="authors-byline"><a href="/team">by Hannah Ritchie, Max Roser and Pablo Rosado</a></div><div class="tools"><a href="#licence"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="creative-commons" class="svg-inline--fa fa-creative-commons " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M245.83 214.87l-33.22 17.28c-9.43-19.58-25.24-19.93-27.46-19.93-22.13 0-33.22 14.61-33.22 43.84 0 23.57 9.21 43.84 33.22 43.84 14.47 0 24.65-7.09 30.57-21.26l30.55 15.5c-6.17 11.51-25.69 38.98-65.1 38.98-22.6 0-73.96-10.32-73.96-77.05 0-58.69 43-77.06 72.63-77.06 30.72-.01 52.7 11.95 65.99 35.86zm143.05 0l-32.78 17.28c-9.5-19.77-25.72-19.93-27.9-19.93-22.14 0-33.22 14.61-33.22 43.84 0 23.55 9.23 43.84 33.22 43.84 14.45 0 24.65-7.09 30.54-21.26l31 15.5c-2.1 3.75-21.39 38.98-65.09 38.98-22.69 0-73.96-9.87-73.96-77.05 0-58.67 42.97-77.06 72.63-77.06 30.71-.01 52.58 11.95 65.56 35.86zM247.56 8.05C104.74 8.05 0 123.11 0 256.05c0 138.49 113.6 248 247.56 248 129.93 0 248.44-100.87 248.44-248 0-137.87-106.62-248-248.44-248zm.87 450.81c-112.54 0-203.7-93.04-203.7-202.81 0-105.42 85.43-203.27 203.72-203.27 112.53 0 202.82 89.46 202.82 203.26-.01 121.69-99.68 202.82-202.84 202.82z"></path></svg>Reuse our work freely</a><a href="#citation"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="book" class="svg-inline--fa fa-book " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"></path></svg>Cite this research</a></div></header></div><nav class="sticky-nav"><style>
+                    [id] {
+                         scroll-margin-top:70px;
+                    }
+                    .wp-sticky-container {
+                        top: 70px;
+                    }</style><ul class="sticky-nav-container"><li><a tabindex="0" class="" href="#introduction">Introduction</a></li><li><a tabindex="0" class="" href="#explore-data-on-fertilizers">Data Explorer</a></li><li><a tabindex="0" class="" href="#research-and-writing">Research &amp; Writing</a></li><li><a tabindex="0" class="" href="#all-our-interactive-charts-on-fertilizers">Charts</a></li><li><a tabindex="0" class="" href="#endnotes">Endnotes</a></li><li><a tabindex="0" class="" href="#citation">Cite This Work</a></li><li><a tabindex="0" class="" href="#licence">Reuse This Work</a></li></ul></nav><div class="content-wrapper"><div class="offset-content"><div class="content-and-footnotes"><div class="article-content"><section><div class="wp-block-columns front-matter">
 <div class="wp-block-column">
-<h4>Could we have achieved the same without synthetic nitrogen?</h4>
+<p>Fertilizers have played an essential role in feeding a growing global population. It’s estimated that just under half of the people alive today are dependent on synthetic fertilizers.</p>
 
 
 
-<p>If Fritz Haber had not discovered how to make synthetic nitrogen, would we have found alternative solutions to support a population as large as today’s?</p>
+<p>They can bring environmental benefits too: fertilizers can increase crop yields. By increasing crop yields we can reduce the amount of <a href="https://ourworldindata.org/land-use">land we use for agriculture</a>.</p>
 
 
 
-<p>Addressing this question partly relies on retrospective guesswork about whether, in the absence of synthetic nitrogen fertilizer, we would have managed to supply nitrogen via other methods. If Fritz Haber or Carl Bosch (or any scientist to follow) hadn’t developed a method for transforming inert atmospheric nitrogen into reactive nitrogen plants could utilize, what is the likelihood that other solutions would have filled the gap?</p>
+<p>But they also create environmental pollution. Many countries overapply fertilizers, leading to the runoff of nutrients into water systems and ecosystems.</p>
 
 
 
-<p>One solution would have been to greatly increase the production of nitrogen-fixing legume crops. As noted earlier, leguminous crops (i.e. peas, beans and other pulses) possess a unique ability to transform (or ‘fix’) atmospheric nitrogen into reactive nitrogen in the soil. Growing these crops can therefore increase soil nitrogen sources over time. Whilst this might have credibly increased the total availability of reactive nitrogen to some extent, it’s unlikely to have been a widely-scalable solution for several reasons.</p>
+<p>A problem we need to tackle is using fertilizers efficiently: yielding its benefits to feed a growing population while reducing the environmental damage that they cause.</p>
 
 
 
-<p>Firstly, legumes tend to be lower-yielding relative to cereals and other staple crops. This is true of <a href="https://ourworldindata.org/grapher/agricultural-yields-in-key-crops-per-hectare-1961-2014?country=OWID_WRL">yields today</a>, but also true of historical yields — in the late nineteenth century, Western European legume yields were typically less than half that of staple cereals.<a id="ref-12" class="ref" href="#note-12"><sup>12</sup></a></p>
-
-
-
-<p> Farmers in the 19th and early 20th century would have had little incentive to widely adopt these crops. Secondly, despite the many nutritional and environmental benefits of legumes, they form only a <a href="https://ourworldindata.org/grapher/dietary-compositions-by-commodity-group-1961-2013">small component</a> of most peoples’ diets. Furthermore, preferences for pulses and legumes <a href="https://ourworldindata.org/explorers/global-food?tab=chart&amp;facet=none&amp;Food=Pulses&amp;Metric=Food+available+for+consumption&amp;Per+Capita=false&amp;country=BRA~CHN~IND">tend to decline</a>&nbsp;as incomes rise and food choices widen. The overall appetite for legumes&nbsp;— both from a farmer’s and dietary preference perspective means it would have been high unlikely that they would have been able to supply nitrogen at a scale close to that of the Haber-Bosch process throughout the 20th century.</p>
-
-
-
-<p>Another potential nitrogen source is that of organic wastes&nbsp;— nitrogen is supplied in many organic farming systems today in the form of animal manure. Couldn’t we have relied on these non-synthetic nitrogen sources instead? In fact, we did; prior to Haber-Bosch and the creation of synthetic nitrogen inputs, most agricultural systems relied on the recycling of manure, wastes and other biomass back into the soil to maintain nitrogen balance. The issue is that these existed in limited supply: recycling nutrients, by definition, means you have a limited supply. This allowed societies to sustain moderate levels of nitrogen but did not allow them to&nbsp;<em>create more</em>. As Smil (2004) discusses in detail, previous societies could typically support only small numbers of domesticated animals, and as a result, had very limited supplies of manure and animal wastes.<a id="ref-13" class="ref" href="#note-13"><sup>13</sup></a></p>
-
-
-
-<p>Synthetic nitrogen not only increased crop yields, but also enabled an <a href="https://ourworldindata.org/grapher/livestock-counts">expansion in livestock numbers</a>. Increased productivity and excess crops allowed farmers to allocate an increasing share of output to livestock&nbsp;— particularly grain-fed animals. Overall, this has increased the amount of reactive nitrogen which can be recycled through our agricultural systems; with more livestock, we also have more manure to recycle. But it’s important to recognise that such levels of organic nitrogen sources are only available because of previous synthetic nitrogen inputs. The creation of synthetic nitrogen delivered reactive nitrogen to the soil which could then be recycled in the form of organic wastes and biomass. If organic nitrogen could today support a large share of the global population then it is <em>because</em> synthetic nitrogen has enabled it to do so by adding reactive nitrogen to our agricultural systems. Without Fritz Haber’s discovery, this would never have been a possibility.</p>
+<p id="introduction">On this page you can find all our data, visualizations, and writing relating to fertilizers.</p>
 </div>
 
 
 
-<div class="wp-block-column"><div class="wp-sticky-container"></div></div>
+<div class="wp-block-column">
+<div class="wp-container-635cd256b857e wp-block-group related-topics">
+<p>Related topics</p>
+
+
+
+<ul><li><a href="https://ourworldindata.org/land-use">Land use</a></li><li><a href="https://ourworldindata.org/biodiversity">Biodiversity</a></li><li><a href="https://ourworldindata.org/crop-yields">Crop Yields</a></li></ul>
 </div>
+</div>
+</div><h3 id="explore-data-on-fertilizers">Explore data on Fertilizers<a class="deep-link" href="#explore-data-on-fertilizers"></a></h3><figure data-explorer-src="https://ourworldindata.org/explorers/fertilizers?facet=none&amp;Input=Synthetic+fertilizer&amp;Nutrient=Nitrogen&amp;Metric=Applied+%28per+hectare%29&amp;Share+of+world+total=false&amp;country=MMR~Eastern+Asia~ISL&amp;hideControls=false" class="wp-block-full-content-width" style="width: 100%; min-height: 740px; max-height: 950px; height: 100vh; border: 0px none;"><div class="loading-indicator"><span style="border-color:#333"></span></div></figure><div class="wp-container-635cd256ba9a6 wp-block-group wp-block-research-and-writing">
+<h2 id="research-and-writing">Research &amp; Writing<a class="deep-link" href="#research-and-writing"></a></h2>
 
-</div></div></div></div></div></section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="wp-container-635cd256ba735 wp-block-group research-and-writing__top">      <div class="wp-block-owid-card  with-image" data-no-lightbox="">
+        <a href="https://ourworldindata.org/how-many-people-does-synthetic-fertilizer-feed">
+            <figure><img width="768" height="402" src="https://ourworldindata.org/uploads/2022/10/Fertilizer-half-the-world-768x402.png" class="attachment-medium_large size-medium_large" alt="Fertilizer half the world" loading="lazy" srcset="https://ourworldindata.org/uploads/2022/10/Fertilizer-half-the-world-768x402.png 768w, https://ourworldindata.org/uploads/2022/10/Fertilizer-half-the-world-400x209.png 400w, https://ourworldindata.org/uploads/2022/10/Fertilizer-half-the-world-800x419.png 800w, https://ourworldindata.org/uploads/2022/10/Fertilizer-half-the-world-150x79.png 150w, https://ourworldindata.org/uploads/2022/10/Fertilizer-half-the-world.png 1200w" sizes="(max-width: 768px) 100vw, 768px" data-high-res-src="https://ourworldindata.org/uploads/2022/10/Fertilizer-half-the-world.png"></figure>
+            <div class="text-wrapper">
+              <div class="title">How many people does synthetic fertilizer feed?</div>
+              <div class="description">
                 
 
+<p>It’s estimated that around half of the world population today are reliant on fertilizer for food production.</p>
 
 
 
+<p>Hannah Ritchie</p>
 
 
+              </div>
+            </div>
+        </a>
+      </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="wp-container-635cd256ba4ab wp-block-group research-and-writing__top-right">      <div class="wp-block-owid-card  with-image" data-no-lightbox="">
+        <a href="https://ourworldindata.org/reducing-fertilizer-use">
+            <figure><img width="768" height="301" src="https://ourworldindata.org/uploads/2021/09/reducing-fertilizer-768x301.png" class="attachment-medium_large size-medium_large" alt="Reducing fertilizer" loading="lazy" srcset="https://ourworldindata.org/uploads/2021/09/reducing-fertilizer-768x301.png 768w, https://ourworldindata.org/uploads/2021/09/reducing-fertilizer-400x157.png 400w, https://ourworldindata.org/uploads/2021/09/reducing-fertilizer-800x314.png 800w, https://ourworldindata.org/uploads/2021/09/reducing-fertilizer-150x59.png 150w, https://ourworldindata.org/uploads/2021/09/reducing-fertilizer-1536x603.png 1536w, https://ourworldindata.org/uploads/2021/09/reducing-fertilizer.png 1600w" sizes="(max-width: 768px) 100vw, 768px" data-high-res-src="https://ourworldindata.org/uploads/2021/09/reducing-fertilizer.png"></figure>
+            <div class="text-wrapper">
+              <div class="title">Can we reduce fertilizer use without sacrificing food production?</div>
+              <div class="description">
                 
 
-
-	
-
-
-<section><div class="section-heading"><div class="wrapper"><div><h2 id="fertilizer-application-rates">Fertilizer application rates<a class="deep-link" href="#fertilizer-application-rates"></a></h2></div><div class="in-this-section"><div class="label">In this section</div><div class="border"></div></div><ul class="subheadings"><li><a href="#total-fertilizer"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg><span>Total fertilizer</span></a></li><li><a href="#nitrogen-fertilizer"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg><span>Nitrogen fertilizer</span></a></li><li><a href="#phosphate-fertilizer"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg><span>Phosphate fertilizer</span></a></li><li><a href="#potash-fertilizer"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg><span>Potash fertilizer</span></a></li></ul></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><h4 id="fertilizer-application-over-the-long-run">Fertilizer application over the long run<a class="deep-link" href="#fertilizer-application-over-the-long-run"></a></h4></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><div class="wp-block-columns is-style-sticky-left"><div class="wp-block-column"><div class="wp-sticky-container"><figure data-grapher-src="https://ourworldindata.org/grapher/fertilizer-application-rates-over-the-long-run" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/fertilizer-application-rates-over-the-long-run" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/fertilizer-application-rates-over-the-long-run_v2_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Fertilizer application rates over the long run v2 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure></div></div><div class="wp-block-column"></div></div><h3 id="total-fertilizer">Total fertilizer<a class="deep-link" href="#total-fertilizer"></a></h3><div class="wp-block-columns is-style-sticky-left"><div class="wp-block-column"><div class="wp-sticky-container"><figure data-grapher-src="https://ourworldindata.org/grapher/fertilizer-use-in-kg-per-hectare-of-arable-land" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/fertilizer-use-in-kg-per-hectare-of-arable-land" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/fertilizer-use-in-kg-per-hectare-of-arable-land_v7_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Fertilizer use in kg per hectare of arable land v7 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure></div></div><div class="wp-block-column"></div></div><h3 id="nitrogen-fertilizer">Nitrogen fertilizer<a class="deep-link" href="#nitrogen-fertilizer"></a></h3><div class="wp-block-columns is-style-sticky-left"><div class="wp-block-column"><div class="wp-sticky-container"><figure data-grapher-src="https://ourworldindata.org/grapher/nitrogen-fertilizer-application-per-hectare-of-cropland" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/nitrogen-fertilizer-application-per-hectare-of-cropland" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/nitrogen-fertilizer-application-per-hectare-of-cropland_v6_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Nitrogen fertilizer application per hectare of cropland v6 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure></div></div><div class="wp-block-column"></div></div><h3 id="phosphate-fertilizer">Phosphate fertilizer<a class="deep-link" href="#phosphate-fertilizer"></a></h3><div class="wp-block-columns is-style-sticky-left"><div class="wp-block-column"><div class="wp-sticky-container"><figure data-grapher-src="https://ourworldindata.org/grapher/phosphate-application-per-hectare-of-cropland" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/phosphate-application-per-hectare-of-cropland" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/phosphate-application-per-hectare-of-cropland_v5_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Phosphate application per hectare of cropland v5 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure></div></div><div class="wp-block-column"></div></div><h3 id="potash-fertilizer">Potash fertilizer<a class="deep-link" href="#potash-fertilizer"></a></h3><div class="wp-block-columns is-style-sticky-left"><div class="wp-block-column"><div class="wp-sticky-container"><figure data-grapher-src="https://ourworldindata.org/grapher/potash-fertilizer-application-per-hectare-of-cropland" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/potash-fertilizer-application-per-hectare-of-cropland" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/potash-fertilizer-application-per-hectare-of-cropland_v6_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Potash fertilizer application per hectare of cropland v6 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure></div></div><div class="wp-block-column"></div></div></section>
+<p>Some countries need more fertilizers to increase crop yields. But some could cut back without sacrificing food production.</p>
 
 
 
+<p>Hannah Ritchie</p>
+
+
+              </div>
+            </div>
+        </a>
+      </div>
+
+
+<div class="wp-container-635cd256ba230 wp-block-group">
+<div class="wp-container-635cd256b9fc1 wp-block-group research-and-writing__shorts">
+<h5>More key articles on Fertilizers</h5>
 
 
 
-
-
-                
-
-
+<div class="wp-container-635cd256b9815 wp-block-group">
+<h6><a href="https://ourworldindata.org/excess-fertilizer">Excess fertilizer use: Which countries cause environmental damage by overapplying fertilizers?</a></h6>
 
 
 
-
-
-
-                
-
-
-
-
-
-
-
-
-                
-
-
-
-
-
-
-
-
-                
-
-
-
-
-
-
-
-
-                
-
-
-
-<section><div class="section-heading"><div class="wrapper"><div><h2 id="how-much-fertilizer-do-we-produce-and-consume">How much fertilizer do we produce and consume?<a class="deep-link" href="#how-much-fertilizer-do-we-produce-and-consume"></a></h2></div><div class="in-this-section"><div class="label">In this section</div><div class="border"></div></div><ul class="subheadings"><li><a href="#total-fertilizer-consumption"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg><span>Total fertilizer consumption</span></a></li><li><a href="#total-fertilizer-production-by-nutrient"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg><span>Total fertilizer production by nutrient</span></a></li><li><a href="#fertilizer-use-per-capita"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg><span>Fertilizer use per capita</span></a></li></ul></div></div><h3 id="total-fertilizer-consumption">Total fertilizer consumption<a class="deep-link" href="#total-fertilizer-consumption"></a></h3><div class="wp-block-columns is-style-side-by-side">
-<div class="wp-block-column">
-
-                <figure data-grapher-src="https://ourworldindata.org/grapher/fertilizer-consumption-usda?country=~OWID_WRL" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/fertilizer-consumption-usda?country=~OWID_WRL" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/fertilizer-consumption-usda-ed9cc8bcc7e00c8a5b0c73d8f2310738_v3_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Fertilizer consumption usda ed9cc8bcc7e00c8a5b0c73d8f2310738 v3 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure>
+<p>Hannah Ritchie</p>
 </div>
 
 
 
-<div class="wp-block-column">
+<div class="wp-container-635cd256b9abd wp-block-group">
+<h6><a href="https://ourworldindata.org/africa-yields-problem">Increasing agricultural productivity across Sub-Saharan Africa is one of the most important problems this century</a></h6>
 
-                <figure data-grapher-src="https://ourworldindata.org/grapher/fertilizer-consumption-usda?tab=map&amp;country=~OWID_WRL" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/fertilizer-consumption-usda?tab=map&amp;country=~OWID_WRL" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/fertilizer-consumption-usda-f217c98f0abae553733112de20db96f9_v3_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Fertilizer consumption usda f217c98f0abae553733112de20db96f9 v3 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure>
-</div>
-</div><h3 id="total-fertilizer-production-by-nutrient">Total fertilizer production by nutrient<a class="deep-link" href="#total-fertilizer-production-by-nutrient"></a></h3><div class="wp-block-columns is-style-side-by-side">
-<div class="wp-block-column">
 
-                <figure data-grapher-src="https://ourworldindata.org/grapher/fertilizer-production-by-nutrient-type-npk" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/fertilizer-production-by-nutrient-type-npk" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/fertilizer-production-by-nutrient-type-npk_v3_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Fertilizer production by nutrient type npk v3 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure>
+
+<p>Hannah Ritchie</p>
 </div>
 
 
 
-<div class="wp-block-column"></div>
-</div><h3 id="fertilizer-use-per-capita">Fertilizer use per capita<a class="deep-link" href="#fertilizer-use-per-capita"></a></h3><div class="wp-block-columns is-style-side-by-side">
-<div class="wp-block-column">
+<div class="wp-container-635cd256b9d53 wp-block-group">
+<h6><a href="https://ourworldindata.org/yields-vs-land-use-how-has-the-world-produced-enough-food-for-a-growing-population">Do we only have 60 harvests left</a><a href="https://ourworldindata.org/soil-lifespans">?</a></h6>
 
-                <figure data-grapher-src="https://ourworldindata.org/grapher/fertilizer-per-capita" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/fertilizer-per-capita" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/fertilizer-per-capita_v2_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Fertilizer per capita v2 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure>
+
+
+<p>Hannah Ritchie</p>
 </div>
-
-
-
-<div class="wp-block-column"></div>
-</div></section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section><div class="section-heading"><div class="wrapper"><div><h2 id="excess-fertilizer-use-which-countries-cause-environmental-damage-by-overapplying-fertilizers">Excess fertilizer use: Which countries cause environmental damage by overapplying fertilizers?<a class="deep-link" href="#excess-fertilizer-use-which-countries-cause-environmental-damage-by-overapplying-fertilizers"></a></h2></div><div class="in-this-section"><div class="label">In this section</div><div class="border"></div></div><ul class="subheadings"><li><a href="#nearly-two-thirds-of-applied-nitrogen-is-not-used-by-our-crops"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg><span>Nearly two-thirds of applied nitrogen is not used by our crops</span></a></li><li><a href="#more-than-half-of-applied-phosphorous-is-lost-to-the-environment"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg><span>More than half of applied phosphorous is lost to the environment</span></a></li><li><a href="#some-countries-could-use-more-fertilizer-some-could-use-less"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg><span>Some countries could use more fertilizer; some could use less</span></a></li></ul></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>Fertilizers have brought the world massive socioeconomic and developmental benefits. They improve crop yields. This has two advantages. First, we can grow more food. Second, we need to use less land for farming, and therefore destroy fewer ecosystems in the process.</p><p>But alongside these environmental benefits, there are some downsides. Not all of the nutrients we apply – in fact, as we explore in a <strong><a href="https://ourworldindata.org/reducing-fertilizer-use">related article</a></strong>, less than half of it globally – is used by the crops.<a id="ref-14" class="ref" href="#note-14"><sup>14</sup></a> The rest runs off our farms into the natural environment: if this happens then it pollutes rivers and lakes; causes imbalances in ecosystems and affects biodiversity.</p><p>What is the global extent of fertilizer pollution? Which countries cause the most avoidable pollution?</p><p>We can measure this using a metric called “<em>excess</em> nutrients”. This metric shows us how much of the nutrients that farmers apply as fertilizer runs off into the natural environment.</p><p>In a paper published in <em>Science</em>, Paul West and his colleagues mapped the nutrient balance for nitrogen and phosphorus – the main nutrients we add to our crops – across the world.<a id="ref-15" class="ref" href="#note-15"><sup>15</sup></a> They quantified the amount of nutrient <em>inputs</em> – this can come in the form of synthetic fertilizers, organic additions such as manure, or even biological fixation of nitrogen from legume plants – and the <em>output</em>, which is the amount of nitrogen or phosphorus that is stored in the crops that we harvest.&nbsp;</p><p>The difference between inputs and outputs is “excess”: nutrients that are not used by the crops and instead run-off into the natural environment.</p></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><h3 id="nearly-two-thirds-of-applied-nitrogen-is-not-used-by-our-crops">Nearly two-thirds of applied nitrogen is not used by our crops<a class="deep-link" href="#nearly-two-thirds-of-applied-nitrogen-is-not-used-by-our-crops"></a></h3><div class="wp-block-columns is-style-side-by-side">
-<div class="wp-block-column">
-<p>This research finds that globally farmers apply around 115 million tonnes of nitrogen to our crops every year. Only around 35% of this is used by them, meaning 75 million tonnes of nitrogen runs off into our rivers, lakes and natural environments. This is our “excess nitrogen”. It is quite staggering that almost two-thirds of our applied nitrogen becomes an environmental pollutant.</p>
-
-
-
-<p>Which countries create the most nitrogen pollution? The maps below show this from two perspectives.&nbsp;</p>
-
-
-
-<p>First, as the excess nitrogen <em>per hectare of cropland</em>. Here we see large differences across the world.&nbsp;</p>
-
-
-
-<p>Some countries actually produce ‘negative’ nitrogen pollution, they are shown in blue. This is known as nitrogen mining. This happens when countries <em>undersupply</em> nitrogen fertilizers, but continue to try to grow more and more crops. Crops then have to take nitrogen from the soil. Over time this depletes soils of their nutrients which will be bad for the productivity of these soils and crop production in the long-run.</p>
-
-
-
-<p>Other countries massively <em>oversupply</em> nitrogen. These are the countries shown in the darker shades of red here. Countries such as Kuwait, Singapore, South Korea, Egypt, New Zealand, China, and Taiwan create more than 100 kilograms of excess nitrogen per hectare. For every hectare of cropland, they produce hundreds of kilograms of pollution.</p>
-
-
-
-<p>The other map shows total nitrogen pollution – the sum of pollution generated in each country, rather than per hectare. This is given as each country’s share of the global total.</p>
-
-
-
-<p>China generates the most nitrogen pollution, accounting for one-third of the global total. India produces almost one-fifth (18%); the USA produces 11%; followed by Pakistan and Brazil.&nbsp;</p>
-
-
-
-<p>It’s not that surprising that the countries with the largest populations (and some of the largest land masses) create the most pollution. But as I explore in a <strong><a href="https://ourworldindata.org/reducing-fertilizer-use">related article</a></strong>, there are lots of opportunities to reduce fertilizer use (and pollution) without sacrificing crop yields.</p>
-
-
-
-<p>Both of these metrics – the amount of excess nitrogen <em>per hectare</em>, and the total excess are important. Excess <em>per hectare</em> informs us of where nutrients are being used inefficiently; if this number is high then farmers are overapplying fertilizers and organic nutrients. But <em>total</em> excess is also important because it informs us of where we’re likely to have hotspots of water and ecosystem pollution. We need to be aware of regions with lots of farmland and excess nutrients because surrounding rivers and lakes are at high risk of becoming polluted.</p>
 </div>
-
-
-
-<div class="wp-block-column"></div>
-</div><div class="wp-block-columns is-style-side-by-side">
-<div class="wp-block-column">
-
-                <figure data-grapher-src="https://ourworldindata.org/grapher/excess-nitrogen-per-hectare?country=CHN~IND~USA~GBR~BRA~JPN~SWE~NOR" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/excess-nitrogen-per-hectare?country=CHN~IND~USA~GBR~BRA~JPN~SWE~NOR" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/excess-nitrogen-per-hectare-7d1694555faba536542be53e7a26b19d_v2_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Excess nitrogen per hectare 7d1694555faba536542be53e7a26b19d v2 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure>
-
-
-
-<h5>Related chart</h5>
-
-
-    <div class="block-wrapper"><div class="wp-block-owid-prominent-link with-image" data-no-lightbox="true" data-style="is-style-thin" data-title="Excess nitrogen from croplands (total in tonnes per year)"><a href="https://ourworldindata.org/grapher/excess-nitrogen" target="_blank"><figure><img src="https://ourworldindata.org/grapher/exports/excess-nitrogen.svg" alt="Excess nitrogen" loading="lazy"></figure><div class="content-wrapper"><div class="title"><span>Excess nitrogen from croplands (total in tonnes per year)</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></div></div></a></div></div></div>
-
-
-
-<div class="wp-block-column">
-
-                <figure data-grapher-src="https://ourworldindata.org/grapher/share-global-excess-nitrogen?country=CHN~IND~USA~GBR~MEX~ZAF~BRA" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/share-global-excess-nitrogen?country=CHN~IND~USA~GBR~MEX~ZAF~BRA" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/share-global-excess-nitrogen-261c6dcd2f1faf62e2ee0262d31f00b3_v2_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Share global excess nitrogen 261c6dcd2f1faf62e2ee0262d31f00b3 v2 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure>
 </div>
-</div><h3 id="more-than-half-of-applied-phosphorous-is-lost-to-the-environment">More than half of applied phosphorous is lost to the environment<a class="deep-link" href="#more-than-half-of-applied-phosphorous-is-lost-to-the-environment"></a></h3><div class="wp-block-columns is-style-side-by-side">
-<div class="wp-block-column">
-<p>The other main nutrient we add to our crops via fertilizers is phosphorous.&nbsp;</p>
-
-
-
-<p>Globally farmers apply around 25 million tonnes every year. 14 million tonnes are not used by the crops and become a pollutant. That means that more than half goes to waste.</p>
-
-
-
-<p>Just as we looked at with nitrogen, we can see which countries produce the most excess phosphorous; first per hectare, then as the total per year. This is shown in the maps below.</p>
-
-
-
-<p>Most of the countries that overapply nitrogen are the same ones that also overapply phosphorous. Singapore, New Zealand, Japan, South Korea, and Belgium, are all near the top of the list.</p>
-
-
-
-<p>Unsurprisingly, given their population size and land mass, the largest polluters are similar to nitrogen. China tops the list, producing one-third of the world’s excess phosphorous. This is followed by India at one-fifth; Brazil at 7%; United States at 6%; and Pakistan at 3%.</p>
 </div>
-
-
-
-<div class="wp-block-column"></div>
-</div><div class="wp-block-columns is-style-side-by-side">
-<div class="wp-block-column">
-
-                <figure data-grapher-src="https://ourworldindata.org/grapher/excess-phosphorous-per-hectare?country=CHN~IND~USA~GBR~BRA~PAK~MEX~AUS" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/excess-phosphorous-per-hectare?country=CHN~IND~USA~GBR~BRA~PAK~MEX~AUS" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/excess-phosphorous-per-hectare-33e562ed7a0b0f5a6b5a1b0072c982ec_v1_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Excess phosphorous per hectare 33e562ed7a0b0f5a6b5a1b0072c982ec v1 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure>
-
-
-
-<h5>Related chart</h5>
-
-
-    <div class="block-wrapper"><div class="wp-block-owid-prominent-link with-image" data-no-lightbox="true" data-style="is-style-thin" data-title="Excess phosphorous from croplands (total in tonnes per year)"><a href="https://ourworldindata.org/grapher/excess-phosphorous" target="_blank"><figure><img src="https://ourworldindata.org/grapher/exports/excess-phosphorous.svg" alt="Excess phosphorous" loading="lazy"></figure><div class="content-wrapper"><div class="title"><span>Excess phosphorous from croplands (total in tonnes per year)</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></div></div></a></div></div></div>
-
-
-
-<div class="wp-block-column">
-
-                <figure data-grapher-src="https://ourworldindata.org/grapher/share-global-excess-phosphorous?country=PRT~ESP~CHN~IND~USA~BRA~PAK" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/share-global-excess-phosphorous?country=PRT~ESP~CHN~IND~USA~BRA~PAK" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/share-global-excess-phosphorous-2810d56dca300f4182c8f06bfdaf78f7_v2_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Share global excess phosphorous 2810d56dca300f4182c8f06bfdaf78f7 v2 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure>
 </div>
-</div><h3 id="some-countries-could-use-more-fertilizer-some-could-use-less">Some countries could use more fertilizer; some could use less<a class="deep-link" href="#some-countries-could-use-more-fertilizer-some-could-use-less"></a></h3><div class="wp-block-columns is-style-sticky-right">
-<div class="wp-block-column">
-<p>Many countries – particularly poorer countries across Sub-Saharan Africa – do not use enough fertilizer. Their crop yields suffer as a result. This is bad for farmers; food security; and the environment because it means they need to use more land for agriculture. As I covered in my <a href="https://ourworldindata.org/yields-habitat-loss"><strong>recent article</strong></a>, Sub-Saharan Africa is projected to be the hotspot of habitat loss in the coming decades as a result of expanding croplands. Thousands of mammals, birds and amphibian species are at risk. The good news is that if we can improve crop yields, we can prevent almost all of this. Fertilizers will play an important role in achieving this.</p>
-
-
-
-<p>At the other end of the spectrum, some countries use too much. They could use much less – and produce much less pollution – without it affecting crop yields. Getting this balance right would bring a range of socioeconomic and environmental benefits. In a <strong><a href="https://ourworldindata.org/reducing-fertilizer-use">related article</a></strong> we look at this trade-off in more detail, and explore the possible solutions for reducing nutrient pollution.</p>
-</div>
-
-
-
-<div class="wp-block-column"><div class="wp-sticky-container"></div></div>
-</div></section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section><div class="section-heading"><div class="wrapper"><div><h2 id="can-we-reduce-fertilizer-use-without-sacrificing-food-production">Can we reduce fertilizer use without sacrificing food production?<a class="deep-link" href="#can-we-reduce-fertilizer-use-without-sacrificing-food-production"></a></h2></div><div class="in-this-section"><div class="label">In this section</div><div class="border"></div></div><ul class="subheadings"><li><a href="#there-are-large-differences-in-fertilizer-use-across-the-world"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg><span>There are large differences in fertilizer use across the world</span></a></li><li><a href="#nitrogen-use-efficiency-balancing-yields-and-the-need-for-nutrient-inputs"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg><span>Nitrogen use efficiency: balancing yields and the need for nutrient inputs</span></a></li><li><a href="#we-can-reduce-nitrogen-pollution-without-a-decline-in-yields"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg><span>We can reduce nitrogen pollution without a decline in yields</span></a></li><li><a href="#how-can-we-use-nitrogen-more-efficiently"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-down" class="svg-inline--fa fa-arrow-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg><span>How can we use nitrogen more efficiently?</span></a></li></ul></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>One of the world’s biggest and most impressive studies shows us that simple interventions can produce large results. In a decade-long trial, researchers worked with 21 million smallholder farmers across China to see if they could increase crop yields while also reducing the environmental impacts of farming.<a id="ref-16" class="ref" href="#note-16"><sup>16</sup></a> They were successful.&nbsp;</p><p>In the decade from 2005 to 2015, average yields of maize, rice and wheat increased by around 11%. At the same time, nitrogen fertilizer use <em>decreased</em> by around one-sixth. By producing more crops and needing less fertilizer, this experiment provided an economic return of US$12.2 billion. This wasn’t achieved through major technological innovations or policy changes: it involved educating and training farmers on good management practices.</p><p>It’s often assumed that fertilizer use – alongside the pollution it creates – and crop yields present an inevitable trade-off. To increase yields, you need more and more fertilizer. This large-scale study suggests this trade-off is not always as extreme as we might think.</p><p>To be clear: fertilizers are vital for global food production. There are few innovations that have transformed the world as much as synthetic nitrogen.&nbsp;</p><p>For most of human history, food production was limited by the amount of reactive nutrients that were available for crops. This all changed with Fritz Haber and Carl Bosch. Rather than relying on the scarce nitrogen that exists naturally within the world’s soils, we could produce our own. Their innovation (the <a href="https://en.wikipedia.org/wiki/Haber_process">Haber-Bosch process</a>) at the beginning of the 20th century enabled the lives of billions of people.<a id="ref-17" class="ref" href="#note-17"><sup>17</sup></a> Estimates suggest that <a href="https://ourworldindata.org/how-many-people-does-synthetic-fertilizer-feed">every second person</a> reading this has them to thank for being alive today.</p><p><a href="https://ourworldindata.org/fertilizers">Fertilizers</a> help us to achieve higher crop yields. This is an obvious net positive for humans: farmers can produce and earn more, and the world has more food. What’s less obvious is that this has a large environmental benefit. Higher <a href="https://ourworldindata.org/crop-yields">crop yields</a> mean we need to use less land for farming.<a id="ref-18" class="ref" href="#note-18"><sup>18</sup></a> &nbsp;This means we can protect forests and maintain natural habitats.</p><p>But it’s true that alongside the environmental benefits, there are also some downsides. Not all of the nitrogen we use is used by the crops. The rest runs off the soils and into the natural environment: fertilizing the rivers and lakes and thereby upsetting the balance of ecosystems and causing biodiversity loss.</p><p>We might assume that there is nothing we can do: that to achieve higher yields we need more inputs and therefore necessarily cause more pollution. In this article I show that farmers in many countries <em>can</em> reduce fertilizer use without sacrificing food production.</p></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div><h3 id="there-are-large-differences-in-fertilizer-use-across-the-world">There are large differences in fertilizer use across the world<a class="deep-link" href="#there-are-large-differences-in-fertilizer-use-across-the-world"></a></h3><div class="wp-block-columns is-style-side-by-side">
-<div class="wp-block-column">
-<p>Crops, like any organism, need nutrients to grow. When particular nutrients are lacking, they fail or grow at a much slower rate. These are called ‘limiting nutrients’. What nutrient is the most limiting varies across the world: some soils lack nitrogen, while others lack phosphorus or potassium.</p>
-
-
-
-<p>If a soil is lacking nutrients naturally we can add our own. This can be in the form of synthetic fertilizers, or organic additions such as manure. There are very large differences in how much fertilizer is applied across the world. We see this in the charts below: first as a map of average fertilizer use per hectare of cropland; and second, with the breakdown by nutrient in the bar chart.</p>
-
-
-
-<p>There are 100-fold differences between countries. In many of the world’s poorest countries – particularly across Sub-Saharan Africa – farmers apply only a few kilograms of fertilizer per hectare. For context, one hectare is about 1.5-times the size of a football pitch.<a id="ref-19" class="ref" href="#note-19"><sup>19</sup></a> Contrast this with countries such as China, Brazil, the UK or Egypt, where farmers apply hundreds of kilograms per year. They apply as much in a few days as some farmers do in an entire year.</p>
-
-
-
-<p>This has led to a divided world:</p>
-
-
-
-<ul><li>In many poorer countries we need <em>more</em> fertilizers. Improvements in crop yields have been slow, and <a href="https://ourworldindata.org/explorers/crop-yields?tab=map&amp;country=IND~USA~ITA~GBR~NGA~LKA~BRA~PER~AGO&amp;Crop=Cassava&amp;Metric=Yield+gap">large yield gaps</a> could be closed through more and better management of inputs.<a id="ref-20" class="ref" href="#note-20"><sup>20</sup></a> This is not only good for farmers, but also for the environment: for the reasons above, closing yield gaps is one of the best ways we can prevent habitat loss across the tropics.<br><br>This is why it’s damaging for agencies, such as the United Nations Development Programme to continually <a href="https://twitter.com/_HannahRitchie/status/1432284322896171012?s=20">promote the message</a> that the less fertilizer, the better. It’s not good for humans, or the environment.<br></li><li>But, as we will see, many countries are <em>overapplying</em> nitrogen. They could cut back without negatively affecting their crop yields.</li></ul>
-</div>
-
-
-
-<div class="wp-block-column"></div>
-</div><div class="wp-block-columns is-style-side-by-side">
-<div class="wp-block-column">
-
-                <figure data-grapher-src="https://ourworldindata.org/grapher/fertilizer-use-in-kg-per-hectare-of-arable-land" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/fertilizer-use-in-kg-per-hectare-of-arable-land" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/fertilizer-use-in-kg-per-hectare-of-arable-land_v7_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Fertilizer use in kg per hectare of arable land v7 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure>
-</div>
-
-
-
-<div class="wp-block-column">
-
-                <figure data-grapher-src="https://ourworldindata.org/grapher/fertilizer-per-hectare?country=OWID_WRL~CHN~USA~GBR~IND~BRA~NGA~European+Union~GHA~ECU" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/fertilizer-per-hectare?country=OWID_WRL~CHN~USA~GBR~IND~BRA~NGA~European+Union~GHA~ECU" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/fertilizer-per-hectare-71e7fe857bb421088a51ea7fc24a407a_v2_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Fertilizer per hectare 71e7fe857bb421088a51ea7fc24a407a v2 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure>
-</div>
-</div><h3 id="nitrogen-use-efficiency-balancing-yields-and-the-need-for-nutrient-inputs">Nitrogen use efficiency: balancing yields and the need for nutrient inputs<a class="deep-link" href="#nitrogen-use-efficiency-balancing-yields-and-the-need-for-nutrient-inputs"></a></h3><div class="wp-block-columns is-style-sticky-right">
-<div class="wp-block-column">
-<p>Using lots of fertilizer wouldn’t necessarily be a bad thing if all of it was used by the crops. Unfortunately, most of it isn’t.</p>
-
-
-
-<p>To capture this, we can look at the ratio of nitrogen in harvested products (our crops) compared to our inputs (fertilizers or manure); this ratio is called the ‘nitrogen use efficiency’ (NUE). A NUE of 60% would mean that the amount of nitrogen in our crops was 60% of the nitrogen that was added to them as inputs. The remaining 40% of nitrogen was <em>not</em> used by the crops.</p>
-
-
-
-<p>A low NUE is bad. This means very little of the nitrogen we add is taken up by the crops. A NUE of 20% would mean that 80% of the applied nitrogen became a pollutant.&nbsp;</p>
-
-
-
-<p>Soon we will see that some countries have a <em>very</em> high NUE – greater than 100%. You might assume that this is good news. In fact, it’s often the opposite. This means they are <em>undersupplying</em> nitrogen, but continue to try to grow more and more crops. Instead of utilizing readily available nutrients, crops have to take nitrogen from the soil – a process called ‘nitrogen mining’. Over time this depletes soils of their nutrients which will be bad for crop production in the long-run.</p>
-
-
-
-<p>Globally, NUE has been stubbornly low, at 40% to 50% since 1980.<a id="ref-21" class="ref" href="#note-21"><sup>21</sup></a> This is surprisingly low. It means that less than half of the nitrogen we apply to our crops is actually taken up by them. The rest is excess that leaks into the natural environment.</p>
-
-
-
-<p>But there are very large differences in NUE across the world, as shown in the map. Some countries achieve low NUE – less than 40%. Both India and China, for example, have an efficiency of only one-third. Some countries, though, do much better. France, Ireland, the UK, and the US, have an efficiency greater than two-thirds.</p>
-</div>
-
-
-
-<div class="wp-block-column">
-
-                
-<div class="wp-sticky-container"><figure data-grapher-src="https://ourworldindata.org/grapher/nitrogen-use-efficiency" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/nitrogen-use-efficiency" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/nitrogen-use-efficiency_v1_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Nitrogen use efficiency v1 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure></div></div>
-</div><div class="block-wrapper" data-reactroot=""><div data-variation="full-width" data-default-open="false" class="wp-block-owid-additional-information"><h3 class="additional-information__heading" data-track-note="additional-information-toggle"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg>How nitrogen use efficiency has changed over time</h3><div aria-hidden="true" class="rah-static rah-static--height-zero " style="height:0;overflow:hidden"><div style="transition:opacity 250ms ease 0ms;-webkit-transition:opacity 250ms ease 0ms;opacity:0"><div class="content">
-
-
-
-
-
-<div class="wp-block-columns is-style-sticky-right">
-<div class="wp-block-column">
-<p>We can also look at the <em>change</em> in NUE over time, which shows us some interesting differences between countries.&nbsp;</p>
-
-
-
-<p>In the chart we see the ratio of nitrogen inputs and outputs as a connected scatter plot. On the y-axis we have nitrogen <em>outputs</em>: the amount of nitrogen that is harvested in the crops. On the x-axis we have nitrogen <em>inputs</em>: added in the form of fertilizers, manure, or natural soil uptake.</p>
-
-
-
-<p>The grey line indicates where nitrogen use efficiency would be 100%, meaning all of the nitrogen that was added was taken up by the crop. In reality, this is probably bad news. As we discussed earlier, they are probably <em>undersupplying</em> nitrogen. Instead of utilizing synthetic inputs, crops have to take nitrogen from the soil which can deplete their soils over time.</p>
-
-
-
-<p>Ideally, we want a value that gets higher on the y-axis: a larger yield from our crops but does not move further and further to the right (which would indicate that more and more inputs are needed to achieve this). If a country is moving further away from the grey line, it is becoming increasingly inefficient. We want countries to move towards it.&nbsp;</p>
-
-
-
-<p>I have highlighted some interesting country patterns. We see that countries such as India, China, and Egypt are becoming less efficient. Yields <em>are</em> increasing, but they need increasing amounts of nitrogen to achieve this. It’s a diminishing return curve. They are moving further from the central grey line. France gives us an interesting counter-example. In recent years it has started to move <em>back</em> along the x-axis to lower nitrogen inputs. It has slowly increased yields at the same time. It’s increasing yields whilst <em>reducing</em> the amount of fertilizers used. NUE is improving.</p>
-
-
-
-<p>In the bottom-left corner we see Nigeria. Many countries in Sub-Saharan Africa cluster close to the origin. They get low yields <em>and</em> apply only small amounts of nitrogen to their crops. For food security, they need to quickly move up the y-axis.</p>
-</div>
-
-
-
-<div class="wp-block-column">
-
-                
-<div class="wp-sticky-container"><figure data-grapher-src="https://ourworldindata.org/grapher/nitrogen-output-vs-nitrogen-input-to-agriculture?country=CHN~IND~USA~NGA~EGY~FRA" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/nitrogen-output-vs-nitrogen-input-to-agriculture?country=CHN~IND~USA~NGA~EGY~FRA" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/nitrogen-output-vs-nitrogen-input-to-agriculture-b05bbfedf9e1d6c794a714e1e496edba_v4_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Nitrogen output vs nitrogen input to agriculture b05bbfedf9e1d6c794a714e1e496edba v4 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure></div></div>
-</div>
-
-</div></div></div></div></div><h3 id="we-can-reduce-nitrogen-pollution-without-a-decline-in-yields">We can reduce nitrogen pollution without a decline in yields<a class="deep-link" href="#we-can-reduce-nitrogen-pollution-without-a-decline-in-yields"></a></h3><div class="wp-block-columns is-style-sticky-right">
-<div class="wp-block-column">
-<p>So, nitrogen efficiency rather than just fertilizer use seems like a better sustainably metric for us to benchmark.&nbsp;</p>
-
-
-
-<p>We might assume that all countries could achieve the same high NUE. But, maybe it’s still unfair to compare countries across the world in this way. Differences in climate, vegetation, and soil types mean we can’t achieve the same yields with the same inputs everywhere. Some countries might have more favorable environmental conditions than others.</p>
-
-
-
-<p>How can we better understand which countries are doing well in these yield-fertilizer trade-offs?</p>
-
-
-
-<p>An interesting way to tackle this question is to look at the discontinuities of yields and nitrogen pollution at international borders. This is the approach that David Wuepper and his colleagues took in a recent study, published in <em>Nature</em>.<a id="ref-22" class="ref" href="#note-22"><sup>22</sup></a> By looking at the discontinuities of yields, nitrogen balances and inputs across borders the researchers investigated the role that each country’s agricultural policies play. This is because the environmental conditions, climate and soil qualities should be very similar just across the border. Technically they <em>should</em> be able to achieve a similar level of NUE, and similar yields. If there are large differences in yields or pollution between one country and its neighbor, we would therefore assume there are important country-specific effects playing a role. It mimics a ‘natural experiment’ where the environmental conditions are held constant, and policy decisions are the changeable variable.</p>
-
-
-
-<p>The contrast at the border between Kazakhstan and China; and Turkey and Syria provide good examples of this. We can see this in the aerial shots. The conditions for growing crops on either side should be similar. But China and Turkey have much more vegetation than their neighbors as a result of nutrient inputs and how they manage agriculture.</p>
-</div>
-
-
-
-<div class="wp-block-column">
-
-<div class="wp-sticky-container"><figure class="wp-block-image size-full"><img loading="lazy" width="2578" height="624" src="https://ourworldindata.org/uploads/2021/08/nitrogen-pollution-discontinuity.png" alt="Nitrogen pollution discontinuity" class="wp-image-44723" srcset="https://ourworldindata.org/uploads/2021/08/nitrogen-pollution-discontinuity.png 2578w, https://ourworldindata.org/uploads/2021/08/nitrogen-pollution-discontinuity-400x97.png 400w, https://ourworldindata.org/uploads/2021/08/nitrogen-pollution-discontinuity-800x194.png 800w, https://ourworldindata.org/uploads/2021/08/nitrogen-pollution-discontinuity-150x36.png 150w, https://ourworldindata.org/uploads/2021/08/nitrogen-pollution-discontinuity-768x186.png 768w, https://ourworldindata.org/uploads/2021/08/nitrogen-pollution-discontinuity-1536x372.png 1536w, https://ourworldindata.org/uploads/2021/08/nitrogen-pollution-discontinuity-2048x496.png 2048w" sizes="(max-width: 2578px) 100vw, 2578px" data-high-res-src="https://ourworldindata.org/uploads/2021/08/nitrogen-pollution-discontinuity.png"><figcaption>Discontinuities in vegetation at country borders<a id="ref-23" class="ref" href="#note-23"><sup>23</sup></a></figcaption></figure></div></div>
-</div><div class="wp-block-columns is-style-sticky-right">
-<div class="wp-block-column">
-<p>Using satellite imagery and geospatial datasets these researchers could measure four key metrics at high-resolution across hundreds of thousands of cross-country borders: cropland nitrogen balances, nitrogen pollution, yield gaps (the amount that yields could be increased with better management of nutrients), and the natural vegetation potential. They found cross-border differences in the first three metrics, but not in natural vegetation potential. This is important because it means our assumption that the environmental conditions on either side of borders is similar, is a valid one.<a id="ref-24" class="ref" href="#note-24"><sup>24</sup></a></p>
-
-
-
-<p>Across this large global dataset, the researchers found that the discontinuity in nitrogen pollution across borders was much larger than the discontinuity in yield gaps. Their results suggest that globally there is massive potential to reduce nitrogen pollution without impacting crop yields. </p>
-
-
-
-<p><strong>They conclude that nitrogen pollution could be reduced by around 35% if polluting countries became as efficient as their neighbors. This would have little impact on crop yields – increasing yield gaps by only 1%.</strong></p>
-
-
-
-<p>Their results also allow us to understand what countries are using nitrogen inefficiently. The map here shows how countries compare in levels of nitrogen pollution versus their yield gains <em>relative to their neighbors</em>. Positive values – shown in orange and red – mean a country causes <em>more</em> pollution than necessary for the yields that it achieves. Negative values – shown in blue – means a country causes <em>less</em>.</p>
-
-
-
-<p>There are a couple of important points we need to keep in mind. All of these values are measured <em>relative to a country’s neighbors</em>. A country might have a good score because their neighbor gets very low yields: South Korea is a good example. Or a country scores well because its neighbor uses nitrogen inefficiently: Mongolia is a good example.</p>
-
-
-
-<p>China has the highest score of 170%. This means it causes 170% more nitrogen pollution than is necessary to achieve its level of crop yields. Brazil, Mexico, Colombia, and Thailand also create a lot of pollution. These are the countries that are overapplying nitrogen the most: they could probably reduce fertilizer use significantly without affecting their crop yields.</p>
-
-
-
-<p>We often assume that more pollution is an unavoidable cost of trying to close yield gaps. But this trade-off does not always exist.</p>
-</div>
-
-
-
-<div class="wp-block-column">
-
-                
-<div class="wp-sticky-container"><figure data-grapher-src="https://ourworldindata.org/grapher/yield-gap-vs-nitrogen-pollution" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/yield-gap-vs-nitrogen-pollution" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/yield-gap-vs-nitrogen-pollution_v2_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Yield gap vs nitrogen pollution v2 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure></div></div>
-</div><h3 id="how-can-we-use-nitrogen-more-efficiently">How can we use nitrogen more efficiently?<a class="deep-link" href="#how-can-we-use-nitrogen-more-efficiently"></a></h3><div class="wp-block-columns is-style-sticky-right">
-<div class="wp-block-column">
-<p>You might notice that most of the largest polluters are middle-income countries. During the 1960s and 1970s, many of today’s middle-income countries kickstarted their ‘Green Revolution’ and achieved large increases in food production. Governments offered subsidies for farmers to use fertilizers and other inputs. This made fertilizers cheap and reduced the incentives for farmers to use it efficiently.<a id="ref-25" class="ref" href="#note-25"><sup>25</sup></a> This cheap fertilizer is one of the reasons that these countries massively overapply nitrogen today.</p>
-
-
-
-<p>One way that governments can therefore reduce nitrogen pollution is to adjust the ratio of fertilizer prices to the return on agricultural products. They can adjust subsidies to make it costly for farmers to overuse fertilizers. Instead, they could re-allocate these financial resources towards practices that have positive environmental impacts.</p>
-
-
-
-<p>Another option is to invert the financial incentives: rather than subsidizing fertilizers, you could tax them.</p>
-
-
-
-<p>We might want to make fertilizers more expensive for countries that overuse them. But we actually want to do the opposite for countries with large yield gaps. As we saw earlier, many countries across Sub-Saharan Africa use barely any fertilizer at all. They achieve very poor yields as a result. Providing subsidies for fertilizers and other inputs would be of massive benefit.</p>
-
-
-
-<p>One of the challenges of putting fertilizer on your crops is that it can be hard to know where it is needed. Some parts of your field might be lacking in nitrogen while others have more than enough. Often the easiest and quickest solution is to apply it everywhere, especially if fertilizers are heavily subsidized and cheap. But with emerging technologies, we can do better. Thanks to information from drones or satellite imagery, we can implement ‘precision farming’, which allows us to see exactly where fertilizers are needed the most.<a id="ref-26" class="ref" href="#note-26"><sup>26</sup></a> Plant breeding technologies could also offer new opportunities.<a id="ref-27" class="ref" href="#note-27"><sup>27</sup></a> We can try to improve how efficient we are at using nitrogen, but there’s an opportunity to improve how efficiently plants use it too.</p>
-
-
-
-<p>Let’s not forget that one of the most promising solutions – and one we often overlook – is the simplest and oldest of all. Legumes – crops such as beans, peas and lentils – perform their own magic when it comes to nitrogen. They have the ability to capture nitrogen in the atmosphere and transform it into reactive nitrogen on their own. This is called ‘biological fixation’. Unlike most other crops where we have to add additional nitrogen, they create it by themselves. Growing more legumes – either on their own, or alongside other crops – is one of the easiest ways that we can bring nitrogen into the soil.</p>
-
-
-
-<p>Finally, there’s a lot that we can do by training farmers to adopt sustainable management practices. The 21-million-farmer study in China makes this clear.&nbsp; Large policy changes and technological advancements are often needed to make a large difference, but we shouldn’t underestimate the impact that education can make.</p>
-
-
-
-<p>Many view crop yields and environmental pollution as an unavoidable trade-off. It doesn’t have to be. We can reduce pollution a lot without reducing crop yields. Less pollution, more food, higher farmer returns, and less farmland make this a problem with multiple wins if we can implement the right solutions.</p>
-</div>
-
-
-
-<div class="wp-block-column"><div class="wp-sticky-container"></div></div>
-</div></section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div><h3 id="all-our-interactive-charts-on-fertilizers">All our interactive charts on Fertilizers<a class="deep-link" href="#all-our-interactive-charts-on-fertilizers"></a></h3><div class="wp-block-full-content-width"><div class="related-charts"><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><ul><li class="active"><a href="https://ourworldindata.org/grapher/fertilizer-consumption-usda"><img src="https://ourworldindata.org/grapher/exports/fertilizer-consumption-usda.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Fertilizer consumption</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertilizer-production-by-nutrient-type-npk"><img src="https://ourworldindata.org/grapher/exports/fertilizer-production-by-nutrient-type-npk.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Fertilizer production by nutrient type</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertilizer-per-capita"><img src="https://ourworldindata.org/grapher/exports/fertilizer-per-capita.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Fertilizer use per capita</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertilizer-consumption-per-hectare-vs-gdp-per-capita"><img src="https://ourworldindata.org/grapher/exports/fertilizer-consumption-per-hectare-vs-gdp-per-capita.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Fertilizer use vs. GDP per capita</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/nitrogen-inputs-per-hectare"><img src="https://ourworldindata.org/grapher/exports/nitrogen-inputs-per-hectare.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Nitrogen inputs per hectare of cropland</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/pesticide-use-per-hectare-of-cropland"><img src="https://ourworldindata.org/grapher/exports/pesticide-use-per-hectare-of-cropland.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Pesticide use per hectare of cropland</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/cereal-crop-yield-vs-fertilizer-application"><img src="https://ourworldindata.org/grapher/exports/cereal-crop-yield-vs-fertilizer-application.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Cereal yield vs. fertilizer use</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/eutrophying-emissions-protein"><img src="https://ourworldindata.org/grapher/exports/eutrophying-emissions-protein.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Eutrophying emissions per 100 grams of  protein</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/eutrophying-emissions-kcal"><img src="https://ourworldindata.org/grapher/exports/eutrophying-emissions-kcal.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Eutrophying emissions per 1000 kilocalories</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/eutrophying-emissions-per-kg-poore"><img src="https://ourworldindata.org/grapher/exports/eutrophying-emissions-per-kg-poore.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Eutrophying emissions per kilogram of food product</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/excess-phosphorous"><img src="https://ourworldindata.org/grapher/exports/excess-phosphorous.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Excess phosphorous from croplands</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/excess-phosphorous-per-hectare"><img src="https://ourworldindata.org/grapher/exports/excess-phosphorous-per-hectare.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Excess phosphorous per hectare of cropland</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertilizer-application-rates-over-the-long-run"><img src="https://ourworldindata.org/grapher/exports/fertilizer-application-rates-over-the-long-run.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Fertilizer application rates over the long-run</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertilizer-inputs-per-land"><img src="https://ourworldindata.org/grapher/exports/fertilizer-inputs-per-land.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Fertilizer inputs per unit of agricultural land</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertilizer-use-nutrient"><img src="https://ourworldindata.org/grapher/exports/fertilizer-use-nutrient.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Fertilizer use by nutrient</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertilizer-use-in-kg-per-hectare-of-arable-land"><img src="https://ourworldindata.org/grapher/exports/fertilizer-use-in-kg-per-hectare-of-arable-land.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Fertilizer use per hectare of cropland</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertilizer-per-hectare"><img src="https://ourworldindata.org/grapher/exports/fertilizer-per-hectare.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Fertilizer use per hectare of cropland</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/fertilizer-exports-russia-ukraine"><img src="https://ourworldindata.org/grapher/exports/fertilizer-exports-russia-ukraine.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Global fertilizer exports: how much comes from Russia, Belarus &amp; Ukraine?</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/insecticide-use"><img src="https://ourworldindata.org/grapher/exports/insecticide-use.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Insecticide use</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/nitrogen-fertilizer-application-per-hectare-of-cropland"><img src="https://ourworldindata.org/grapher/exports/nitrogen-fertilizer-application-per-hectare-of-cropland.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Nitrogen fertilizer use per hectare of cropland</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/pesticide-breakdown-by-type"><img src="https://ourworldindata.org/grapher/exports/pesticide-breakdown-by-type.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Pesticide breakdown by type</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/pesticide-use-tonnes"><img src="https://ourworldindata.org/grapher/exports/pesticide-use-tonnes.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Pesticide use</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/phosphate-application-per-hectare-of-cropland"><img src="https://ourworldindata.org/grapher/exports/phosphate-application-per-hectare-of-cropland.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Phosphate fertilizer use per hectare of cropland</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/potash-fertilizer-application-per-hectare-of-cropland"><img src="https://ourworldindata.org/grapher/exports/potash-fertilizer-application-per-hectare-of-cropland.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Potash fertilizer use per hectare of cropland</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/share-suicide-pesticide-poisoning"><img src="https://ourworldindata.org/grapher/exports/share-suicide-pesticide-poisoning.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Share of suicide deaths from pesticide poisoning</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/total-nitrogen-inputs-crops"><img src="https://ourworldindata.org/grapher/exports/total-nitrogen-inputs-crops.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Total nitrogen inputs to crops</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/yield-gap-vs-nitrogen-pollution"><img src="https://ourworldindata.org/grapher/exports/yield-gap-vs-nitrogen-pollution.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>Which countries are overapplying nitrogen without gains in crop yields?</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/world-population-supported-by-synthetic-nitrogen-fertilizers"><img src="https://ourworldindata.org/grapher/exports/world-population-supported-by-synthetic-nitrogen-fertilizers.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>World population supported by synthetic nitrogen fertilizers</span></a></li><li class=""><a href="https://ourworldindata.org/grapher/world-population-with-and-without-fertilizer"><img src="https://ourworldindata.org/grapher/exports/world-population-with-and-without-fertilizer.svg" loading="lazy" data-no-lightbox="true" data-no-img-formatting="true" width="850" height="600"><span>World population with and without synthetic nitrogen fertilizers</span></a></li></ul></div><div class="wp-block-column" id="all-charts-preview"><figure data-grapher-src="https://ourworldindata.org/grapher/fertilizer-consumption-usda"></figure><div class="gallery-navigation"><button disabled="" class="gallery-arrow prev"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-left-long" class="svg-inline--fa fa-arrow-left-long " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M109.3 288L480 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-370.7 0 73.4-73.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288z"></path></svg></button><div class="gallery-pagination">Chart 1 of 29</div><button class="gallery-arrow next"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-left-long" class="svg-inline--fa fa-arrow-left-long fa-flip-horizontal " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M109.3 288L480 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-370.7 0 73.4-73.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288z"></path></svg></button></div></div></div></div></div></section>
 
 
 
@@ -930,77 +145,13 @@ How important are fertilizers? How does their use vary across the world?"/><meta
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section><div class="section-heading"><div class="wrapper"><div><h2 id="how-does-fertilizer-use-relate-to-income">How does fertilizer use relate to income?<a class="deep-link" href="#how-does-fertilizer-use-relate-to-income"></a></h2></div></div></div><div class="wp-block-columns is-style-sticky-left"><div class="wp-block-column"><div class="wp-sticky-container"><figure data-grapher-src="https://ourworldindata.org/grapher/fertilizer-consumption-per-hectare-vs-gdp-per-capita" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/fertilizer-consumption-per-hectare-vs-gdp-per-capita" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/fertilizer-consumption-per-hectare-vs-gdp-per-capita_v10_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Fertilizer consumption per hectare vs gdp per capita v10 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure></div></div><div class="wp-block-column"></div></div></section>
-
-
-
-
-                
-
-
-
-<section><div class="section-heading"><div class="wrapper"><div><h2 id="yields-tend-to-increase-with-fertilizer-application">Yields tend to increase with fertilizer application<a class="deep-link" href="#yields-tend-to-increase-with-fertilizer-application"></a></h2></div></div></div><div class="wp-block-columns is-style-sticky-left"><div class="wp-block-column"><div class="wp-sticky-container"><figure data-grapher-src="https://ourworldindata.org/grapher/cereal-crop-yield-vs-fertilizer-application" class="grapherPreview">
-                    <a href="https://ourworldindata.org/grapher/cereal-crop-yield-vs-fertilizer-application" target="_blank">
-                        <div><img src="https://ourworldindata.org/exports/cereal-crop-yield-vs-fertilizer-application_v5_850x600.svg" width="850" height="600" loading="lazy" data-no-lightbox="" alt="Cereal crop yield vs fertilizer application v5 850x600"></div>
-                        <div class="interactionNotice">
-                            <span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-pointer" class="svg-inline--fa fa-hand-pointer fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 617">
-    <path fill="currentColor" d="M448,344.59v96a40.36,40.36,0,0,1-1.06,9.16l-32,136A40,40,0,0,1,376,616.59H168a40,40,0,0,1-32.35-16.47l-128-176a40,40,0,0,1,64.7-47.06L104,420.58v-276a40,40,0,0,1,80,0v200h8v-40a40,40,0,1,1,80,0v40h8v-24a40,40,0,1,1,80,0v24h8a40,40,0,1,1,80,0Zm-256,80h-8v96h8Zm88,0h-8v96h8Zm88,0h-8v96h8Z" transform="translate(0 -0.41)"></path>
-    <path fill="currentColor" opacity="0.6" d="M239.76,234.78A27.5,27.5,0,0,1,217,192a87.76,87.76,0,1,0-145.9,0A27.5,27.5,0,1,1,25.37,222.6,142.17,142.17,0,0,1,1.24,143.17C1.24,64.45,65.28.41,144,.41s142.76,64,142.76,142.76a142.17,142.17,0,0,1-24.13,79.43A27.47,27.47,0,0,1,239.76,234.78Z" transform="translate(0 -0.41)"></path>
-</svg></span>
-                            <span class="label">Click to open interactive version</span>
-                        </div>
-                    </a>
-                </figure></div></div><div class="wp-block-column"></div></div></section>
-
-
-
-
-                
-
-
-
-<section><div class="section-heading"><div class="wrapper"><div><h2 id="data-sources">Data Sources<a class="deep-link" href="#data-sources"></a></h2></div></div></div><div class="wp-block-columns is-style-sticky-right"><div class="wp-block-column"><p>The <strong>FAO Fertilizer Database</strong> is online <a href="http://www.fao.org/faostat/en/#data/RFN">here</a>. It includes several datasets on fertilizers for countries and world regions since 2002. Its <strong>Fertilizer Archive</strong> goes back to 1961 and is online <a href="http://www.fao.org/faostat/en/#data/RA">here</a>.</p></div><div class="wp-block-column"><div class="wp-sticky-container"></div></div></div></section>
-
-
-
-
-</div><footer class="article-footer"><div class="wp-block-columns"><div class="wp-block-column"><h3 id="endnotes" class="h3-bold">Endnotes</h3><ol class="endnotes"><li id="note-1"><p>Malthus (1798). An Essay on the Principle of Population: Or, A View of Its Past and Present Effects on Human Happiness; with an Inquiry Into Our Prospects Respecting the Future Removal Or Mitigation of the Evils which it Occasions. J.Johnson. London. Later edition available <a href="https://books.google.co.uk/books/about/An_Essay_on_the_Principle_of_Population.html?id=kY0VAAAAYAAJ&amp;printsec=frontcover&amp;source=kp_read_button&amp;redir_esc=y#v=onepage&amp;q&amp;f=false">online</a>.</p></li><li id="note-2"><p>Ehrlich, P. R. (1997). The Population Bomb (1968).&nbsp;<em>New York: Sierra Club/Ballantine</em>.</p></li><li id="note-3"><p>It is also true that around 815 million people <a href="https://ourworldindata.org/hunger-and-undernourishment/#global-number-of-individuals-undernourished">were undernourished</a> in 2016. However, as is often the case with food insecurity and <a href="https://ourworldindata.org/famines/">famine</a>, this is largely attributed to sociopolitical, stability and economic factors rather than an inability to produce enough food.</p></li><li id="note-4"><p>See also <a href="http://www.bbc.co.uk/programmes/p04f77rg">this BBC programme</a>.</p></li><li id="note-5"><p>Legumes are the one exception to this condition. Legumes — such as peas, beans and other pulses — have the unique ability of being able to convert atmospheric N<sub>2</sub> into reactive nitrogen, which can then be used for crop growth.</p></li><li id="note-6"><p>Reay, D. (2015). Nitrogen and Climate Change: An Explosive Story. Palgrave Macmillan. <a href="http://www.palgrave.com/us/book/9781137286949">ISBN 978-1-137-28696-3</a>.</p></li><li id="note-7"><p>Erisman, J. W., Sutton, M. A., Galloway, J., Klimont, Z., &amp; Winiwarter, W. (2008). How a century of ammonia synthesis changed the world.&nbsp;<em>Nature Geoscience</em>,&nbsp;<em>1</em>(10), 636-639. Available <a href="https://www.nature.com/articles/ngeo325">online</a>.</p></li><li id="note-8"><p>Smil, V. (2004). Enriching the Earth: Fritz Haber, Carl Bosch, and the Transformation of World Food Production. MIT Press.&nbsp;<a href="https://mitpress.mit.edu/books/enriching-earth">ISBN: 9780262194495</a>.</p></li><li id="note-9"><p>A global estimate therefore hides these inequalities; it may be the case that less than 48 percent of the population in high-income countries rely on nitrogen fertilizer to meet&nbsp;<em>basic</em> food requirements, whereas this share is higher in lower-income nations.</p></li><li id="note-10"><p>Stewart, W. M., Dibb, D. W., Johnston, A. E., &amp; Smyth, T. J. (2005). The contribution of commercial fertilizer nutrients to food production.&nbsp;<em>Agronomy Journal</em>,&nbsp;<em>97</em>(1), 1-6. Available <a href="https://dl.sciencesocieties.org/publications/aj/abstracts/97/1/0001">online</a>.</p></li><li id="note-11"><p>Smil, V. (2004). Enriching the Earth: Fritz Haber, Carl Bosch, and the Transformation of World Food Production. MIT Press.&nbsp;<a href="https://mitpress.mit.edu/books/enriching-earth">ISBN: 9780262194495</a>.</p></li><li id="note-12"><p>Smil, V. (2004). Enriching the Earth: Fritz Haber, Carl Bosch, and the Transformation of World Food Production. MIT Press.&nbsp;<a href="https://mitpress.mit.edu/books/enriching-earth">ISBN: 9780262194495</a>.</p></li><li id="note-13"><p>Smil, V. (2004). Enriching the Earth: Fritz Haber, Carl Bosch, and the Transformation of World Food Production. MIT Press.&nbsp;<a href="https://mitpress.mit.edu/books/enriching-earth">ISBN: 9780262194495</a>.</p></li><li id="note-14"><p>Lassaletta, L., Billen, G., Grizzetti, B., Anglade, J., &amp; Garnier, J. (2014). <a href="https://iopscience.iop.org/article/10.1088/1748-9326/9/10/105011/meta">50 year trends in nitrogen use efficiency of world cropping systems: the relationship between yield and nitrogen input to cropland</a>. <em>Environmental Research Letters</em>, 9(10), 105011.</p></li><li id="note-15"><p>West, P. C., Gerber, J. S., Engstrom, P. M., Mueller, N. D., Brauman, K. A., Carlson, K. M., … &amp; Siebert, S. (2014). <a href="https://science.sciencemag.org/content/345/6194/325">Leverage points for improving global food security and the environment</a>. <em>Science</em>, 345(6194), 325-328.</p></li><li id="note-16"><p>Cui, Z., Zhang, H., Chen, X., Zhang, C., Ma, W., Huang, C., … &amp; Dou, Z. (2018). <a href="https://www.nature.com/articles/nature25785">Pursuing sustainable productivity with millions of smallholder farmers</a>. <em>Nature</em>, 555(7696), 363-366.</p></li><li id="note-17"><p>Erisman, J. W., Sutton, M. A., Galloway, J., Klimont, Z., &amp; Winiwarter, W. (2008). How a century of ammonia synthesis changed the world. <em>Nature Geoscience</em>, 1(10), 636-639.<br><br>Smil, V. (2004). Enriching the Earth: Fritz Haber, Carl Bosch, and the Transformation of World Food Production. MIT Press.</p></li><li id="note-18"><p>If crop yields had remained at their levels in 1961, we <a href="https://ourworldindata.org/grapher/land-sparing-by-crop">would need</a> almost three times as much farmland today (to meet food production in 2019). Crop yield gains have ‘saved’ 1.7 billion hectares of land. That’s equal to an area the size of the USA and Brazil combined.</p></li><li id="note-19"><p>By ‘football’, I mean ‘soccer’.</p></li><li id="note-20"><p>Mueller, N. D., Gerber, J. S., Johnston, M., Ray, D. K., Ramankutty, N., &amp; Foley, J. A. (2012). <a href="https://www.nature.com/articles/nature11420">Closing yield gaps through nutrient and water management</a>. <em>Nature</em>, 490(7419), 254-257.</p></li><li id="note-21"><p>Lassaletta, L., Billen, G., Grizzetti, B., Anglade, J., &amp; Garnier, J. (2014). <a href="https://iopscience.iop.org/article/10.1088/1748-9326/9/10/105011/meta">50 year trends in nitrogen use efficiency of world cropping systems: the relationship between yield and nitrogen input to cropland</a>. <em>Environmental Research Letters</em>, 9(10), 105011.</p></li><li id="note-22"><p>Wuepper, D., Le Clech, S., Zilberman, D., Mueller, N., &amp; Finger, R. (2020). <a href="https://www.nature.com/articles/s43016-020-00185-6">Countries influence the trade-off between crop yields and nitrogen pollution</a>. <em>Nature Food</em>, <em>1</em>(11), 713-719.</p></li><li id="note-23"><p>Wuepper, D., Le Clech, S., Zilberman, D., Mueller, N., &amp; Finger, R. (2020). <a href="https://www.nature.com/articles/s43016-020-00185-6">Countries influence the trade-off between crop yields and nitrogen pollution</a>. <em>Nature Food</em>, <em>1</em>(11), 713-719.</p></li><li id="note-24"><p>In the few cases that natural vegetation potential did vary across borders, this was corrected for in the results.</p></li><li id="note-25"><p>Kurdi, Sikandra; Mahmoud, Mai; Abay, Kibrom A.; and Breisinger, Clemens. 2020. Too much of a good thing? Evidence that fertilizer subsidies lead to overapplication in Egypt. MENA RP Working Paper 27. Washington, DC: International Food Policy Research Institute (IFPRI). <a href="https://doi.org/10.2499/p15738coll2.133652.%7B/ref">https://doi.org/10.2499/p15738coll2.133652.</a></p></li><li id="note-26"><p>Finger, R., Swinton, S. M., El Benni, N., &amp; Walter, A. (2019). <a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-resource-100518-093929">Precision farming at the nexus of agricultural production and the environment</a>. Annual Review of Resource Economics, 11, 313-335.</p></li><li id="note-27"><p> Walter, A., Finger, R., Huber, R., &amp; Buchmann, N. (2017). <a href="https://www.pnas.org/content/114/24/6148.short">Opinion: Smart farming is key to developing sustainable agriculture</a>. <em>Proceedings of the National Academy of Sciences</em>, 114(24), 6148-6150.</p></li></ol><h3 id="citation" class="h3-bold">Cite this work</h3><p>Our articles and data visualizations rely on work from many different people and organizations. When citing this entry, please also cite the underlying data sources. This entry can be cited as:</p><div><div class="wp-code-snippet"><pre class="wp-block-code"><code>Hannah Ritchie, Max Roser and Pablo Rosado (2013) - &quot;Fertilizers&quot;. Published online at OurWorldInData.org. Retrieved from: &#x27;https://ourworldindata.org/fertilizers&#x27; [Online Resource]</code></pre><button class="code-copy-button" aria-label="Copy to clipboard"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy" class="svg-inline--fa fa-copy " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M224 0c-35.3 0-64 28.7-64 64V288c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H224zM64 160c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V384H288v64H64V224h64V160H64z"></path></svg></button></div></div><p>BibTeX citation</p><div><div class="wp-code-snippet"><pre class="wp-block-code"><code>@article{owidfertilizers,
+</div><footer class="article-footer"><div class="wp-block-columns"><div class="wp-block-column"><h3 id="citation" class="h3-bold">Cite this work</h3><p>Our articles and data visualizations rely on work from many different people and organizations. When citing this entry, please also cite the underlying data sources. This entry can be cited as:</p><div><div class="wp-code-snippet"><pre class="wp-block-code"><code>Hannah Ritchie, Max Roser and Pablo Rosado (2022) - &quot;Fertilizers&quot;. Published online at OurWorldInData.org. Retrieved from: &#x27;https://ourworldindata.org/fertilizers&#x27; [Online Resource]</code></pre><button class="code-copy-button" aria-label="Copy to clipboard"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy" class="svg-inline--fa fa-copy " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M224 0c-35.3 0-64 28.7-64 64V288c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H224zM64 160c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V384H288v64H64V224h64V160H64z"></path></svg></button></div></div><p>BibTeX citation</p><div><div class="wp-code-snippet"><pre class="wp-block-code"><code>@article{owidfertilizers,
     author = {Hannah Ritchie and Max Roser and Pablo Rosado},
     title = {Fertilizers},
     journal = {Our World in Data},
-    year = {2013},
+    year = {2022},
     note = {https://ourworldindata.org/fertilizers}
 }</code></pre><button class="code-copy-button" aria-label="Copy to clipboard"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copy" class="svg-inline--fa fa-copy " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M224 0c-35.3 0-64 28.7-64 64V288c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H224zM64 160c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V384H288v64H64V224h64V160H64z"></path></svg></button></div></div><hr style="padding-bottom:0"/><h3 id="licence" class="h3-bold">Reuse this work freely</h3><p>All visualizations, data, and code produced by Our World in Data are completely open access under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons BY license</a>. You have the permission to use, distribute, and reproduce these in any medium, provided the source and authors are credited.</p><p>The data produced by third parties and made available by Our World in Data is subject to the license terms from the original third-party authors. We will always indicate the original source of the data in our documentation, so you should always check the license of any such third-party data before use and redistribution.</p><p>All of <a href="/how-to-use-our-world-in-data#how-to-embed-interactive-charts-in-your-article">our charts can be embedded</a> in any site.</p></div><div class="wp-block-column"></div></div></footer></div></div></div></article></main><div id="wpadminbar" style="display:none"><div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar"><ul id="wp-admin-bar-root-default" class="ab-top-menu"><li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="https://owid.cloud/wp/wp-admin">Wordpress</a></li> <li id="wp-admin-bar-edit"><a class="ab-item" href="https://owid.cloud/wp/wp-admin/post.php?post=2850&amp;action=edit">Edit Page</a></li></ul></div></div><section class="donate-footer"><div class="wrapper"><div class="owid-row flex-align-center"><div class="owid-col owid-col--lg-3 owid-padding-bottom--sm-3"><p>Our World in Data is free and accessible for everyone.</p><p>Help us do this work by making a donation.</p></div><div class="owid-col owid-col--lg-1"><a href="/donate" class="owid-button donate-button" data-track-note="donate-footer"><span class="label">Donate now</span><span class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg></span></a></div></div></div></section><footer class="site-footer"><div class="wrapper"><div class="owid-row"><div class="owid-col owid-col--lg-1"><ul><li><a href="/about" data-track-note="footer-navigation">About</a></li><li><a href="/about#contact" data-track-note="footer-navigation">Contact</a></li><li><a href="/feedback" data-track-note="footer-navigation">Feedback</a></li><li><a href="/jobs" data-track-note="footer-navigation">Jobs</a></li><li><a href="/funding" data-track-note="footer-navigation">Funding</a></li><li><a href="/about/how-to-use-our-world-in-data" data-track-note="footer-navigation">How to use</a></li><li><a href="/donate" data-track-note="footer-navigation">Donate</a></li><li><a href="/privacy-policy" data-track-note="footer-navigation">Privacy policy</a></li></ul></div><div class="owid-col owid-col--lg-1"><ul><li><a href="/blog" data-track-note="footer-navigation">Latest work</a></li><li><a href="/charts" data-track-note="footer-navigation">All charts</a></li></ul><ul><li><a href="https://twitter.com/OurWorldInData" data-track-note="footer-navigation">Twitter</a></li><li><a href="https://www.facebook.com/OurWorldinData" data-track-note="footer-navigation">Facebook</a></li><li><a href="https://www.instagram.com/ourworldindata/" data-track-note="footer-navigation">Instagram</a></li><li><a href="https://github.com/owid" data-track-note="footer-navigation">GitHub</a></li><li><a href="/feed" data-track-note="footer-navigation">RSS Feed</a></li></ul></div><div class="owid-col owid-col--lg-1"><div class="logos"><a href="https://www.oxfordmartin.ox.ac.uk/global-development" class="partner-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/oms-logo.svg" alt="Oxford Martin School logo" loading="lazy"/></a><a href="/owid-at-ycombinator" class="partner-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/yc-logo.png" alt="Y Combinator logo" loading="lazy"/></a></div></div><div class="owid-col flex-2"><div class="legal"><p>Licenses: All visualizations, data, and articles produced by Our World in Data are open access under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons BY license</a>. You have permission to use, distribute, and reproduce these in any medium, provided the source and authors are credited. All the software and code that we write is open source and made available via GitHub under the permissive <a href="https://github.com/owid/owid-grapher/blob/master/LICENSE.md " target="_blank" rel="noopener noreferrer">MIT license</a>. All other material, including data produced by third parties and made available by Our World in Data, is subject to the license terms from the original third-party authors.</p><p>Please consult our full <a href="/about#legal">legal disclaimer</a>.</p><p><a href="https://global-change-data-lab.org/" class="partner-logo gcdl-logo" data-track-note="footer-navigation"><img src="https://ourworldindata.org/gcdl-logo.svg" alt="Global Change Data Lab logo" loading="lazy"/></a>Our World In Data is a project of the <a href="https://global-change-data-lab.org/">Global Change Data Lab</a>, a registered charity in England and Wales (Charity Number 1186433).</p></div></div></div></div><div class="site-tools"></div><script src="https://polyfill.io/v3/polyfill.min.js?features=es6,fetch,URL,IntersectionObserver,IntersectionObserverEntry,ResizeObserver"></script><script src="https://ourworldindata.org/assets/commons.js"></script><script src="https://ourworldindata.org/assets/vendors.js"></script><script src="https://ourworldindata.org/assets/owid.js"></script><script>window.runSiteFooterScripts(undefined)</script></footer><script>
-                        runTableOfContents({"headings":[{"text":"How many people does synthetic fertilizer feed?","slug":"how-many-people-does-synthetic-fertilizer-feed","isSubheading":false},{"text":"Fertilizer application rates","slug":"fertilizer-application-rates","isSubheading":false},{"text":"Total fertilizer","slug":"total-fertilizer","isSubheading":true},{"text":"Nitrogen fertilizer","slug":"nitrogen-fertilizer","isSubheading":true},{"text":"Phosphate fertilizer","slug":"phosphate-fertilizer","isSubheading":true},{"text":"Potash fertilizer","slug":"potash-fertilizer","isSubheading":true},{"text":"How much fertilizer do we produce and consume?","slug":"how-much-fertilizer-do-we-produce-and-consume","isSubheading":false},{"text":"Total fertilizer consumption","slug":"total-fertilizer-consumption","isSubheading":true},{"text":"Total fertilizer production by nutrient","slug":"total-fertilizer-production-by-nutrient","isSubheading":true},{"text":"Fertilizer use per capita","slug":"fertilizer-use-per-capita","isSubheading":true},{"text":"Excess fertilizer use: Which countries cause environmental damage by overapplying fertilizers?","slug":"excess-fertilizer-use-which-countries-cause-environmental-damage-by-overapplying-fertilizers","isSubheading":false},{"text":"Nearly two-thirds of applied nitrogen is not used by our crops","slug":"nearly-two-thirds-of-applied-nitrogen-is-not-used-by-our-crops","isSubheading":true},{"text":"More than half of applied phosphorous is lost to the environment","slug":"more-than-half-of-applied-phosphorous-is-lost-to-the-environment","isSubheading":true},{"text":"Some countries could use more fertilizer; some could use less","slug":"some-countries-could-use-more-fertilizer-some-could-use-less","isSubheading":true},{"text":"Can we reduce fertilizer use without sacrificing food production?","slug":"can-we-reduce-fertilizer-use-without-sacrificing-food-production","isSubheading":false},{"text":"There are large differences in fertilizer use across the world","slug":"there-are-large-differences-in-fertilizer-use-across-the-world","isSubheading":true},{"text":"Nitrogen use efficiency: balancing yields and the need for nutrient inputs","slug":"nitrogen-use-efficiency-balancing-yields-and-the-need-for-nutrient-inputs","isSubheading":true},{"text":"We can reduce nitrogen pollution without a decline in yields","slug":"we-can-reduce-nitrogen-pollution-without-a-decline-in-yields","isSubheading":true},{"text":"How can we use nitrogen more efficiently?","slug":"how-can-we-use-nitrogen-more-efficiently","isSubheading":true},{"text":"How does fertilizer use relate to income?","slug":"how-does-fertilizer-use-relate-to-income","isSubheading":false},{"text":"Yields tend to increase with fertilizer application","slug":"yields-tend-to-increase-with-fertilizer-application","isSubheading":false},{"text":"Data Sources","slug":"data-sources","isSubheading":false},{"text":"Endnotes","slug":"endnotes","isSubheading":false},{"text":"Licence","slug":"licence","isSubheading":false},{"text":"Citation","slug":"citation","isSubheading":false}],"pageTitle":"Fertilizers"})
-                        runRelatedCharts([{"slug":"cereal-crop-yield-vs-fertilizer-application","title":"Cereal yield vs. fertilizer use","variantName":null,"isKey":0},{"slug":"eutrophying-emissions-protein","title":"Eutrophying emissions per 100 grams of  protein","variantName":null,"isKey":null},{"slug":"eutrophying-emissions-kcal","title":"Eutrophying emissions per 1000 kilocalories","variantName":null,"isKey":null},{"slug":"eutrophying-emissions-per-kg-poore","title":"Eutrophying emissions per kilogram of food product","variantName":null,"isKey":null},{"slug":"excess-phosphorous","title":"Excess phosphorous from croplands","variantName":null,"isKey":null},{"slug":"excess-phosphorous-per-hectare","title":"Excess phosphorous per hectare of cropland","variantName":null,"isKey":null},{"slug":"fertilizer-application-rates-over-the-long-run","title":"Fertilizer application rates over the long-run","variantName":null,"isKey":null},{"slug":"fertilizer-consumption-usda","title":"Fertilizer consumption","variantName":null,"isKey":null},{"slug":"fertilizer-inputs-per-land","title":"Fertilizer inputs per unit of agricultural land","variantName":null,"isKey":null},{"slug":"fertilizer-production-by-nutrient-type-npk","title":"Fertilizer production by nutrient type","variantName":null,"isKey":null},{"slug":"fertilizer-use-nutrient","title":"Fertilizer use by nutrient","variantName":null,"isKey":0},{"slug":"fertilizer-per-capita","title":"Fertilizer use per capita","variantName":null,"isKey":null},{"slug":"fertilizer-use-in-kg-per-hectare-of-arable-land","title":"Fertilizer use per hectare of cropland","variantName":null,"isKey":null},{"slug":"fertilizer-per-hectare","title":"Fertilizer use per hectare of cropland","variantName":null,"isKey":null},{"slug":"fertilizer-consumption-per-hectare-vs-gdp-per-capita","title":"Fertilizer use vs. GDP per capita","variantName":null,"isKey":null},{"slug":"fertilizer-exports-russia-ukraine","title":"Global fertilizer exports: how much comes from Russia, Belarus & Ukraine?","variantName":null,"isKey":null},{"slug":"insecticide-use","title":"Insecticide use","variantName":null,"isKey":null},{"slug":"nitrogen-fertilizer-application-per-hectare-of-cropland","title":"Nitrogen fertilizer use per hectare of cropland","variantName":null,"isKey":null},{"slug":"nitrogen-inputs-per-hectare","title":"Nitrogen inputs per hectare of cropland","variantName":null,"isKey":null},{"slug":"pesticide-breakdown-by-type","title":"Pesticide breakdown by type","variantName":null,"isKey":null},{"slug":"pesticide-use-tonnes","title":"Pesticide use","variantName":null,"isKey":null},{"slug":"pesticide-use-per-hectare-of-cropland","title":"Pesticide use per hectare of cropland","variantName":null,"isKey":null},{"slug":"phosphate-application-per-hectare-of-cropland","title":"Phosphate fertilizer use per hectare of cropland","variantName":null,"isKey":null},{"slug":"potash-fertilizer-application-per-hectare-of-cropland","title":"Potash fertilizer use per hectare of cropland","variantName":null,"isKey":null},{"slug":"share-suicide-pesticide-poisoning","title":"Share of suicide deaths from pesticide poisoning","variantName":null,"isKey":null},{"slug":"total-nitrogen-inputs-crops","title":"Total nitrogen inputs to crops","variantName":null,"isKey":null},{"slug":"yield-gap-vs-nitrogen-pollution","title":"Which countries are overapplying nitrogen without gains in crop yields?","variantName":null,"isKey":null},{"slug":"world-population-supported-by-synthetic-nitrogen-fertilizers","title":"World population supported by synthetic nitrogen fertilizers","variantName":null,"isKey":null},{"slug":"world-population-with-and-without-fertilizer","title":"World population with and without synthetic nitrogen fertilizers","variantName":null,"isKey":null}])
+                        runTableOfContents({"headings":[],"pageTitle":"Fertilizers"})
+                        runRelatedCharts([{"slug":"cereal-crop-yield-vs-fertilizer-application","title":"Cereal yield vs. fertilizer use","variantName":null,"isKey":0},{"slug":"eutrophying-emissions-protein","title":"Eutrophying emissions per 100 grams of  protein","variantName":null,"isKey":null},{"slug":"eutrophying-emissions-kcal","title":"Eutrophying emissions per 1000 kilocalories","variantName":null,"isKey":null},{"slug":"eutrophying-emissions-per-kg-poore","title":"Eutrophying emissions per kilogram of food product","variantName":null,"isKey":null},{"slug":"excess-phosphorous","title":"Excess phosphorous from croplands","variantName":null,"isKey":null},{"slug":"excess-phosphorous-per-hectare","title":"Excess phosphorous per hectare of cropland","variantName":null,"isKey":null},{"slug":"fertilizer-application-rates-over-the-long-run","title":"Fertilizer application rates over the long-run","variantName":null,"isKey":null},{"slug":"fertilizer-consumption-usda","title":"Fertilizer consumption","variantName":null,"isKey":1},{"slug":"fertilizer-inputs-per-land","title":"Fertilizer inputs per unit of agricultural land","variantName":null,"isKey":null},{"slug":"fertilizer-production-by-nutrient-type-npk","title":"Fertilizer production by nutrient type","variantName":null,"isKey":1},{"slug":"fertilizer-use-nutrient","title":"Fertilizer use by nutrient","variantName":null,"isKey":0},{"slug":"fertilizer-per-capita","title":"Fertilizer use per capita","variantName":null,"isKey":1},{"slug":"fertilizer-use-in-kg-per-hectare-of-arable-land","title":"Fertilizer use per hectare of cropland","variantName":null,"isKey":null},{"slug":"fertilizer-per-hectare","title":"Fertilizer use per hectare of cropland","variantName":null,"isKey":null},{"slug":"fertilizer-consumption-per-hectare-vs-gdp-per-capita","title":"Fertilizer use vs. GDP per capita","variantName":null,"isKey":1},{"slug":"fertilizer-exports-russia-ukraine","title":"Global fertilizer exports: how much comes from Russia, Belarus & Ukraine?","variantName":null,"isKey":null},{"slug":"insecticide-use","title":"Insecticide use","variantName":null,"isKey":null},{"slug":"nitrogen-fertilizer-application-per-hectare-of-cropland","title":"Nitrogen fertilizer use per hectare of cropland","variantName":null,"isKey":null},{"slug":"nitrogen-inputs-per-hectare","title":"Nitrogen inputs per hectare of cropland","variantName":null,"isKey":1},{"slug":"pesticide-breakdown-by-type","title":"Pesticide breakdown by type","variantName":null,"isKey":null},{"slug":"pesticide-use-tonnes","title":"Pesticide use","variantName":null,"isKey":null},{"slug":"pesticide-use-per-hectare-of-cropland","title":"Pesticide use per hectare of cropland","variantName":null,"isKey":1},{"slug":"phosphate-application-per-hectare-of-cropland","title":"Phosphate fertilizer use per hectare of cropland","variantName":null,"isKey":null},{"slug":"potash-fertilizer-application-per-hectare-of-cropland","title":"Potash fertilizer use per hectare of cropland","variantName":null,"isKey":null},{"slug":"share-suicide-pesticide-poisoning","title":"Share of suicide deaths from pesticide poisoning","variantName":null,"isKey":null},{"slug":"total-nitrogen-inputs-crops","title":"Total nitrogen inputs to crops","variantName":null,"isKey":null},{"slug":"yield-gap-vs-nitrogen-pollution","title":"Which countries are overapplying nitrogen without gains in crop yields?","variantName":null,"isKey":null},{"slug":"world-population-supported-by-synthetic-nitrogen-fertilizers","title":"World population supported by synthetic nitrogen fertilizers","variantName":null,"isKey":null},{"slug":"world-population-with-and-without-fertilizer","title":"World population with and without synthetic nitrogen fertilizers","variantName":null,"isKey":null}])
                         </script></body></html>
