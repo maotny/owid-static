@@ -6670,7 +6670,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/number-of-maternal-deaths</loc>
-        <lastmod>2022-10-25</lastmod>
+        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/completeness-of-birth-registration</loc>
@@ -14970,7 +14970,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/ghg-per-protein-poore</loc>
-        <lastmod>2022-06-01</lastmod>
+        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/water-per-protein-poore</loc>
@@ -15638,11 +15638,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/ghg-capita-per-day</loc>
-        <lastmod>2022-06-01</lastmod>
+        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/ghg-emissions-per-capita</loc>
-        <lastmod>2022-06-01</lastmod>
+        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/share-deaths-unsafe-water</loc>
@@ -16318,7 +16318,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/ghg-emissions-by-sector</loc>
-        <lastmod>2022-08-12</lastmod>
+        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/total-ghg-emissions</loc>
@@ -16326,7 +16326,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/total-ghg-emissions-excluding-lufc</loc>
-        <lastmod>2022-08-12</lastmod>
+        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/population-threshold</loc>
@@ -16510,15 +16510,15 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/methane-emissions</loc>
-        <lastmod>2022-08-12</lastmod>
+        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/methane-emissions-by-sector</loc>
-        <lastmod>2022-08-12</lastmod>
+        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/nitrous-oxide-emissions</loc>
-        <lastmod>2022-08-12</lastmod>
+        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/covid-confirmed-deaths-since-5th-death-exemplar</loc>
@@ -16562,11 +16562,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/per-capita-ghg-emissions</loc>
-        <lastmod>2022-08-12</lastmod>
+        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/per-capita-ghg-sector</loc>
-        <lastmod>2022-08-12</lastmod>
+        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/daily-confirmed-covid-19-deaths-vs-confirmed-cases</loc>
@@ -16574,11 +16574,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/per-capita-methane-emissions</loc>
-        <lastmod>2022-08-12</lastmod>
+        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/per-capita-nitrous-oxide</loc>
-        <lastmod>2022-08-12</lastmod>
+        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/per-capita-co2-sector</loc>
@@ -16890,11 +16890,11 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/per-capita-ghg-co2-excluding-land-use</loc>
-        <lastmod>2022-10-19</lastmod>
+        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/per-capita-ghg-co2-including-land-use</loc>
-        <lastmod>2022-10-19</lastmod>
+        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/phillips-curves-in-the-us</loc>
@@ -17218,7 +17218,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/per-capita-ghg-excl-land-use</loc>
-        <lastmod>2022-08-12</lastmod>
+        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/mean-daily-expenditure-per-capita-vs-gdp-per-capita</loc>
@@ -17538,7 +17538,7 @@
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/carbon-footprint-travel-mode</loc>
-        <lastmod>2022-03-11</lastmod>
+        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/co2-transport-mode</loc>
@@ -20485,10 +20485,6 @@
         <lastmod>2022-03-21</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/ai-training-computation-by-researcher-affiliation</loc>
-        <lastmod>2022-10-31</lastmod>
-    </url>
-    <url>
         <loc>https://ourworldindata.org/grapher/literacy-rate-of-young-men-and-women-line</loc>
         <lastmod>2022-06-29</lastmod>
     </url>
@@ -21317,14 +21313,6 @@
         <lastmod>2022-10-24</lastmod>
     </url>
     <url>
-        <loc>https://ourworldindata.org/grapher/ai-parameter-count</loc>
-        <lastmod>2022-10-31</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/ai-number-training-datapoints</loc>
-        <lastmod>2022-10-31</lastmod>
-    </url>
-    <url>
         <loc>https://ourworldindata.org/grapher/cases-of-paralytic-polio-from-vaccine-derived-viruses</loc>
         <lastmod>2022-10-27</lastmod>
     </url>
@@ -21335,10 +21323,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/citizen-satisfaction-with-democracy</loc>
         <lastmod>2022-07-25</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/affiliation-researchers-building-ai-systems-compute</loc>
-        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/political-regime-ert</loc>
@@ -22447,10 +22431,6 @@
     <url>
         <loc>https://ourworldindata.org/grapher/political-civil-liberties-popw</loc>
         <lastmod>2022-10-27</lastmod>
-    </url>
-    <url>
-        <loc>https://ourworldindata.org/grapher/affiliation-researchers-building-ai-systems-all</loc>
-        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/nuclear-warhead-inventories</loc>
