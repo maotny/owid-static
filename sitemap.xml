@@ -20485,6 +20485,10 @@
         <lastmod>2022-03-21</lastmod>
     </url>
     <url>
+        <loc>https://ourworldindata.org/grapher/ai-training-computation-by-researcher-affiliation</loc>
+        <lastmod>2022-10-31</lastmod>
+    </url>
+    <url>
         <loc>https://ourworldindata.org/grapher/literacy-rate-of-young-men-and-women-line</loc>
         <lastmod>2022-06-29</lastmod>
     </url>
@@ -21313,6 +21317,14 @@
         <lastmod>2022-10-24</lastmod>
     </url>
     <url>
+        <loc>https://ourworldindata.org/grapher/ai-parameter-count</loc>
+        <lastmod>2022-10-31</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/ai-number-training-datapoints</loc>
+        <lastmod>2022-10-31</lastmod>
+    </url>
+    <url>
         <loc>https://ourworldindata.org/grapher/cases-of-paralytic-polio-from-vaccine-derived-viruses</loc>
         <lastmod>2022-10-27</lastmod>
     </url>
@@ -21323,6 +21335,10 @@
     <url>
         <loc>https://ourworldindata.org/grapher/citizen-satisfaction-with-democracy</loc>
         <lastmod>2022-07-25</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/affiliation-researchers-building-ai-systems-compute</loc>
+        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/political-regime-ert</loc>
@@ -22431,6 +22447,10 @@
     <url>
         <loc>https://ourworldindata.org/grapher/political-civil-liberties-popw</loc>
         <lastmod>2022-10-27</lastmod>
+    </url>
+    <url>
+        <loc>https://ourworldindata.org/grapher/affiliation-researchers-building-ai-systems-all</loc>
+        <lastmod>2022-10-31</lastmod>
     </url>
     <url>
         <loc>https://ourworldindata.org/grapher/nuclear-warhead-inventories</loc>
